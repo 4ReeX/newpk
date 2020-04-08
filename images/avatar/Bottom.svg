@@ -1,0 +1,11 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 299 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>Bottom</title>
+  <path class="cls-1" d="M.5,100.5c150,0,119-25,150.5-25,30.5,0-.5,25,148.5,25" transform="translate(-0.5 -75.5)"/>
+</svg>

@@ -1,0 +1,182 @@
+<!------ Фильтры-------->
+
+
+<section id="filters">
+ <div class="form-group">
+    <div class="checkboxes">
+       <div class="custom-mselect margin5">
+          <label for="offer-new" class="name-check">NEW!</label>
+          <input type="checkbox" checked="checked" id="offer-new" class="ios" />
+       </div>
+       <div class="custom-mselect margin5">
+          <label for="offer-hot" class="name-check">HOT!</label>
+          <input type="checkbox"  id="offer-hot" class="ios" />
+       </div>
+       <div class="custom-mselect margin5">
+          <label for="only-checked" class="name-check"><i class="ti ti-check-box"></i><i class="ti ti-check-box"></i><i class="ti ti-check-box"></i></label>
+          <input type="checkbox"  id="only-checked" class="ios" />
+       </div>
+    </div>
+    <div class="inputs-block">
+    <div class="col">
+    <div class="jss8"><div class=" css-2b097c-container">
+    <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"><label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Операторы</label><div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"><div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text"><div class="jss10"><div class=" css-1uccc91-singleValue">Не выбрано</div><div class="css-1tna5xz"><div class="" style="display: inline-block;"><input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-multiple" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 0; outline: 0px; padding: 0px; color: inherit;"><div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div></div></div></div><div class=" css-1wy0on6"><span class=" css-1okebmr-indicatorSeparator"></span><div aria-hidden="true" class=" css-tlfecz-indicatorContainer"><svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-19bqh2r"><path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path></svg></div></div></div></div></div>
+    </div></div>
+    </div>
+    <div class="col">
+    <div class="jss8"><div class=" css-2b097c-container">
+    <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"><label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Страны</label><div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"><div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text"><div class="jss10"><div class=" css-1uccc91-singleValue">Не выбрано</div><div class="css-1tna5xz"><div class="" style="display: inline-block;"><input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-multiple" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 0; outline: 0px; padding: 0px; color: inherit;"><div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div></div></div></div><div class=" css-1wy0on6"><span class=" css-1okebmr-indicatorSeparator"></span><div aria-hidden="true" class=" css-tlfecz-indicatorContainer"><svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-19bqh2r"><path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path></svg></div></div></div></div></div>
+    </div></div>
+    </div>
+    <div class="col">
+    <div class="jss8"><div class=" css-2b097c-container">
+    <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"><label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Тематика</label><div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"><div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text"><div class="jss10"><div class=" css-1uccc91-singleValue">Не выбрано</div><div class="css-1tna5xz"><div class="" style="display: inline-block;"><input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-multiple" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 0; outline: 0px; padding: 0px; color: inherit;"><div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div></div></div></div><div class=" css-1wy0on6"><span class=" css-1okebmr-indicatorSeparator"></span><div aria-hidden="true" class=" css-tlfecz-indicatorContainer"><svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-19bqh2r"><path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path></svg></div></div></div></div></div>
+    </div></div>
+    </div>
+    <div class="col">
+    <div class="jss8"><div class=" css-2b097c-container">
+    <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"><label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Тип выплаты</label><div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"><div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text"><div class="jss10"><div class=" css-1uccc91-singleValue">Не выбрано</div><div class="css-1tna5xz"><div class="" style="display: inline-block;"><input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-multiple" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 0; outline: 0px; padding: 0px; color: inherit;"><div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div></div></div></div><div class=" css-1wy0on6"><span class=" css-1okebmr-indicatorSeparator"></span><div aria-hidden="true" class=" css-tlfecz-indicatorContainer"><svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-19bqh2r"><path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path></svg></div></div></div></div></div>
+    </div></div>
+    </div>
+
+    </div>
+  </div>
+      
+    
+    
+ </div>
+ </section>
+
+
+
+ <!------ Фильтры-------->
+
+
+
+
+
+
+ <table class="table table-striped table-bordered offers-table table-sm" id="table-offers">
+                                             <thead class="thead-dark"><tr><th>Название оффера</th><th>Промо</th><th>Тематика</th><th>ОСС</th><th>Страна</th><th>Выплата</th><th>Статус</th><th style="min-width: 60px; width: 60px;"></th></tr></thead>
+                                             <tbody>
+                                                <tr>
+                                                   <td>11701 | MTS Tvmood 22 15/1 Trial 1 день</td>
+                                                   <td><img src="images/offers-min/1-min.jpg" alt="" class="offers-min"></td>
+                                                   <td class="tal">Адалт</td>
+                                                   <td><i><img src="images/beeline.png" alt="" class="oss-icon" ></i></td>
+                                                   <td>Россия</td>
+                                                   <td class="td-buttons"><span>3.26</span><br><span style="font-size: 10px;">ребилл</span></td>
+                                                   <td class="desline"><i class="fa fa-dot-circle-o" style="color: #ff9f43; font-size: 22px;" title="Оффер включен и работает"></i></td>
+                                                   <td class="td-buttons">
+                                                    <i class="ti ti-link" style="color: #007bff;" data-toggle="modal" data-target="#mediumModal"></i>
+                                                    <div class="modal fade show" id="mediumModal" tabindex="-1" role="dialog" aria-labelledby="mediumModalLabel" style="display: none;">
+                                                    <div class="modal-dialog modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                    <div class="modal-header">
+                                                    <div class="modal-title" id="mediumModalLabel" style="float: left; font-size: 18px; font-weight: 700;">Тут название оффера</div>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">×</span>
+                                                    </button>
+                                                    </div>
+                                                    <div class="modal-body">
+
+                                                    <p>
+                                                        <span class="link">
+                                                        <label for="11" class="float-left">Название потока 1</label>
+                                                        <input type="text" placeholder=""  value="http://lpt.playmobile.ru/offers/skrom/affimob-redis/pk2/offers.html" class="linkToCopy copyClick form-control form-control-sm"  value="" id="11" readonly></span>
+                                                    </p>
+                                                    <p>
+                                                        <span class="link">
+                                                        <label for="11" class="float-left">Название потока 2</label>
+                                                        <input type="text" placeholder=""  value="http://lpt.playmobile.ru/offers/skrom/affimob-redis/pk2/offers.html" class="linkToCopy copyClick form-control form-control-sm"  value="" id="12" readonly></span>
+                                                    </p>
+                                                    <p>
+                                                        <span class="link">
+                                                        <label for="11" class="float-left">Название потока 3</label>
+                                                        <input type="text" placeholder=""  value="http://lpt.playmobile.ru/offers/skrom/affimob-redis/pk2/offers.html" class="linkToCopy copyClick form-control form-control-sm"  value="" id="13" readonly></span>
+                                                    </p>
+
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                      <select name="selectSm" id="d1" class="form-control-sm form-control col-lg-3 col-md-6 col-sm-12 float-left" onchange="test();">
+                                                      <option value="0">Стандартный поток</option>
+                                                      <option value="1">Создать новый</option>
+                                                      <option value="2">Поток как поток</option>
+                                                      <option value="3">Слей деньги в пельменную</option>
+                                                      <option value="4">Пора лить на картошку</option>
+                                                      <option value="5">Мишин поток, но ему не говорите</option>
+                                                      </select>
+                                                      <button class="btn btn-outline-warning">
+                                                        Получить ссылку
+                                                      </button>
+                                                       </div>
+                                                       <div class="row" id="createPotok" style="display: none;">
+                                                        <div class="col-lg-12 col-sm-12 ramka">
+                                                        <hr>
+                                                        <button class="close" onclick="closePotok();"><i class="ti ti-close cursor"></i></button>
+                                                        <div class="form-group">
+                                                        <div class="">
+                                                        <div tabindex="-1" class="rw-multiselect rw-widget">
+                                                        <span id="rw_2_notify_area" role="status" class="rw-sr" aria-live="assertive" aria-atomic="true" aria-relevant="additions removals text"></span>
+                                                        <div class="rw-widget-input rw-widget-picker rw-widget-container"><div>
+                                                        <input tabindex="0" role="listbox" aria-expanded="false" aria-busy="false" aria-owns="rw_2_listbox rw_2_notify_area " aria-haspopup="true" placeholder="Добавьте название" size="24" class="rw-input-reset" autocomplete="off" aria-disabled="false" aria-readonly="false" value="">
+                                                        </div>
+                                                        <span class="rw-select"><button aria-hidden="true" role="presentational" tabindex="-1" type="button" aria-disabled="false" class="rw-btn rw-btn-select"></button></span></div>
+                                                        <div class="rw-popup-container rw-popup-transition-exited" style="">
+                                                        <div class="rw-popup-transition">
+                                                        <div class="rw-popup"></div>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+                                                        </div> 
+                                                        <div class="form-group">
+                                                        <label for="exampleFormControlTextarea1">Trafficback URL</label>
+                                                        <input class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Trafficback URL - ссылка на которую будет возвращаться трафик." onkeyup="auto_grow(this)" value=""></input>
+                                                        </div>
+                                                        <div class="form-group">
+                                                        <label for="exampleFormControlTextarea1">Postback URL</label>
+                                                        <input class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Postback URL - Отправим на ваш URL всю информацию - согласно данному API." onkeyup="auto_grow(this)" value=""></input>
+                                                        </div> 
+                                                        <div class="form-group">
+                                                        <label for="notifications" id="notif">События для постбека</label>
+                                                        <div class="btn-group" role="group" aria-label="First group" id="notifications" style="padding: 0px 15px 0px 0px;">
+                                                        <button type="button" class="btn btn-secondary">Все</button>
+                                                        <button type="button" class="btn btn-secondary">Подписки</button>
+                                                        <button type="button" class="btn btn-secondary">Покупки</button>
+                                                        <button type="button" class="btn btn-secondary">Биллинг</button>
+                                                        <button type="button" class="btn btn-secondary">Отписки</button>
+                                                        </div>
+                                                      </div>
+                                                        <button class="btn btn-outline-info" onclick="closePotok();">Сохранить</button>
+                                                        <hr>
+
+
+                                                        <!--------------------------------------------->
+                                                       <!---end modal footer-->
+                                                    </div>
+                                                    </div>
+                                                    </div>
+                                                    </div>
+                                                    </div>
+                                                    <i class="ti ti-pencil" style="color: #414455;" title="Редактировать"></i>
+                                                   </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                   <td>11701 | MTS Tvmood 22 15/1 Trial 1 день</td>
+                                                   <td><img src="images/offers-min/1-min.jpg" alt="" class="offers-min"></td>
+                                                   <td class="tal">Адалт</td>
+                                                   <td><i><img src="images/beeline.png" alt="" class="oss-icon" ></i></td>
+                                                   
+                                                   <td>Россия</td>
+                                                   <td class="td-buttons"><span>3.26</span><br><span style="font-size: 10px;">ребилл</span></td>
+                                                   <td class="desline"><i class="fa fa-dot-circle-o" style="color: #10ac84; font-size: 22px;"  title="Оффер выключен"></i></td>
+                                                   <td class="td-buttons">
+                                                    <i class="ti ti-link" style="color: #007bff;"></i>
+                                                    <i class="ti ti-pencil" style="color: #414455;" title="Редактировать"></i>
+                                                   </td>
+                                                </tr>
+                                                
+                                             </tbody>
+                                          </table>
