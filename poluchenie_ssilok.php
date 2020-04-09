@@ -25,7 +25,7 @@ include 'header.php';  //любой файл который мы хотим по
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 right-buttons" id="mobVis">
-                                        <a href="http://lpt.playmobile.ru/offers/skrom/affimob-redis/pk2/operator_subnet.xlsx" class="diapazon float-left">Получить диапазон IP</a>
+                                        
                                         <button class="circle-btn float-left" title="Назад" onclick="link2();"><i class="ti ti-back-left"></i></button>
 
                                     </div>
