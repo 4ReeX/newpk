@@ -179,6 +179,47 @@
 
 }
 @media screen and (max-width: 1024px) {
+	button.btn.btn-outline-secondary {
+    font-size: 11px;
+}
+	.btn-group {
+    padding: 0;
+}
+	div#createPotok {
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: calc(100% - 15px);
+    margin: 0;
+}
+	input.linkToCopy.copyClick.form-control.form-control-sm {
+    min-width: 200px;
+	}
+	.buttons-block {
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+	button.circle-btn.float-left {
+    position: relative;
+    margin: 0 0 15px 0;
+    margin-right: -15px;
+    margin-top: -5px;
+}
+	select#d1 {
+    width: 100%;
+}
+	.doms {
+    min-width: 200px;
+    float: left;
+    margin: 2px 5px 0 0;
+    max-width: 100%;
+    width: 100%;
+}
+input.form-control-sm.form-control.input-domains {
+    max-width: 100%;
+}
+
+	.diapazon {display: none;}
 	.modal input, .modal select {
     	max-width: 100%!important;
     	min-width: 100%;

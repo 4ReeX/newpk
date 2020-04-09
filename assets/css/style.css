@@ -5091,7 +5091,7 @@ button i.fa {
     margin: 0 5px;
 }
 .select-potok {
-    margin: 2px 5px;
+    margin: 2px auto;
     float: left;
 }
 .right-buttons {
@@ -5110,7 +5110,7 @@ flex-wrap: wrap;
 #mobVis {
   display: none;
 }
-.diapazon {margin-right: 20px;font-size: 12px;}
+.diapazon { position: absolute; right: 10px;  font-size: 12px!important;}
 .text-right {width: 100%;}
 label.float-left {
     display: inline-block;
@@ -6106,6 +6106,7 @@ th.sticky-footer {
 	height: auto;
 	min-height: 40px;
 	float: left;
+	min-width: auto;
 }
 #opisanie {
 	max-width: 100%;

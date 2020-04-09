@@ -30,7 +30,7 @@ include 'header.php';  //любой файл который мы хотим по
 
                                     </div>
                                     <div class="col-lg-9 col-md-6 col-sm-12 col-xs-12 col">
-                                    <select name="selectSm" id="d1" class="form-control-sm form-control col-lg-3 col-md-6 col-sm-12 margin5 select-potok" onchange="test();">
+                                    <select name="selectSm" id="d1" class="form-control-sm form-control col-lg-7 col-md-6 col-sm-12 margin5 select-potok" onchange="test();">
                                             <option value="0">Стандартный поток</option>
                                             <option value="1">Создать новый</option>
                                             <option value="2">Поток как поток</option>
@@ -56,7 +56,6 @@ include 'header.php';  //любой файл который мы хотим по
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 right-buttons" id="mobHide">
-                                        <a href="http://lpt.playmobile.ru/offers/skrom/affimob-redis/pk2/operator_subnet.xlsx" class="diapazon float-left">Получить диапазон IP</a>
                                         <button class="circle-btn float-left" title="Назад" onclick="link2();"><i class="ti ti-back-left"></i></button>
 
                                     </div>
@@ -106,7 +105,7 @@ include 'header.php';  //любой файл который мы хотим по
                                             <label class="float-left">События для Postback</label>
                                             <br>
                                             <div class="input-group mb-3">
-                                                <div class="btn-group" role="group" aria-label="First group" style="padding: 0px 15px 0px 0px;">
+                                                <div class="btn-group" role="group" aria-label="First group">
                                                     <button type="button" disabled="" class="btn btn-outline-secondary active">Все</button>
                                                     <button type="button" disabled="" class="btn btn-outline-secondary">Подписки</button>
                                                     <button type="button" disabled="" class="btn btn-outline-secondary">Покупки</button>

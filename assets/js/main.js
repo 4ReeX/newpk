@@ -157,7 +157,7 @@ function link1() {
     location.href = "poluchenie_ssilok.php"
 }
 function link2(){
-        location.href = "http://lpt.playmobile.ru/offers/skrom/affimob-redis/pk2/offers.html"
+        location.href = "offers.php"
 }
 function clickMe() {
         $(".linkToCopy").val("http://s2s.affimob.com/click?key=eromix&offer_id=11694&tmpl=eromix274&partner_id=125198&source_id=0&pt_id=%7BPK%7D");
