@@ -39,7 +39,7 @@
 </div>
 <div class="offer-block">
     <label for="checkbox2" class="label-checkbox">
-        <div class="offer-container hvr-reveal">
+        <div class="offer-container hvr-reveal oldGray">
             <input type="checkbox" id="checkbox2" name="checkoffer" value="1" class="ios">
             <div class="oss-icon ofcard"><img src="images/beeline.png" alt=""></div>
             <div class="adult">Аdult</div>
@@ -77,7 +77,7 @@
 </div>
 <div class="offer-block">
     <label for="checkbox3" class="label-checkbox">
-        <div class="offer-container hvr-reveal">
+        <div class="offer-container hvr-reveal oldGray">
             <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios">
             <div class="oss-icon ofcard"><img src="images/beeline.png" alt=""></div>
             <div class="adult">Аdult</div>

@@ -6257,3 +6257,8 @@ div#createPotok {
 input.form-control-sm.form-control.input-domains {
     max-width: 55.555555%;
 }
+
+.oldGray {
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+}
