@@ -3,7 +3,7 @@
         <div class="modal-content">
             <div class="modal-header" style="float: left; display: flex;">
                 <h5 class="modal-title tal" style="width: 100%;">Массовое редактирование<br></h5>
-                <button type="button" class="close" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
             </div>
             <div class="modal-body">
                 <div class="col ramka">
