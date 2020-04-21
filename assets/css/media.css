@@ -340,3 +340,44 @@ input#offer-search {
 appearance: none;
 }
 
+
+
+@media screen and (max-width: 1024px) {
+	.ModalMassEdit .form-group {width: 100%;}
+	.modal50 {
+    width: 100%;
+    min-width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+	}
+	div#RadioOfferHide {
+    max-width: 100%;
+    width: 150px;
+    display: block;
+    position: relative;
+    float: left;
+	}
+	.modal-cb {
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 100%;
+	}
+	.cb-block {
+    padding-left: 0;
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 150px;
+	}
+	.btn-group .btn-group-toggle label input {
+		display: none;
+	}
+
+
+
+
+}
