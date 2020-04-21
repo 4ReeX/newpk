@@ -356,13 +356,13 @@ appearance: none;
 	}
 	div#RadioOfferHide {
     max-width: 100%;
-    width: 150px;
-    display: block;
+    width: 33.3%;
+    display: flex;
     position: relative;
     float: left;
 	}
 	.modal-cb {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 100%;
 	}
@@ -372,6 +372,7 @@ appearance: none;
     position: relative;
     width: 100%;
     max-width: 150px;
+    margin-top: 20px;
 	}
 	.btn-group .btn-group-toggle label input {
 		display: none;
