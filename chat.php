@@ -11,8 +11,7 @@
         -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
         box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
-        overflow-y: visible;
-        overflow-x: visible;
+        overflow: hidden;
         transition: all 1s ease;
     }
     .collap {
@@ -317,66 +316,44 @@ body, html {
   background-image: url("https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/7/7c/Cap.America_%28We_Don%27t_Trade_Lives_Vision%29.png");
 }
 
+.start-window {
+   width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10%;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+.start-window button {
+    border-radius: 90px;
+    width: 100%;
+    font-size: 16px;
+}
+p.h1 {font-size: 18px;}
+p.h2 {font-size: 15px;}
+
 </style>
 <button class="chat-activator"><i class="ti ti-comments"></i></button>
 <div class="chat-box">
     <div class="center">
 
         <!--end CONTACTS-->
-  <div class="contacts">
-    <i class="ti ti-menu-alt"></i>
-    <h2>
-      Наш саппорт
-    </h2>
-    <div class="contact">
-      <div class="pic rogers"></div>
-      <div class="badge">
-        14
-      </div>
-      <div class="name">
-        Steve Rogers
-      </div>
-      <div class="message">
-        Это задница Америки 🇺🇸🍑
-      </div>
-    </div>
-    <div class="contact">
-      <div class="pic stark"></div>
-      <div class="name">
-        Tony Stark
-      </div>
-      <div class="message">
-        Он из космоса, он пришел сюда, чтобы украсть ожерелье у волшебника.
-      </div>
-    </div>
-    <div class="contact">
-      <div class="pic banner"></div>
-      <div class="badge">
-        1
-      </div>
-      <div class="name">
-        Bruce Banner
-      </div>
-      <div class="message">
-        Есть Человек-муравей * и * Человек-паук?
-      </div>
-    </div>
-    <div class="contact">
-      <div class="pic thor"></div>
-      <div class="name">
-        Thor Odinson
-      </div>
-      <div class="badge">
-        3
-      </div>
-      <div class="message">
-        мне нравится этот
-      </div>
-    </div>
-  </div>
+
 
   <!--end CONTACTS-->
   <div class="chat">
+    <div class="start-window">
+        <p><img src="images/new-logo.svg" alt="" class="icon-logo start"><img src="images/invert-affimob.svg" alt="" class="text-logo"></p>
+        <p class="h1">Привет, партнер! Появились вопросы?</p>
+        <p>Скорей пиши , мы с радостью тебе поможем. (скорость ответа на сообщения зависит от загруженности саппорт отдела  ~20мин)</p>
+        <p><button class="btn btn-outline-secondary btn-lg" id="startDialog">Начать диалог</button></p>
+    </div>
     <div class="contact bar">
       <i class="ti ti-minus collap"></i>
       <div class="pic stark"></div>
@@ -436,4 +413,5 @@ body, html {
 
     $('.collap').click(function(){ $('.chat-box').toggle('minify'); });
     $('.chat-activator').click(function(){ $('.chat-box').toggle('minify'); });
+    $('#startDialog').click(function(){ $('.start-window').toggle('hide'); });
 </script>
