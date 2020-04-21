@@ -6277,5 +6277,10 @@ input.form-control-sm.form-control.input-domains {
     padding-left: 20px;
 }
 .modal-grid {
-	    align-items: flex-start;
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
 }
