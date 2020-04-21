@@ -467,6 +467,7 @@ include 'header.php';  //любой файл который мы хотим по
         <!-- /#right-panel -->
         <!-- Scripts -->
 <?php include 'scripts.php'; ?>
+<?php include 'chat.php'; ?>
 
 </body>
 
