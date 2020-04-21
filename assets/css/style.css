@@ -6073,7 +6073,7 @@ th.sticky-footer {
     align-items: center;
     text-align: left;
     margin-top: 15px;
-    min-width: 150px;
+    min-width: 161px;
     position: relative;
     margin: 0;
     padding: 0;
@@ -6127,14 +6127,17 @@ th.sticky-footer {
 }
 .modal-cb {
     display: flex;
-    padding: 10px;
+    padding: 0px;
     margin-top: 10px;
+    width: 100%;
 }
 
 .last-mb {
 	min-width: 100%;
 }
-
+.form-group.flex-start.last-mb {
+    margin-top: 20px;
+}
 
 
 
@@ -6261,4 +6264,15 @@ input.form-control-sm.form-control.input-domains {
 .oldGray {
 	filter: grayscale(1);
 	-webkit-filter: grayscale(1);
+}
+.rw-multiselect.rw-widget.float-left {
+    width: 100%;
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #8c8c8c!important;
+    border-color: #4e555b;
+}
+.cb-block {
+    padding-left: 20px;
 }
