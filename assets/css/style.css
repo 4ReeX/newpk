@@ -6276,3 +6276,6 @@ input.form-control-sm.form-control.input-domains {
 .cb-block {
     padding-left: 20px;
 }
+.modal-grid {
+	    align-items: flex-start;
+}
