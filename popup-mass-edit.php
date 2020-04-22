@@ -107,11 +107,11 @@
                     <div class="form-group flex-start">
                          <label for="fixa" class="float-left">Ф.Ставка</label><div id="fixa" class="form-control float-left" contenteditable=true></div>
                     </div>
-                    <div class="form-group flex-start">
+                    <div class="form-group flex-start fw">
                          <label for="opisanie" class="float-left">Ограничения/Таргетинг</label><div id="opisanie" class="form-control float-left" contenteditable=true></div>
                     </div>
 
-                    <div class="form-group flex-start  last-mb"><div class="mr-2 flex-start modal-grid" id="notific2"><div class="modal50"><label class="float-left" style="margin-right: 50px;">Пересчитать статистику за сегодняшний день</label><div class="ios-ui-select"><div class="inner"></div></div></div><div class="modal50"><label class="float-left" style="margin-right: 58px;">Оповестить партнеров об изменении ставок </label><div class="ios-ui-select"><div class="inner"></div></div></div></div></div>
+                    <div class="form-group flex-start  last-mb fw"><div class="mr-2 flex-start modal-grid" id="notific2"><div class="modal50"><label class="float-left" style="margin-right: 50px;">Пересчитать статистику за сегодняшний день</label><div class="ios-ui-select"><div class="inner"></div></div></div><div class="modal50"><label class="float-left" style="margin-right: 58px;">Оповестить партнеров об изменении ставок </label><div class="ios-ui-select"><div class="inner"></div></div></div></div></div>
             
 
                          

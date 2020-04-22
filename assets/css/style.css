@@ -6077,6 +6077,7 @@ th.sticky-footer {
     position: relative;
     margin: 0;
     padding: 0;
+    margin-right: 30px;
 }
 .checkboxes .ios-ui-select {
     position: absolute;
@@ -6281,7 +6282,7 @@ input.form-control-sm.form-control.input-domains {
     display: flex;
     position: relative;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
-
+.fw {width: 100%!important;}
