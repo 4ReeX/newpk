@@ -194,7 +194,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </div>
                                             <div class="row">
                                             <div class="responsive-block statistic_table_wrapper" id="fullWidth" style="width: 100%; min-width: 310px;">
-                                            <table id="stats1" class="table  table-bordered nowrap" style="width:100%;">
+                                            <table id="stats1" class="table  table-bordered nowrap viplat" style="width:100%;">
                                             <thead class="thead-light statistic_header">
                                                 <tr>
                                                     <th class="sticky-header">Дата начала</th>

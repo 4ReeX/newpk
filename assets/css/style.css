@@ -6295,3 +6295,8 @@ input.form-control-sm.form-control.input-domains {
 .fortabs {
 	padding-bottom: 30px;
 }
+
+
+table.viplat td, table.viplat th {
+    padding: 8px 10px;
+}
