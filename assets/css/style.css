@@ -6176,8 +6176,10 @@ th.sticky-footer {
 	line-height: 0;
 }
 .edit-offer .ios-ui-select {
-	position: relative;
-	margin: 0 20px;
+    position: relative;
+    margin: 0;
+    top: -3px;
+    left: -6px;
 }
 .form-group.edit-offer {
     display: flex;
@@ -6286,3 +6288,9 @@ input.form-control-sm.form-control.input-domains {
     flex-wrap: wrap;
 }
 .fw {width: 100%!important;}
+.form-group.edit-offer {
+	width: 100%;
+}
+.fortabs {
+	padding-bottom: 30px;
+}
