@@ -107,6 +107,10 @@ include 'header.php';  //любой файл который мы хотим по
                                                         <label for="dateMin" class="fs10px">Мин.дата подписки для выплат</label>
                                                         <input type="date" id="dateMin" class="form-control">
                                                     </div>
+                                                    <div class="col-12 col-sm-6 col-md-4">
+                                                        <label for="dateMin" class="fs10px">Время обратного выкупа в секундах</label>
+                                                        <input type="text" class="form-control" placeholder="Введите время выкупа в секундах" id="secByPay">
+                                                    </div>
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-12 col-sm-12 col-md-12">
@@ -176,9 +180,20 @@ include 'header.php';  //любой файл который мы хотим по
                                     <div class="tab-pane fade show" id="second" style="display: block;    overflow-x: auto;    width: 100%;">
                                         <!--start card-->
                                         <div class="card card no-bor-rad-top">
+                                            
                                             <div class="card-body">
+                                                <div class="row">
+                                                    <div class="">
+                                                        <div class="form-group edit-offer">
+                                                            <label for="hideForNovice1" class="float-left">Устаревшие ставки</label>
+                                                            <div class="ios-ui-select checked">
+                                                                <div class="inner"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             <div class="row">
-                                            <div class="responsive-block statistic_table_wrapper" id="fullWidth" style="width: 100%;">
+                                            <div class="responsive-block statistic_table_wrapper" id="fullWidth" style="width: 100%; min-width: 310px;">
                                             <table id="stats1" class="table  table-bordered nowrap" style="width:100%;">
                                             <thead class="thead-light statistic_header">
                                                 <tr>
@@ -210,8 +225,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                         </select>
                                                     </td>
                                                     <td><i class="ti ti-save td-save"></i></td>
-                                                </tr>
-                                                
+                                                </tr> 
                                                 <tr>
                                                     <td>06.04.2020</td>
                                                     <td>26.12.2021</td>
@@ -220,8 +234,70 @@ include 'header.php';  //любой файл который мы хотим по
                                                     <td>В нац. валюте</td>
                                                     <td><i class="ti ti-pencil td-save"></i></td>
                                                 </tr>
-
-
+                                                <tr>
+                                                    <td>06.04.2020</td>
+                                                    <td>26.12.2021</td>
+                                                    <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
+                                                    <td>4.52</td>
+                                                    <td>В нац. валюте</td>
+                                                    <td><i class="ti ti-pencil td-save"></i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>06.04.2020</td>
+                                                    <td>26.12.2021</td>
+                                                    <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
+                                                    <td>4.52</td>
+                                                    <td>В нац. валюте</td>
+                                                    <td><i class="ti ti-pencil td-save"></i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>06.04.2020</td>
+                                                    <td>26.12.2021</td>
+                                                    <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
+                                                    <td>4.52</td>
+                                                    <td>В нац. валюте</td>
+                                                    <td><i class="ti ti-pencil td-save"></i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>06.04.2020</td>
+                                                    <td>26.12.2021</td>
+                                                    <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
+                                                    <td>4.52</td>
+                                                    <td>В нац. валюте</td>
+                                                    <td><i class="ti ti-pencil td-save"></i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>06.04.2020</td>
+                                                    <td>26.12.2021</td>
+                                                    <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
+                                                    <td>4.52</td>
+                                                    <td>В нац. валюте</td>
+                                                    <td><i class="ti ti-pencil td-save"></i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>06.04.2020</td>
+                                                    <td>26.12.2021</td>
+                                                    <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
+                                                    <td>4.52</td>
+                                                    <td>В нац. валюте</td>
+                                                    <td><i class="ti ti-pencil td-save"></i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>06.04.2020</td>
+                                                    <td>26.12.2021</td>
+                                                    <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
+                                                    <td>4.52</td>
+                                                    <td>В нац. валюте</td>
+                                                    <td><i class="ti ti-pencil td-save"></i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>06.04.2020</td>
+                                                    <td>26.12.2021</td>
+                                                    <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
+                                                    <td>4.52</td>
+                                                    <td>В нац. валюте</td>
+                                                    <td><i class="ti ti-pencil td-save"></i></td>
+                                                </tr>
                                             </tbody>
                                             </table>
                                             </div>
@@ -229,11 +305,7 @@ include 'header.php';  //любой файл который мы хотим по
                                         </div>
                                         </div>
                                         <!---end card-->
-                                        <div class="card card no-bor-rad-top">
-                                            <div class="card-body">
-                                                
-                                            </div>
-                                        </div>
+
 
                                     </div>
                                     <div class="tab-pane fade show" id="third" style="display: block;    overflow-x: auto;    width: 100%;">
