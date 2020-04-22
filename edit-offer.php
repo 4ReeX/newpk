@@ -201,6 +201,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                     <th class="sticky-header">Дата окончания</th>
                                                     <th class="sticky-header">Парнер</th>
                                                     <th class="sticky-header">Ставка(р)</th>
+                                                    <th class="sticky-header">Sec.до выкупа</th>
                                                     <th class="sticky-header">Тип выплаты</th>
                                                     <th></th>
                                                 </tr>
@@ -218,6 +219,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                     </select>
                                                     </td>
                                                     <td><input type="number" value="4.52" min="0" max="100" step="0.1" class="form-control"></td>
+                                                    <td><input type="number" value="" min="0" max="9999" step="0.1" class="form-control"></td>
                                                     <td>
                                                         <select class="form-control" id="tdTypePay">
                                                             <option value="withoutNds">В нац. валюте</option>
@@ -231,6 +233,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                     <td>26.12.2021</td>
                                                     <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
                                                     <td>4.52</td>
+                                                    <td>9999</td>
                                                     <td>В нац. валюте</td>
                                                     <td><i class="ti ti-pencil td-save"></i></td>
                                                 </tr>
@@ -239,6 +242,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                     <td>26.12.2021</td>
                                                     <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
                                                     <td>4.52</td>
+                                                    <td>9999</td>
                                                     <td>В нац. валюте</td>
                                                     <td><i class="ti ti-pencil td-save"></i></td>
                                                 </tr>
@@ -247,6 +251,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                     <td>26.12.2021</td>
                                                     <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
                                                     <td>4.52</td>
+                                                    <td>9999</td>
                                                     <td>В нац. валюте</td>
                                                     <td><i class="ti ti-pencil td-save"></i></td>
                                                 </tr>
@@ -255,6 +260,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                     <td>26.12.2021</td>
                                                     <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
                                                     <td>4.52</td>
+                                                    <td>9999</td>
                                                     <td>В нац. валюте</td>
                                                     <td><i class="ti ti-pencil td-save"></i></td>
                                                 </tr>
@@ -263,6 +269,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                     <td>26.12.2021</td>
                                                     <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
                                                     <td>4.52</td>
+                                                    <td>9999</td>
                                                     <td>В нац. валюте</td>
                                                     <td><i class="ti ti-pencil td-save"></i></td>
                                                 </tr>
@@ -271,30 +278,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                     <td>26.12.2021</td>
                                                     <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
                                                     <td>4.52</td>
-                                                    <td>В нац. валюте</td>
-                                                    <td><i class="ti ti-pencil td-save"></i></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>06.04.2020</td>
-                                                    <td>26.12.2021</td>
-                                                    <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
-                                                    <td>4.52</td>
-                                                    <td>В нац. валюте</td>
-                                                    <td><i class="ti ti-pencil td-save"></i></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>06.04.2020</td>
-                                                    <td>26.12.2021</td>
-                                                    <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
-                                                    <td>4.52</td>
-                                                    <td>В нац. валюте</td>
-                                                    <td><i class="ti ti-pencil td-save"></i></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>06.04.2020</td>
-                                                    <td>26.12.2021</td>
-                                                    <td>mamay.seomozg@gmail.com AM5742 | 129551</td>
-                                                    <td>4.52</td>
+                                                    <td>9999</td>
                                                     <td>В нац. валюте</td>
                                                     <td><i class="ti ti-pencil td-save"></i></td>
                                                 </tr>
