@@ -43,6 +43,12 @@
 	.footer {  padding-bottom: 40px;}
 }
 @media screen and (max-width: 768px) {
+	.edit-offer .ios-ui-select {
+    position: relative;
+    margin: 0;
+    top: -3px;
+    left: -6px;
+}
 	.rw-multiselect.rw-widget.float-left {
     width: 100%;
 }
