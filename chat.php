@@ -20,6 +20,8 @@
         right: 0px;
         top: 0px;
         cursor: pointer;
+       z-index: 9999999999;
+
     }
     .minify {
         overflow: hidden;
