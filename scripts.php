@@ -6,3 +6,14 @@
 
 <script src="assets/js/main.js"></script>
 
+
+<script type="text/javascript">
+    var chat = document.getElementById('chat');
+    chat.scrollTop = chat.scrollHeight - chat.clientHeight;
+
+    $('#OpenImgUpload').click(function(){ $('#imgupload').trigger('click'); });
+
+    $('.collap').click(function(){ $('.chat-box').toggle('minify'); });
+    $('.activator').click(function(){ $('.chat-box').toggle('minify'); });
+    $('#startDialog').click(function(){ $('.start-window').toggle('hide'); });
+</script>

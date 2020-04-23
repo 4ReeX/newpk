@@ -17,3 +17,4 @@
    </div>
    <div class="top-right">Статистика</div>
 </header>
+ <?php include 'chat.php'; ?>
