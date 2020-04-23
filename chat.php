@@ -1,7 +1,7 @@
 <style>
    
 </style>
-<div class="chat-box">
+<div class="chat-box" style="display: none;">
     <div class="center">
 
         <!--end CONTACTS-->
