@@ -329,7 +329,6 @@ p.h1 {font-size: 18px;}
 p.h2 {font-size: 15px;}
 .pulse {
   border-radius: 50%;
-  background: #cca92c;
   cursor: pointer;
   box-shadow: 0 0 0 rgba(204,169,44, 0.4);
   animation: pulse 2s infinite;
@@ -444,6 +443,6 @@ p.h2 {font-size: 15px;}
     $('#OpenImgUpload').click(function(){ $('#imgupload').trigger('click'); });
 
     $('.collap').click(function(){ $('.chat-box').toggle('minify'); });
-    $('.chat-activator').click(function(){ $('.chat-box').toggle('minify'); });
+    $('.activator').click(function(){ $('.chat-box').toggle('minify'); });
     $('#startDialog').click(function(){ $('.start-window').toggle('hide'); });
 </script>
