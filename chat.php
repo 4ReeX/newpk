@@ -84,8 +84,16 @@ body, html {
           justify-content: center;
 }
 .contact .pic {
-  position: absolute;
-  left: 0;
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pic img.icon-logo.start {
+    width: 80%;
+    text-align: center;
 }
 .contact .name {
   font-weight: 500;
@@ -391,7 +399,7 @@ p.h2 {font-size: 15px;}
     </div>
     <div class="contact bar">
       <i class="ti ti-minus collap"></i>
-      <div class="pic stark"></div>
+      <div class="pic"><img src="images/new-logo.svg" alt="" class="icon-logo start"></div>
       <div class="name">
         Tony Stark
       </div>
@@ -435,7 +443,7 @@ p.h2 {font-size: 15px;}
     </div>
     <div class="input">
      <input type="file" id="imgupload" style="display:none"/> 
-     <i class="ti ti-upload" id="OpenImgUpload"></i><input placeholder="Напишите что нибудь..." type="text" /><i class="ti ti-microphone"></i>
+     <i class="ti ti-upload" id="OpenImgUpload"></i><input placeholder="Напишите что нибудь..." type="text" />
     </div>
   </div>
 </div>
