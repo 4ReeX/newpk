@@ -32,7 +32,7 @@
         z-index: 9999;
     }
     button.chat-activator {
-        width: 60px;
+    width: 60px;
     height: 60px;
     position: fixed;
     bottom: 15%;
@@ -370,6 +370,7 @@ p.h2 {font-size: 15px;}
   margin: 0 15px;
 }
 </style>
+<button class="chat-activator"><i class="ti ti-comments"></i></button>
 <div class="chat-box">
     <div class="center">
 
