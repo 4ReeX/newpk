@@ -14,6 +14,7 @@
         overflow: hidden;
         transition: all 0.4s ease;
     }
+    .message {    font-size: 12px;}
     .collap {
         position: absolute;
         right: 0px;
@@ -384,8 +385,9 @@ p.h2 {font-size: 15px;}
     <div class="start-window">
         <p><img src="images/new-logo.svg" alt="" class="icon-logo start"><img src="images/invert-affimob.svg" alt="" class="text-logo"></p>
         <p class="h1">Привет, партнер! Появились вопросы?</p>
-        <p>Скорей пиши , мы с радостью тебе поможем. (скорость ответа на сообщения зависит от загруженности саппорт отдела  ~20мин)</p>
+        <p>Скорей пиши , мы с радостью тебе поможем!</p>
         <p><button class="btn btn-outline-secondary btn-lg" id="startDialog">Начать диалог</button></p>
+        <p style="font-size: 10px;">(скорость ответа на сообщения зависит от загруженности саппорт отдела  ~20мин)</p>
     </div>
     <div class="contact bar">
       <i class="ti ti-minus collap"></i>
