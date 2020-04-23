@@ -1,8 +1,8 @@
 <style>
     .chat-box {
         position: fixed; 
-        right: 5px; 
-        bottom: 10px; 
+        right: 0px; 
+        bottom: 0px; 
         background-color: rgba(0,0,0,0.4) !important;
         z-index: 9999; 
         min-width: 320px; 
@@ -12,7 +12,7 @@
         -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
         box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
         overflow: hidden;
-        transition: all 1s ease;
+        transition: all 0.4s ease;
     }
     .collap {
         position: absolute;
@@ -34,10 +34,9 @@
         width: 60px;
     height: 60px;
     position: fixed;
-    bottom: 10px;
+    bottom: 15%;
     right: 10px;
     border-radius: 100%;
-    background: green;
     color: #fff;
     font-size: 18px;
     z-index: 999;
@@ -45,7 +44,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 4px solid rgba(255,255,255, .7);
+    border: none;
     }
 
     @import url("https://fonts.googleapis.com/css?family=Red+Hat+Display:400,500,900&display=swap");
@@ -337,9 +336,43 @@ body, html {
 }
 p.h1 {font-size: 18px;}
 p.h2 {font-size: 15px;}
-
+.pulse {
+  border-radius: 50%;
+  background: #cca92c;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+  animation: pulse 2s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
 </style>
-<button class="chat-activator"><i class="ti ti-comments"></i></button>
+<button class="chat-activator pulse"><i class="ti ti-comments"></i></button>
 <div class="chat-box">
     <div class="center">
 

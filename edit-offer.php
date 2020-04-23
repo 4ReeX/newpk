@@ -19,10 +19,10 @@ include 'header.php';  //любой файл который мы хотим по
                         <div class="card no-mb">
                             <div class="card-header">
                                 <div class="i-buttons">
-                                    <i class="ti ti-plug offer-buttons active"></i>
-                                    <i class="ti ti-time offer-buttons"></i>
-                                    <i class="ti ti-trash offer-buttons"></i>
-                                    <i class="ti ti-files offer-buttons"></i>
+                                    <i class="ti ti-plug offer-buttons active" title="Подключить/Отключить"></i>
+                                    <i class="ti ti-time offer-buttons" title="Сделать устаревшим"></i>
+                                    <i class="ti ti-trash offer-buttons" title="Удалить"></i>
+                                    <i class="ti ti-files offer-buttons" title="Дублировать оффер"></i>
                                 </div>
                                 <nav class="navitab">
                                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
