@@ -46,6 +46,7 @@
     justify-content: center;
     align-items: center;
     border: none;
+    background: #72b9ff;
     }
 
     @import url("https://fonts.googleapis.com/css?family=Red+Hat+Display:400,500,900&display=swap");
