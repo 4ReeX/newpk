@@ -6300,3 +6300,12 @@ input.form-control-sm.form-control.input-domains {
 table.viplat td, table.viplat th {
     padding: 8px 10px;
 }
+.mob-box button.chat-activator {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px;
+}

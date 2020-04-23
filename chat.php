@@ -12,7 +12,7 @@
         -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
         box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
         overflow: hidden;
-        transition: all 0.4s ease;
+        
     }
     .message {    font-size: 12px;}
     .collap {
@@ -304,25 +304,6 @@ body, html {
     opacity: 1;
   }
 }
-.pic.stark {
-  background-image: url("https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/7/73/SMH_Mentor_6.png");
-}
-
-.pic.banner {
-  background-image: url("https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/4/4f/BruceHulk-Endgame-TravelingCapInPast.jpg");
-}
-
-.pic.thor {
-  background-image: url("https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/98/ThorFliesThroughTheAnus.jpg");
-}
-
-.pic.danvers {
-  background-image: url("https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/0/05/HeyPeterParker.png");
-}
-
-.pic.rogers {
-  background-image: url("https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/7/7c/Cap.America_%28We_Don%27t_Trade_Lives_Vision%29.png");
-}
 
 .start-window {
    width: 100%;
@@ -380,8 +361,14 @@ p.h2 {font-size: 15px;}
       box-shadow: 0 0 0 0 rgba(204,169,44, 0);
   }
 }
+
+.mob-box button.chat-activator {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin: 0 15px;
+}
 </style>
-<button class="chat-activator pulse"><i class="ti ti-comments"></i></button>
 <div class="chat-box">
     <div class="center">
 
