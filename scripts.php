@@ -17,7 +17,11 @@
     $('.activator').click(function(){ $('.chat-box').toggle('minify'); });
     $('#startDialog').click(function(){ $('.start-window').toggle('hide'); });
 </script>
-
 <script>
-	
+	go();
+	window.addEventListener('resize', go);
+
+	function go(){
+  		document.getElementById("menuuu").style.bottom = "0px!important";
+	}
 </script>

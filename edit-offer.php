@@ -111,6 +111,10 @@ include 'header.php';  //любой файл который мы хотим по
                                                         <label for="dateMin" class="fs10px">Время обратного выкупа в секундах</label>
                                                         <input type="text" class="form-control" placeholder="Введите время выкупа в секундах" id="secByPay">
                                                     </div>
+                                                    <div class="col-12 col-sm-6 col-md-4">
+                                                        <label for="dateMin" class="fs10px">Выбор подписочного сервиса</label>
+                                                        <input type="text" class="form-control" placeholder="Вверите сервис для поиска" id="secByPay">
+                                                    </div>
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-12 col-sm-12 col-md-12">
