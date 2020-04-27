@@ -17,3 +17,7 @@
     $('.activator').click(function(){ $('.chat-box').toggle('minify'); });
     $('#startDialog').click(function(){ $('.start-window').toggle('hide'); });
 </script>
+
+<script>
+	
+</script>

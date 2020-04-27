@@ -1,6 +1,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon-precomposed" href="images/new-logo.png"> 
     <title>Заголовок страницы</title>
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="format-detection" content="telephone=no">
