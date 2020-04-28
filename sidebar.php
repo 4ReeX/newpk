@@ -23,7 +23,7 @@
              <button type="button" class="btn btn-outline create-links"  data-toggle="modal">Создать ссылки</button> 
          </div>
 	</div>
-    <div class="main-menu" id="menuuu" style="transition: all 2s ease-out;">
+    <div class="main-menu" id="menuuu">
         <div class="scroll">
             <div class="scrollbar-container ps">
                 <ul class="list-unstyled nav flex-column">

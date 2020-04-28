@@ -12,6 +12,42 @@
 			width: 100%;
 			height: 100%!important;
 		}
+		.chat-tiket-box {
+		height: 100vh;
+		width: 100%;
+		right: 0!important;
+		bottom: 0!important;
+		border-radius: 0!important;
+		top: 0;
+		}
+		.chat-tiket {
+			position: fixed!important;
+			width: 100%;
+			height: 100%!important;
+			border-radius: 0;
+		}
+		.contact .name {
+			font-size: 12px;
+			font-weight: 500;
+			margin-bottom: 0.125rem;
+			text-overflow: ellipsis;
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: flex-start;
+			flex-wrap: nowrap;
+			overflow: hidden;
+			height: 30px;
+			line-height: 1.2;
+			width: 240px;
+			text-overflow: ellipsis;
+		}
+		.contact .seen {font-size: 12px;}
+		.chat-tiket .input i {
+			font-size: 1.1rem;
+			margin-bottom: 10px;
+
+		}
       #mobHide {
         display: none;
       }
@@ -227,7 +263,7 @@
 	button.circle-btn.float-left {
     position: relative;
     margin: 0 0 15px 0;
-    margin-right: -15px;
+    margin-right: 5px;
     margin-top: -5px;
 }
 	select#d1 {

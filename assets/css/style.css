@@ -6415,6 +6415,7 @@ body, html {
 .contact .name {
   font-weight: 500;
   margin-bottom: 0.125rem;
+  text-overflow: ellipsis;
 }
 .contact .message, .contact .seen {
   font-size: 0.9rem;
@@ -6530,7 +6531,7 @@ body, html {
   max-width: 66%;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.075), 0rem 1rem 1rem -1rem rgba(0, 0, 0, 0.1);
 }
-.chat .messages .message.parker {
+.chat .messages .message.inbox {
   margin: 1rem 1rem 1rem auto;
   border-radius: 1.125rem 1.125rem 0 1.125rem;
   background: #333;
@@ -6684,3 +6685,161 @@ p.h2 {font-size: 15px;}
   position: relative;
   margin: 0 15px;
 }
+
+td.tiket-theme {cursor: pointer;}
+td.tiket-theme:hover {text-decoration: underline; text-decoration-style: dotted;}
+td .ios-ui-select {
+    position: relative;
+    margin: 0;
+}
+.chat-tiket {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 44rem;
+    height: 48rem;
+    z-index: 2;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0 0 8rem 0 rgba(0, 0, 0, 0.1), 0rem 2rem 4rem -3rem rgba(0, 0, 0, 0.5);
+}
+ .chat-tiket-box {
+        position: fixed; 
+        right: 0px; 
+        bottom: 0px; 
+        background-color: rgba(0,0,0,0.4) !important;
+        z-index: 9999; 
+        min-width: 320px; 
+        min-height: 600px; 
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+        overflow: hidden;
+        
+}
+.chat-tiket .contact.bar {
+  flex-basis: 3.5rem;
+  flex-shrink: 0;
+  margin: 1rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.chat-tiket .messages {
+  padding: 1rem;
+  background: #F7F7F7;
+  flex-shrink: 2;
+  overflow-y: auto;
+  box-shadow: inset 0 2rem 2rem -2rem rgba(0, 0, 0, 0.05), inset 0 -2rem 2rem -2rem rgba(0, 0, 0, 0.05);
+  height: 100%;
+}
+.chat-tiket .messages .time {
+  font-size: 0.8rem;
+  background: #EEE;
+  padding: 0.25rem 1rem;
+  border-radius: 2rem;
+  color: #999;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+.chat-tiket .messages .message {
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  background: #FFF;
+  border-radius: 1.125rem 1.125rem 1.125rem 0;
+  min-height: 2.25rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 66%;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.075), 0rem 1rem 1rem -1rem rgba(0, 0, 0, 0.1);
+}
+.chat-tiket .messages .message.inbox {
+  margin: 1rem 1rem 1rem auto;
+  border-radius: 1.125rem 1.125rem 0 1.125rem;
+  background: #333;
+  color: white;
+}
+.chat-tiket .messages .message .typing {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-right: 0rem;
+  box-sizing: border-box;
+  background: #ccc;
+  border-radius: 50%;
+}
+.chat-tiket .messages .message .typing.typing-1 {
+  -webkit-animation: typing 3s infinite;
+          animation: typing 3s infinite;
+}
+.chat-tiket .messages .message .typing.typing-2 {
+  -webkit-animation: typing 3s 250ms infinite;
+          animation: typing 3s 250ms infinite;
+}
+.chat-tiket .messages .message .typing.typing-3 {
+  -webkit-animation: typing 3s 500ms infinite;
+          animation: typing 3s 500ms infinite;
+}
+.chat-tiket .input {
+    box-sizing: border-box;
+    flex-basis: 4rem;
+    flex-shrink: 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0 0.5rem 0 1.5rem;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+.chat-tiket .input i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #666;
+  cursor: pointer;
+  -webkit-transition: color 200ms;
+  transition: color 200ms;
+  margin-bottom: 0.4rem;
+}
+.chat-tiket .input i:hover {
+  color: #333;
+}
+#chat-tiket-input{
+  border: none;
+  background-image: none;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border-radius: 2rem;
+  -webkit-box-flex: 2;
+          flex-grow: 2;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1), 0rem 1rem 1rem -1rem rgba(0, 0, 0, 0.2);
+  font-family: Red hat Display, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  border: 1px solid #d3d3d3;
+
+}
+.chat-tiket .input input:placeholder {
+  color: #999;
+}
+
+.pik { cursor: pointer;}
+.pik i {font-size: 32px;}
+
+
+
+.chat-tiket i.ti.ti-unlock {	font-size: 32px; cursor: pointer; color: #f00; transition: all 0.5s ease;}
+.chat-tiket i.ti.ti-unlock.ti-lock {font-size: 32px; cursor: not-allowed; color: #74ecb5; transition: all 0.5s ease;}

@@ -18,9 +18,9 @@
     </div>
     <div class="contact bar">
       <i class="ti ti-minus collap"></i>
-      <div class="pic"><img src="images/new-logo.svg" alt="" class="icon-logo start"></div>
+      <div class="pic" onhover="changeIconLock"><img src="images/new-logo.svg" alt="" class="icon-logo start"></div>
       <div class="name">
-        Tony Stark
+        Tony outbox
       </div>
       <div class="seen">
         Сегодня в 12:56
@@ -33,28 +33,28 @@
       <div class="time">
         Сегодня в 11:41
       </div>
-      <div class="message parker">
+      <div class="message inboxe">
         Эй, чувак! Как дела, мистер Старк? 👋
       </div>
-      <div class="message stark">
+      <div class="message outbox">
         Малыш, откуда ты пришел?
       </div>
-      <div class="message parker">
+      <div class="message inbox">
         Экскурсия! 🤣
       </div>
-      <div class="message parker">
+      <div class="message inbox">
         В чем проблема этого парня, мистер Старк? 
       </div>
-      <div class="message stark">
+      <div class="message outbox">
         Он из космоса, он пришел сюда, чтобы украсть ожерелье у волшебника.
       </div>
-      <div class="message parker">
+      <div class="message inbox">
         Какие то еще сообщения чтобы показать скролл
       </div>
-      <div class="message stark">
+      <div class="message outbox">
         Я что зря разрабатывал эту верстку что ты не читаешь это сообщение ?
       </div>
-      <div class="message stark">
+      <div class="message outbox">
         <div class="typing typing-1"></div>
         <div class="typing typing-2"></div>
         <div class="typing typing-3"></div>
@@ -76,4 +76,6 @@
     $('.collap').click(function(){ $('.chat-box').toggle('minify'); });
     $('.activator').click(function(){ $('.chat-box').toggle('minify'); });
     $('#startDialog').click(function(){ $('.start-window').toggle('hide'); });
+
+
 </script>
