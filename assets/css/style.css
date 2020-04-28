@@ -6730,21 +6730,21 @@ td .ios-ui-select {
     margin: 0;
 }
 .chat-tiket {
-    position: relative;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    width: 44rem;
-    height: 48rem;
-    z-index: 2;
-    box-sizing: border-box;
-    border-radius: 1rem;
-    background: white;
-    box-shadow: 0 0 8rem 0 rgba(0, 0, 0, 0.1), 0rem 2rem 4rem -3rem rgba(0, 0, 0, 0.5);
+   position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  width: 24rem;
+  height: 38rem;
+  z-index: 2;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 0 8rem 0 rgba(0, 0, 0, 0.1), 0rem 2rem 4rem -3rem rgba(0, 0, 0, 0.5);
 }
  .chat-tiket-box {
         position: fixed; 
@@ -6880,3 +6880,24 @@ td .ios-ui-select {
 
 .chat-tiket i.ti.ti-unlock {	font-size: 32px; cursor: pointer; color: #f00; transition: all 0.5s ease;}
 .chat-tiket i.ti.ti-unlock.ti-lock {font-size: 32px; cursor: not-allowed; color: #74ecb5; transition: all 0.5s ease;}
+i.LockOfferChat.ti.ti-headphone-alt {    font-size: 32px; }
+.name[contenteditable=true] {
+    padding: 2px 5px;
+    width: 80%;
+    min-height: 25px;
+    font-size: 11px;
+    height: auto;
+    max-height: 50px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+label.TiketNameLabel {
+	font-size: 11px;
+	padding: 0;
+	margin: 0;
+	padding-left: 10px;
+}
+.ThemeTitle {
+	font-weight: 700;
+	font-size: 14px;
+}

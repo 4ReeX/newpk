@@ -10,16 +10,10 @@
   <!--end CONTACTS-->
   <div class="chat-tiket">
     <div class="contact bar">
-      <i class="ti ti-minus collap"></i>
-      <div class="pic"><i class="LockOfferChat ti ti-unlock"></i></div>
-      <div class="name">
-        Пожалуйста сделайте выплаты, очень жду! Ваш фродер
-      </div>
-      <div class="seen">
-        Сегодня в 12:56
-      </div>
-      <div class="seen">
-        ID 565
+      <i class="ti ti-close collap"></i>
+      <div class="pic"><i class="LockOfferChat ti ti-headphone-alt start"></i></div>
+      <label for="TiketName" class="TiketNameLabel">Тема обращения</label>
+      <div class="form-control float-left name" contenteditable="true" id="TiketName" placeholder="Тема вашего обращения">
       </div>
     </div>
     <div class="messages" id="chat-tiket">
@@ -27,6 +21,7 @@
         Сегодня в 11:41
       </div>
       <div class="message inbox">
+        <h5 class="ThemeTitle">Тема обращения написанная выше в поле</h5>
         Помогите мне кто нибудь! Сделайте выплаты! Желательно мгновенно и по повышенной ставке, карантин понимаете ли!
         я требую чтобы партнёрка выплачивала всё по счетам, в противном случае я буду жаловаться в роспортребназор, и вас заблокируют! Вы же не хотите как с телеграммом?! 
       </div>
@@ -66,7 +61,7 @@
     </div>
     <div class="input">
      <input type="file" id="imgupload" style="display:none"/> 
-     <i class="ti ti-upload" id="OpenImgUpload"></i><div id="chat-tiket-input" class="form-control float-left" contenteditable="true"></div>
+     <i class="ti ti-upload" id="OpenImgUpload"></i><div id="chat-tiket-input" class="form-control float-left" contenteditable="true" placeholder="Текст вашего обращения"></div>
      <i class="ti ti-angle-double-right"></i>
     </div>
   </div>
