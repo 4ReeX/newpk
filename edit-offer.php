@@ -176,6 +176,12 @@ include 'header.php';  //любой файл который мы хотим по
 </div>    
                                                  </div>
                                             </div>
+                                            <div class="col-lg-12">
+                                        <div class="circle-btn-group">
+                                            <button class="circle-btn" title="Сохранить"><i class="ti ti-save"></i></button>
+                                            <button class="circle-btn" title="Очистить"><i class="ti ti-close"></i></button>
+                                        </div>
+                                    </div>
                                             </div>
                                         </div>
                                         <!---end card-->

@@ -17,7 +17,7 @@
         <p style="font-size: 10px;">(скорость ответа на сообщения зависит от загруженности саппорт отдела  ~20мин)</p>
     </div>
     <div class="contact bar">
-      <i class="ti ti-minus collap"></i>
+      <i class="ti ti-close collap"></i>
       <div class="pic"><img src="images/new-logo.svg" alt="" class="icon-logo start"></div>
       <div class="name">
         Tony Stark
@@ -62,7 +62,7 @@
     </div>
     <div class="input">
      <input type="file" id="imgupload" style="display:none"/> 
-     <i class="ti ti-upload" id="OpenImgUpload"></i><input placeholder="Напишите что нибудь..." type="text" />
+     <i class="ti ti-upload" id="OpenImgUpload"></i><input placeholder="Напишите что нибудь..." type="text" /><i class="ti ti-angle-double-right"></i>
     </div>
   </div>
 </div>
