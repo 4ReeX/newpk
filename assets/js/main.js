@@ -304,7 +304,3 @@ $('modal').setAttribute("aria-hidden", "true");
 }
 
 
-
-$('.list-group-item').on('click', function(event) {
-        $(this).toggleClass("active");
-    });
