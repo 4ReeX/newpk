@@ -5,7 +5,7 @@
             <div class="widget-content-left">
                 <div class="widget-heading">11458 | MTS Tvmood 25/1</div>
                 <div class="widget-subheading mt-1 opacity-10">
-                    <div class="badge badge-pill badge-primary" title="доход р.">9856₽</div>
+                    <div class="badge badge-pill badge-success" title="доход р.">9856₽</div>
                 </div>
             </div>
             <div class="widget-content-right">
@@ -21,7 +21,7 @@
             <div class="widget-content-left">
                 <div class="widget-heading">12648 | Ремембер</div>
                 <div class="widget-subheading mt-1 opacity-10">
-                    <div class="badge badge-pill badge-primary" title="доход р.">4856₽</div>
+                    <div class="badge badge-pill badge-warning" title="доход р.">4856₽</div>
                 </div>
             </div>
             <div class="widget-content-right">
@@ -37,7 +37,7 @@
             <div class="widget-content-left">
                 <div class="widget-heading">12648 | Ремембер</div>
                 <div class="widget-subheading mt-1 opacity-10">
-                    <div class="badge badge-pill badge-primary" title="доход р.">4856₽</div>
+                    <div class="badge badge-pill badge-danger" title="доход р.">4856₽</div>
                 </div>
             </div>
             <div class="widget-content-right">
