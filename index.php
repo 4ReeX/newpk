@@ -127,9 +127,9 @@ include 'header.php';  //любой файл который мы хотим по
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-12 col-lg-6 col-xl-5">
-    <div class="main-card mb-3 card">
-        <div class="card-body">
+                                            <div class="col-md-12 col-lg-6 col-xl-5" id="dynamic">
+                                                <div class="main-card mb-3 card">
+                                                    <div class="card-body">
 
             <h6 class="text-muted text-uppercase font-size-md opacity-7 mb-3 font-weight-normal">Динамика офферов</h6>
             <i id="PopoverHelpIcon" class="ti ti-help-alt help-icon" style="display: inline-block;"></i>
