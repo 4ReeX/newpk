@@ -13,6 +13,9 @@ include 'sidebar.php';  //любой файл который мы хотим п�
             <?php  //говорит нам что начинается php код
 include 'header.php';  //любой файл который мы хотим подключить в этой части документа
 ?>
+<style>
+
+</style>
 
                 <!-- /header -->
                 <!-- Content -->
@@ -23,14 +26,14 @@ include 'header.php';  //любой файл который мы хотим по
                         <!-- /Widgets --------------------- -->
                         <!--  Traffic  -->
                         <div class="row">
-                            <div class="col-lg-12 no_left_right_padding">
-                                <div class="card">
+                            <div class="col-md-12">
+                                <div>
                                     <!-- <?php include 'card-header.php'; ?>   -->
                                         <div class="row">
-                                            <div class="col no_left_right_padding">
+                                            <div class="col-md-12 col-lg-6 col-xl-7 no_left_right_padding">
 
-                                                <div class="card-body">
-                                                    <div class="row grid6">
+                                                <div class="mb-3 card">
+                                                    <div class="row cardPadding">
                                                         <div class="col-auto small-col no_left_right_padding" id="blockInputOffers">
                                                             <div class="jss8">
                                                                 <div class=" css-2b097c-container">
@@ -38,7 +41,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                                         <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Дата</label>
                                                                         <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
                                                                             <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
-                                                                                <div class="jss10"><span class="ss">29.12.89 - 11.02.20</span></div>
+                                                                                <div class="jss10"><input type="date" value="06.04.2020" class="ss noBorderInput"></div>
                                                                                 <div class=" css-1wy0on6">
                                                                                     <div aria-hidden="true" class=" css-tlfecz-indicatorContainer"></div>
                                                                                 </div>
@@ -124,331 +127,30 @@ include 'header.php';  //любой файл который мы хотим по
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4 col">
+                                            <div class="col-md-12 col-lg-6 col-xl-5">
+    <div class="main-card mb-3 card">
+        <div class="card-body">
 
-                                                <i class="ti ti-help-alt help-icon" title="Отношение подписок к подпискам прошлого дня в то же время. Выключатели управляют набором офферов на графике"></i>
+            <h6 class="text-muted text-uppercase font-size-md opacity-7 mb-3 font-weight-normal">Динамика офферов</h6>
+            <i id="PopoverHelpIcon" class="ti ti-help-alt help-icon" style="display: inline-block;"></i>
+            <div class="border-light card-border scroll-area-md card">
+                        <div class="ps-content">
+                            <ul class="list-group list-group-flush">
+                                <?php include 'offersForDashboard.php'; ?>
+                                <?php include 'offersForDashboard.php'; ?>
+                                <?php include 'offersForDashboard.php'; ?>
+                                <?php include 'offersForDashboard.php'; ?>
 
-                                                <div class="card-body">
 
-                                                    <div class="responsive-block-dashboard">
-                                                        <div class="top-block">
-                                                            <div class="check-offer">
-                                                                <input type="checkbox" id="checkbox2" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                <div class="ios-ui-select">
-                                                                    <div class="inner"></div>
-                                                                </div>
-                                                            </div>
-                                                            <i class="ti ti-stats-down">&nbsp;24%</i>
-                                                            <span class="tbo"><span class="color">Динамика</span> <b>сегодня</b> <span class="color">vs.</span> <b>вчера</b></span>
-                                                        </div>
-                                                        <div class="content-block">
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-down">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1 ssssssadsdasdasdasdas</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                            <div class="offer-line">
-                                                                <div class="check-offer">
-                                                                    <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios" data-ios-checkbox="true" style="display: none;">
-                                                                    <div class="ios-ui-select checked">
-                                                                        <div class="inner"></div>
-                                                                    </div>
-                                                                </div>
-                                                                <i class="ti ti-stats-up">&nbsp;120.9%</i>
-                                                                <div class="name-offer">11458 | MTS Tvmood 25/1</div>
-                                                                <div class="oss-icon">
-                                                                    <img src="images/beeline.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-------end offer-line------>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-
+                            </ul>
+                        </div>
                                             <!-- /.card-body -->
                                         </div>
                                 </div>
                                 <!-- /.row -->
 
                             </div>
+
                         </div>
                         <!-- /# column -->
                     </div>
@@ -467,6 +169,7 @@ include 'header.php';  //любой файл который мы хотим по
         <!-- /#right-panel -->
         <!-- Scripts -->
 <?php include 'scripts.php'; ?>
+
 
 
 </body>

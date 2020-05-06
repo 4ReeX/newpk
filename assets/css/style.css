@@ -113,13 +113,7 @@ button{box-shadow:none;outline:0!important;}
 @media screen and (max-width:414px){
 .jss8{min-width:100%;}
 }
-.help-icon {
-  position: relative;
-    right: 0;
-    top: 0;
-    float: right;
-    margin-right: 25px;
-}
+
 .top-offers table td .name {
   font-size: 14px;
 }
@@ -145,10 +139,12 @@ button{box-shadow:none;outline:0!important;}
 }
 .help-icon {
     position: absolute;
-    right: 25px;
-    top: 29px;
+    right: 20px;
+    top: 0;
     z-index: 3;
     color: #000;
+    height: 100%;
+    padding: 20px 0px;
 }
 .top-block {
   position: sticky;
@@ -3051,7 +3047,6 @@ min-width: 960px;
                   @media screen and (max-width: 768px) {
                      .w33-3 {min-width: 33.3%;}
                      .adapt {min-width: 414px;}
-                     .help-icon {right: 5px;top: 30px; }
 
                   }
                   @media screen and (max-width: 414px) {
@@ -4868,6 +4863,12 @@ table i {
 .ti-angle-down:before {
     content: "\e64b";
     margin: 0px 5px;
+    color: red;
+}
+.ti-angle-up:before {
+    content: "\e648";
+    margin: 0px 5px;
+    color: green;
 }
 table {
   border-color: #d3d3d3;
@@ -6765,10 +6766,20 @@ small{font-size:80%;font-weight:400;}
     align-items: center;
     height: 44px;
 }
+.list-group-item {
+	cursor: pointer;
+}
 .list-group-item.active {
     z-index: 2;
     color: #6d6d6d;
-    background-color: #f3f3f3;
+    background-color: #f0f0f0;
+    border-color: #d8d8d8;
+}
+
+.list-group-item:hover {
+    z-index: 2;
+    color: #6d6d6d;
+    background-color: #f4f4f4;
     border-color: #d8d8d8;
 }
 .noBorderInput {
@@ -6778,5 +6789,10 @@ small{font-size:80%;font-weight:400;}
 .ss {
 	line-height: 2.2;
 	    font-size: 1rem;
-
+}
+.widget-heading {
+	font-size: 14px;
+}
+.badge-pill {
+	cursor: pointer;
 }
