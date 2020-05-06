@@ -188,26 +188,6 @@ function openTabs3() {
 
 
 
-
-
-jQuery(document).ready(function() {
-        jQuery(".standardSelect").chosen({
-            disable_search_threshold: 10,
-            no_results_text: "Oops, nothing found!",
-            width: "100%"
-        });
-});
-
-
-
-jQuery(document).ready(function() {
-jQuery(".standardSelect").chosen({
-    disable_search_threshold: 10,
-    no_results_text: "Oops, nothing found!",
-    width: "100%"
-});
-});
-
 function myFunction2() {
 var x = document.getElementById("http2");
 if (x.innerHTML === "https://") {
@@ -324,3 +304,7 @@ $('modal').setAttribute("aria-hidden", "true");
 }
 
 
+
+$('.list-group-item').on('click', function(event) {
+        $(this).toggleClass("active");
+    });

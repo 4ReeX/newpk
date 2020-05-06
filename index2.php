@@ -14,57 +14,7 @@ include 'sidebar.php';  //любой файл который мы хотим п�
 include 'header.php';  //любой файл который мы хотим подключить в этой части документа
 ?>
 <style>
-    /*! CSS Used from: Embedded */
-.scroll-area-md {
-    height: 473px;
-    max-height: 78vh;
-    overflow-x: auto;
-    overflow-y: scroll;
-    box-sizing: border-box;
-    position: relative;
-    border-bottom: 1px solid #f3f3f3;
-    margin-bottom: 40px;
-}
-.border-light{border-color:#eeeeee;}
-*,*::before,*::after{box-sizing:border-box;}
-ul{margin-top:0;margin-bottom:1rem;}
-small{font-size:80%;}
-img{vertical-align:middle;border-style:none;}
-small{font-size:80%;font-weight:400;}
-/*! CSS Used from: Embedded */
-.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
-.fa-angle-up:before{content:"&#61702;";}
-.fa-angle-down:before{content:"&#61703;";}/*! CSS Used from: Embedded */
-.ps{overflow:hidden!important;overflow-anchor:none;-ms-overflow-style:none;touch-action:auto;-ms-touch-action:auto;}
-.ps__rail-x{display:none;opacity:0;transition:background-color .2s linear, opacity .2s linear;-webkit-transition:background-color .2s linear, opacity .2s linear;height:15px;bottom:0px;position:absolute;}
-.ps__rail-y{display:none;opacity:0;transition:background-color .2s linear, opacity .2s linear;-webkit-transition:background-color .2s linear, opacity .2s linear;width:15px;right:0;position:absolute;}
-.ps--active-y > .ps__rail-y{display:block;background-color:transparent;}
-.ps:hover > .ps__rail-x,.ps:hover > .ps__rail-y{opacity:0.6;}
-.ps .ps__rail-x:hover,.ps .ps__rail-y:hover,.ps .ps__rail-x:focus,.ps .ps__rail-y:focus{background-color:#eee;opacity:0.9;}
-.ps__thumb-x{background-color:#aaa;border-radius:6px;transition:background-color .2s linear, height .2s ease-in-out;-webkit-transition:background-color .2s linear, height .2s ease-in-out;height:6px;bottom:2px;position:absolute;}
-.ps__thumb-y{background-color:#aaa;border-radius:6px;transition:background-color .2s linear, width .2s ease-in-out;-webkit-transition:background-color .2s linear, width .2s ease-in-out;width:6px;right:2px;position:absolute;}
-.ps__rail-x:hover > .ps__thumb-x,.ps__rail-x:focus > .ps__thumb-x{background-color:#999;height:11px;}
-.ps__rail-y:hover > .ps__thumb-y,.ps__rail-y:focus > .ps__thumb-y{background-color:#999;width:11px;}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
-.ps{overflow:auto!important;}
-}
-.widget-content-right {
-    float: right;
-}
-.widget-content-left {
-    float: left;
-}
-/*! CSS Used from: Embedded */
-*,*::before,*::after{box-sizing:border-box;}
-small{font-size:80%;}
-small{font-size:80%;font-weight:400;}
-/*! CSS Used from: Embedded */
-.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
-.fa-angle-up:before{content:"";}
-.row.cardPadding {
-    padding: 5px 10px 0px 10px;
-    justify-content: space-between;
-}
+
 </style>
 
                 <!-- /header -->
@@ -91,7 +41,7 @@ small{font-size:80%;font-weight:400;}
                                                                         <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Дата</label>
                                                                         <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
                                                                             <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
-                                                                                <div class="jss10"><span class="ss">29.12.89 - 11.02.20</span></div>
+                                                                                <div class="jss10"><input type="date" value="06.04.2020" class="ss noBorderInput"></div>
                                                                                 <div class=" css-1wy0on6">
                                                                                     <div aria-hidden="true" class=" css-tlfecz-indicatorContainer"></div>
                                                                                 </div>
@@ -248,6 +198,134 @@ small{font-size:80%;font-weight:400;}
                                         </div>
                                     </div>
                                 </li>
+                                <li class="border-bottom-0 list-group-item">
+                                    <div class="widget-content p-0">
+                                        <div class="widget-content-wrapper">
+                                            <div class="widget-content-left mr-3"><img alt="" class="rounded-circle" src="http://newpk.skrom.dev-04.affimob.pro/images/beeline.png" width="38"></div>
+                                            <div class="widget-content-left">
+                                                <div class="widget-heading">11458 | MTS Tvmood 25/1</div>
+                                                <div class="widget-subheading mt-1 opacity-10">
+                                                    <div class="badge badge-pill badge-primary">$7</div>
+                                                </div>
+                                            </div>
+                                            <div class="widget-content-right">
+                                                <div class="fsize-2 text-success"><small class="opacity-5 pr-1">$</small> 619 <small class="text-muted pl-2"><fa name="angle-down" _nghost-fmy-c2="" ng-reflect-name="angle-down"><i _ngcontent-fmy-c2="" aria-hidden="true" class="ti ti-angle-down" ng-reflect-klass="ti ti-angle-down" ng-reflect-ng-class=""></i></fa></small></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="border-bottom-0 list-group-item">
+                                    <div class="widget-content p-0">
+                                        <div class="widget-content-wrapper">
+                                            <div class="widget-content-left mr-3"><img alt="" class="rounded-circle" src="http://newpk.skrom.dev-04.affimob.pro/images/beeline.png" width="38"></div>
+                                            <div class="widget-content-left">
+                                                <div class="widget-heading">11458 | MTS Tvmood 25/1</div>
+                                                <div class="widget-subheading mt-1 opacity-10">
+                                                    <div class="badge badge-pill badge-primary">$7</div>
+                                                </div>
+                                            </div>
+                                            <div class="widget-content-right">
+                                                <div class="fsize-2 text-success"><small class="opacity-5 pr-1">$</small> 619 <small class="text-muted pl-2"><fa name="angle-down" _nghost-fmy-c2="" ng-reflect-name="angle-down"><i _ngcontent-fmy-c2="" aria-hidden="true" class="ti ti-angle-down" ng-reflect-klass="ti ti-angle-down" ng-reflect-ng-class=""></i></fa></small></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="border-bottom-0 list-group-item">
+                                    <div class="widget-content p-0">
+                                        <div class="widget-content-wrapper">
+                                            <div class="widget-content-left mr-3"><img alt="" class="rounded-circle" src="http://newpk.skrom.dev-04.affimob.pro/images/beeline.png" width="38"></div>
+                                            <div class="widget-content-left">
+                                                <div class="widget-heading">11458 | MTS Tvmood 25/1</div>
+                                                <div class="widget-subheading mt-1 opacity-10">
+                                                    <div class="badge badge-pill badge-primary">$7</div>
+                                                </div>
+                                            </div>
+                                            <div class="widget-content-right">
+                                                <div class="fsize-2 text-success"><small class="opacity-5 pr-1">$</small> 619 <small class="text-muted pl-2"><fa name="angle-down" _nghost-fmy-c2="" ng-reflect-name="angle-down"><i _ngcontent-fmy-c2="" aria-hidden="true" class="ti ti-angle-down" ng-reflect-klass="ti ti-angle-down" ng-reflect-ng-class=""></i></fa></small></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="border-bottom-0 list-group-item">
+                                    <div class="widget-content p-0">
+                                        <div class="widget-content-wrapper">
+                                            <div class="widget-content-left mr-3"><img alt="" class="rounded-circle" src="http://newpk.skrom.dev-04.affimob.pro/images/beeline.png" width="38"></div>
+                                            <div class="widget-content-left">
+                                                <div class="widget-heading">11458 | MTS Tvmood 25/1</div>
+                                                <div class="widget-subheading mt-1 opacity-10">
+                                                    <div class="badge badge-pill badge-primary">$7</div>
+                                                </div>
+                                            </div>
+                                            <div class="widget-content-right">
+                                                <div class="fsize-2 text-success"><small class="opacity-5 pr-1">$</small> 619 <small class="text-muted pl-2"><fa name="angle-down" _nghost-fmy-c2="" ng-reflect-name="angle-down"><i _ngcontent-fmy-c2="" aria-hidden="true" class="ti ti-angle-down" ng-reflect-klass="ti ti-angle-down" ng-reflect-ng-class=""></i></fa></small></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="border-bottom-0 list-group-item">
+                                    <div class="widget-content p-0">
+                                        <div class="widget-content-wrapper">
+                                            <div class="widget-content-left mr-3"><img alt="" class="rounded-circle" src="http://newpk.skrom.dev-04.affimob.pro/images/beeline.png" width="38"></div>
+                                            <div class="widget-content-left">
+                                                <div class="widget-heading">11458 | MTS Tvmood 25/1</div>
+                                                <div class="widget-subheading mt-1 opacity-10">
+                                                    <div class="badge badge-pill badge-primary">$7</div>
+                                                </div>
+                                            </div>
+                                            <div class="widget-content-right">
+                                                <div class="fsize-2 text-success"><small class="opacity-5 pr-1">$</small> 619 <small class="text-muted pl-2"><fa name="angle-down" _nghost-fmy-c2="" ng-reflect-name="angle-down"><i _ngcontent-fmy-c2="" aria-hidden="true" class="ti ti-angle-down" ng-reflect-klass="ti ti-angle-down" ng-reflect-ng-class=""></i></fa></small></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="border-bottom-0 list-group-item">
+                                    <div class="widget-content p-0">
+                                        <div class="widget-content-wrapper">
+                                            <div class="widget-content-left mr-3"><img alt="" class="rounded-circle" src="http://newpk.skrom.dev-04.affimob.pro/images/beeline.png" width="38"></div>
+                                            <div class="widget-content-left">
+                                                <div class="widget-heading">11458 | MTS Tvmood 25/1</div>
+                                                <div class="widget-subheading mt-1 opacity-10">
+                                                    <div class="badge badge-pill badge-primary">$7</div>
+                                                </div>
+                                            </div>
+                                            <div class="widget-content-right">
+                                                <div class="fsize-2 text-success"><small class="opacity-5 pr-1">$</small> 619 <small class="text-muted pl-2"><fa name="angle-down" _nghost-fmy-c2="" ng-reflect-name="angle-down"><i _ngcontent-fmy-c2="" aria-hidden="true" class="ti ti-angle-down" ng-reflect-klass="ti ti-angle-down" ng-reflect-ng-class=""></i></fa></small></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="border-bottom-0 list-group-item">
+                                    <div class="widget-content p-0">
+                                        <div class="widget-content-wrapper">
+                                            <div class="widget-content-left mr-3"><img alt="" class="rounded-circle" src="http://newpk.skrom.dev-04.affimob.pro/images/beeline.png" width="38"></div>
+                                            <div class="widget-content-left">
+                                                <div class="widget-heading">11458 | MTS Tvmood 25/1</div>
+                                                <div class="widget-subheading mt-1 opacity-10">
+                                                    <div class="badge badge-pill badge-primary">$7</div>
+                                                </div>
+                                            </div>
+                                            <div class="widget-content-right">
+                                                <div class="fsize-2 text-success"><small class="opacity-5 pr-1">$</small> 619 <small class="text-muted pl-2"><fa name="angle-down" _nghost-fmy-c2="" ng-reflect-name="angle-down"><i _ngcontent-fmy-c2="" aria-hidden="true" class="ti ti-angle-down" ng-reflect-klass="ti ti-angle-down" ng-reflect-ng-class=""></i></fa></small></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="border-bottom-0 list-group-item">
+                                    <div class="widget-content p-0">
+                                        <div class="widget-content-wrapper">
+                                            <div class="widget-content-left mr-3"><img alt="" class="rounded-circle" src="http://newpk.skrom.dev-04.affimob.pro/images/beeline.png" width="38"></div>
+                                            <div class="widget-content-left">
+                                                <div class="widget-heading">11458 | MTS Tvmood 25/1</div>
+                                                <div class="widget-subheading mt-1 opacity-10">
+                                                    <div class="badge badge-pill badge-primary">$7</div>
+                                                </div>
+                                            </div>
+                                            <div class="widget-content-right">
+                                                <div class="fsize-2 text-success"><small class="opacity-5 pr-1">$</small> 619 <small class="text-muted pl-2"><fa name="angle-down" _nghost-fmy-c2="" ng-reflect-name="angle-down"><i _ngcontent-fmy-c2="" aria-hidden="true" class="ti ti-angle-down" ng-reflect-klass="ti ti-angle-down" ng-reflect-ng-class=""></i></fa></small></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                                             <!-- /.card-body -->
@@ -275,6 +353,7 @@ small{font-size:80%;font-weight:400;}
         <!-- /#right-panel -->
         <!-- Scripts -->
 <?php include 'scripts.php'; ?>
+
 
 
 </body>
