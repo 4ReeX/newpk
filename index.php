@@ -294,6 +294,11 @@ include 'header.php';  //любой файл который мы хотим по
 
                         </div>
                         <!-- /# column -->
+<?php include 'news.php'; ?>
+
+
+
+
                     </div>
                     <!--  /Traffic -->
                     <div class="clearfix"></div>
