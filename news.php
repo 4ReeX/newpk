@@ -60,7 +60,22 @@ md-card {
   -webkit-box-orient: vertical;
 }
 
+
+i.icon-bg {    height: 50%;    width: auto;    opacity: 0.3;}
 md-card .card-bg-icon md-icon {    height: 50%;    width: auto;    opacity: 0.3;}
+i.iconNews {
+    font-size: 20px;
+    font-weight: 500;
+    color: #757575;
+}
+.card-bg-icon i {
+    font-size: 13rem;
+    color: #000;
+    opacity: 0.2;
+    top: 0rem;
+    right: -18rem;
+    position: absolute;
+}
  .newsCarousel {
   display: flex;
   flex-direction: row;
@@ -83,10 +98,10 @@ md-card .card-bg-icon md-icon {    height: 50%;    width: auto;    opacity: 0.3;
       <md-card>
         <md-card-content class="card-success">
           <div class="card-bg-icon">
-            <md-icon md-svg-src="dist/img/icons/ic_hearing_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M34 40c-.57 0-1.13-.12-1.53-.3-1.41-.75-2.43-1.77-3.42-4.77-1.03-3.11-2.94-4.58-4.79-6.01-1.58-1.22-3.22-2.48-4.63-5.05C18.58 21.95 18 19.86 18 18c0-5.61 4.39-10 10-10s10 4.39 10 10h4c0-7.85-6.15-14-14-14s-14 6.15-14 14c0 2.53.76 5.3 2.13 7.8 1.82 3.31 3.97 4.96 5.7 6.3 1.62 1.25 2.79 2.15 3.43 4.09 1.2 3.63 2.75 5.68 5.45 7.1 1.04.47 2.14.71 3.29.71 4.41 0 8-3.59 8-8h-4c0 2.21-1.79 4-4 4zM15.27 5.27l-2.83-2.83C8.46 6.42 6 11.92 6 18s2.46 11.58 6.44 15.56l2.83-2.83C12.01 27.47 10 22.97 10 18s2.01-9.47 5.27-12.73zM23 18c0 2.76 2.24 5 5 5s5-2.24 5-5-2.24-5-5-5-5 2.24-5 5z"></path></svg></md-icon>
+            <i class="ti ti-shopping-cart-full"></i>
           </div>
-          <md-icon md-svg-src="dist/img/icons/ic_hearing_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M34 40c-.57 0-1.13-.12-1.53-.3-1.41-.75-2.43-1.77-3.42-4.77-1.03-3.11-2.94-4.58-4.79-6.01-1.58-1.22-3.22-2.48-4.63-5.05C18.58 21.95 18 19.86 18 18c0-5.61 4.39-10 10-10s10 4.39 10 10h4c0-7.85-6.15-14-14-14s-14 6.15-14 14c0 2.53.76 5.3 2.13 7.8 1.82 3.31 3.97 4.96 5.7 6.3 1.62 1.25 2.79 2.15 3.43 4.09 1.2 3.63 2.75 5.68 5.45 7.1 1.04.47 2.14.71 3.29.71 4.41 0 8-3.59 8-8h-4c0 2.21-1.79 4-4 4zM15.27 5.27l-2.83-2.83C8.46 6.42 6 11.92 6 18s2.46 11.58 6.44 15.56l2.83-2.83C12.01 27.47 10 22.97 10 18s2.01-9.47 5.27-12.73zM23 18c0 2.76 2.24 5 5 5s5-2.24 5-5-2.24-5-5-5-5 2.24-5 5z"></path></svg></md-icon>
-
+          
+          <i class="iconNews ti ti-shopping-cart-full"></i>
           <h3>Появился новый оффер</h3>
 
           <p class="news-text-preview">
@@ -95,14 +110,31 @@ md-card .card-bg-icon md-icon {    height: 50%;    width: auto;    opacity: 0.3;
         </md-card-content>
       </md-card>
     </div>
+    
+
 
     <div class="col-sm-3">
       <md-card>
         <md-card-content class="card-info">
           <div class="card-bg-icon">
-            <md-icon md-svg-src="dist/img/icons/ic_add_alarm_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M15.76 6.78l-2.57-3.06L4 11.43l2.57 3.06 9.19-7.71zM44 11.44l-9.19-7.71-2.57 3.06 9.19 7.71L44 11.44zM23.99 8C14.04 8 6 16.06 6 26s8.04 18 17.99 18S42 35.94 42 26 33.94 8 23.99 8zM24 40c-7.73 0-14-6.27-14-14s6.27-14 14-14 14 6.27 14 14-6.26 14-14 14zm2-22h-4v6h-6v4h6v6h4v-6h6v-4h-6v-6z"></path></svg></md-icon>
+            <i class="ti ti-package"></i>
           </div>
-          <md-icon md-svg-src="dist/img/icons/ic_add_alarm_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M15.76 6.78l-2.57-3.06L4 11.43l2.57 3.06 9.19-7.71zM44 11.44l-9.19-7.71-2.57 3.06 9.19 7.71L44 11.44zM23.99 8C14.04 8 6 16.06 6 26s8.04 18 17.99 18S42 35.94 42 26 33.94 8 23.99 8zM24 40c-7.73 0-14-6.27-14-14s6.27-14 14-14 14 6.27 14 14-6.26 14-14 14zm2-22h-4v6h-6v4h6v6h4v-6h6v-4h-6v-6z"></path></svg></md-icon>
+           <i class="iconNews ti ti-package"></i>
+          <h3>Обновление кабинета</h3>
+          <p class="news-text-preview">
+            Версия партнёрского кабината 1.221 (основной список изменений)
+          </p>
+        </md-card-content>
+      </md-card>
+    </div> 
+
+    <div class="col-sm-3">
+      <md-card>
+        <md-card-content class="card-info">
+          <div class="card-bg-icon">
+           <i class="ti ti-ruler-alt-2"></i>
+          </div>
+         <i class="iconNews ti ti-ruler-alt-2"></i>
           <h3>Новый функционал</h3>
           <p class="news-text-preview">
             В партнёрском кабинете появилась функция рассчёта доходности по принципу пальцем в небо.
@@ -115,9 +147,9 @@ md-card .card-bg-icon md-icon {    height: 50%;    width: auto;    opacity: 0.3;
       <md-card>
         <md-card-content class="card-warning">
           <div class="card-bg-icon">
-            <md-icon md-svg-src="dist/img/icons/ic_redeem_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M40 12h-4.37c.22-.63.37-1.29.37-2 0-3.31-2.69-6-6-6-2.09 0-3.93 1.07-5 2.69l-1 1.36-1-1.36C21.93 5.07 20.09 4 18 4c-3.31 0-6 2.69-6 6 0 .71.14 1.37.37 2H8c-2.21 0-3.98 1.79-3.98 4L4 38c0 2.21 1.79 4 4 4h32c2.21 0 4-1.79 4-4V16c0-2.21-1.79-4-4-4zM30 8c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zM18 8c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm22 30H8v-4h32v4zm0-10H8V16h10.16L14 21.67 17.25 24 22 17.53l2-2.72 2 2.72L30.75 24 34 21.67 29.84 16H40v12z"></path></svg></md-icon>
+            <i class="ti ti-car"></i>
           </div>
-          <md-icon md-svg-src="dist/img/icons/ic_redeem_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M40 12h-4.37c.22-.63.37-1.29.37-2 0-3.31-2.69-6-6-6-2.09 0-3.93 1.07-5 2.69l-1 1.36-1-1.36C21.93 5.07 20.09 4 18 4c-3.31 0-6 2.69-6 6 0 .71.14 1.37.37 2H8c-2.21 0-3.98 1.79-3.98 4L4 38c0 2.21 1.79 4 4 4h32c2.21 0 4-1.79 4-4V16c0-2.21-1.79-4-4-4zM30 8c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zM18 8c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm22 30H8v-4h32v4zm0-10H8V16h10.16L14 21.67 17.25 24 22 17.53l2-2.72 2 2.72L30.75 24 34 21.67 29.84 16H40v12z"></path></svg></md-icon>
+          <i class="iconNews ti ti-car"></i>
           <h3>Новый розыгрыш</h3>
           <p class="news-text-preview">
             Сегодня в розыгрыше у нас ААААААВТОМОБИЛЬ!
@@ -130,9 +162,9 @@ md-card .card-bg-icon md-icon {    height: 50%;    width: auto;    opacity: 0.3;
       <md-card>
         <md-card-content class="card-danger">
           <div class="card-bg-icon">
-            <md-icon md-svg-src="dist/img/icons/ic_insert_comment_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M40 4H8C5.79 4 4 5.79 4 8v24c0 2.21 1.79 4 4 4h28l8 8V8c0-2.21-1.79-4-4-4zm-4 24H12v-4h24v4zm0-6H12v-4h24v4zm0-6H12v-4h24v4z"></path></svg></md-icon>
+            <i class="ti ti-comment-alt"></i>
           </div>
-          <md-icon md-svg-src="dist/img/icons/ic_insert_comment_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M40 4H8C5.79 4 4 5.79 4 8v24c0 2.21 1.79 4 4 4h28l8 8V8c0-2.21-1.79-4-4-4zm-4 24H12v-4h24v4zm0-6H12v-4h24v4zm0-6H12v-4h24v4z"></path></svg></md-icon>
+          <i class="iconNews ti-comment-alt"></i>
           <h3>Новость про чат</h3>
           <p class="news-text-preview">
             Любой текст который вы оставите здесь, обрежется на 2 строки не зависимо от размеров блока, ширины, шрифтов и прочей лабуды
