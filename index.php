@@ -38,7 +38,6 @@ include 'header.php';  //любой файл который мы хотим по
                                                             <div class="jss8">
                                                                 <div class=" css-2b097c-container">
                                                                     <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
-                                                                        <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Дата</label>
                                                                         <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
                                                                             <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
                                                                                 <div class="jss10"><input type="date" value="06.04.2020" class="ss noBorderInput"></div>
@@ -56,7 +55,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                             <div class="jss8">
                                                                 <div class=" css-2b097c-container">
                                                                     <div class="nowrap-custom">
-                                                                        <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="">Период</label>
+                                                                        
                                                                         <button class="icon-btn selected" title="Сегодня"><i class="date-icon icon-day"></i></button>
                                                                         <button class="icon-btn" title="2 дня"><i class="date-icon icon-2"></i></button>
                                                                         <button class="icon-btn" title="7 дней"><i class="date-icon icon-7"></i></button>
@@ -70,7 +69,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                             <div class="jss8">
                                                                 <div class=" css-2b097c-container">
                                                                     <div class="nowrap-custom">
-                                                                        <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="">Оператор</label>
+                                                                        
                                                                         <button class="icon-btn"><img src="images/beeline.png" alt=""></button>
                                                                         <button class="icon-btn"><img src="images/megafon.png" alt=""></button>
                                                                         <button class="icon-btn"><img src="images/mts.png" alt=""></button>
@@ -83,7 +82,7 @@ include 'header.php';  //любой файл который мы хотим по
 
                                                     </div>
 
-                                                    <div id="traffic-chart" class="traffic-chart" style="background: #d3d3d3; display: flex; align-items: center; justify-content: center; color: #666; font-weight: 700; width: 100%; height: 400px;">График из панели Антона
+                                                    <div id="traffic-chart" class="traffic-chart" style="background: #d3d3d3; display: flex; align-items: center; justify-content: center; color: #666; font-weight: 700; width: 100%; height: 400px;"><img src="images/gr.png" alt="" style="width: 100%; height: 100%;">
 
                                                     </div>
                                                     <br>
@@ -317,7 +316,9 @@ include 'header.php';  //любой файл который мы хотим по
 <?php include 'scripts.php'; ?>
 
 
-
+<script>
+  
+</script>
 </body>
 
 </html>

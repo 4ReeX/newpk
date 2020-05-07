@@ -14,5 +14,6 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css?v12s1">
     <link rel="stylesheet" href="assets/css/media.css?v12s1" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.0/css/flag-icon.min.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.0/css/flag-icon.min.css">   
+    <script type="text/javascript" src="assets/js/jquery.touchSwipe.min.js"></script> 
 </head>

@@ -59,7 +59,7 @@ jQuery(document).ready(function($) {
     });
 
      
-    
+  /*  
 jQuery(document).ready(function() {
         jQuery(".standardSelect").chosen({
             disable_search_threshold: 10,
@@ -73,15 +73,14 @@ jQuery(".standardSelect").chosen({
     no_results_text: "Oops, nothing found!",
     width: "100%"
 });
-});
- 
+}); */  
 
 
-/*$('.hidenHover').hover(
+$('.hidenHover').hover(
   function() {
        $('.hidenHover').toggleClass('openHover');
   }
-);*/
+);
 
 
 
@@ -242,7 +241,7 @@ document.getElementById('fullWidth1').style.width = FinalWidth1 + "px";
 document.getElementById('fullWidth1').style.maxWidth = "100%";
 document.getElementById('fullWidth1').style.minWidth = "100%";
 };
-$(function () {
+/*$(function () {
     
         // Mobiscroll Date & Time initialization
         $('#demo-mobile').mobiscroll().date({
@@ -256,7 +255,7 @@ $(function () {
         });
     
     });
-
+*/
     $(window).on("load resize", function(event) { 
     var windowWidthS = $(window).width();      
     if (windowWidthS<1381) {
@@ -309,3 +308,30 @@ $('modal').setAttribute("aria-hidden", "true");
 $('.list-group-item').on('click', function(event) {
         $(this).toggleClass("active");
     });
+
+
+
+
+// timeline - блок с горизонтальным скроллом
+var timeline = document.getElementById('test');
+timeline.onmousedown = () => {
+  let pageX = 0;
+
+  document.onmousemove = e => {
+    if (pageX !== 0) {
+      timeline.scrollLeft = timeline.scrollLeft + (pageX - e.pageX);
+    }
+    pageX = e.pageX;
+  };
+
+  // заканчиваем выполнение событий
+  timeline.onmouseup = () => {
+    document.onmousemove = null;
+    timeline.onmouseup = null;
+  };
+
+  // отменяем браузерный drag
+  timeline.ondragstart = () => {
+    return false;
+  };
+};

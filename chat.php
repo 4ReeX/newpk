@@ -64,10 +64,7 @@
      <input type="file" id="imgupload" style="display:none"/> 
      <i class="ti ti-upload" id="OpenImgUpload"></i><input placeholder="Напишите что нибудь..." type="text" /><i class="ti ti-angle-double-right"></i>
     </div>
-  </div>
-</div>
-</div>
-<script type="text/javascript">
+    <script type="text/javascript">
     var chat = document.getElementById('chat');
     chat.scrollTop = chat.scrollHeight - chat.clientHeight;
 
@@ -77,3 +74,6 @@
     $('.activator').click(function(){ $('.chat-box').toggle('minify'); });
     $('#startDialog').click(function(){ $('.start-window').toggle('hide'); });
 </script>
+  </div>
+</div>
+</div>

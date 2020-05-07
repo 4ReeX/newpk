@@ -1,4 +1,10 @@
 <style>
+  * {
+    -webkit-user-select: none;
+  -moz-user-select: moz-none;
+  -ms-user-select: none;
+  user-select: none;
+  }
   /*! CSS Used from: Embedded */
 md-icon{color:rgba(0,0,0,0.54);}
 /*! CSS Used from: Embedded */
@@ -16,6 +22,11 @@ h3{font-family:inherit;font-weight:500;line-height:1.1;color:inherit;}
 h3{margin-top:20px;margin-bottom:10px;}
 h3{font-size:24px;}
 p{margin:0 0 10px;}
+.col-sm-3{position:relative;min-height:1px;padding-right:15px;padding-left:15px;}
+@media (min-width:768px){
+.col-sm-3{float:left;}
+.col-sm-3{width:25%;}
+}
 /*! CSS Used from: http://adminio.themonkeythemes.com/dist/css/angular-material.min.css */
 md-card{box-sizing:border-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:8px;box-shadow:0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);}
 md-card md-card-content{display:block;padding:16px;}
@@ -31,17 +42,25 @@ svg{width:100%;}
 h3{font-weight:400;}
 body h3,html h3{display:block;-webkit-margin-before:1em;-webkit-margin-after:1em;-webkit-margin-start:0;-webkit-margin-end:0;font-size:1.17em;font-weight:700;}
 md-card md-card-content{background:#fff;position:relative;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;border-radius:3px;display:block;}
-md-card.card-background-image{background-size:cover;background-repeat:no-repeat;}
-md-card.card-background-image md-card-content{background:rgba(0,0,0,.4);color:#fff;}
-md-card.card-background-image md-icon{color:#fff;}
-md-card.card-background-image.bg1{background:url(http://adminio.themonkeythemes.com/dist/images/background/bg_weather1.png) 0/cover;}
-md-card.card-background-image.bg2{background:url(http://adminio.themonkeythemes.com/dist/images/background/bg_weather2.png) 0/cover;}
-md-card.card-background-image.bg3{background:url(http://adminio.themonkeythemes.com/dist/images/background/bg_weather3.png) 0/cover;}
-md-card-content p {color: #fff;}
-md-card{display:block;}
+md-card md-card-content.card-primary{background-color:#009688;color:#fff;}
+md-card md-card-content.card-primary md-icon{color:#fff;}
+md-card .card-bg-icon{position:absolute;left:50%;top:50%;margin-left:-100px;margin-top:-100px;font-size:200px;opacity:.3;color:#fff;}
+md-card .card-bg-icon md-icon{height:50%;width:auto;}
+md-card{display:block; cursor: pointer;}
 ::selection{background:#009688;color:#fff;}
 ::-moz-selection{background:#009688;color:#fff;}
+md-card {
+    display: block;
+    overflow: hidden;
+}
+.news-text-preview {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
 
+md-card .card-bg-icon md-icon {    height: 50%;    width: auto;    opacity: 0.3;}
  .newsCarousel {
   display: flex;
   flex-direction: row;
@@ -52,85 +71,74 @@ md-card{display:block;}
   overflow-x: auto;
   margin-bottom: 40px;
  }
+ @media screen and (max-width: 414px) {
+  .newsCarousel {
+    flex-wrap: wrap;
+  }
+ }
 
 </style>
-<div class="row newsCarousel">
-    <div class="col-sm-4  no-padding">
-      <md-card class="card-background-image bg1">
-        <md-card-content>
-          <md-icon md-svg-src="dist/img/icons/ic_insert_comment_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M40 4H8C5.79 4 4 5.79 4 8v24c0 2.21 1.79 4 4 4h28l8 8V8c0-2.21-1.79-4-4-4zm-4 24H12v-4h24v4zm0-6H12v-4h24v4zm0-6H12v-4h24v4z"></path></svg></md-icon>
-          <h3>Paracosm</h3>
-          <p>
-            The titles of Washed Out's breakthrough song and the first single
+<div class="row newsCarousel" id="test">
+    <div class="col-sm-3">
+      <md-card>
+        <md-card-content class="card-success">
+          <div class="card-bg-icon">
+            <md-icon md-svg-src="dist/img/icons/ic_hearing_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M34 40c-.57 0-1.13-.12-1.53-.3-1.41-.75-2.43-1.77-3.42-4.77-1.03-3.11-2.94-4.58-4.79-6.01-1.58-1.22-3.22-2.48-4.63-5.05C18.58 21.95 18 19.86 18 18c0-5.61 4.39-10 10-10s10 4.39 10 10h4c0-7.85-6.15-14-14-14s-14 6.15-14 14c0 2.53.76 5.3 2.13 7.8 1.82 3.31 3.97 4.96 5.7 6.3 1.62 1.25 2.79 2.15 3.43 4.09 1.2 3.63 2.75 5.68 5.45 7.1 1.04.47 2.14.71 3.29.71 4.41 0 8-3.59 8-8h-4c0 2.21-1.79 4-4 4zM15.27 5.27l-2.83-2.83C8.46 6.42 6 11.92 6 18s2.46 11.58 6.44 15.56l2.83-2.83C12.01 27.47 10 22.97 10 18s2.01-9.47 5.27-12.73zM23 18c0 2.76 2.24 5 5 5s5-2.24 5-5-2.24-5-5-5-5 2.24-5 5z"></path></svg></md-icon>
+          </div>
+          <md-icon md-svg-src="dist/img/icons/ic_hearing_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M34 40c-.57 0-1.13-.12-1.53-.3-1.41-.75-2.43-1.77-3.42-4.77-1.03-3.11-2.94-4.58-4.79-6.01-1.58-1.22-3.22-2.48-4.63-5.05C18.58 21.95 18 19.86 18 18c0-5.61 4.39-10 10-10s10 4.39 10 10h4c0-7.85-6.15-14-14-14s-14 6.15-14 14c0 2.53.76 5.3 2.13 7.8 1.82 3.31 3.97 4.96 5.7 6.3 1.62 1.25 2.79 2.15 3.43 4.09 1.2 3.63 2.75 5.68 5.45 7.1 1.04.47 2.14.71 3.29.71 4.41 0 8-3.59 8-8h-4c0 2.21-1.79 4-4 4zM15.27 5.27l-2.83-2.83C8.46 6.42 6 11.92 6 18s2.46 11.58 6.44 15.56l2.83-2.83C12.01 27.47 10 22.97 10 18s2.01-9.47 5.27-12.73zM23 18c0 2.76 2.24 5 5 5s5-2.24 5-5-2.24-5-5-5-5 2.24-5 5z"></path></svg></md-icon>
+
+          <h3>Появился новый оффер</h3>
+
+          <p class="news-text-preview">
+            Мы рады представить вашему вниманию новые, свежие, вкусные, самые лучшие в мире в инетернете офферы
           </p>
         </md-card-content>
-        
       </md-card>
     </div>
 
-    <div class="col-sm-4 no-padding">
-      <md-card class="card-background-image bg2">
-        <md-card-content>
+    <div class="col-sm-3">
+      <md-card>
+        <md-card-content class="card-info">
+          <div class="card-bg-icon">
+            <md-icon md-svg-src="dist/img/icons/ic_add_alarm_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M15.76 6.78l-2.57-3.06L4 11.43l2.57 3.06 9.19-7.71zM44 11.44l-9.19-7.71-2.57 3.06 9.19 7.71L44 11.44zM23.99 8C14.04 8 6 16.06 6 26s8.04 18 17.99 18S42 35.94 42 26 33.94 8 23.99 8zM24 40c-7.73 0-14-6.27-14-14s6.27-14 14-14 14 6.27 14 14-6.26 14-14 14zm2-22h-4v6h-6v4h6v6h4v-6h6v-4h-6v-6z"></path></svg></md-icon>
+          </div>
+          <md-icon md-svg-src="dist/img/icons/ic_add_alarm_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M15.76 6.78l-2.57-3.06L4 11.43l2.57 3.06 9.19-7.71zM44 11.44l-9.19-7.71-2.57 3.06 9.19 7.71L44 11.44zM23.99 8C14.04 8 6 16.06 6 26s8.04 18 17.99 18S42 35.94 42 26 33.94 8 23.99 8zM24 40c-7.73 0-14-6.27-14-14s6.27-14 14-14 14 6.27 14 14-6.26 14-14 14zm2-22h-4v6h-6v4h6v6h4v-6h6v-4h-6v-6z"></path></svg></md-icon>
+          <h3>Новый функционал</h3>
+          <p class="news-text-preview">
+            В партнёрском кабинете появилась функция рассчёта доходности по принципу пальцем в небо.
+          </p>
+        </md-card-content>
+      </md-card>
+    </div>
+
+    <div class="col-sm-3">
+      <md-card>
+        <md-card-content class="card-warning">
+          <div class="card-bg-icon">
+            <md-icon md-svg-src="dist/img/icons/ic_redeem_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M40 12h-4.37c.22-.63.37-1.29.37-2 0-3.31-2.69-6-6-6-2.09 0-3.93 1.07-5 2.69l-1 1.36-1-1.36C21.93 5.07 20.09 4 18 4c-3.31 0-6 2.69-6 6 0 .71.14 1.37.37 2H8c-2.21 0-3.98 1.79-3.98 4L4 38c0 2.21 1.79 4 4 4h32c2.21 0 4-1.79 4-4V16c0-2.21-1.79-4-4-4zM30 8c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zM18 8c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm22 30H8v-4h32v4zm0-10H8V16h10.16L14 21.67 17.25 24 22 17.53l2-2.72 2 2.72L30.75 24 34 21.67 29.84 16H40v12z"></path></svg></md-icon>
+          </div>
           <md-icon md-svg-src="dist/img/icons/ic_redeem_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M40 12h-4.37c.22-.63.37-1.29.37-2 0-3.31-2.69-6-6-6-2.09 0-3.93 1.07-5 2.69l-1 1.36-1-1.36C21.93 5.07 20.09 4 18 4c-3.31 0-6 2.69-6 6 0 .71.14 1.37.37 2H8c-2.21 0-3.98 1.79-3.98 4L4 38c0 2.21 1.79 4 4 4h32c2.21 0 4-1.79 4-4V16c0-2.21-1.79-4-4-4zM30 8c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zM18 8c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm22 30H8v-4h32v4zm0-10H8V16h10.16L14 21.67 17.25 24 22 17.53l2-2.72 2 2.72L30.75 24 34 21.67 29.84 16H40v12z"></path></svg></md-icon>
-          <h3>Paracosm</h3>
-          <p>
-            The titles of Washed Out's breakthrough song and the first single
+          <h3>Новый розыгрыш</h3>
+          <p class="news-text-preview">
+            Сегодня в розыгрыше у нас ААААААВТОМОБИЛЬ!
           </p>
         </md-card-content>
-        
       </md-card>
     </div>
 
-    <div class="col-sm-4 no-padding">
-      <md-card class="card-background-image bg3">
-        <md-card-content>
-          <md-icon md-svg-src="dist/img/icons/ic_camera_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M18.8 21l9.53-16.51C26.94 4.18 25.49 4 24 4c-4.8 0-9.19 1.69-12.64 4.51l7.33 12.69.11-.2zm24.28-3c-1.84-5.85-6.3-10.52-11.99-12.68L23.77 18h19.31zm.52 2H28.62l.58 1 9.53 16.5C41.99 33.94 44 29.21 44 24c0-1.37-.14-2.71-.4-4zm-26.53 4l-7.8-13.5C6.01 14.06 4 18.79 4 24c0 1.37.14 2.71.4 4h14.98l-2.31-4zM4.92 30c1.84 5.85 6.3 10.52 11.99 12.68L24.23 30H4.92zm22.54 0l-7.8 13.51c1.4.31 2.85.49 4.34.49 4.8 0 9.19-1.69 12.64-4.51L29.31 26.8 27.46 30z"></path></svg></md-icon>
-          <h3>Paracosm</h3>
-          <p>
-            The titles of Washed Out's breakthrough song and the first single
-          </p>
-        </md-card-content>
-        
-      </md-card>
-    </div>
-    <div class="col-sm-4">
-      <md-card class="card-background-image bg1">
-        <md-card-content>
+    <div class="col-sm-3">
+      <md-card>
+        <md-card-content class="card-danger">
+          <div class="card-bg-icon">
+            <md-icon md-svg-src="dist/img/icons/ic_insert_comment_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M40 4H8C5.79 4 4 5.79 4 8v24c0 2.21 1.79 4 4 4h28l8 8V8c0-2.21-1.79-4-4-4zm-4 24H12v-4h24v4zm0-6H12v-4h24v4zm0-6H12v-4h24v4z"></path></svg></md-icon>
+          </div>
           <md-icon md-svg-src="dist/img/icons/ic_insert_comment_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M40 4H8C5.79 4 4 5.79 4 8v24c0 2.21 1.79 4 4 4h28l8 8V8c0-2.21-1.79-4-4-4zm-4 24H12v-4h24v4zm0-6H12v-4h24v4zm0-6H12v-4h24v4z"></path></svg></md-icon>
-          <h3>Paracosm</h3>
-          <p>
-            The titles of Washed Out's breakthrough song and the first single
+          <h3>Новость про чат</h3>
+          <p class="news-text-preview">
+            Любой текст который вы оставите здесь, обрежется на 2 строки не зависимо от размеров блока, ширины, шрифтов и прочей лабуды
           </p>
         </md-card-content>
-        
       </md-card>
     </div>
-
-    <div class="col-sm-4">
-      <md-card class="card-background-image bg2">
-        <md-card-content>
-          <md-icon md-svg-src="dist/img/icons/ic_redeem_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M40 12h-4.37c.22-.63.37-1.29.37-2 0-3.31-2.69-6-6-6-2.09 0-3.93 1.07-5 2.69l-1 1.36-1-1.36C21.93 5.07 20.09 4 18 4c-3.31 0-6 2.69-6 6 0 .71.14 1.37.37 2H8c-2.21 0-3.98 1.79-3.98 4L4 38c0 2.21 1.79 4 4 4h32c2.21 0 4-1.79 4-4V16c0-2.21-1.79-4-4-4zM30 8c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zM18 8c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm22 30H8v-4h32v4zm0-10H8V16h10.16L14 21.67 17.25 24 22 17.53l2-2.72 2 2.72L30.75 24 34 21.67 29.84 16H40v12z"></path></svg></md-icon>
-          <h3>Paracosm</h3>
-          <p>
-            The titles of Washed Out's breakthrough song and the first single
-          </p>
-        </md-card-content>
-        
-      </md-card>
-    </div>
-
-    <div class="col-sm-4">
-      <md-card class="card-background-image bg3">
-        <md-card-content>
-          <md-icon md-svg-src="dist/img/icons/ic_camera_48px.svg" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 48 48" fit="" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M18.8 21l9.53-16.51C26.94 4.18 25.49 4 24 4c-4.8 0-9.19 1.69-12.64 4.51l7.33 12.69.11-.2zm24.28-3c-1.84-5.85-6.3-10.52-11.99-12.68L23.77 18h19.31zm.52 2H28.62l.58 1 9.53 16.5C41.99 33.94 44 29.21 44 24c0-1.37-.14-2.71-.4-4zm-26.53 4l-7.8-13.5C6.01 14.06 4 18.79 4 24c0 1.37.14 2.71.4 4h14.98l-2.31-4zM4.92 30c1.84 5.85 6.3 10.52 11.99 12.68L24.23 30H4.92zm22.54 0l-7.8 13.51c1.4.31 2.85.49 4.34.49 4.8 0 9.19-1.69 12.64-4.51L29.31 26.8 27.46 30z"></path></svg></md-icon>
-          <h3>Paracosm</h3>
-          <p>
-            The titles of Washed Out's breakthrough song and the first single
-          </p>
-        </md-card-content>
-        
-      </md-card>
-    </div>
-
-
-  </div>
+    <p><a href="#" class="btn">Больше новостей</a></p>
+</div>
