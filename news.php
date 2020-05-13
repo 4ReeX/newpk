@@ -93,7 +93,7 @@ i.iconNews {
  }
 
 </style>
-<div class="row newsCarousel" id="test">
+<div class="row newsCarousel" id="newsCar">
     <div class="col-sm-3">
       <md-card>
         <md-card-content class="card-success">

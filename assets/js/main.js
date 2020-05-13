@@ -333,7 +333,7 @@ $('.list-group-item').on('click', function(event) {
 
 
 // timeline - блок с горизонтальным скроллом
-var timeline = document.getElementById('test');
+var timeline = document.getElementById('newsCar');
 timeline.onmousedown = () => {
   let pageX = 0;
 

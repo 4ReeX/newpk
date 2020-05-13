@@ -315,10 +315,6 @@ include 'header.php';  //любой файл который мы хотим по
         <!-- Scripts -->
 <?php include 'scripts.php'; ?>
 
-
-<script>
-  
-</script>
 </body>
 
 </html>
