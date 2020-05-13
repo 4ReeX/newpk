@@ -146,6 +146,7 @@ $(function () {
 $(".collapse-card").paperCollapse();
 });
 </script>
+<script src="assets/js/paper-collapse.min.js"></script>
     </body>
 
 </html>
