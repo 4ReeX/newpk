@@ -292,8 +292,11 @@ include 'header.php';  //любой файл который мы хотим по
                             </div>
 
                         </div>
+                        <div class="card" style="overflow: hidden;">
+                            <?php include 'news.php'; ?>
+                        </div>
                         <!-- /# column -->
-<?php include 'news.php'; ?>
+
 
 
 

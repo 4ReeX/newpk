@@ -18,7 +18,7 @@ include 'header.php';  //любой файл который мы хотим по
 
 
 
-                <div class="content">
+                <div class="content" onload="openTabs1();">
                     <div class="card no-mb">
                         <div class="card-header">
                             <nav class="navitab">
@@ -40,7 +40,7 @@ include 'header.php';  //любой файл который мы хотим по
 
                         <div class="custom-tab">
                             <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade active show" id="first" style="display: block;    overflow-x: auto;    width: 100%;">
+                                <div class="tab-pane fade active show" id="first" style="overflow-x: auto;    width: 100%;">
                                     <!--start card-->
                                     <div class="card no-bor-rad-top">
                                         <div class="card-body fortabs">
@@ -194,7 +194,7 @@ include 'header.php';  //любой файл который мы хотим по
                                     </div>
 
                                 </div>
-                                <div class="tab-pane fade show" id="second" style="display: block;    overflow-x: auto;    width: 100%;">
+                                <div class="tab-pane fade show" id="second" style="overflow-x: auto;    width: 100%;">
                                     <!--start card-->
                                     <div class="card card no-bor-rad-top">
                                         <div class="card-body">
@@ -446,7 +446,7 @@ include 'header.php';  //любой файл который мы хотим по
                                     </div>
 
                                 </div>
-                                <div class="tab-pane fade show" id="third" style="display: block;    overflow-x: auto;    width: 100%;">
+                                <div class="tab-pane fade show" id="third" style="overflow-x: auto;    width: 100%;">
                                     <div class="card card no-bor-rad-top">
                                         <div class="card-body">
                                             <section id="filters">
@@ -618,6 +618,26 @@ include 'header.php';  //любой файл который мы хотим по
 
     
    
+</script>
+<script type="text/javascript">
+    function openTabs1() {
+    $('#first').show();
+    $('#second').hide();
+    $('#third').hide();
+};
+
+function openTabs2() {
+    $('#first').hide('fast');
+    $('#second').show('fast');
+    $('#third').hide('fast');
+};
+
+function openTabs3() {
+    $('#first').hide('fast');
+    $('#second').hide('fast');
+    $('#third').show('fast');
+};
+
 </script>
 <!--<script>
     $('.ti-link').on('click', function(event) {

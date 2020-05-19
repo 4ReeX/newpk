@@ -58,30 +58,11 @@ jQuery(document).ready(function($) {
       $('#createPotok').toggleClass('display-none');
     });
 
-     
-    
-jQuery(document).ready(function() {
-        jQuery(".standardSelect").chosen({
-            disable_search_threshold: 10,
-            no_results_text: "Oops, nothing found!",
-            width: "100%"
-        });
-});
-jQuery(document).ready(function() {
-jQuery(".standardSelect").chosen({
-    disable_search_threshold: 10,
-    no_results_text: "Oops, nothing found!",
-    width: "100%"
-});
-});
- 
-
-
-/*$('.hidenHover').hover(
+$('.hidenHover').hover(
   function() {
        $('.hidenHover').toggleClass('openHover');
   }
-);*/
+);
 
 
 
@@ -155,58 +136,19 @@ $('#link2').attr("disabled", false);
 
 function link1() {
     location.href = "poluchenie_ssilok.php"
-}
+};
 function link2(){
         location.href = "offers.php"
-}
+};
 function clickMe() {
         $(".linkToCopy").val("http://s2s.affimob.com/click?key=eromix&offer_id=11694&tmpl=eromix274&partner_id=125198&source_id=0&pt_id=%7BPK%7D");
 
-}
+};
 function auto_grow(element) {
     element.style.height = "5px";
     element.style.height = (element.scrollHeight)+"px";
-}
-
-function openTabs1() {
-    $('#first').show('fast');
-    $('#second').hide('fast');
-    $('#third').hide('fast');
 };
 
-function openTabs2() {
-    $('#first').hide('fast');
-    $('#second').show('fast');
-    $('#third').hide('fast');
-};
-
-function openTabs3() {
-    $('#first').hide('fast');
-    $('#second').hide('fast');
-    $('#third').show('fast');
-};
-
-
-
-
-
-jQuery(document).ready(function() {
-        jQuery(".standardSelect").chosen({
-            disable_search_threshold: 10,
-            no_results_text: "Oops, nothing found!",
-            width: "100%"
-        });
-});
-
-
-
-jQuery(document).ready(function() {
-jQuery(".standardSelect").chosen({
-    disable_search_threshold: 10,
-    no_results_text: "Oops, nothing found!",
-    width: "100%"
-});
-});
 
 function myFunction2() {
 var x = document.getElementById("http2");
@@ -262,20 +204,6 @@ document.getElementById('fullWidth1').style.width = FinalWidth1 + "px";
 document.getElementById('fullWidth1').style.maxWidth = "100%";
 document.getElementById('fullWidth1').style.minWidth = "100%";
 };
-$(function () {
-    
-        // Mobiscroll Date & Time initialization
-        $('#demo-mobile').mobiscroll().date({
-            display: 'bubble'   // Specify display mode like: display: 'bottom' or omit setting to use default
-        });
-    
-        // Mobiscroll Date & Time initialization
-        $('#demo-desktop').mobiscroll().date({
-            display: 'bubble',  // Specify display mode like: display: 'bottom' or omit setting to use default
-            touchUi: false      // More info about touchUi: https://docs.mobiscroll.com/4-8-3/datetime#opt-touchUi
-        });
-    
-    });
 
     $(window).on("load resize", function(event) { 
     var windowWidthS = $(window).width();      

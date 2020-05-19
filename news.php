@@ -96,7 +96,7 @@ i.iconNews {
 <div class="row newsCarousel" id="newsCar">
     <div class="col-sm-3">
       <md-card>
-        <md-card-content class="card-success">
+        <md-card-content class="card-danger" data-toggle="modal" data-target="#modalFullNews">
           <div class="card-bg-icon">
             <i class="ti ti-shopping-cart-full"></i>
           </div>
@@ -115,7 +115,7 @@ i.iconNews {
 
     <div class="col-sm-3">
       <md-card>
-        <md-card-content class="card-info">
+        <md-card-content class="card-danger" data-toggle="modal" data-target="#modalFullNews">
           <div class="card-bg-icon">
             <i class="ti ti-package"></i>
           </div>
@@ -130,7 +130,7 @@ i.iconNews {
 
     <div class="col-sm-3">
       <md-card>
-        <md-card-content class="card-info">
+        <md-card-content class="card-danger" data-toggle="modal" data-target="#modalFullNews">
           <div class="card-bg-icon">
            <i class="ti ti-ruler-alt-2"></i>
           </div>
@@ -145,7 +145,7 @@ i.iconNews {
 
     <div class="col-sm-3">
       <md-card>
-        <md-card-content class="card-warning">
+        <md-card-content class="card-danger" data-toggle="modal" data-target="#modalFullNews">
           <div class="card-bg-icon">
             <i class="ti ti-car"></i>
           </div>
@@ -160,7 +160,7 @@ i.iconNews {
 
     <div class="col-sm-3">
       <md-card>
-        <md-card-content class="card-danger">
+        <md-card-content class="card-danger" data-toggle="modal" data-target="#modalFullNews">
           <div class="card-bg-icon">
             <i class="ti ti-comment-alt"></i>
           </div>
@@ -173,4 +173,29 @@ i.iconNews {
       </md-card>
     </div>
     <p><a href="#" class="btn">Больше новостей</a></p>
+</div>
+
+<!-- The Modal -->
+<div class="modal fade" id="modalFullNews">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Заголовок новости</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <?php include 'statya.php'; ?>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Больше не показывать</button>
+      </div>
+
+    </div>
+  </div>
 </div>
