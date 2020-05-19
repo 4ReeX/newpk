@@ -19,10 +19,12 @@ include 'header.php';  //любой файл который мы хотим по
 <style>
 	.zagolovok {font-size: 22px; color: #}
 	.form-news label {font-size: 10px; padding: 0; position: absolute; top: 0; left: 10px;}
-	.prevBlock {width: 50px; height: 50px; border-radius: 50%; display: flex; flex-direction: row;justify-content: center; align-items: center; float: left; cursor: pointer; margin: 0 2px; border: 1px solid #ededed; transition: all 0.3s ease;}
-	.prevBlock {background: url(../../images/Preview-icon.png) no-repeat center center; background-size: contain;}
-	.prevBlock.add {background: url(../../images/add.png) no-repeat center center; background-size: 80%; border-radius: 50%; }
-	.prevBlock:hover {border: 1px solid #999; background-color: #eee; }
+	.prevBlock {width: 50px; height: 50px; border-radius: 50%; display: flex; flex-direction: row;justify-content: center; align-items: center; float: left; cursor: pointer; margin: 0 2px; border: 1px solid #fff; transition: all 0.3s ease; cursor: pointer;}
+	.prevBlock {background: no-repeat center center; background-size: contain; border: 1px solid #f3f3f3; overflow: hidden;position: relative;}
+  .prevBlock i {font-size: 22px;}
+.prevBlock img {    width: 200px!important;    height: 50px;    display: block;    position: absolute;    border-radius: 100%;}
+	.prevBlock.add {background: no-repeat center center; background-size: 80%; border-radius: 50%; }
+	.prevBlock:hover {border: 1px solid #fff; background-color: #eee; }
 	select.selectIcons {  font-family: themify, sans-serif; font-size: 12px!important;}
 	select.selectIcons option{  font-family: themify, sans-serif; font-size: 16px!important;}
 	.groupOption {font-size: 14px; font-weight: 700; color: #000;}
@@ -34,6 +36,7 @@ include 'header.php';  //любой файл который мы хотим по
   padding: 25px;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.125);
 }
+
 
 .social_media_wrap .item {
   display: flex;
@@ -52,8 +55,8 @@ include 'header.php';  //любой файл который мы хотим по
 }
 
 .item .item_left .media_box {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 10px;
   border: 1px solid #d5d6d8;
   color: #d5d6d8;
@@ -126,7 +129,7 @@ include 'header.php';  //любой файл который мы хотим по
 
 .item.telegram.active .media_box{
   background: #2b9ed7;
-  border-color: #e4405f;
+  border-color: #fff;
   color: #fff;
 }
 
@@ -263,13 +266,10 @@ include 'header.php';  //любой файл который мы хотим по
 </div>
 <div class="col-12 pb-3">
 	<div class="row">
-		<div class="prevBlock"></div>
-		<div class="prevBlock"></div>
-		<div class="prevBlock"></div>
-		<div class="prevBlock add">
-	</div>
-	
-
+		<div class="prevBlock"><img src="statyaImg1.png" alt=""></div>
+		<div class="prevBlock"><img src="statyaImg1.png" alt=""></div>
+		<div class="prevBlock"><i class="ti ti-gallery"></i></div>
+		<div class="prevBlock add"><i class="ti ti-export"></i></div>
 </div>
 </div>
 <div class="col-12 pb-3">
@@ -300,9 +300,10 @@ include 'header.php';  //любой файл который мы хотим по
 										  <thead>
 										    <tr>
 										      <th>#</th>
+                          <th>Дата/время создания</th>
 										      <th>Заголовок</th>
 										      <th>Тематика</th>
-										      <th>Дата/время</th>
+										      <th>Дата/время публикации</th>
 										      <th>Статус</th>
 										    </tr>
 										  </thead>
@@ -312,6 +313,7 @@ include 'header.php';  //любой файл который мы хотим по
 										  <tbody>
 										    <tr>
 										      <th scope="row">4</th>
+                          <td>14.05.2020 16:20</td>
 										      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, in..</td>
 										      <td>Техническая</td>
 										      <td>14.05.2020 16:20</td>
@@ -319,13 +321,127 @@ include 'header.php';  //любой файл который мы хотим по
 										    </tr>
 										    <tr>
 										      <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
 										      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
 										      <td>Офферы</td>
 										      <td>14.05.2020 16:20</td>
 										      <td><i class="ti ti-check"></i></td>
 										    </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td>Офферы</td>
+                          <td>14.05.2020 16:20</td>
+                          <td><i class="ti ti-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td>Офферы</td>
+                          <td>14.05.2020 16:20</td>
+                          <td><i class="ti ti-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td>Офферы</td>
+                          <td>14.05.2020 16:20</td>
+                          <td><i class="ti ti-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td>Офферы</td>
+                          <td>14.05.2020 16:20</td>
+                          <td><i class="ti ti-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td>Офферы</td>
+                          <td>14.05.2020 16:20</td>
+                          <td><i class="ti ti-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td>Офферы</td>
+                          <td>14.05.2020 16:20</td>
+                          <td><i class="ti ti-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td>Офферы</td>
+                          <td>14.05.2020 16:20</td>
+                          <td><i class="ti ti-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td>Офферы</td>
+                          <td>14.05.2020 16:20</td>
+                          <td><i class="ti ti-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td>Офферы</td>
+                          <td>14.05.2020 16:20</td>
+                          <td><i class="ti ti-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td>Офферы</td>
+                          <td>14.05.2020 16:20</td>
+                          <td><i class="ti ti-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td>Офферы</td>
+                          <td>14.05.2020 16:20</td>
+                          <td><i class="ti ti-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td>Офферы</td>
+                          <td>14.05.2020 16:20</td>
+                          <td><i class="ti ti-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td>Офферы</td>
+                          <td>14.05.2020 16:20</td>
+                          <td><i class="ti ti-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>14.05.2020 16:20</td>
+                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td>Офферы</td>
+                          <td>14.05.2020 16:20</td>
+                          <td><i class="ti ti-check"></i></td>
+                        </tr>
 										    <tr>
 										      <th scope="row">6</th>
+                          <td>14.05.2020 16:20</td>
 										      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
 										      <td>Конкурс</td>
 										      <td>14.05.2020 16:20</td>
@@ -333,6 +449,7 @@ include 'header.php';  //любой файл который мы хотим по
 										    </tr>
 										    <tr>
 										      <th scope="row">7</th>
+                          <td>14.05.2020 16:20</td>
 										      <td>Lorem ipsum dolor sit amet, consectetur adipisicing.</td>
 										      <td>Кейсы</td>
 										      <td>14.05.2020 16:20</td>
@@ -340,6 +457,7 @@ include 'header.php';  //любой файл который мы хотим по
 										    </tr>
 										    <tr>
 										      <th scope="row">8</th>
+                          <td>14.05.2020 16:20</td>
 										      <td>Lorem ipsum dolor sit amet, consectetur.</td>
 										      <td>Разное</td>
 										      <td>14.05.2020 16:20</td>
@@ -347,6 +465,7 @@ include 'header.php';  //любой файл который мы хотим по
 										    </tr>
 										    <tr>
 										      <th scope="row">9</th>
+                          <td>14.05.2020 16:20</td>
 										      <td>Lorem ipsum.</td>
 										      <td>Какая то еще</td>
 										      <td>14.05.2020 16:20</td>
