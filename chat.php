@@ -23,9 +23,6 @@
         Tony Stark
       </div>
       <div class="seen">
-        Сегодня в 12:56
-      </div>
-      <div class="seen">
         ID 5653235
       </div>
     </div>
