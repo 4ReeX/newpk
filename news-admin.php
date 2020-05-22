@@ -15,155 +15,6 @@ include 'sidebar-admin.php';  //любой файл который мы хоти
 include 'header.php';  //любой файл который мы хотим подключить в этой части документа
 ?>
                     <!-- Header-->
-
-<style>
-	.zagolovok {font-size: 22px; color: #}
-	.form-news label {font-size: 10px; padding: 0; position: absolute; top: 0; left: 10px;}
-	.prevBlock {width: 50px; height: 50px; border-radius: 50%; display: flex; flex-direction: row;justify-content: center; align-items: center; float: left; cursor: pointer; margin: 0 2px; border: 1px solid #fff; transition: all 0.3s ease; cursor: pointer;}
-	.prevBlock {background: no-repeat center center; background-size: contain; border: 1px solid #f3f3f3; overflow: hidden;position: relative;}
-  .prevBlock i {font-size: 22px;}
-.prevBlock img {    width: 200px!important;    height: 50px;    display: block;    position: absolute;    border-radius: 100%;}
-	.prevBlock.add {background: no-repeat center center; background-size: 80%; border-radius: 50%; }
-	.prevBlock:hover {border: 1px solid #fff; background-color: #eee; }
-	select.selectIcons {  font-family: themify, sans-serif; font-size: 12px!important;}
-	select.selectIcons option{  font-family: themify, sans-serif; font-size: 16px!important;}
-	.groupOption {font-size: 14px; font-weight: 700; color: #000;}
-  @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-  .social-media-wrap {margin: 0;  padding: 0;  box-sizing: border-box;  font-family: "Montserrat", sans-serif;}
-  .wrapper .container .social_media_wrap {
-  background: #fff;
-  border-radius: 20px;
-  padding: 25px;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.125);
-}
-
-
-.social_media_wrap .item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.social_media_wrap .item:last-child {
-  margin-bottom: 0;
-}
-
-.social_media_wrap .item .item_left {
-  display: flex;
-  align-items: center;
-}
-
-.item .item_left .media_box {
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
-  border: 1px solid #d5d6d8;
-  color: #d5d6d8;
-  position: relative;
-  margin-right: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.media_box .fa {
-  font-size: 22px;
-}
-
-.item .item_left .media_box .fab {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.item .item_left .media_text {
-  color: #2a5885;
-}
-
-.item .item_right .checkbox {
-  width: 65px;
-  height: 35px;
-  position: relative;
-  appearance: none;
-  -webkit-appearance: none;
-  background: #f0f0f0;
-  border-radius: 25px;
-  outline: none;
-  cursor: pointer;
-}
-
-.item .item_right .checkbox:before {
-  content: "";
-  position: absolute;
-  top: 4px;
-  left: 5px;
-  width: 28px;
-  height: 28px;
-  background: #f0f0f0;
-  border-radius: 50%;
-  box-shadow: 0 0 2px rgba(0,0,0,0.35);
-  transition: all 0.2s ease;
-}
-
-.item .item_right .checkbox:checked:before{
-  left: 32px;
-  background: #fb9a39;
-}
-
-.item.facebook.active .media_box{
-  background: #3b5999;
-  border-color: #3b5999;
-  color: #fff;
-}
-
-
-.item.twitter.active .media_box{
-  background: #55acee;
-  border-color: #55acee;
-  color: #fff;
-}
-
-
-
-.item.telegram.active .media_box{
-  background: #2b9ed7;
-  border-color: #fff;
-  color: #fff;
-}
-
-
-
-.item.linkedin.active .media_box{
-  background: #0077B5;
-  border-color: #0077B5;
-  color: #fff;
-}
-
-
-.icon-social {max-width: 50%;}
-.iFlex {
-  width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.item.vk.active .media_box {
-  background: #2a5885;
-   border-color: #0077B5;
-  color: #fff;
-}
-
-
-
-
-	
-
-</style>
                     <div class="content">
                         <div class="animated fadeIn">
                             <div class="row">
@@ -171,11 +22,11 @@ include 'header.php';  //любой файл который мы хотим по
 
                             	<!--end col-md-4-->   
                             	<div class="col-md-6">
-                            		<div class="card card-outline-secondary">
+                            		<div class="card card-outline-secondary" >
 <div class="card-header">
 <h4 class="mb-0">Создание/Редактирование новости</h4>
 </div>
-<div class="card-body">
+<div class="card-body" id="createNewsForm">
 <div class="row mt-4">
 
 <div class="col-sm-4 pb-3">
@@ -266,8 +117,8 @@ include 'header.php';  //любой файл который мы хотим по
 </div>
 <div class="col-12 pb-3">
 	<div class="row">
-		<div class="prevBlock"><img src="statyaImg1.png" alt=""></div>
-		<div class="prevBlock"><img src="statyaImg1.png" alt=""></div>
+		<div class="prevBlock"><img src="images/statyaImg1.png" alt=""></div>
+		<div class="prevBlock"><img src="images/statyaImg1.png" alt=""></div>
 		<div class="prevBlock"><i class="ti ti-gallery"></i></div>
 		<div class="prevBlock add"><i class="ti ti-export"></i></div>
 </div>
@@ -292,7 +143,7 @@ include 'header.php';  //любой файл который мы хотим по
 									<div class="card-header">
 									<h4 class="mb-0">Пул новостей</h4>
 									</div>
-                                	<div class="card-body">
+                                	<div class="card-body" id="pulTableBody">
                                 		<!--Table-->
 										<table class="table table-hover table-fixed">
 
@@ -300,10 +151,10 @@ include 'header.php';  //любой файл который мы хотим по
 										  <thead>
 										    <tr>
 										      <th>#</th>
-                          <th>Дата/время создания</th>
+                          <th><i class="ti ti-calendar"></i> / <i class="ti ti-time"></i> создания</th>
 										      <th>Заголовок</th>
 										      <th>Тематика</th>
-										      <th>Дата/время публикации</th>
+										       <th><i class="ti ti-calendar"></i> / <i class="ti ti-time"></i> публикации</th>
 										      <th>Статус</th>
 										    </tr>
 										  </thead>
@@ -314,7 +165,7 @@ include 'header.php';  //любой файл который мы хотим по
 										    <tr>
 										      <th scope="row">4</th>
                           <td>14.05.2020 16:20</td>
-										      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, in..</td>
+										      <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumqueasdasdasda asd asd a sd as ds da sd .</td>
 										      <td>Техническая</td>
 										      <td>14.05.2020 16:20</td>
 										      <td><i class="ti ti-check"></i></td>
@@ -322,7 +173,7 @@ include 'header.php';  //любой файл который мы хотим по
 										    <tr>
 										      <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-										      <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+										      <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
 										      <td>Офферы</td>
 										      <td>14.05.2020 16:20</td>
 										      <td><i class="ti ti-check"></i></td>
@@ -330,7 +181,7 @@ include 'header.php';  //любой файл который мы хотим по
                         <tr>
                           <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
                           <td>Офферы</td>
                           <td>14.05.2020 16:20</td>
                           <td><i class="ti ti-check"></i></td>
@@ -338,7 +189,7 @@ include 'header.php';  //любой файл который мы хотим по
                         <tr>
                           <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
                           <td>Офферы</td>
                           <td>14.05.2020 16:20</td>
                           <td><i class="ti ti-check"></i></td>
@@ -346,7 +197,7 @@ include 'header.php';  //любой файл который мы хотим по
                         <tr>
                           <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
                           <td>Офферы</td>
                           <td>14.05.2020 16:20</td>
                           <td><i class="ti ti-check"></i></td>
@@ -354,7 +205,7 @@ include 'header.php';  //любой файл который мы хотим по
                         <tr>
                           <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
                           <td>Офферы</td>
                           <td>14.05.2020 16:20</td>
                           <td><i class="ti ti-check"></i></td>
@@ -362,7 +213,7 @@ include 'header.php';  //любой файл который мы хотим по
                         <tr>
                           <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
                           <td>Офферы</td>
                           <td>14.05.2020 16:20</td>
                           <td><i class="ti ti-check"></i></td>
@@ -370,7 +221,7 @@ include 'header.php';  //любой файл который мы хотим по
                         <tr>
                           <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
                           <td>Офферы</td>
                           <td>14.05.2020 16:20</td>
                           <td><i class="ti ti-check"></i></td>
@@ -378,7 +229,7 @@ include 'header.php';  //любой файл который мы хотим по
                         <tr>
                           <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
                           <td>Офферы</td>
                           <td>14.05.2020 16:20</td>
                           <td><i class="ti ti-check"></i></td>
@@ -386,7 +237,7 @@ include 'header.php';  //любой файл который мы хотим по
                         <tr>
                           <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
                           <td>Офферы</td>
                           <td>14.05.2020 16:20</td>
                           <td><i class="ti ti-check"></i></td>
@@ -394,7 +245,7 @@ include 'header.php';  //любой файл который мы хотим по
                         <tr>
                           <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
                           <td>Офферы</td>
                           <td>14.05.2020 16:20</td>
                           <td><i class="ti ti-check"></i></td>
@@ -402,7 +253,7 @@ include 'header.php';  //любой файл который мы хотим по
                         <tr>
                           <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
                           <td>Офферы</td>
                           <td>14.05.2020 16:20</td>
                           <td><i class="ti ti-check"></i></td>
@@ -410,7 +261,7 @@ include 'header.php';  //любой файл который мы хотим по
                         <tr>
                           <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
                           <td>Офферы</td>
                           <td>14.05.2020 16:20</td>
                           <td><i class="ti ti-check"></i></td>
@@ -418,7 +269,7 @@ include 'header.php';  //любой файл который мы хотим по
                         <tr>
                           <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
                           <td>Офферы</td>
                           <td>14.05.2020 16:20</td>
                           <td><i class="ti ti-check"></i></td>
@@ -426,7 +277,7 @@ include 'header.php';  //любой файл который мы хотим по
                         <tr>
                           <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
                           <td>Офферы</td>
                           <td>14.05.2020 16:20</td>
                           <td><i class="ti ti-check"></i></td>
@@ -434,7 +285,7 @@ include 'header.php';  //любой файл который мы хотим по
                         <tr>
                           <th scope="row">5</th>
                           <td>14.05.2020 16:20</td>
-                          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
+                          <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque.</td>
                           <td>Офферы</td>
                           <td>14.05.2020 16:20</td>
                           <td><i class="ti ti-check"></i></td>

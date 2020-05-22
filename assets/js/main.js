@@ -260,6 +260,15 @@ $('.list-group-item').on('click', function(event) {
 
 
 
+
+
+$(window).on("load resize", function(event) { 
+var pulHeight = $('#createNewsForm').outerHeight();
+console.log(pulHeight);
+$('#pulTableBody').height(pulHeight - 20 + "px");
+
+});
+
 // timeline - блок с горизонтальным скроллом
 var timeline = document.getElementById('newsCar');
 timeline.onmousedown = () => {
