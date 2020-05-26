@@ -7077,3 +7077,11 @@ i.iconNews {
   text-overflow: ellipsis;
   max-width: 400px;
 }
+
+
+md-card h3{
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
