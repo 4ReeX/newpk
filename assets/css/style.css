@@ -6772,8 +6772,9 @@ small{font-size:80%;font-weight:400;}
 .list-group-item.active {
     z-index: 2;
     color: #6d6d6d;
-    background-color: #f0f0f0;
+    background-color: #ececec;
     border-color: #d8d8d8;
+
 }
 
 .list-group-item:hover {
@@ -7097,3 +7098,49 @@ md-card h3{
     color: #adadad;
 }
 
+
+.widget-content-left {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .25rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.widget-content-left {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 0px;
+}
+li.border-bottom-0.list-group-item.sticky-bottom {
+    position: sticky!important;
+    position: -webkit-sticky!important;
+    bottom: 0;
+    background: #f8f8f7;
+    box-shadow: none;
+    border: none;
+    z-index: 9999999;
+    width: 100%;
+}
+
+
+li.border-bottom-0.list-group-item.sticky-bottom.active {
+    position: sticky!important;
+    position: -webkit-sticky!important;
+    bottom: 0;
+    background: #ececec;
+    box-shadow: none;
+    border: none;
+    z-index: 9999999;
+    width: 100%;
+}
