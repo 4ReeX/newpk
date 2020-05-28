@@ -7129,7 +7129,7 @@ li.border-bottom-0.list-group-item.sticky-bottom {
     background: #f8f8f7;
     box-shadow: none;
     border: none;
-    z-index: 9999999;
+    z-index: 2;
     width: 100%;
 }
 
@@ -7141,6 +7141,6 @@ li.border-bottom-0.list-group-item.sticky-bottom.active {
     background: #ececec;
     box-shadow: none;
     border: none;
-    z-index: 9999999;
+    z-index: 2;
     width: 100%;
 }
