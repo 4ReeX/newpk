@@ -6887,7 +6887,9 @@ md-card{display:block; cursor: pointer;}
 md-card {
     display: block;
     overflow: hidden;
+    position: relative;
 }
+md-card time {font-size: 12px; position: absolute; right: 10px; top: 10px;}
 .news-text-preview {
   overflow: hidden;
   display: -webkit-box;
@@ -7085,3 +7087,13 @@ md-card h3{
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
 }
+.entry-content ul, ol {
+    padding: 0 20px;
+}
+.article__info-date {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #adadad;
+}
+

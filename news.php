@@ -7,6 +7,7 @@
     <div class="col-sm-3">
       <md-card>
         <md-card-content class="card-danger" data-toggle="modal" data-target="#modalFullNews">
+
           <div class="card-bg-icon">
             <i class="ti ti-shopping-cart-full"></i>
           </div>
@@ -18,6 +19,7 @@
             Мы рады представить вашему вниманию новые, свежие, вкусные, самые лучшие в мире в инетернете офферы
           </p>
         </md-card-content>
+        <time>28.05.2020 15:22</time>
       </md-card>
     </div>
     
@@ -35,6 +37,7 @@
             Версия партнёрского кабината 1.221 (основной список изменений)
           </p>
         </md-card-content>
+        <time>28.05.2020 15:22</time>
       </md-card>
     </div> 
 
@@ -50,6 +53,7 @@
             В партнёрском кабинете появилась функция рассчёта доходности по принципу пальцем в небо.
           </p>
         </md-card-content>
+        <time>28.05.2020 15:22</time>
       </md-card>
     </div>
 
@@ -65,6 +69,7 @@
             Сегодня в розыгрыше у нас ААААААВТОМОБИЛЬ!
           </p>
         </md-card-content>
+        <time>28.05.2020 15:22</time>
       </md-card>
     </div>
 
@@ -80,6 +85,7 @@
             Любой текст который вы оставите здесь, обрежется на 2 строки не зависимо от размеров блока, ширины, шрифтов и прочей лабуды
           </p>
         </md-card-content>
+        <time>28.05.2020 15:22</time>
       </md-card>
     </div>
     <p><a href="#" class="btn">Больше новостей</a></p>
@@ -92,7 +98,8 @@
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">Заголовок новости</h4>
+        <h4 class="modal-title">Копирайтинг это нужная вещь (наверное)</h4>
+        <span class="article__info-date"> (обновлено: 21:11 25.05.2020)</span>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
@@ -102,8 +109,10 @@
       </div>
 
       <!-- Modal footer -->
-      <div class="modal-footer">
+      <div class="modal-footer justify-content-between">
         <button type="button" class="btn btn-danger" data-dismiss="modal">Больше не показывать</button>
+        <div class="btn btn-success float-right">Уточнить</div>
+
       </div>
 
     </div>
