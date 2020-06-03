@@ -29,13 +29,13 @@ include 'header.php';  //любой файл который мы хотим по
 <div class="card-body" id="createNewsForm">
 <div class="row mt-4">
 
-<div class="col-sm-4 pb-3">
-<label for="exampleCtrl">Дата/Время публикации</label>
-<input class="form-control" type="datetime-local" value="2020-05-18T13:45:00" id="example-datetime-local-input">
+<div class="col-12 col-sm-4 pb-3">
+<label for="dateTime">Время</label>
+<input class="form-control" type="datetime-local" value="2020-05-18T13:45:00" id="dateTime">
 </div>
-<div class="col-sm-4 pb-3">
-<label for="exampleCity">Тематика</label>
-<select class="form-control custom-select" id="exampleSt">
+<div class="col-12 col-sm-4 pb-3">
+<label for="tematika">Тематика</label>
+<select class="form-control custom-select" id="tematika">
 <option class="text-white bg-warning">
 Выберите тематику
 </option>
@@ -44,66 +44,9 @@ include 'header.php';  //любой файл который мы хотим по
 <option value="3">Кейсы</option>
 </select>
 </div>
-<div class="col-sm-4 pb-3">
-<label for="exampleSt">Иконка</label> 
-<select id="mySelect" data-show-content="true" class="form-control border selectIcons">
-  <option disabled="disabled" class="groupOption">Стрелки и направления</option>
-  <option disabled="disabled"></option>
-  <option>&#xe627 ti-arrow-up</option>
-  <option>&#xe628 ti-arrow-right</option>
-  <option>&#xe629 ti-arrow-left</option>
-  <option>&#xe62a ti-arrow-down</option>
-  <option disabled="disabled"></option>
-   <option disabled="disabled" class="groupOption">Для кейсов</option>
-   <option disabled="disabled"></option>
-  <option>&#xe651 ti-briefcase</option>
-  <option>&#xe64f ti-announcementt</option>
-  <option>&#xe655 ti-bag</option>
-  <option>&#xe6dc ti-receipt</option>
-
-  <option disabled="disabled" class="groupOption">Стрелки и направления</option>
-  <option disabled="disabled"></option>
-  <option>&#xe627 ti-arrow-up</option>
-  <option>&#xe628 ti-arrow-right</option>
-  <option>&#xe629 ti-arrow-left</option>
-  <option>&#xe62a ti-arrow-down</option>
-  <option disabled="disabled"></option>
-   <option disabled="disabled" class="groupOption">Для кейсов</option>
-   <option disabled="disabled"></option>
-  <option>&#xe651 ti-briefcase</option>
-  <option>&#xe64f ti-announcementt</option>
-  <option>&#xe655 ti-bag</option>
-  <option>&#xe6dc ti-receipt</option>
-
-  <option disabled="disabled" class="groupOption">Стрелки и направления</option>
-  <option disabled="disabled"></option>
-  <option>&#xe627 ti-arrow-up</option>
-  <option>&#xe628 ti-arrow-right</option>
-  <option>&#xe629 ti-arrow-left</option>
-  <option>&#xe62a ti-arrow-down</option>
-  <option disabled="disabled"></option>
-   <option disabled="disabled" class="groupOption">Для кейсов</option>
-   <option disabled="disabled"></option>
-  <option>&#xe651 ti-briefcase</option>
-  <option>&#xe64f ti-announcementt</option>
-  <option>&#xe655 ti-bag</option>
-  <option>&#xe6dc ti-receipt</option>
-
-  <option disabled="disabled" class="groupOption">Стрелки и направления</option>
-  <option disabled="disabled"></option>
-  <option>&#xe627 ti-arrow-up</option>
-  <option>&#xe628 ti-arrow-right</option>
-  <option>&#xe629 ti-arrow-left</option>
-  <option>&#xe62a ti-arrow-down</option>
-  <option disabled="disabled"></option>
-   <option disabled="disabled" class="groupOption">Для кейсов</option>
-   <option disabled="disabled"></option>
-  <option>&#xe651 ti-briefcase</option>
-  <option>&#xe64f ti-announcementt</option>
-  <option>&#xe655 ti-bag</option>
-  <option>&#xe6dc ti-receipt</option>
-
-</select>
+<div class="col-12 col-sm-4 pb-3">
+<label for="iconsChange">Иконка</label><i class="ti ti-help-alt iconChanger" onclick="linkTi();"></i>
+<input type="text" placeholder="ti-gallery" class="form-control" id="iconsChange">
 
 </div>
 <div class="col-12 pb-3">
@@ -128,13 +71,12 @@ include 'header.php';  //любой файл который мы хотим по
 
 </div>
 </div>
-<div class="card-footer">
-<div class="float-right">
-<input class="btn btn-secondary" type="reset" value="Отмена">
-<input class="btn btn-primary" type="button" value="Создать новость"  data-toggle="modal" data-target="#myModal">
-<!-- Button to Open the Modal -->
-
-</div>
+<div class="col-lg-12">
+    <div class="circle-btn-group">
+        <button class="circle-btn" title="Сформировать отчет"><i class="ti ti-check"  data-toggle="modal" data-target="#myModal"></i></button>
+        <button class="circle-btn" title="Показать график"><i class="ti ti-notepad"></i></button>
+        <button class="circle-btn" title="Очистить"><i class="ti ti-close"></i></button>
+    </div>
 </div>
 </div>
                             	</div></div>
@@ -143,7 +85,7 @@ include 'header.php';  //любой файл который мы хотим по
 									<div class="card-header">
 									<h4 class="mb-0">Пул новостей</h4>
 									</div>
-                                	<div class="card-body" id="pulTableBody">
+                                	<div class="card-body">
                                 		<!--Table-->
 										<table class="table table-hover table-fixed">
 
@@ -165,7 +107,7 @@ include 'header.php';  //любой файл который мы хотим по
 										    <tr>
 										      <th scope="row">4</th>
                           <td>14.05.2020 16:20</td>
-										      <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumqueasdasdasda asd asd a sd as ds da sd .</td>
+										      <td class="max40elips">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum vel, esse, iusto ut harum, voluptate eligendi accusantium non optio expedita maiores ipsam aliquam aperiam veritatis laborum porro, architecto commodi tenetur! Facilis quisquam laborum voluptatem velit illo reiciendis, veniam vero corporis rem nobis quasi ducimus debitis, animi quod harum libero maxime.</td>
 										      <td>Техническая</td>
 										      <td>14.05.2020 16:20</td>
 										      <td><i class="ti ti-check"></i></td>
@@ -377,14 +319,26 @@ include 'header.php';  //любой файл который мы хотим по
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">Где публикуем?</h4>
+        <h5 class="modal-title">Где публикуем?</h5>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
 
       <!-- Modal body -->
       <div class="modal-body">
         <div class="social_media_wrap">
-
+			<div class="item blog active">
+        <div class="item_left">
+          <div class="media_box">
+            <i class="iFlex"><span class="pk">ПК</span></i>
+          </div>
+          <div class="media_text">
+            Лента новостей
+          </div>
+        </div>
+        <div class="item_right">
+          <div class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select checked"><div class="inner"></div></div></div>
+        </div>
+      </div>
           <div class="item blog active">
         <div class="item_left">
           <div class="media_box">
@@ -395,7 +349,7 @@ include 'header.php';  //любой файл который мы хотим по
           </div>
         </div>
         <div class="item_right">
-          <input type="checkbox" class="checkbox" checked>
+          <div class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select checked"><div class="inner"></div></div></div>
         </div>
       </div>
       <div class="item active telegram">
@@ -408,7 +362,7 @@ include 'header.php';  //любой файл который мы хотим по
           </div>
         </div>
         <div class="item_right">
-          <input type="checkbox" class="checkbox" checked>
+          <div class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select checked"><div class="inner"></div></div></div>
         </div>
       </div>
        <div class="item active vk">
@@ -421,7 +375,7 @@ include 'header.php';  //любой файл который мы хотим по
           </div>
         </div>
         <div class="item_right">
-           <input type="checkbox" class="checkbox" checked>
+           <div class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select checked"><div class="inner"></div></div></div>
         </div>
       </div>
 
@@ -435,7 +389,7 @@ include 'header.php';  //любой файл который мы хотим по
           </div>
         </div>
         <div class="item_right">
-           <input type="checkbox" class="checkbox">
+           <div class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select"><div class="inner"></div></div></div>
         </div>
       </div>
       
@@ -450,7 +404,7 @@ include 'header.php';  //любой файл который мы хотим по
           </div>
         </div>
         <div class="item_right">
-          <input type="checkbox" class="checkbox">
+          <div class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select"><div class="inner"></div></div></div>
         </div>
       </div>
     </div>
@@ -470,6 +424,14 @@ include 'header.php';  //любой файл который мы хотим по
 
                 <!-- Scripts -->
                 <?php include 'scripts.php'; ?>
+                <script>
+                	function linkTi() {
+                		window.open(
+                			'https://themify.me/themify-icons',
+                			'_blank'
+                			);
+                	};
+                </script>
 
 
     </body>

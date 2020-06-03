@@ -4298,10 +4298,9 @@ textarea {
   line-height: 1.5;
   font-size: 12px;
 }
-.custom-select {
+/*.custom-select {
   height: calc(2.25rem - 2px);
-   
-}
+}*/
 .input-select {
   min-width: 300px;
   width: 100%;
@@ -6950,7 +6949,7 @@ i.iconNews {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .social_media_wrap .item:last-child {
@@ -6963,8 +6962,8 @@ i.iconNews {
 }
 
 .item .item_left .media_box {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 10px;
   border: 1px solid #d5d6d8;
   color: #d5d6d8;
@@ -6990,35 +6989,6 @@ i.iconNews {
   color: #2a5885;
 }
 
-.item .item_right .checkbox {
-  width: 65px;
-  height: 35px;
-  position: relative;
-  appearance: none;
-  -webkit-appearance: none;
-  background: #f0f0f0;
-  border-radius: 25px;
-  outline: none;
-  cursor: pointer;
-}
-
-.item .item_right .checkbox:before {
-  content: "";
-  position: absolute;
-  top: 4px;
-  left: 5px;
-  width: 28px;
-  height: 28px;
-  background: #f0f0f0;
-  border-radius: 50%;
-  box-shadow: 0 0 2px rgba(0,0,0,0.35);
-  transition: all 0.2s ease;
-}
-
-.item .item_right .checkbox:checked:before{
-  left: 32px;
-  background: #fb9a39;
-}
 
 .item.facebook.active .media_box{
   background: #3b5999;
@@ -7068,10 +7038,12 @@ i.iconNews {
 
 #pulTableBody {overflow-x: auto;}
 .max40elips {
-	white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 400px;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-inline-box;
+    line-height: 1.2;
 }
 
 
@@ -7137,3 +7109,15 @@ li.border-bottom-0.list-group-item.sticky-bottom.active {
     z-index: 2;
     width: 100%;
 }
+.pk {
+	color: #111;
+}
+.item_right {
+    position: relative;
+}
+.item_right .ios-ui-select{
+    position: relative;
+    right: -10px;
+    top: 0;
+}
+.iconChanger {position: absolute; right: 17px;}
