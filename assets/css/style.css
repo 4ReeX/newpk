@@ -6549,6 +6549,8 @@ body, html {
   -webkit-animation: typing 3s 500ms infinite;
           animation: typing 3s 500ms infinite;
 }
+
+
 .chat .input {
   box-sizing: border-box;
   flex-basis: 4rem;
@@ -6560,30 +6562,74 @@ body, html {
   padding: 0 0.5rem 0 1.5rem;
 }
 .chat .input i {
-  font-size: 1.5rem;
-  margin-right: 1rem;
+  font-size: 1.3rem;
   color: #666;
   cursor: pointer;
   -webkit-transition: color 200ms;
   transition: color 200ms;
+  margin: 0px 1rem;
+  position: absolute;
+  bottom: 21px;
+}
+.chat .input i.ti-upload {
+	left: 5px;
+}
+.chat .input i.ti-angle-double-right {
+	right: 5px;
 }
 .chat .input i:hover {
   color: #333;
 }
-.chat .input input {
-  border: none;
-  background-image: none;
-  background-color: white;
-  padding: 0.5rem 1rem;
-  margin-right: 1rem;
-  border-radius: 1.125rem;
-  -webkit-box-flex: 2;
-          flex-grow: 2;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1), 0rem 1rem 1rem -1rem rgba(0, 0, 0, 0.2);
-  font-family: Red hat Display, sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.025em;
+.chat .input {
+    border: none;
+    background-image: none;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border-radius: 1.125rem;
+    -webkit-box-flex: 2;
+    flex-grow: 2;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1), 0rem 1rem 1rem -1rem rgba(0, 0, 0, 0.2);
+    font-family: Red hat Display, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
+.inputDiv {
+	width: 80%;
+    border: 1px solid #fefefe;
+    background: #f3f3f3;
+    height: auto;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: #999;
+    margin: 0 auto;
+    max-height: 150px;
+    overflow-y: scroll;
+}
+/* хром, сафари */
+.inputDiv::-webkit-scrollbar { width: 0; }
+
+/* ie 10+ */
+.inputDiv { -ms-overflow-style: none; }
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+.inputDiv { overflow: -moz-scrollbars-none; }
+
+
+
+.inputDiv:focus {
+    border: none;
+    outline-color: #ddd;
+    border-radius: 10px;
+    background: #fff;
+}
+
 .chat .input input:placeholder {
   color: #999;
 }

@@ -85,9 +85,9 @@ include 'header.php';  //любой файл который мы хотим по
 									<div class="card-header">
 									<h4 class="mb-0">Пул новостей</h4>
 									</div>
-                                	<div class="card-body">
+                                	<div class="card-body" id="pulTableBody">
                                 		<!--Table-->
-										<table class="table table-hover table-fixed" id="pulNews">
+										<table class="table table-hover table-fixed">
 
 										  <!--Table head-->
 										  <thead>
@@ -104,7 +104,7 @@ include 'header.php';  //любой файл который мы хотим по
 										  <!--Table head-->
 
 										  <!--Table body-->
-										  <tbody>
+										  <tbody >
 										    <tr>
 										      <th scope="row">4</th>
                           <td>14.05.2020 16:20</td>

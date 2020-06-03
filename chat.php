@@ -58,8 +58,9 @@
       </div>
     </div>
     <div class="input">
-     <input type="file" id="imgupload" style="display:none"/> 
-     <i class="ti ti-upload" id="OpenImgUpload"></i><input placeholder="Напишите что нибудь..." type="text" /><i class="ti ti-angle-double-right"></i>
+     <input type="file" id="imgupload" style="display:none"/>
+     <i class="ti ti-upload" id="OpenImgUpload"></i>
+     <div contenteditable class="inputDiv"></div><i class="ti ti-angle-double-right"></i>
     </div>
     <script type="text/javascript">
     var chat = document.getElementById('chat');
