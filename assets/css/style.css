@@ -7121,3 +7121,6 @@ li.border-bottom-0.list-group-item.sticky-bottom.active {
     top: 0;
 }
 .iconChanger {position: absolute; right: 17px;}
+.table td {
+    vertical-align: middle!important;
+}

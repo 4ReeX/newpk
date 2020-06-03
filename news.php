@@ -110,7 +110,7 @@
 
       <!-- Modal footer -->
       <div class="modal-footer justify-content-between">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Больше не показывать</button>
+        
         <div class="btn btn-success float-right">Уточнить</div>
 
       </div>
