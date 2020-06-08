@@ -6614,11 +6614,8 @@ body, html {
 }
 /* хром, сафари */
 .inputDiv::-webkit-scrollbar { width: 0; }
-
 /* ie 10+ */
 .inputDiv { -ms-overflow-style: none; }
-
-/* фф (свойство больше не работает, других способов тоже нет)*/
 .inputDiv { overflow: -moz-scrollbars-none; }
 
 
@@ -6972,12 +6969,36 @@ i.iconNews {
 /*news-admin*/
 .zagolovok {font-size: 22px; color: #}
 	.form-news label {font-size: 10px; padding: 0; position: absolute; top: 0; left: 10px;}
-	.prevBlock {width: 50px; height: 50px; border-radius: 50%; display: flex; flex-direction: row;justify-content: center; align-items: center; float: left; cursor: pointer; margin: 0 2px; border: 1px solid #fff; transition: all 0.3s ease; cursor: pointer;}
+	.prevBlock {
+    width: 80px;
+    height: 60px;
+    border-radius: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    cursor: pointer;
+    margin: 0 2px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
 	.prevBlock {background: no-repeat center center; background-size: contain; border: 1px solid #f3f3f3; overflow: hidden;position: relative;}
   .prevBlock i {font-size: 22px;}
-.prevBlock img {    width: 200px!important;    height: 50px;    display: block;    position: absolute;    border-radius: 100%;}
-	.prevBlock.add {background: no-repeat center center; background-size: 80%; border-radius: 50%; }
+.prevBlock img {
+    width: 200px!important;
+    height: 60px;
+    display: block;
+    position: absolute;
+}
+	.prevBlock.add {
+    background: no-repeat center center;
+    background-size: 80%;
+    border-radius: 0;
+}
 	.prevBlock:hover {border: 1px solid #fff; background-color: #eee; }
+	.prevBlock.active {    border: 2px solid #ffa000;}
 	select.selectIcons {  font-family: themify, sans-serif; font-size: 12px!important;}
 	select.selectIcons option{  font-family: themify, sans-serif; font-size: 16px!important;}
 	.groupOption {font-size: 14px; font-weight: 700; color: #000;}

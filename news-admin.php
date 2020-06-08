@@ -60,7 +60,7 @@ include 'header.php';  //любой файл который мы хотим по
 </div>
 <div class="col-12 pb-3">
 	<div class="row">
-		<div class="prevBlock"><img src="images/statyaImg1.png" alt=""></div>
+		<div class="prevBlock active"><img src="images/statyaImg1.png" alt=""></div>
 		<div class="prevBlock"><img src="images/statyaImg1.png" alt=""></div>
 		<div class="prevBlock"><i class="ti ti-gallery"></i></div>
 		<div class="prevBlock add"><i class="ti ti-export"></i></div>
