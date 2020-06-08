@@ -61,10 +61,10 @@ include 'header.php';  //любой файл который мы хотим по
 <div class="col-12 pb-3">
   <label for="exampleMessage">Обложка</label>
 	<div class="row">
-		<div class="prevBlock active"><img src="images/statyaImg1.png" alt=""></div>
-		<div class="prevBlock"><img src="images/statyaImg1.png" alt=""></div>
-		<div class="prevBlock"><i class="ti ti-gallery"></i></div>
-		<div class="prevBlock add"><i class="ti ti-export"></i></div>
+		<div class="prevBlock active" title="Обложка поста"><img src="images/statyaImg1.png" alt=""></div>
+		<div class="prevBlock" title="Выберите картинку в качестве обложки"><img src="images/statyaImg1.png" alt=""></div>
+		<div class="prevBlock" title="Картинка отсутсвует"><i class="ti ti-gallery"></i></div>
+		<div class="prevBlock add" title="Загрузить новую обложку"><i class="ti ti-export"></i></div>
 </div>
 </div>
 <div class="col-12 pb-3">
@@ -74,8 +74,8 @@ include 'header.php';  //любой файл который мы хотим по
 </div>
 <div class="col-lg-12">
     <div class="circle-btn-group">
-        <button class="circle-btn" title="Сформировать отчет"><i class="ti ti-check"  data-toggle="modal" data-target="#myModal"></i></button>
-        <button class="circle-btn" title="Показать график"><i class="ti ti-notepad"></i></button>
+        <button class="circle-btn" title="Опубликовать"><i class="ti ti-check"  data-toggle="modal" data-target="#myModal"></i></button>
+        <button class="circle-btn" title="Сохранить как черновик"><i class="ti ti-notepad"></i></button>
         <button class="circle-btn" title="Очистить"><i class="ti ti-close"></i></button>
     </div>
 </div>
