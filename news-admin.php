@@ -59,6 +59,7 @@ include 'header.php';  //любой файл который мы хотим по
 <small class="text-muted">Введите текст здесь</small>
 </div>
 <div class="col-12 pb-3">
+  <label for="exampleMessage">Обложка</label>
 	<div class="row">
 		<div class="prevBlock active"><img src="images/statyaImg1.png" alt=""></div>
 		<div class="prevBlock"><img src="images/statyaImg1.png" alt=""></div>
