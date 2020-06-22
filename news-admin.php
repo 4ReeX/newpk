@@ -283,10 +283,13 @@ include 'header.php';  //любой файл который мы хотим по
                         
 
                         <!--------------------------end col-12-------------------------->
-
+                    <div class="col-lg-12">
+                      <?php include 'news.php'; ?>
                     </div>
-
+                    </div>
+            
             </div>
+
 
             <!--end right-panel-->
             <div id="footer-right-panel" class="right-panel">
