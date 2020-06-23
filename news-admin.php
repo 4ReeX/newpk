@@ -134,7 +134,7 @@ include 'header.php';  //любой файл который мы хотим по
       </div>
       
       
-      <div class="item linkedin">
+      <div class="item active linkedin">
         <div class="item_left">
           <div class="media_box">
             <i class="fa fa-linkedin"></i>

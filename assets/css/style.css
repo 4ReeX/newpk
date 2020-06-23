@@ -7194,9 +7194,28 @@ li.border-bottom-0.list-group-item.sticky-bottom.active {
     vertical-align: middle!important;
 }
 
-.item.active {float: left;position: relative;}
+.item.active {
+    float: left;
+    position: relative;
+    width: 50px;
+}
+
 .item_right {
     position: relative;
     bottom: 14px;
     left: -5px;
+}
+
+.item .item_left .media_box {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #d5d6d8;
+    color: #d5d6d8;
+    position: relative;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
