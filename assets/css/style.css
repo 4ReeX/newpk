@@ -7197,7 +7197,6 @@ li.border-bottom-0.list-group-item.sticky-bottom.active {
 .item.active {
     float: left;
     position: relative;
-    width: 50px;
 }
 
 .item_right {
