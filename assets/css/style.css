@@ -7193,3 +7193,10 @@ li.border-bottom-0.list-group-item.sticky-bottom.active {
 .table td {
     vertical-align: middle!important;
 }
+
+.item.active {float: left;position: relative;}
+.item_right {
+    position: relative;
+    bottom: 14px;
+    left: -5px;
+}
