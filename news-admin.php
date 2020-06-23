@@ -151,7 +151,7 @@ include 'header.php';  //любой файл который мы хотим по
 </div>
 <div class="col-lg-12">
     <div class="circle-btn-group">
-        <button class="circle-btn" title="Опубликовать"><i class="ti ti-check"  data-toggle="modal" data-target="#myModal"></i></button>
+        <button class="circle-btn" title="Опубликовать"><i class="ti ti-check"></i></button>
         <button class="circle-btn" title="Сохранить как черновик"><i class="ti ti-notepad"></i></button>
         <button class="circle-btn" title="Очистить"><i class="ti ti-close"></i></button>
     </div>
@@ -395,112 +395,6 @@ include 'header.php';  //любой файл который мы хотим по
 
 
 <!-- The Modal -->
-<div class="modal" id="myModal">
-  <div class="modal-dialog modal-sm">
-    <div class="modal-content">
-
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h5 class="modal-title">Где публикуем?</h5>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-
-      <!-- Modal body -->
-      <div class="modal-body">
-        <div class="social_media_wrap">
-			<div class="item blog active">
-        <div class="item_left">
-          <div class="media_box">
-            <i class="iFlex"><span class="pk">ПК</span></i>
-          </div>
-          <div class="media_text">
-            Лента новостей
-          </div>
-        </div>
-        <div class="item_right">
-          <div class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select checked"><div class="inner"></div></div></div>
-        </div>
-      </div>
-          <div class="item blog active">
-        <div class="item_left">
-          <div class="media_box">
-            <i class="iFlex"><img src="http://newpk/images/new-logo.svg" alt="" class="icon-social"></i>
-          </div>
-          <div class="media_text">
-            Blog
-          </div>
-        </div>
-        <div class="item_right">
-          <div class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select checked"><div class="inner"></div></div></div>
-        </div>
-      </div>
-      <div class="item active telegram">
-        <div class="item_left">
-          <div class="media_box">
-            <i class="fa fa-telegram"></i>
-          </div>
-          <div class="media_text">
-            Telegram
-          </div>
-        </div>
-        <div class="item_right">
-          <div class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select checked"><div class="inner"></div></div></div>
-        </div>
-      </div>
-       <div class="item active vk">
-        <div class="item_left">
-          <div class="media_box">
-            <i class="fa fa-vk"></i>
-          </div>
-          <div class="media_text">
-            VK
-          </div>
-        </div>
-        <div class="item_right">
-           <div class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select checked"><div class="inner"></div></div></div>
-        </div>
-      </div>
-
-      <div class="item active facebook">
-        <div class="item_left">
-          <div class="media_box">
-            <i class="fa fa-facebook-f"></i>
-          </div>
-          <div class="media_text">
-            Facebook
-          </div>
-        </div>
-        <div class="item_right">
-           <div class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select"><div class="inner"></div></div></div>
-        </div>
-      </div>
-      
-      
-      <div class="item linkedin">
-        <div class="item_left">
-          <div class="media_box">
-            <i class="fa fa-linkedin"></i>
-          </div>
-          <div class="media_text">
-            Linkedin
-          </div>
-        </div>
-        <div class="item_right">
-          <div class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select"><div class="inner"></div></div></div>
-        </div>
-      </div>
-    </div>
-      </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Отмена</button>
-        <button type="button" class="btn btn-success" data-dismiss="modal">Опубликовать</button>
-      </div>
-
-    </div>
-  </div>
-</div>
 
                 <!-- Right Panel -->
 
