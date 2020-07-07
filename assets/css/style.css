@@ -4942,7 +4942,7 @@ tr.doubledrop, tr.doubledrop td {
   align-items: center;
   flex-wrap: nowrap;
   width: 100%;
-  padding-top: 20px;
+  padding-top: 15px;
 
 }
 .nowrap-custom button {
@@ -5026,7 +5026,7 @@ tr.doubledrop, tr.doubledrop td {
     align-items: center;
     flex-wrap: nowrap;
     width: 100%;
-    padding-top: 0px;
+    padding-top: 15px;
 }
 .MuiInputLabel-formControl {
   top: -5px;
@@ -7218,3 +7218,4 @@ li.border-bottom-0.list-group-item.sticky-bottom.active {
     justify-content: center;
     align-items: center;
 }
+.pt-0 {padding-top: 0;}

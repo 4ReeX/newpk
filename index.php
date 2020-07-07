@@ -54,7 +54,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                         <div class="col-auto small-col row no_left_right_padding  w33-3" id="blockInputPeriod">
                                                             <div class="jss8">
                                                                 <div class=" css-2b097c-container">
-                                                                    <div class="nowrap-custom">
+                                                                    <div class="nowrap-custom pt-0">
                                                                         
                                                                         <button class="icon-btn selected" title="Сегодня"><i class="date-icon icon-day"></i></button>
                                                                         <button class="icon-btn" title="2 дня"><i class="date-icon icon-2"></i></button>
@@ -68,7 +68,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                         <div class="col-auto  small-col row no_left_right_padding  w33-3" id="blockInputPeriod">
                                                             <div class="jss8">
                                                                 <div class=" css-2b097c-container">
-                                                                    <div class="nowrap-custom">
+                                                                    <div class="nowrap-custom pt-0">
                                                                         
                                                                         <button class="icon-btn"><img src="images/beeline.png" alt=""></button>
                                                                         <button class="icon-btn"><img src="images/megafon.png" alt=""></button>
