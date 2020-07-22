@@ -7219,3 +7219,10 @@ li.border-bottom-0.list-group-item.sticky-bottom.active {
     align-items: center;
 }
 .pt-0 {padding-top: 0;}
+
+.modal-header .close {
+    padding: 0rem;
+    margin: 0;
+    right: 25px;
+    top: 20px;
+}

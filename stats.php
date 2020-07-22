@@ -529,8 +529,8 @@ include 'header.php';  //любой файл который мы хотим по
                                             <tbody class="statistic_body">
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-down"></i>01.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -542,8 +542,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr class="drop">
                                                     <td><i class="ti ti-angle-right"></i>02 Oct 00:00</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -555,8 +555,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr class="drop">
                                                     <td><i class="ti ti-angle-right"></i>02 Oct 01:00</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -568,8 +568,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr class="drop">
                                                     <td><i class="ti ti-angle-down"></i>02 Oct 02:00</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -582,7 +582,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                 <tr class="doubledrop">
                                                     <td>02 Oct 02:00 1</td>
                                                     <td>1 055</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -595,7 +595,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                 <tr class="doubledrop">
                                                     <td>02 Oct 02:00 2</td>
                                                     <td>1 055</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -608,7 +608,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                 <tr class="doubledrop">
                                                     <td>02 Oct 02:00 3</td>
                                                     <td>1 055</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -621,7 +621,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                 <tr class="doubledrop">
                                                     <td>02 Oct 02:00 4</td>
                                                     <td>1 055</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -634,7 +634,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                 <tr class="doubledrop">
                                                     <td>02 Oct 02:00 5</td>
                                                     <td>1 055</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -647,7 +647,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                 <tr class="doubledrop">
                                                     <td>02 Oct 02:00 6</td>
                                                     <td>1 055</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -659,8 +659,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr class="drop">
                                                     <td><i class="ti ti-angle-right"></i>02 Oct 03:00</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -672,8 +672,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr class="drop">
                                                     <td><i class="ti ti-angle-right"></i>02 Oct 04:00</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -685,8 +685,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>02.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -698,8 +698,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>03.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -711,8 +711,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>04.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -724,8 +724,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>05.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -737,8 +737,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>06.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -750,8 +750,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>07.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -763,8 +763,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>08.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -776,8 +776,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>13.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -789,8 +789,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>13.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -802,8 +802,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>13.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -815,8 +815,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>13.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -828,8 +828,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>13.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -841,8 +841,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>13.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -854,8 +854,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>13.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -867,8 +867,8 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </tr>
                                                 <tr>
                                                     <td class="tal"><i class="ti ti-angle-right"></i>13.06.19</td>
-                                                    <td>1 366</td>
-                                                    <td>122</td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">1366</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#smallModal">2626</a></td>
                                                     <td>35</td>
                                                     <td>24.40</td>
                                                     <td>0</td>
@@ -902,6 +902,7 @@ include 'header.php';  //любой файл который мы хотим по
                             </div>
 
                         </div>
+<?php  include 'popup.php'; ?>
 
                         <!--------------------------end col-12-------------------------->
 
@@ -1016,6 +1017,8 @@ $(".linkToCopy").val("http://s2s.affimob.com/click?key=eromix&offer_id=11694&tmp
 <script>
     $('table').table_scroll();
 </script>
+
+
 
                 
     </body>
