@@ -5794,7 +5794,7 @@ span.search-icon {
     position: absolute;
     left: 0;
     z-index: 1;
-    padding: 8px 13px;
+    padding: 11px 13px;
 }
 input#offer-search {
     border-radius: 5px;
@@ -6872,7 +6872,7 @@ small{font-size:80%;font-weight:400;}
 }
 
 /*NEWS DASHBOARD*/
-  * {
+  body {
     -webkit-user-select: none;
   -moz-user-select: moz-none;
   -ms-user-select: none;
@@ -7225,4 +7225,27 @@ li.border-bottom-0.list-group-item.sticky-bottom.active {
     margin: 0;
     right: 25px;
     top: 20px;
+}
+
+.userselecttext {
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+}
+.modal-title {width: 100%;}
+.search-line-popup {
+	width: 100%;
+    flex-wrap: wrap;
+    left: -20%;
+
+}
+.search-line-popup .close {
+    padding: 0rem;
+    margin: 0;
+    right: 25px;
+    top: 0;
+}
+.details td {
+ vertical-align: top!important;
 }
