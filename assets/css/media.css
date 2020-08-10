@@ -28,8 +28,12 @@
     	margin: 0 auto;
       }
       span.tbo {font-size: 12px;}
-
+	  .search-line-popup {    width: 100%;    flex-wrap: wrap;    left: 0;    margin-top: 25px;}
+	  .modal-header {flex-wrap: wrap;}
+	  .search-line-popup .close {right: 8px;}
     }
+
+
     /*Стили для группы кнопок событий постбека*/
     .btn-secondary {
       color: #495057;
@@ -408,8 +412,4 @@ appearance: none;
 	.btn-group .btn-group-toggle label input {
 		display: none;
 	}
-
-
-
-
 }
