@@ -7107,7 +7107,7 @@ i.iconNews {
 
 .item.vk.active .media_box {
   background: #2a5885;
-   border-color: #0077B5;
+  border-color: #0077B5;
   color: #fff;
 }
 
@@ -7239,7 +7239,7 @@ li.border-bottom-0.list-group-item.sticky-bottom.active {
 	-ms-user-select: text;
 	user-select: text;
 }
-.modal-title {width: 100%;}
+.modal-title {width: 85%;}
 .search-line-popup {
 	width: 100%;
     flex-wrap: wrap;
