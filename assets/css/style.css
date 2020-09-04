@@ -5479,10 +5479,16 @@ a:active,a:hover{text-decoration:none;text-decoration:initial;color:#e2863b;}
 .navbar .menu-button .main,.navbar .menu-button .sub{fill:#212121;-webkit-transition:fill .3s;transition:fill .3s;}
 .navbar .menu-button:hover{color:#e2863b;}
 @media screen and (max-width: 1920px) {
+	.sidebar .main-menu ul li span {
+	    text-align: center;
+	    padding: 0 10px;
+	    line-height: 14px;
+	    display: none;
+	}
 	.sidebar .main-menu ul li i {
-    	font-size: 26px;
-    	line-height: 32px;
-    }
+	    font-size: 18px;
+	    line-height: 32px;
+	}
     .sidebar .main-menu ul li a {
     	height: 50px;
     }
