@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="assets/css/chunk.css">
-<link rel="stylesheet" href="assets/css/sidebar.css?v1">
+<link rel="stylesheet" href="assets/css/sidebar.css?v4561">
 <div class="sidebar">
 	<div class="search-activate" id="SearchToggle">
 		<img src="images/avatar/bottom.png" alt="" id="s1">

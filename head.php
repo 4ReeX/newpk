@@ -12,8 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css?v12s11">
-    <link rel="stylesheet" href="assets/css/media.css?v12s11" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css?v12s1121">
+    <link rel="stylesheet" href="assets/css/media.css?v12s1112" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.0/css/flag-icon.min.css">   
     <script type="text/javascript" src="assets/js/jquery.touchSwipe.min.js"></script> 
     <!-- Latest compiled and minified CSS -->
