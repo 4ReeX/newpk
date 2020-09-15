@@ -1,0 +1,60 @@
+@media screen and (orientation: portrait) {
+	.right-menu {
+	    width: 280px;
+	    height: 100vh;
+	    position: absolute;
+	    left: 100vw;
+	    right: auto;
+	    background: #fff;
+	    color: #fff;
+	    float: right;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: flex-start;
+	    align-items: flex-start;
+	    padding: 10px;
+	    transition: all 0.5s ease-out;
+	    z-index: -2;
+	}
+	.right-menu ul li {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.right-menu ul.list-unstyled.nav.flex-column {
+	    height: auto;
+	    width: 100%;
+	    display: flex;
+	}
+	body {
+		left: 0;
+		position: relative;
+		width: 100%;
+		transition: all 0.3s ease-out;
+	}
+	.slideleft {
+	    left: -280px;
+	    transition: all 0.3s ease-out;
+	}
+	.sidebar li.nav-item {
+		max-width: 100%;
+		margin: 10px 0px;
+	}
+	.right-menu li.nav-item a i {
+		font-size: 17px;
+	}
+	.right-menu li.nav-item a span {
+		font-size: 17px;
+		font-weight: 400;
+		font-style: normal;
+		font-family: Red hat Display, sans-serif;
+		margin-left: 10px;
+	}
+	.search-activate {}
+	.sidebar .main-menu ul li span {
+		display: block;
+	}
+	.top-info {width: 100%; color: #222;}
+
+}

@@ -5382,24 +5382,12 @@ a:active,a:hover{text-decoration:none;text-decoration:initial;color:#e2863b;}
 .sidebar .main-menu{width:120px;height:calc(100% - 55px);background:#fff;z-index:3;position:fixed;-webkit-transition:-webkit-transform .3s;transition:-webkit-transform .3s;transition:transform .3s;transition:transform .3s,-webkit-transform .3s;padding-top:10px;padding-bottom:10px;left:0;}
 .sidebar .main-menu .scroll{padding-right:unset;margin-right:unset;height:100%;}
 .sidebar .main-menu .scroll .ps__thumb-y{right:0;}
-.sidebar .main-menu ul li{position:relative;}
+.sidebar .main-menu ul li{position:relative;width: calc(100%/4);}
 .sidebar .main-menu ul li span{text-align:center;padding:0 10px;line-height:14px;}
 .sidebar .main-menu ul li a{height:75px;display:flex;flex-direction:column;justify-content:center;align-items:center;font-size:13px;font-style:normal;font-weight:400;color:#212121;-webkit-transition:color .3s;transition:color .3s;-webkit-transition:background .3s;transition:background .3s;}
 .sidebar .main-menu ul li a:focus,.sidebar .main-menu ul li a:hover{color:#e2863b;}
 .sidebar .main-menu ul li i{font-size:32px;line-height:42px;}
 .sidebar .main-menu ul li.active a{color:red;}
-.sidebar .main-menu ul li.active:after{
-content: " ";
-    background: red;
-    border-radius: 3px;
-    position: absolute;
-    width: 6px;
-    height: 61px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: -2px;
-}
 .sidebar .main-menu ul li:last-of-type a{border-bottom:initial;}
 @media (max-width:1439px){
 .sidebar .main-menu{width:120px;height:calc(100% - 52px);}
@@ -5444,7 +5432,7 @@ content: " ";
 .sidebar{padding-top:52px;height:calc(100% - 52px);}
 }
 @media (max-width:767px){
-.sidebar{padding-top:52px;height:calc(100% - 52px);box-shadow:0 1px 15px rgba(0,0,0,.04),0 1px 6px rgba(0,0,0,.04);}
+.sidebar{padding-top:52px;height:calc(100% - 52px);}
 }
 @media print{
 .sidebar{display:none;}
@@ -5551,7 +5539,7 @@ img.avatar {
 }
 
 ul.list-unstyled.nav.flex-column {
-    height: 101%;
+    height: 4em;
     justify-content: space-around;
 }
 
@@ -5590,9 +5578,6 @@ ul.list-unstyled.nav.flex-column {
 		height: 55px;
 		position: fixed;
 		bottom: 0;
-		-webkit-box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.15);
-		-moz-box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.15);
-		box-shadow: 0px -2px 2px 0px rgba(0,0,0,0.15);
 		flex-direction: row;
 		flex-wrap: nowrap;
 		justify-content: flex-start;
@@ -5655,15 +5640,7 @@ ul.list-unstyled.nav.flex-column {
 .search-activate:hover {
 	background-position: right center;
 }
-.sidebar .main-menu ul li.active:after {
-	content: "";
-	width: 100%;
-    height: 3px;
-    bottom: 0%;
-    top: 80%;
-    border-radius: 20px;
 
-}
 #s1 {
 	width: 100%;
 	z-index: 0; 
