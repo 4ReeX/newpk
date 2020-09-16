@@ -5279,7 +5279,7 @@ button.btn.btn-outline.create-links:hover {
     -webkit-appearance: none;
 }
 .top-right {
-	justify-content: flex-end;
+	justify-content: flex-start;
 	margin-right: 10px;
 	font-weight: 400;
 	color: #b5bcc2;
@@ -6665,9 +6665,13 @@ p.h1 {font-size: 18px;}
 p.h2 {font-size: 15px;}
 .pulse {
   border-radius: 50%;
-  cursor: pointer;
-  box-shadow: 0 0 0 rgba(204,169,44, 0.4);
-  animation: pulse 2s infinite;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    animation: pulse 2s infinite;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 22px;
 }
 .pulse:hover {
   animation: none;

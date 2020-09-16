@@ -15,6 +15,7 @@
 	    padding: 10px;
 	    transition: all 0.5s ease-out;
 	    z-index: -2;
+	    top: 0;
 	}
 	.right-menu ul li {
 		display: flex;
@@ -56,5 +57,83 @@
 		display: block;
 	}
 	.top-info {width: 100%; color: #222;}
+	.right-panel {
+		margin-top: 0;
+	}
+	.right-panel header.header {
+	    height: 30px;
+	    display: flex;
+	    flex-direction: revert;
+	    align-items: center;
+	    justify-content: flex-start;
+	    text-align: left;
+	    background: none;
+	}
+	.right-panel header.header .top-right {
+    	padding: 0;
+    	background: none;
+    	color: #666;
+	}
+	.balance {margin: 0;}
+	hr.hrline {    height: 2px;    border-top: 1px solid #e4e4e4;    width: 100%;}
+	.right-panel header.header {padding: 0 5px;}
+	.icon-notification i, .icon-message i {
+    position: relative;
+    color: #000;
+    font-size: 22px;
+}
+.sButton {
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #f3f3f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    margin-bottom: -40px;
+    box-shadow: 0px 1px 2px #f3f3f3;
+    transition: all 0.3s ease-in;
+}.search-activate {
+    z-index: 999;
+}
 
+.openSearchActivate .sButton {
+	width: 30px;
+	height: 30px;
+	background: transparent;
+	    margin-bottom: -3px;
+	box-shadow: none;
+}
+.videleno {
+    font-size: 12px;
+    margin-left: 15%;
+}
+.pick-offers {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 3px;
+}
+.pick-offers span {
+	border-radius: 5px;
+}
+
+button.btn.btn-outline.create-links {
+    background: #3f4a57!important;
+    color: #fff;
+    -webkit-appearance: none;
+    padding: 2px 4px;
+    border-radius: 5px;
+    display: inline;
+    line-height: 1.9;
+}
+.bodyOffers .sidebar .line2 {
+	align-items: flex-start;
+}
+
+@media screen and (orientation: landscape) {
+	.sidebar	
 }

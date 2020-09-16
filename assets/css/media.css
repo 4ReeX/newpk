@@ -84,7 +84,7 @@
 	.zapisey {display: none;}
 	body {padding-bottom: 100px;}
 	.mobile-dn {	display: none;}
-	.content {    padding: 0; padding-top: 1.25em;}
+	.content {    padding: 0;}
 	.responsive-block {
 	    margin: 0 auto;
 	    overflow-x: auto;
