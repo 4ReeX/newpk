@@ -20,7 +20,7 @@
          </div>
          <div class="line2">
              <div class="d-flex flex-row pick-offers"><div class="videleno cur-p">Выделено офферов</div><span class="cur-p">15</span></div>
-             <button type="button" class="btn btn-outline create-links"  data-toggle="modal">Создать ссылки</button> 
+             <button type="button" class="btn btn-outline create-links" data-toggle="modal" data-target="#macrosModal">Создать ссылки</button> 
          </div>
 	</div>
     <div class="main-menu" id="menuuu">

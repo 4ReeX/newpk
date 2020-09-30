@@ -613,9 +613,8 @@ include 'header.php';  //любой файл который мы хотим по
 <?php include 'popup-offer.php'; ?>
 <?php include 'popup-link.php'; ?>
 <?php include 'scripts.php'; ?>
+<?php include 'popup-macros.php'; ?>
 <script>
-	$('.create-links').attr("onclick", "location.href='poluchenie_ssilok.php'")
-
     
    
 </script>
