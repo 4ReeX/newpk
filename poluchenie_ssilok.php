@@ -51,8 +51,8 @@ include 'header.php';  //любой файл который мы хотим по
                                        </datalist>
                                         </form>
                                         <div class="buttons-block btn-block">
-                                            <button class="btn btn-outline-primary btn-margin" onclick="clickMe();" id="link1">Получить ссылки</button>
-                                            <button class="btn btn-outline-success btn-margin" id="link2">Создать смартлинк</button>
+                                            <button class="btn btn-outline-primary btn-margin" onclick="clickMe();" id="link1"  data-toggle="modal" data-target="#macrosModal">Получить ссылки</button>
+                                            <button class="btn btn-outline-success btn-margin" id="link2" data-toggle="modal" data-target="#macrosModal">Создать смартлинк</button>
                                         </div>
                                     </div>
                                     <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 right-buttons" id="mobHide">
@@ -249,5 +249,6 @@ include 'header.php';  //любой файл который мы хотим по
 
             <!-- Scripts -->
 <?php include 'scripts.php'; ?>
+<?php include 'popup-macros.php'; ?>
 </body>
 </html>

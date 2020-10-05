@@ -183,88 +183,48 @@ include 'header.php';  //любой файл который мы хотим по
 <br><br>
 </div>
 <div class="tab-pane fade api" id="custom-nav-contact" role="tabpanel" aria-labelledby="custom-nav-contact-tab">
-<div class="col-lg-6 col-md-12 row">
+<div class="col-lg-12 col-md-12 row">
 <div class="card-body fortabs">
   <section id="filters">
-  <div class="form-group">
-      
-      <div class="inputs-block">
-          <div class="col">
-              <div class="jss8">
-                  <div class=" css-2b097c-container">
-                      <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
-                          <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Операторы</label>
-                          <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
-                              <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
-                                  <div class="jss10">
-                                      <div class=" css-1uccc91-singleValue">Не выбрано</div>
-                                      <div class="css-1tna5xz">
-                                          <div class="" style="display: inline-block;">
-                                              <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-multiple" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 0; outline: 0px; padding: 0px; color: inherit;">
-                                              <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
-                                          </div>
-                                      </div>
-                                  </div>
-                                  <div class=" css-1wy0on6"><span class=" css-1okebmr-indicatorSeparator"></span>
-                                      <div aria-hidden="true" class=" css-tlfecz-indicatorContainer">
-                                          <svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-19bqh2r">
-                                              <path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
-                                          </svg>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="col">
-              <div class="jss8">
-                  <div class=" css-2b097c-container">
-                      <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
-                          <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Страны</label>
-                          <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
-                              <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
-                                  <div class="jss10">
-                                      <div class=" css-1uccc91-singleValue">Не выбрано</div>
-                                      <div class="css-1tna5xz">
-                                          <div class="" style="display: inline-block;">
-                                              <input autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-multiple" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 0; outline: 0px; padding: 0px; color: inherit;">
-                                              <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
-                                          </div>
-                                      </div>
-                                  </div>
-                                  <div class=" css-1wy0on6"><span class=" css-1okebmr-indicatorSeparator"></span>
-                                      <div aria-hidden="true" class=" css-tlfecz-indicatorContainer">
-                                          <svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-19bqh2r">
-                                              <path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path>
-                                          </svg>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="checkboxes">
-          <div class="custom-mselect margin5">
-              <label for="offer-new" class="name-check">CIDR</label>
-              <div id="ios-checkbox-offer-new" class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select checked"><div class="inner"></div></div></div>
-          </div>
+    <div class="form-row col-lg-12">
+      <div class="form-group col-lg-2 col-md-12 col-sm-8 col-xs-8">
+            <label class="form-control-label">Страны</label>
+            <div class="input-group">
+            <select name="selectSm" id="selectSm" class="form-control-sm form-control">
+              <option value="0">Россия</option>
+              <option value="1">Казахстан</option>
+              <option value="2">Украина</option>
+              <option value="3">Белорусь</option>
+              <option value="4">and more...</option>
+            </select>
+            </div>
         </div>
-  </div>
-</section>
+      <div class="form-group col-lg-2 col-md-4 col-sm-8 col-xs-8">
+            <label class="form-control-label">Операторы</label>
+            <div class="input-group">
+            <select name="selectSm" id="selectSm" class="form-control-sm form-control">
+              <option value="0">Beeline</option>
+              <option value="1">Megafon</option>
+              <option value="2">MTS</option>
+              <option value="3">Tele2</option>
+              <option value="4">and more...</option>
+            </select>
+            </div>
+        </div>
+        <div class="form-group col-lg-1 col-md-2 col-sm-2 col-xs-2">
+            <div class="input-group checkbox-group">
+              <label class="form-control-label" for="offer-new">CIDR</label>
+              <div id="ios-checkbox-offer-new" class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select form-select checked"><div class="inner"></div></div></div>
+            </div>
+         </div>
+         <div class="form-group col-lg-2 col-md-6 col-sm-12 col-xs-11 flex-start">
+          <button class="circle-btn" title="Скачать весь диапазон IP"><i class="ti ti-cloud-down"></i></button>
+          <button class="circle-btn" title="Загрузить диапазоны"><i class="ti ti-upload"></i></button>
+          <button class="circle-btn" title="Скачать шаблон"><i class="ti ti-list-ol"></i></button>
+          </div>
 </div>
-  <div class="card-body fortabs">
-    
-
-    <div class="form-group">
-
-
-
-  <div class="col">
+<div class="form-row col-lg-12">
+  <div class="form-group col-lg-3 col-md-6 col-sm-12">
     <textarea name="ip" id="" cols="50" rows="10">
     5.227.120.0/23
     46.23.175.0/20
@@ -288,15 +248,20 @@ include 'header.php';  //любой файл который мы хотим по
     80.83.224.0/25
   </textarea>
   </div>
-  <div class="col">
-    <p><b>Диапазоны IP</b></p>
+  <div class="form-group col-lg-3 col-md-6 col-sm-12">
+    <div class="diap">
+      <p><b>Диапазоны IP</b></p>
     <p>Beeline (RU)<a href="https://affimob.com/download/operator_subnet.xlsx" style="white-space: nowrap;">Скачать</a></p>
     <p>MTS (RU)<a href="https://affimob.com/download/operator_subnet.xlsx" style="white-space: nowrap;">Скачать</a></p>
     <p>Megafon (RU)<a href="https://affimob.com/download/operator_subnet.xlsx" style="white-space: nowrap;">Скачать</a></p>
     <p>Tele2 (RU)<a href="https://affimob.com/download/operator_subnet.xlsx" style="white-space: nowrap;">Скачать</a></p>
     <p>Wifi+3G (RU)<a href="https://affimob.com/download/operator_subnet.xlsx" style="white-space: nowrap;">Скачать</a></p>
+    </div>
+    
   </div>
-
+</div>
+</section>
+</div>
     </div>
 </div>
   
