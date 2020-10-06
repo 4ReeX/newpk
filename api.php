@@ -217,39 +217,43 @@ include 'header.php';  //любой файл который мы хотим по
               <div id="ios-checkbox-offer-new" class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select form-select checked"><div class="inner"></div></div></div>
             </div>
          </div>
-         <div class="form-group col-lg-2 col-md-6 col-sm-12 col-xs-11 flex-start">
+         <div class="form-group col-lg-2 col-md-6 col-sm-12 col-xs-11 flex-end">
           <button class="circle-btn" title="Скачать весь диапазон IP"><i class="ti ti-cloud-down"></i></button>
           <button class="circle-btn" title="Загрузить диапазоны"><i class="ti ti-upload"></i></button>
           <button class="circle-btn" title="Скачать шаблон"><i class="ti ti-list-ol"></i></button>
           </div>
 </div>
 <div class="form-row col-lg-12">
-  <div class="form-group col-lg-3 col-md-6 col-sm-12">
-    <textarea name="ip" id="" cols="50" rows="10">
-    5.227.120.0/23
-    46.23.175.0/20
-    46.232.160.0/21
-    80.83.224.0/25
-    5.227.120.0/23
-    46.23.175.0/20
-    46.232.160.0/21
-    80.83.224.0/25
-    5.227.120.0/23
-    46.23.175.0/20
-    46.232.160.0/21
-    80.83.224.0/25
-    5.227.120.0/23
-    46.23.175.0/20
-    46.232.160.0/21
-    80.83.224.0/25
-    5.227.120.0/23
-    46.23.175.0/20
-    46.232.160.0/21
-    80.83.224.0/25
-  </textarea>
+  <div class="form-group col-lg-2 col-md-6 col-sm-12">
+    <div class="input-group">
+      <textarea name="ip" id="" cols="40" rows="10" class="iprange">
+      5.227.120.0/23
+      46.23.175.0/20
+      46.232.160.0/21
+      80.83.224.0/25
+      5.227.120.0/23
+      46.23.175.0/20
+      46.232.160.0/21
+      80.83.224.0/25
+      5.227.120.0/23
+      46.23.175.0/20
+      46.232.160.0/21
+      80.83.224.0/25
+      5.227.120.0/23
+      46.23.175.0/20
+      46.232.160.0/21
+      80.83.224.0/25
+      5.227.120.0/23
+      46.23.175.0/20
+      46.232.160.0/21
+      80.83.224.0/25
+      </textarea>
+    </div>
+    
   </div>
-  <div class="form-group col-lg-3 col-md-6 col-sm-12">
-    <div class="diap">
+  <div class="form-group col-lg-3 col-md-6 col-sm-12 flex-start">
+    <div class="input-group">
+      <div class="diap">
       <p><b>Диапазоны IP</b></p>
     <p>Beeline (RU)<a href="https://affimob.com/download/operator_subnet.xlsx" style="white-space: nowrap;">Скачать</a></p>
     <p>MTS (RU)<a href="https://affimob.com/download/operator_subnet.xlsx" style="white-space: nowrap;">Скачать</a></p>
@@ -257,6 +261,8 @@ include 'header.php';  //любой файл который мы хотим по
     <p>Tele2 (RU)<a href="https://affimob.com/download/operator_subnet.xlsx" style="white-space: nowrap;">Скачать</a></p>
     <p>Wifi+3G (RU)<a href="https://affimob.com/download/operator_subnet.xlsx" style="white-space: nowrap;">Скачать</a></p>
     </div>
+    </div>
+    
     
   </div>
 </div>
