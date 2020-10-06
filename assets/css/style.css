@@ -328,6 +328,7 @@ button{box-shadow:none;outline:0!important;}
 .icon-btn.selected{color:#000;font-weight:700;}
 .MuiInputLabel-shrink{font-size:1.2rem!important;font-weight:400!important;}
 @media screen and (max-width:768px){
+
 .icon-btn{margin:0;}
 }
 /*! CSS Used from: Embedded */
@@ -7310,6 +7311,8 @@ textarea.iprange {
     overflow-x: hidden;
     border: 1px solid #dedede;
     border-radius: 5px;
+    width: 100%;
+
 }
 label.form-control-label {
     margin-left: 10px;
@@ -7320,6 +7323,13 @@ label.form-control-label {
 .form-group.col-sm-12 {
     width: 100%;
 }
+.circle-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+
+}
 .circle-group button.circle-btn {
-	margin-top: 20px;
+	margin-top: 10px;
 }

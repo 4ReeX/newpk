@@ -187,7 +187,7 @@ include 'header.php';  //любой файл который мы хотим по
 <div class="card-body fortabs">
   <section id="filters">
     <div class="form-row col-lg-12">
-      <div class="form-group col-lg-2 col-md-12 col-sm-12 col-xs-8">
+      <div class="form-group col-lg-3 col-md-6 col-sm-12 col-xs-8">
             <label class="form-control-label">Страны</label>
             <div class="input-group">
               <div class="jss8">
@@ -201,7 +201,7 @@ include 'header.php';  //любой файл который мы хотим по
             </div>
             </div>
         </div>
-      <div class="form-group col-lg-2 col-md-12 col-sm-12 col-xs-8">
+      <div class="form-group col-lg-3 col-md-6 col-sm-12 col-xs-8">
             <label class="form-control-label">Операторы</label>
             <div class="input-group">
               <div class="jss8">
@@ -215,43 +215,26 @@ include 'header.php';  //любой файл который мы хотим по
             </div>
             </div>
         </div>
-        <div class="form-group col-lg-1 col-md-2 col-sm-2 col-xs-2">
-            <div class="input-group checkbox-group">
+        <div class="form-group col-lg-3 col-md-6 col-sm-12 col-xs-12">
+          <div class="checkbox-group">
+              
               <label class="form-control-label" for="offer-new">CIDR</label>
               <div id="ios-checkbox-offer-new" class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select form-select checked"><div class="inner"></div></div></div>
             </div>
+          <div class="circle-group ">
+                <button class="circle-btn" title="Скачать весь диапазон IP"><i class="ti ti-cloud-down"></i></button>
+                <button class="circle-btn" title="Загрузить диапазоны"><i class="ti ti-upload"></i></button>
+                <button class="circle-btn" title="Скачать шаблон"><i class="ti ti-list-ol"></i></button>
+              </div>
+            
          </div>
-         <div class="form-group col-lg-2 col-md-6 col-sm-8 col-xs-11 flex-end circle-group">
-          <button class="circle-btn" title="Скачать весь диапазон IP"><i class="ti ti-cloud-down"></i></button>
-          <button class="circle-btn" title="Загрузить диапазоны"><i class="ti ti-upload"></i></button>
-          <button class="circle-btn" title="Скачать шаблон"><i class="ti ti-list-ol"></i></button>
-          </div>
 </div>
 <div class="form-row col-lg-12">
-  <div class="form-group col-lg-2 col-md-6 col-sm-12">
+  <div class="form-group col-lg-3 col-md-6 col-sm-12">
     <div class="input-group">
       <div class="jss8">
-      <textarea name="ip" id="" cols="40" rows="10" class="iprange">
-      5.227.120.0/23
-      46.23.175.0/20
-      46.232.160.0/21
-      80.83.224.0/25
-      5.227.120.0/23
-      46.23.175.0/20
-      46.232.160.0/21
-      80.83.224.0/25
-      5.227.120.0/23
-      46.23.175.0/20
-      46.232.160.0/21
-      80.83.224.0/25
-      5.227.120.0/23
-      46.23.175.0/20
-      46.232.160.0/21
-      80.83.224.0/25
-      5.227.120.0/23
-      46.23.175.0/20
-      46.232.160.0/21
-      80.83.224.0/25
+      <textarea name="ip" id="" rows="10" class="iprange">
+      <?php include 'iprange.php'; ?>
       </textarea>
       </div>
     </div>
