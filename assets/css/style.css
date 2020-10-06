@@ -7291,7 +7291,7 @@ label {
 .form-group.col-lg-2.col-md-12.col-sm-12.col-xs-12 {
     width: 100%;
 }
-.form-group.col-lg-2.col-md-6.col-sm-12.col-xs-11.flex-end {
+.form-group.col-lg-2.col-md-6.col-sm-8.col-xs-11.flex-end {
     justify-content: flex-start;
     align-items: flex-center;
 }
@@ -7319,4 +7319,7 @@ label.form-control-label {
 
 .form-group.col-sm-12 {
     width: 100%;
+}
+.circle-group {
+	justify-content: flex-start;
 }
