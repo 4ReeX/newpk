@@ -221,7 +221,7 @@ include 'header.php';  //любой файл который мы хотим по
               <div id="ios-checkbox-offer-new" class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select form-select checked"><div class="inner"></div></div></div>
             </div>
          </div>
-         <div class="form-group col-lg-2 col-md-6 col-sm-8 col-xs-11 flex-end">
+         <div class="form-group col-lg-2 col-md-6 col-sm-8 col-xs-11 flex-end circle-group">
           <button class="circle-btn" title="Скачать весь диапазон IP"><i class="ti ti-cloud-down"></i></button>
           <button class="circle-btn" title="Загрузить диапазоны"><i class="ti ti-upload"></i></button>
           <button class="circle-btn" title="Скачать шаблон"><i class="ti ti-list-ol"></i></button>

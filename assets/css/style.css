@@ -7320,6 +7320,6 @@ label.form-control-label {
 .form-group.col-sm-12 {
     width: 100%;
 }
-.circle-group {
-	justify-content: flex-start;
+.circle-group button.circle-btn {
+	margin-top: 20px;
 }
