@@ -7293,9 +7293,14 @@ label {
 }
 .form-group.col-lg-2.col-md-6.col-sm-12.col-xs-11.flex-end {
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-center;
 }
-
+.form-group.col-lg-2.col-md-6.col-sm-12.col-xs-11.flex-end button.circle-btn {
+    margin-top: 20px;
+}
+.form-group.col-lg-2.col-md-12.col-sm-8.col-xs-8 label {
+	margin-left: 10px;
+}
 textarea.iprange {
 	resize: vertical;
     overflow-y: scroll;
@@ -7303,4 +7308,15 @@ textarea.iprange {
     max-height: 100%;
     height: 55vh;
     overflow-x: hidden;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}
+label.form-control-label {
+    margin-left: 10px;
+    float: left;
+    position: relative;
+}
+
+.form-group.col-sm-12 {
+    width: 100%;
 }

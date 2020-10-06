@@ -187,9 +187,10 @@ include 'header.php';  //любой файл который мы хотим по
 <div class="card-body fortabs">
   <section id="filters">
     <div class="form-row col-lg-12">
-      <div class="form-group col-lg-2 col-md-12 col-sm-8 col-xs-8">
+      <div class="form-group col-lg-2 col-md-12 col-sm-12 col-xs-8">
             <label class="form-control-label">Страны</label>
             <div class="input-group">
+              <div class="jss8">
             <select name="selectSm" id="selectSm" class="form-control-sm form-control">
               <option value="0">Россия</option>
               <option value="1">Казахстан</option>
@@ -198,10 +199,12 @@ include 'header.php';  //любой файл который мы хотим по
               <option value="4">and more...</option>
             </select>
             </div>
+            </div>
         </div>
-      <div class="form-group col-lg-2 col-md-4 col-sm-8 col-xs-8">
+      <div class="form-group col-lg-2 col-md-12 col-sm-12 col-xs-8">
             <label class="form-control-label">Операторы</label>
             <div class="input-group">
+              <div class="jss8">
             <select name="selectSm" id="selectSm" class="form-control-sm form-control">
               <option value="0">Beeline</option>
               <option value="1">Megafon</option>
@@ -210,6 +213,7 @@ include 'header.php';  //любой файл который мы хотим по
               <option value="4">and more...</option>
             </select>
             </div>
+            </div>
         </div>
         <div class="form-group col-lg-1 col-md-2 col-sm-2 col-xs-2">
             <div class="input-group checkbox-group">
@@ -217,7 +221,7 @@ include 'header.php';  //любой файл который мы хотим по
               <div id="ios-checkbox-offer-new" class="ios-checkbox-wrap"><input type="checkbox" id="offer-new" class="ios ios-checkbox-input" data-ios-checkbox="true" style="display: none;" checked="checked"><div class="ios-ui-select form-select checked"><div class="inner"></div></div></div>
             </div>
          </div>
-         <div class="form-group col-lg-2 col-md-6 col-sm-12 col-xs-11 flex-end">
+         <div class="form-group col-lg-2 col-md-6 col-sm-8 col-xs-11 flex-end">
           <button class="circle-btn" title="Скачать весь диапазон IP"><i class="ti ti-cloud-down"></i></button>
           <button class="circle-btn" title="Загрузить диапазоны"><i class="ti ti-upload"></i></button>
           <button class="circle-btn" title="Скачать шаблон"><i class="ti ti-list-ol"></i></button>
@@ -226,6 +230,7 @@ include 'header.php';  //любой файл который мы хотим по
 <div class="form-row col-lg-12">
   <div class="form-group col-lg-2 col-md-6 col-sm-12">
     <div class="input-group">
+      <div class="jss8">
       <textarea name="ip" id="" cols="40" rows="10" class="iprange">
       5.227.120.0/23
       46.23.175.0/20
@@ -248,11 +253,13 @@ include 'header.php';  //любой файл который мы хотим по
       46.232.160.0/21
       80.83.224.0/25
       </textarea>
+      </div>
     </div>
     
   </div>
   <div class="form-group col-lg-3 col-md-6 col-sm-12 flex-start">
     <div class="input-group">
+      <div class="jss8">
       <div class="diap">
       <p><b>Диапазоны IP</b></p>
     <p>Beeline (RU)<a href="https://affimob.com/download/operator_subnet.xlsx" style="white-space: nowrap;">Скачать</a></p>
@@ -260,6 +267,7 @@ include 'header.php';  //любой файл который мы хотим по
     <p>Megafon (RU)<a href="https://affimob.com/download/operator_subnet.xlsx" style="white-space: nowrap;">Скачать</a></p>
     <p>Tele2 (RU)<a href="https://affimob.com/download/operator_subnet.xlsx" style="white-space: nowrap;">Скачать</a></p>
     <p>Wifi+3G (RU)<a href="https://affimob.com/download/operator_subnet.xlsx" style="white-space: nowrap;">Скачать</a></p>
+    </div>
     </div>
     </div>
     

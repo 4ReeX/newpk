@@ -1,4 +1,5 @@
 @media screen and (max-width: 414px) {
+
 		.widget-content-right {	margin-right: 0;}
 		.widget-heading {font-size: 12px;}
 		.fsize-2 {    font-size: 1rem!important;}\
@@ -66,6 +67,7 @@
 	.footer {  padding-bottom: 40px;}
 }
 @media screen and (max-width: 768px) {
+	textarea.iprange {width: 100%;}
 	.chat button.btn.btn-outline-secondary {
     	font-size: 16px;
 	}
@@ -182,7 +184,6 @@
 	.padding15 {padding: 0 15px;}
 	.jss8 {min-width: 200px;}
 	.input-group {width: 100%; max-width: 100%;}
-	label {    min-width: 100%;}
 	.right-panel {margin-left: 0px;}
 	.top-right .avatar {width: 40px; height: 40px;}
 	.avatar {display: block;}
