@@ -26,13 +26,13 @@ table th {    text-align: right;}
             </select>
             </div>
         </div>
-        <div class="form-group col-md-4 col-sm-6 col-xs-12">
+        <div class="form-group col-md-4 col-sm-12 col-xs-12">
             <label class="form-control-label">Site_ID</label>
                 <div class="input-group">
                     <input class="form-control" placeholder="{siteid}">
                 </div>
         </div>
-        <div class="form-group col-md-4 col-sm-6 col-xs-12">
+        <div class="form-group col-md-4 col-sm-12 col-xs-12">
             <label class="form-control-label">Source</label>
                 <div class="input-group">
                     <input class="form-control" placeholder="{source}">
