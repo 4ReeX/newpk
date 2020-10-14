@@ -38,7 +38,9 @@
 
 </style>
 <div class="col-12">
+    <div class="circle-btn"><i class="ti ti-list"></i></div>
 <div class="openparams" id="openparams">Расширенные параметры</div>
+
 <div class="params" id="params">
     
     <div class="row par" id="par">
