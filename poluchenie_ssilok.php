@@ -17,6 +17,8 @@ include 'sidebar.php';  //любой файл который мы хотим п�
             <?php  //говорит нам что начинается php код
 include 'header.php';  //любой файл который мы хотим подключить в этой части документа
 ?>
+
+
                 <!-- Header-->
 
                 <div class="content">
@@ -60,7 +62,7 @@ include 'header.php';  //любой файл который мы хотим по
 
                                     </div>
                                 </div>
-
+                                <?php include 'dopparams.php' ?>
                                 <div class="row" id="createPotok" style="display: none;">
 
                                     <div class="col ramka">
