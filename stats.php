@@ -360,7 +360,7 @@ include 'header.php';  //любой файл который мы хотим по
                                             </div>
                                         </div>
 
-                                   
+                                   <?php include 'dopparams.php' ?>
                                     <div class="col-lg-12">
                                         <div class="circle-btn-group">
                                             <button class="circle-btn" title="Сформировать отчет"><i class="ti ti-check"></i></button>

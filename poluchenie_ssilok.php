@@ -23,6 +23,7 @@ include 'header.php';  //любой файл который мы хотим по
 
                 <div class="content">
                     <div class="animated fadeIn">
+                    	
                         <div class="card">
                             <div class="card-body">
                                 <div class="row">
@@ -62,7 +63,8 @@ include 'header.php';  //любой файл который мы хотим по
 
                                     </div>
                                 </div>
-                                <?php include 'dopparams.php' ?>
+
+<?php include 'dopparams.php' ?>
                                 <div class="row" id="createPotok" style="display: none;">
 
                                     <div class="col ramka">

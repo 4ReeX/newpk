@@ -6,22 +6,22 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        transition: all 0.3s ease-in;
     }
     .openparams {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         width: 210px;
         margin: 10px auto;
-        background: #f1f1f1;
-        color: #666;
+        color: #000;
+        border-bottom: 1px dashed #000;
         font-size: 16px;
         height: 20px;
-        border-radius: 20px;
         position: relative;
         float: left;
+        text-align: left;
+
     }
     .par {display: none; height: 0px;transition: all 0.3s ease-in}
     .par.open {display: flex; height: auto;transition: all 0.3s ease-in}
@@ -38,9 +38,9 @@
 
 </style>
 <div class="col-12">
-
+<div class="openparams" id="openparams">Расширенные параметры</div>
 <div class="params" id="params">
-    <div class="openparams" id="openparams">Дополнительно</div>
+    
     <div class="row par" id="par">
 
 <div class="form-row per100">
