@@ -41,18 +41,6 @@ include 'header.php';  //любой файл который мы хотим по
                                             <option value="4">Пора лить на картошку</option>
                                             <option value="5">Мишин поток, но ему не говорите</option>
                                         </select>
-
-                                        <form action="" class="doms">
-                                        <input list="domains" placeholder="s2s.affimob.com" class="form-control-sm form-control input-domains">
-                                        <datalist id="domains">
-                                        <option>Domain.ru</option>
-                                        <option>2ip.com</option>
-                                        <option>affiliate.org</option>
-                                        <option>bespredel.ru</option>
-                                        <option>porno.com</option>
-                                        <option>beeeee.ve</option>
-                                       </datalist>
-                                        </form>
                                         <div class="buttons-block btn-block">
                                             <button class="btn btn-outline-primary btn-margin" onclick="clickMe();" id="link1"  data-toggle="modal" data-target="#macrosModal">Получить ссылки</button>
                                             <button class="btn btn-outline-success btn-margin" id="link2" data-toggle="modal" data-target="#macrosModal">Создать смартлинк</button>
