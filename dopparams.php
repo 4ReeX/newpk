@@ -8,19 +8,21 @@
         align-items: flex-start;
     }
     .openparams {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        width: 210px;
-        margin: 10px auto;
-        color: #000;
-        border-bottom: 1px dashed #000;
-        font-size: 16px;
-        height: 20px;
-        position: relative;
-        float: left;
-        text-align: left;
+       display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 240px;
+    margin: 15px auto;
+    color: #000;
+    border-bottom: 1px dashed #000;
+    font-size: 16px;
+    height: 20px;
+    position: relative;
+    float: left;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0;
 
     }
     .par {display: none; height: 0px;transition: all 0.3s ease-in}
@@ -35,11 +37,11 @@
 .per100 {
     width: 100%;
 }
+.openparams i {margin-left: 10px;}
 
 </style>
 <div class="col-12">
-    <div class="circle-btn"><i class="ti ti-list"></i></div>
-<div class="openparams" id="openparams">Расширенные параметры</div>
+<div class="openparams" id="openparams"> Расширенные параметры <i class="ti ti-angle-down"id="icon-change"></i></div>
 
 <div class="params" id="params">
     
@@ -98,5 +100,6 @@
 <script>
     document.getElementById('openparams').onclick = function() {
         document.getElementById('par').classList.toggle('open');
+        document.getElementById('icon-change').classList.toggle('ti-angle-up');
     }
 </script>
