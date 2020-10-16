@@ -6079,10 +6079,10 @@ th.sticky-footer {
     padding: 0;
     margin-right: 30px;
 }
-.checkboxes .ios-ui-select {
+/*.checkboxes .ios-ui-select {
     position: absolute;
     top: 0;
-}
+}*/
 .ModalMassEdit label.float-left {
     max-width: 100%;
     float: left;
