@@ -95,12 +95,12 @@ i.ti.ti-alert {color: red;font-weight: 700;}
         </div>
         </div>
 </div>
+
+</div>
+
+
+</div>
 <p class="alert"><i class="ti ti-alert"></i>Трафик будет направлен на оффер(ы) только при передаче источников и площадок в параметрах traf_src и site_id, обязательно проверьте правильность написания макросов иои обратитесь за помощью к менеджерам</p>
-</div>
-
-
-</div>
-
 </div>
 <script>
     document.getElementById('openparams').onclick = function() {
