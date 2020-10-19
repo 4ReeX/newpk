@@ -12,7 +12,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 240px;
+    width: auto;
     margin: 15px auto;
     color: #000;
     border-bottom: 1px dashed #000;
@@ -39,6 +39,13 @@
 }
 .openparams i {margin-left: 10px;}
 i.ti.ti-alert {color: red;font-weight: 700;}
+.ti-angle-down:before {
+    content: "\e64b";
+    margin: 0px;
+    color: red;
+}
+p.alert {font-size: 12px; font-weight: 700;}
+
 
 </style>
 <div class="col-12">
@@ -100,7 +107,7 @@ i.ti.ti-alert {color: red;font-weight: 700;}
 
 
 </div>
-<p class="alert"><i class="ti ti-alert"></i>Трафик будет направлен на оффер(ы) только при передаче источников и площадок в параметрах traf_src и site_id, обязательно проверьте правильность написания макросов иои обратитесь за помощью к менеджерам</p>
+
 </div>
 <script>
     document.getElementById('openparams').onclick = function() {
