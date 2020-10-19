@@ -38,6 +38,7 @@
     width: 100%;
 }
 .openparams i {margin-left: 10px;}
+i.ti.ti-alert {color: red;font-weight: 700;}
 
 </style>
 <div class="col-12">
@@ -49,7 +50,7 @@
 
 <div class="form-row per100">
          <div class="form-group col-md-4 col-sm-12">
-            <label class="form-control-label">Рекламная сеть/трекер</label>
+            <label class="form-control-label">Рекламная сеть</label>
             <div class="input-group">
             <select name="selectSm" id="selectSm" class="form-control-sm form-control">
               <option value="0">Binom</option>
@@ -76,26 +77,30 @@
     </div>
     <div class="form-row per100">
         <div class="form-group col-md-4 col-sm-12">
-            <label class="form-control-label">Свой параметр</label>
+            <label class="form-control-label">Параметр pt_id1</label>
         <div class="input-group">
             <input class="form-control" placeholder="пусто">
         </div>
         </div>
         <div class="form-group col-md-4 col-sm-12">
-            <label class="form-control-label">Свой параметр</label>
+            <label class="form-control-label">Параметр pt_id2</label>
         <div class="input-group">
             <input class="form-control" placeholder="пусто">
         </div>
         </div>
         <div class="form-group col-md-4 col-sm-12">
-            <label class="form-control-label">Свой параметр</label>
+            <label class="form-control-label">Параметр pt_id3</label>
         <div class="input-group">
             <input class="form-control" placeholder="пусто">
         </div>
         </div>
 </div>
+<p class="alert"><i class="ti ti-alert"></i>Трафик будет направлен на оффер(ы) только при передаче источников и площадок в параметрах traf_src и site_id, обязательно проверьте правильность написания макросов иои обратитесь за помощью к менеджерам</p>
 </div>
+
+
 </div>
+
 </div>
 <script>
     document.getElementById('openparams').onclick = function() {
