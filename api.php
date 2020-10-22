@@ -44,8 +44,8 @@ include 'header.php';  //любой файл который мы хотим по
 
     
 
-        <div class="tab-content pl-3 pt-2" id="nav-tabContent">
-<div class="tab-pane fade active show" id="custom-nav-home" role="tabpanel" aria-labelledby="custom-nav-home-tab">
+        <div class="tab-content pt-2" id="nav-tabContent">
+<div class="tab-pane fade active show pl-3" id="custom-nav-home" role="tabpanel" aria-labelledby="custom-nav-home-tab">
 <p>По признаку <b>"вирус"</b> мы отсекаем по http-заголовку <b>x-requested-with</b> всё, что не подпадает под запись белого списка, и всё, что не браузер.</p>
 <p>Разрешающие (белые) записи:</p>
 <p><b>*browser* com.android.chrome ru.yandex.* com.yandex.* ru.mail.* com.opera.* com.baidu.* android.facebook ios.facebook com.facebook.* com.instagram.* com.vkontakte.* com.skype.* </b></p>
@@ -57,7 +57,7 @@ include 'header.php';  //любой файл который мы хотим по
 <p>По возможности установите фильтры на своей стороне, чтобы избежать потерь трафика.</p>
 <br><br>
 </div>
-<div class="tab-pane fade" id="custom-nav-start" role="tabpanel" aria-labelledby="custom-nav-start-tab">
+<div class="tab-pane fade pl-3" id="custom-nav-start" role="tabpanel" aria-labelledby="custom-nav-start-tab">
 <p><b>Трафикбэк (англ. traffic back) - это трафик, который не принимается нашей партнёрской программой по тем или иным причинам, но вы можете перенаправить его на свой сайт или другую партнёрку.</b></p>
 <p>Если вы хотите перенаправить всех пользователей, которые не подходят под условия офферов вашей ссылки, по которой они перешли из  рекламной сети, на альтернативный URL, укажите в поле Trafficback URL, на который система перенаправит ваших пользователей.</p>
 <p>Это могут быть пользователи, не попадающие в требуемые ГЕО или пользователи, перешедшие по ссылке с устройства, которое не входит в список разрешенных оператором.</p>
@@ -95,7 +95,7 @@ include 'header.php';  //любой файл который мы хотим по
 <p><b class="tabulation">t9</b>{sub_id}</p>
 <br><br>
 </div>
-<div class="tab-pane fade" id="custom-nav-oss" role="tabpanel" aria-labelledby="custom-nav-oss-tab">
+<div class="tab-pane fade pl-3" id="custom-nav-oss" role="tabpanel" aria-labelledby="custom-nav-oss-tab">
 <p><b>Postback</b> – это механизм, позволяющий передавать из партнёрской сети данные стороннему сайту, скрипту или приложению.</p>
 <p>Названия/набор передаваемых через Postback URL параметров партнёр может сам, как ему удобно, а платформа Affimob будет подставлять в указанную ей ссылку взамен каждого запрошенного {параметра} соответствующее ему значение. </p>
 <p>Перечисленные параметры не являются строго обязательными, набор может быть произвольным.</p>
@@ -124,7 +124,7 @@ include 'header.php';  //любой файл который мы хотим по
 <p><b>{operator}</b> - Название оператора (tim_it, beeline_ru)</p>
 <br><br>
 </div>
-<div class="tab-pane fade" id="custom-nav-pay" role="tabpanel" aria-labelledby="custom-nav-pay-tab">
+<div class="tab-pane fade pl-3" id="custom-nav-pay" role="tabpanel" aria-labelledby="custom-nav-pay-tab">
 <p>Взаимодействие через s2s позволяет сократить количество редиректов по «пути» следования абонента от партнёра к LP, а это, в свою очередь, в некоторых ситуациях приводит к увеличению показателя CR.</p>
 <p><br><b>Партнёрский сценарий для использования S2S:</b></p>
 <p>1. Зайти в ПК, подключить оффер (если не подключен), получить ссылку на продвижение</p>
