@@ -24,8 +24,8 @@ include 'header.php';  //любой файл который мы хотим по
                             <nav class="navitab">
                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
                         <a class="nav-item nav-link active show" data-toggle="tab" href="#" role="tab" onclick="openTabs1();" aria-selected="true">ВСЕ</a>
-                        <a class="nav-item nav-link" id="start-tab" data-toggle="tab" href="#" role="tab" aria-controls="custom-nav-start" aria-selected="false" onclick="openTabs2();">ПОДКЛЮЧЕННЫЕ</a>
-                        <a class="nav-item nav-link" id="oss-tab" data-toggle="tab" href="#" role="tab" aria-controls="custom-nav-oss" aria-selected="false" onclick="openTabs3();">СМАРТЛИНКИ</a>
+                        <a class="nav-item nav-link" id="start-tab-offers" data-toggle="tab" href="#" role="tab" aria-controls="custom-nav-start" aria-selected="false" onclick="openTabs2();">ПОДКЛЮЧЕННЫЕ</a>
+                        <a class="nav-item nav-link" id="oss-tab-offers" data-toggle="tab" href="#" role="tab" aria-controls="custom-nav-oss" aria-selected="false" onclick="openTabs3();">СМАРТЛИНКИ</a>
                         <a href="http://lpt.playmobile.ru/offers/skrom/affimob-redis/pk2/operator_subnet.xlsx" class="diapazon float-right"> Получить диапазон IP <i class="ti ti-world"></i></a>
                         </div>
 

@@ -28,8 +28,8 @@ include 'header.php';  //любой файл который мы хотим по
                                 <div class="card-header">
                                   <nav>
                                             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                                <a class="nav-item nav-link active show" id="home-tab" data-toggle="tab" href="#custom-nav-home" role="tab" aria-controls="custom-nav-home" aria-selected="true">Статистика</a>
-                                                <a class="nav-item nav-link" id="start-tab" data-toggle="tab" href="#custom-nav-start" role="tab" aria-controls="custom-nav-start" aria-selected="false">Анализ трафика</a>
+                                                <a class="nav-item nav-link active show" id="home-tab-stat" data-toggle="tab" href="#custom-nav-home" role="tab" aria-controls="custom-nav-home" aria-selected="true">Статистика</a>
+                                                <a class="nav-item nav-link" id="start-tab-stat" data-toggle="tab" href="#custom-nav-start" role="tab" aria-controls="custom-nav-start" aria-selected="false">Анализ трафика</a>
                                             </div>
                                         </nav>
                                 </div>
