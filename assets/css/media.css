@@ -346,10 +346,10 @@ input.form-control-sm.form-control.input-domains {
     justify-content: center;
     align-items: center;
     padding-top: 7px;
+    width: 100%;
 }
 .nav-item {border-bottom: 1px solid #f3f3f3;
 position: relative;
-   height: calc(100% / 9);
     box-sizing: border-box;
 }
 .sidebar .main-menu ul li a {

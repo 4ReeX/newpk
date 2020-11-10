@@ -4,7 +4,7 @@
         <div class="offer-container hvr-reveal">
             <input type="checkbox" id="checkbox1" name="checkoffer" value="1" class="ios">
             <div class="newoffer">NEW</div>
-            <div class="oss-icon ofcard"><img src="images/beeline.png" alt=""></div>
+            <div class="oss-icon ofcard"><img src="images/apk.png" alt=""></div>
             <div class="adult">Аdult</div>
             <div class="sound"></div>
             <div class="offer-title">
@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class="offer-info">
-                <span>4,10 руб.</span><span>за ребилл</span>
+                <span>4,10 руб.</span><span><img src="images/zip2.png" alt=""></span><span>net60</span>
             </div>
         </div>
     </label>

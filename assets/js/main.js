@@ -126,6 +126,24 @@ if (document.getElementById('d1').value == "1") {
 };
 
 
+   
+
+
+
+var myLen = $('.menu-s').find('.nav-item').length;
+console.log(myLen);
+var menuheight = $('.menu-s').height();
+console.log(menuheight);
+var setHeight = menuheight / (myLen + 1);
+console.log(setHeight);
+$('.menu-s .nav-item').height(setHeight + "px");
+
+
+
+
+
+
+
 function closePotok() {
 $('#createPotok').hide('fast');
 $('#link1').css("filter", "blur(0px)");
@@ -167,6 +185,7 @@ x.innerHTML = "http://";
 x.innerHTML = "https://";
 }
 };
+
 
 
 
@@ -292,4 +311,5 @@ timeline.onmousedown = () => {
     return false;
   };
 };
+
 

@@ -16,9 +16,7 @@ include 'sidebar.php';  //любой файл который мы хотим п�
             <div id="right-panel" class="right-panel">
 
                 <!-- Header-->
-                <?php  //говорит нам что начинается php код
-include 'header.php';  //любой файл который мы хотим подключить в этой части документа
-?>
+                <?php include 'header.php';?>
                     <!-- Header-->
 
                     <div class="content">
@@ -452,6 +450,7 @@ include 'header.php';  //любой файл который мы хотим по
 
                             </div>
                             <div class="card-body">
+                                
 
                                 <div class="row" id="createPotok" style="display: none;">
                                     <div class="col-lg-12 col-sm-12 ramka">
@@ -991,6 +990,7 @@ include 'header.php';  //любой файл который мы хотим по
                         </div>
                 </footer>
                 </div>
+                <?php include 'popup.php';?>
 
                 <!-- Right Panel -->
 
@@ -1116,6 +1116,8 @@ include 'header.php';  //любой файл который мы хотим по
                         document.getElementById('fullWidth').style.minWidth = "100%";
 
                     };
+
+
                 </script>
                 <script>
                     $(window).on("load resize", function(event) {
@@ -1140,6 +1142,7 @@ include 'header.php';  //любой файл который мы хотим по
                         }
 
                     });
+
                 </script>
     </body>
 

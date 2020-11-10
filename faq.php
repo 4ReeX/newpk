@@ -23,11 +23,11 @@ include 'header.php';  //любой файл который мы хотим по
     <div class="card-header">
         <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link active show" id="home-tab" data-toggle="tab" href="#custom-nav-home" role="tab" aria-controls="custom-nav-home" aria-selected="true">Общая информация</a>
-            <a class="nav-item nav-link" id="start-tab" data-toggle="tab" href="#custom-nav-start" role="tab" aria-controls="custom-nav-start" aria-selected="false">Начало работы</a>
-            <a class="nav-item nav-link" id="oss-tab" data-toggle="tab" href="#custom-nav-oss" role="tab" aria-controls="custom-nav-oss" aria-selected="false">Ограничения операторов</a>
-            <a class="nav-item nav-link" id="pay-tab" data-toggle="tab" href="#custom-nav-pay" role="tab" aria-controls="custom-nav-pay" aria-selected="false">Выплаты</a>
-            <a class="nav-item nav-link" id="contact-tab" data-toggle="tab" href="#custom-nav-contact" role="tab" aria-controls="custom-nav-contact" aria-selected="false">Контакты</a>
+            <a class="nav-item nav-link active show" id="home-faq-tab" data-toggle="tab" href="#custom-nav-faq-home" role="tab" aria-controls="custom-nav-faq-home" aria-selected="true">Общая информация</a>
+            <a class="nav-item nav-link" id="start-faq-tab" data-toggle="tab" href="#custom-nav-faq-start" role="tab" aria-controls="custom-nav-faq-start" aria-selected="false">Начало работы</a>
+            <a class="nav-item nav-link" id="oss-faq-tab" data-toggle="tab" href="#custom-nav-faq-oss" role="tab" aria-controls="custom-nav-faq-oss" aria-selected="false">Ограничения операторов</a>
+            <a class="nav-item nav-link" id="pay-faq-tab" data-toggle="tab" href="#custom-nav-faq-pay" role="tab" aria-controls="custom-nav-faq-pay" aria-selected="false">Выплаты</a>
+            <a class="nav-item nav-link" id="contact-faq-tab" data-toggle="tab" href="#custom-nav-faq-contact" role="tab" aria-controls="custom-nav-faq-contact" aria-selected="false">Контакты</a>
 
         </div>
     </nav>
@@ -43,7 +43,7 @@ include 'header.php';  //любой файл который мы хотим по
 
     
     <div class="tab-content pl-3 pt-2" id="nav-tabContent">
-        <div class="tab-pane fade active show" id="custom-nav-home" role="tabpanel" aria-labelledby="custom-nav-home-tab">
+        <div class="tab-pane fade active show" id="custom-nav-faq-home" role="tabpanel" aria-labelledby="custom-nav-faq-home-tab">
 <br><i>Что такое Вапклик</i>
 <p>Вапклик (wapclick,1click) - это оплата контента на сайтах (видео, музыки, файлов) в один клик (без ввода номера телефона и кода подтверждения). Для оплаты абоненту достаточно нажать одну кнопку (Ок, загрузить, подтвердить, подписаться).</p>
 
@@ -108,7 +108,7 @@ include 'header.php';  //любой файл который мы хотим по
         </div>
 
 
-        <div class="tab-pane fade" id="custom-nav-start" role="tabpanel" aria-labelledby="custom-nav-start-tab">
+        <div class="tab-pane fade" id="custom-nav-faq-start" role="tabpanel" aria-labelledby="custom-nav-faq-start-tab">
             <br><i>Как начать зарабатывать в партнёрской программе?</i>
             <p>В разделе «Смарт-линки», Нажмите "Создать смарт-линк", выберите тематику вашего трафика и тип выплаты вознаграждения - за ребилл или за подписку. Затем, кликая на офферах, выберите по одному или по нескольку офферов для нужных вам операторов. Нажмите - "Продолжить". <br>
 
@@ -147,7 +147,7 @@ include 'header.php';  //любой файл который мы хотим по
         </div>
 
 
-        <div class="tab-pane fade" id="custom-nav-oss" role="tabpanel" aria-labelledby="custom-nav-oss-tab">
+        <div class="tab-pane fade" id="custom-nav-faq-oss" role="tabpanel" aria-labelledby="custom-nav-faq-oss-tab">
             <br><i>Откуда можно привлекать трафик?</i>
             <p>Наша партнерская программа принимает все согласованные категории трафика кроме: <br>
                - трафика добытого с помощью вредоносных и троянских программ, а так же с помощью подмены выдачи <br>
@@ -165,7 +165,7 @@ include 'header.php';  //любой файл который мы хотим по
             
 
         </div>
-        <div class="tab-pane fade" id="custom-nav-pay" role="tabpanel" aria-labelledby="custom-nav-pay-tab">
+        <div class="tab-pane fade" id="custom-nav-faq-pay" role="tabpanel" aria-labelledby="custom-nav-faq-pay-tab">
             <br><i>Как производятся выплаты?</i>
             <p> Для получения партнерского вознаграждения необходимо указать способ получения выплат и соответствующие ему реквизиты в разделе «Мой кабинет». <br>
             Выплаты производятся еженедельно. <br>
@@ -179,7 +179,7 @@ include 'header.php';  //любой файл который мы хотим по
 
             <br><br><br>
         </div>
-        <div class="tab-pane fade" id="custom-nav-contact" role="tabpanel" aria-labelledby="custom-nav-contact-tab">
+        <div class="tab-pane fade" id="custom-nav-faq-contact" role="tabpanel" aria-labelledby="custom-nav-faq-contact-tab">
             <br><i>По всем вопросам обращайтесь, пожалуйста, к вашему менеджеру:</i>
             <p>
                <!--В онлайн-чат (в правом нижнем углу страницы) <br>-->
