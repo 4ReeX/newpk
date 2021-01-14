@@ -7449,7 +7449,71 @@ strong {user-select: text!important; -webkit-user-select: text!important;}
 .exportXls { width: 40px; height: 40px; display: flex; flex-direction: row; justify-content: center;align-items: center; }
 .exportXls img {width: 100%;}
 .exportXls:hover {filter: invert(.7);}
-.zakaz {width: 60px; height: 60px; display: flex;flex-direction: row;justify-content: center;align-items: center;}
+.zakaz {z-index: 1; width: 60px; height: 60px; display: flex;flex-direction: row;justify-content: center;align-items: center; position: relative; right: -10px;}
 .zakaz img {width: 100%;}
 .zakaz:hover {filter: invert(1);}
-/**/
+/*123*/
+.zak {
+	float: right;
+}
+.forma-zakaz {
+	width: 300px;
+    height: 100px;
+    position: relative;
+    right: -40px;
+    border-radius: 15px;
+    top: 10px;
+    background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF 51%, #ECE9E6 100%);
+    transition: all 1s both;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #222;
+    font-size: 12px;
+    padding-right: 0;
+    padding-top: 5px;
+}
+.forma-zakaz .circle-btn {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	cursor: pointer!important;
+}
+
+.forma-zakaz .jss8 {
+    padding: 7px 0px;
+    padding-right: 60px;
+}
+.forma-zakaz label {
+	font-weight: 400!important;
+	font-size: 16px!important;
+}
+.forma-zakaz label + .MuiInput-formControl {
+    margin-top: 0px!important;
+}
+
+
+@media screen and (max-width: 414px) {
+.zak {
+	position: fixed;
+	top: 7%;
+	width: 100%;
+	padding: 30px;
+	z-index: 999;
+	left: 0;
+}
+.forma-zakaz {
+	position: absolute;
+    right: auto;
+    top: 50px;
+    left: auto;
+    width: 84%;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}

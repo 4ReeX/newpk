@@ -50,9 +50,30 @@ include 'header.php';  //любой файл который мы хотим по
                                                 </div>
 
                                             </div>
-                                            <div class="col">
-                                                <a href="#" class="zakaz float-right" title="Заказать выплату"><img src="images/fast-money.png" alt=""></a>
-                                            </div>
+<div class="col">
+<div class="zak">
+  <a href="#" class="zakaz float-right" title="Заказать выплату" onclick="openZakaz();"><img src="images/fast-money.png" alt=""></a>
+<div class="forma-zakaz" style="display: none;">
+    <button class="circle-btn" title="Подтвердить"><i class="ti ti-check"></i></button>
+    <div class="col">
+    <div class="col"><b>Баланс:</b> 653 235,86 руб.</div>
+    <div class="col"><b>Webmoney:</b> R361764168618</div>
+    <div class="col">
+        <?php $InputLabel = "Сумма запроса"; ?>
+        <?php include 'el/input.php'; ?></div>
+         
+</div>
+<script>
+    function openZakaz() {
+     $('.forma-zakaz').toggle('show');
+}
+
+</script>
+    
+</div>  
+</div>
+
+</div>
 
                                         </div>
                                     </div>
