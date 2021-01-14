@@ -23,14 +23,8 @@ include 'header.php';  //любой файл который мы хотим по
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-lg-3 col-auto float-left" id="blockInputDatapicker">
-                                                <div class="jss8">
-                                                    <div class=" css-2b097c-container">
-                                                        <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
-                                                            <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="datapiker">Дата</label>
-                                                            <input type="text" class="form-control form-control-sm MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl" id="datapiker" placeholder="24.10.2019 - 30.10.2019">
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                <?php $labelName = "Дата"; ?>
+                                                <?php include 'el/date.php'; ?>
                                             </div>
 
                                             <div class="col-auto" id="blockInputPeriod">
@@ -55,6 +49,9 @@ include 'header.php';  //любой файл который мы хотим по
 
                                                 </div>
 
+                                            </div>
+                                            <div class="col">
+                                                <a href="#" class="zakaz float-right" title="Заказать выплату"><img src="images/fast-money.png" alt=""></a>
                                             </div>
 
                                         </div>

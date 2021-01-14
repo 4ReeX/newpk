@@ -4610,7 +4610,7 @@ table th {
     text-align: center;
 }
 table.dataTable tbody th, table.dataTable tbody td {
-    text-align: right;
+    text-align: center;
 }
 span.ss {line-height: 2.2;}
 .hotoffer {
@@ -7437,3 +7437,18 @@ a#pay-tab:before {
     position: absolute;
     top: -7px;
 }
+.fade:not(.show) {
+    opacity: 0;
+    display: none;
+}
+
+.table .thead-light th {vertical-align: middle;}
+table.formir td {text-align: center!important;}
+strong {user-select: text!important; -webkit-user-select: text!important;}
+/*Фикс выделений на страницах инструментов*/
+.exportXls { width: 40px; height: 40px; display: flex; flex-direction: row; justify-content: center;align-items: center; }
+.exportXls img {width: 100%;}
+.exportXls:hover {filter: invert(.7);}
+.zakaz {width: 60px; height: 60px; display: flex;flex-direction: row;justify-content: center;align-items: center;}
+.zakaz img {width: 100%;}
+.zakaz:hover {filter: invert(1);}
