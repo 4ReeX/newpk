@@ -106,6 +106,7 @@ include 'header.php';  //любой файл который мы хотим по
                                         <table id="example" class="table table-bordered nowrap dataTable" style="width:100%;">
                                             <thead class="thead-light">
                                                 <tr>
+                                                    <th>Заказ</th>
                                                     <th>Период</th>
                                                     <th>Начислено</th>
                                                     <th>Выплачено</th>
@@ -115,6 +116,7 @@ include 'header.php';  //любой файл который мы хотим по
                                             </thead>
                                             <tbody>
                                                 <tr>
+                                                    <td>В ожидании</td>
                                                     <td style="text-align: center;">2019-12-30 - 2020-01-05</td>
                                                     <td>0,00</td>
                                                     <td>100,00</td>
@@ -122,6 +124,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                     <td>15651,67</td>
                                                 </tr>
                                                 <tr>
+                                                    <td>Выплачено</td>
                                                     <td style="text-align: center;">2019-12-30 - 2020-01-05</td>
                                                     <td>0,00</td>
                                                     <td>100,00</td>
@@ -129,6 +132,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                     <td>10001,67</td>
                                                 </tr>
                                                 <tr>
+                                                    <td>Отказано</td>
                                                     <td style="text-align: center;">2019-12-30 - 2020-01-05</td>
                                                     <td>0,00</td>
                                                     <td>100,00</td>
@@ -138,8 +142,9 @@ include 'header.php';  //любой файл который мы хотим по
                                             </tbody>
                                             <tfoot class="thead-light">
                                                 <tr>
-                                                    <th>Итого</th>
-                                                    <th>5656,60</th>
+                                                    <th>Заказы</th>
+                                                    <th>Периоды</th>
+                                                    <th>0,00</th>
                                                     <th>300,00</th>
                                                     <th>-</th>
                                                     <th>11,67</th>

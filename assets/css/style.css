@@ -7446,12 +7446,12 @@ a#pay-tab:before {
 table.formir td {text-align: center!important;}
 strong {user-select: text!important; -webkit-user-select: text!important;}
 /*Фикс выделений на страницах инструментов*/
-.exportXls { width: 40px; height: 40px; display: flex; flex-direction: row; justify-content: center;align-items: center; }
+.exportXls {margin: 0px 2px 5px; width: 40px; height: 40px; display: flex; flex-direction: row; justify-content: center;align-items: center; }
 .exportXls img {width: 100%;}
-.exportXls:hover {filter: invert(.7);}
-.zakaz {z-index: 1; width: 60px; height: 60px; display: flex;flex-direction: row;justify-content: center;align-items: center; position: relative; right: -10px;}
+.exportXls:hover {filter: invert(0.6);}
+.zakaz {opacity: 0.8; z-index: 1; width: 60px; height: 60px; display: flex;flex-direction: row;justify-content: center;align-items: center; position: relative; right: -10px;}
 .zakaz img {width: 100%;}
-.zakaz:hover {filter: invert(1);}
+.zakaz:hover {filter: invert(.5);opacity: 1;}
 /*123*/
 .zak {
 	float: right;
