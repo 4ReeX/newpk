@@ -7477,6 +7477,7 @@ strong {user-select: text!important; -webkit-user-select: text!important;}
     font-size: 12px;
     padding-right: 0;
     padding-top: 5px;
+    /**/
 }
 .forma-zakaz .circle-btn {
 	position: absolute;
