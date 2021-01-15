@@ -147,6 +147,7 @@ include 'header.php';  //любой файл который мы хотим по
                                                     <th>300,00</th>
                                                     <th>-</th>
                                                     <th>11,67</th>
+                                                    <th>5656,60</th>
                                                 </tr>
                                             </tfoot>
                                         </table>
