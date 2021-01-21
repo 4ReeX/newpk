@@ -95,7 +95,7 @@ include 'header.php';  //любой файл который мы хотим по
                             <div class="row">
 
                                 <div class="col-12">
-                                    <a href="images/payments.xlsx" class="exportXls float-right" title="Получить xlsx"><img src="images/excel.png" alt=""></a>
+                                    <a href="images/payments.xlsx" class="exportXls float-right" title="Получить xlsx"><img src="assets/img/xls.svg" alt=""></a>
                                    <!-- <i class="ti ti-import float-right" style="font-size: 24px; margin-bottom: 5px; margin: 0 10px 5px"></i>-->
                                     <!--<i class="ti ti-settings customize-table float-right" style="font-size: 24px; margin-bottom: 5px;" onclick="test();"></i>-->
                                     

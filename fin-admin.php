@@ -85,7 +85,7 @@
                   <div class="row">
                      <hr>
                      <div class="col-12">
-                       <a href="images/payments.xlsx" class="exportXls float-right" title="Получить xlsx"><img src="images/excel.png" alt=""></a>
+                       <a href="images/payments.xlsx" class="exportXls float-right" title="Получить xlsx"><img src="assets/img/xls.svg" alt=""></a>
                        <a href="images/payments.xlsx" class="exportXls float-right" title="Получить xlsx"><img src="assets/img/dcheck.svg" alt=""></a>
                      <!--<i class="ti ti-settings customize-table float-right" style="font-size: 24px; margin-bottom: 5px;" onclick="test();"></i>-->
                         

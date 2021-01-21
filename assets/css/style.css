@@ -4761,7 +4761,7 @@ td {
 }
 
 i.customize-table {
-  padding-right: 10px;
+      padding-right: 3px;
   /*color: #17a2b8;*/
 }
 
@@ -7447,7 +7447,14 @@ a#pay-tab:before {
 table.formir td {text-align: center!important;}
 strong {user-select: text!important; -webkit-user-select: text!important;}
 /*Фикс выделений на страницах инструментов*/
-.exportXls {width: 36px;    height: 24px; display: flex; flex-direction: row; justify-content: center;align-items: center; margin: 0 2px; margin-bottom: 5px; }
+.exportXls {    width: 25px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2px;
+    margin-bottom: 5px; }
 .exportXls img {width: 100%;}
 .exportXls:hover {filter: invert(.7);}
 .zakaz {
