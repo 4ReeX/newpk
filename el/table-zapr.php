@@ -27,7 +27,7 @@
                 <td>0,00</td>
                 <td>875 328,76</td>
                 <td>Webmoney ; R361764168618</td>
-                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-share"></i></a></td>
+                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-check"></i></a></td>
             </tr>
             <tr>
                 <td><input class="custom-checkbox" type="checkbox" id="cc3" name="che">
@@ -40,7 +40,7 @@
                 <td>0,00</td>
                 <td>875 328,76</td>
                 <td>Webmoney ; R361764168618</td>
-                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-share"></i></a></td>
+                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-check"></i></a></td>
             </tr>
             <tr>
                 <td><input class="custom-checkbox" type="checkbox" id="cc4" name="che">
@@ -53,7 +53,7 @@
                 <td>0,00</td>
                 <td>875 328,76</td>
                 <td>Webmoney ; R361764168618</td>
-                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-share"></i></a></td>
+                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-check"></i></a></td>
             </tr>
             <tr>
                 <td><input class="custom-checkbox" type="checkbox" id="cc5" name="che">
@@ -66,7 +66,7 @@
                 <td>0,00</td>
                 <td>875 328,76</td>
                 <td>Webmoney ; R361764168618</td>
-                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-share"></i></a></td>
+                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-check"></i></a></td>
             </tr>
             <tr>
                 <td><input class="custom-checkbox" type="checkbox" id="cc6" name="che">
@@ -79,7 +79,7 @@
                 <td>0,00</td>
                 <td>875 328,76</td>
                 <td>Webmoney ; R361764168618</td>
-                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-share"></i></a></td>
+                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-check"></i></a></td>
             </tr>
             <tr>
                 <td><input class="custom-checkbox" type="checkbox" id="cc7" name="che">
@@ -92,7 +92,7 @@
                 <td>0,00</td>
                 <td>875 328,76</td>
                 <td>Webmoney ; R361764168618</td>
-                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-share"></i></a></td>
+                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-check"></i></a></td>
             </tr>
             <tr>
                 <td><input class="custom-checkbox" type="checkbox" id="cc8" name="che">
@@ -105,7 +105,7 @@
                 <td>0,00</td>
                 <td>875 328,76</td>
                 <td>Webmoney ; R361764168618</td>
-                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-share"></i></a></td>
+                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-check"></i></a></td>
             </tr>
             <tr>
                 <td><input class="custom-checkbox" type="checkbox" id="cc9" name="che">
@@ -118,7 +118,7 @@
                 <td>0,00</td>
                 <td>875 328,76</td>
                 <td>Webmoney ; R361764168618</td>
-                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-share"></i></a></td>
+                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-check"></i></a></td>
             </tr>
             <tr>
                 <td><input class="custom-checkbox" type="checkbox" id="cc10" name="che">
@@ -131,7 +131,7 @@
                 <td>0,00</td>
                 <td>875 328,76</td>
                 <td>Webmoney ; R361764168618</td>
-                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-share"></i></a></td>
+                <td><a href="" title="Отклонить"><i class="ti ti-close"></i></a> <a href="" title="Подтвердить"><i class="ti ti-check"></i></a></td>
             </tr>
 
         </tbody>
