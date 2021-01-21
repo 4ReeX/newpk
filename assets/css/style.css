@@ -7450,15 +7450,23 @@ strong {user-select: text!important; -webkit-user-select: text!important;}
 .exportXls {width: 36px;    height: 24px; display: flex; flex-direction: row; justify-content: center;align-items: center; margin: 0 2px; margin-bottom: 5px; }
 .exportXls img {width: 100%;}
 .exportXls:hover {filter: invert(.7);}
-.zakaz {z-index: 1; padding: 5px;
+.zakaz {
+	z-index: 1;
+	padding: 5px;
+	box-sizing: border-box;
 	width: 45px; height: 45px;
-    border-radius: 100%;
-    border: 1px solid #ced4da;
+    border-radius: 0;
     color: #666;
     margin: 0px 5px;
-    display: flex;flex-direction: row;justify-content: center;align-items: center; position: relative; right: -10px;}
-.zakaz img {width: 100%;}
-.zakaz:hover {filter: invert(.8);}
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    position: relative; 
+    right: -10px;
+}
+.zakaz img {width: 90%; position: relative;display: block;}
+.zakaz:hover {border-radius: 100%; background: #ced4da; transition: all .6s;}
 /*123*/
 .zak {
 	float: right;
