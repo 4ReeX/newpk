@@ -442,5 +442,9 @@ timeline.onmousedown = () => {
     $('#table').change(initTable)
   })
 
+  function payform() {
+    window.location = "fin.php";
+  };
+
 
 

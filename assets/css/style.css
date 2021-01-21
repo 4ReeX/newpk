@@ -3159,6 +3159,7 @@ min-width: 960px;
             }
             .balance {
                margin: 0 10px;
+               cursor: pointer;
             }
             .icon-notification {
             border-radius: 50%;
@@ -3222,7 +3223,7 @@ min-width: 960px;
               flex-wrap: nowrap;
               float: left;
               }
-            .mob-box {display: flex; justify-content: flex-start; align-items: center; flex-direction: row; width: 100%; max-width: 320px;}
+            .mob-box {display: flex; justify-content: flex-start; align-items: center; flex-direction: row; width: 100%; max-width: 320px;position: relative;}
             .checkboxes {
                      flex-direction: row;
                      justify-content: flex-start;
@@ -7563,4 +7564,16 @@ strong {user-select: text!important; -webkit-user-select: text!important;}
 /* стили для чекбокса, находящегося в состоянии disabled */
 .custom-checkbox:disabled+label::before {
   background-color: #e9ecef;
+}
+
+/*coins*/
+i.coins {
+    width: 25px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    left: -22px;
+    top: -2px;
+    opacity: 0.8;
+    cursor: pointer;
 }

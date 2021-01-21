@@ -7,7 +7,7 @@
                <a href=""><img src="images/invert-affimob.svg" alt="" class="text-logo"></a>
             </div>
             <div class="mob-box">
-         <span class="balance">10 565 665 <i class="fa fa-rub"></i></span>
+         <i class="coins" onclick="payform();"><img src="assets/img/coins.svg" alt=""></i><span class="balance" onclick="payform();">10 565 665 <i class="fa fa-rub"></i></span>
       <div class="icon-notification pulse activator"><i class="ti ti-comments"><span class="count">13</span></i></div>
       <div class="avatar" onclick="goToUserPhp();"><li class="nav-item"><a data-flag="pages" href="user.php"><i class="ti ti-user"></i></a></li></div>
       </div>
