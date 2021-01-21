@@ -206,23 +206,7 @@ var MyWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 var BrowsWidth = document.documentElement.clientWidth;
 var MobilePadding = 40;
 var FinalWidth = BrowsWidth - MobilePadding;
-if ($(window).width() < 1024) {
-//document.getElementById('fullWidth').style.width = MyWidth + "px";
-document.getElementById('fullWidth').style.width = FinalWidth + "px";
-document.getElementById('fullWidth').style.maxWidth = "100%";
-document.getElementById('fullWidth').style.minWidth = "100%";
-};
 
-var MyWidth1 = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-var BrowsWidth1 = document.documentElement.clientWidth;
-var MobilePadding = 40;
-var FinalWidth1 = BrowsWidth1 - MobilePadding;
-if ($(window).width() < 1024) {
-//document.getElementById('fullWidth').style.width = MyWidth + "px";
-document.getElementById('fullWidth1').style.width = FinalWidth1 + "px";
-document.getElementById('fullWidth1').style.maxWidth = "100%";
-document.getElementById('fullWidth1').style.minWidth = "100%";
-};
 
     $(window).on("load resize", function(event) { 
     var windowWidthS = $(window).width();      

@@ -7446,7 +7446,7 @@ a#pay-tab:before {
 table.formir td {text-align: center!important;}
 strong {user-select: text!important; -webkit-user-select: text!important;}
 /*Фикс выделений на страницах инструментов*/
-.exportXls { width: 40px; height: 40px; display: flex; flex-direction: row; justify-content: center;align-items: center; }
+.exportXls {width: 36px;    height: 24px; display: flex; flex-direction: row; justify-content: center;align-items: center;    margin-bottom: 5px; }
 .exportXls img {width: 100%;}
 .exportXls:hover {filter: invert(.7);}
 .zakaz {z-index: 1; padding: 5px;
@@ -7503,5 +7503,11 @@ strong {user-select: text!important; -webkit-user-select: text!important;}
 .forma-zakaz label + .MuiInput-formControl {
     margin-top: 0px!important;
 }
-
-
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 5px 0px;
+    box-sizing: border-box;
+}
