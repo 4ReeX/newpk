@@ -5,9 +5,6 @@
         <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
         <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
             <div class="jss10"><span class="ss">29.12.1989 - 11.02.2020</span></div>
-            <div class="css-1wy0on6">
-                <div aria-hidden="true" class=" css-tlfecz-indicatorContainer"></div>
-            </div>
         </div>
     </div>
     </div>
