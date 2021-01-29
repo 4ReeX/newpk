@@ -71,7 +71,6 @@
                      <div class="col-lg-12">
                         <div class="circle-btn-group">
                            <button class="circle-btn" title="Сформировать отчет"><i class="ti ti-check"></i></button>
-                           <button class="circle-btn" title="Показать график"><i class="ti ti-stats-up stat-icon"></i></button>
                            <button class="circle-btn" title="Очистить"><i class="ti ti-close"></i></button>
                         </div>
                      </div>
