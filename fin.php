@@ -52,7 +52,7 @@ include 'header.php';  //любой файл который мы хотим по
                                             </div>
 <div class="col">
 <div class="zak">
-  <a href="#" class="zakaz float-right" title="Заказать выплату" onclick="openZakaz();"><img src="assets/img/purse.svg" alt=""></a>
+  <a href="#" class="zakaz float-right" title="Заказать выплату" onclick="openZakaz();"><img src="assets/img/atm.svg" alt=""></a>
 <div class="forma-zakaz" style="display: none;">
     <button class="circle-btn" title="Подтвердить"><i class="ti ti-check"></i></button>
     <div class="col">
