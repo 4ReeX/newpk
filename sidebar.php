@@ -6,7 +6,7 @@
   margin: 0;
   display: flex;
   /* Works well with 100% width  */
-  width: 32.05em;
+  width: 100%;
   font-size: 1.5em;
   padding: 0 2.85em;
   position: fixed;
@@ -14,9 +14,12 @@
   justify-content: center;
   background-color: var(--bgColorMenu);
   bottom: 0;
-  background: #222;
+  background: #fff;
   z-index: 999;
   --duration: 0.7s;
+  -webkit-box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6);
+-moz-box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6);
+box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6);
   
 }
 
@@ -48,28 +51,36 @@
 
 .menu__item.active {
   transform: translate3d(0, -0.8em, 0);
+
 }
+
 
 .menu__item.active::before {
   transform: scale(1);
   background-color: var(--bgColorItem);
 }
+.menu__item.active .icon {
+  stroke: #fff;
+}
 
 .icon {
   width: 2.6em;
   height: 2.6em;
-  stroke: white;
+  stroke: #222;
   fill: transparent;
   stroke-width: 1pt;
   stroke-miterlimit: 10;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-dasharray: 400;
-  color: #fff;
+  color: #222;
 }
 
 .menu__item.active .icon {
   animation: strok 1.5s reverse;
+}
+.menu__item::active .icon {
+  color: #fff!important;
 }
 
 @keyframes strok {
@@ -88,7 +99,9 @@
   will-change: transform;
   background-color: var(--bgColorMenu);
   transition: transform var(--timeOut, var(--duration));
-  background: #222;
+  background: #fff;
+
+
 }
 
 .svg-container {
@@ -105,14 +118,14 @@
 
 @media screen and (max-width: 50em) {
   .menu {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
 
 </style>
 <menu class="menu">
 
-  <button class="menu__item active" style="--bgColorItem: #ff8c00;">
+  <button class="menu__item active" style="--bgColorItem: #f15a24;">
     <svg class="icon" viewBox="0 0 24 24">
       <path d="M3.8,6.6h16.4" />
       <path d="M20.2,12.1H3.8" />
@@ -120,7 +133,7 @@
     </svg>
   </button>
 
-  <button class="menu__item" style="--bgColorItem: #f54888;">
+  <button class="menu__item" style="--bgColorItem: #f15a24;">
     <svg class="icon" viewBox="0 0 24 24">
       <path d="M6.7,4.8h10.7c0.3,0,0.6,0.2,0.7,0.5l2.8,7.3c0,0.1,0,0.2,0,0.3v5.6c0,0.4-0.4,0.8-0.8,0.8H3.8
         C3.4,19.3,3,19,3,18.5v-5.6c0-0.1,0-0.2,0.1-0.3L6,5.3C6.1,5,6.4,4.8,6.7,4.8z" />
@@ -128,23 +141,28 @@
     </svg>
   </button>
 
-  <button class="menu__item" style="--bgColorItem: #4343f5;">
+  <button class="menu__item" style="--bgColorItem: #f15a24;">
     <svg class="icon" viewBox="0 0 24 24">
       <path d="M3.4,11.9l8.8,4.4l8.4-4.4" />
       <path d="M3.4,16.2l8.8,4.5l8.4-4.5" />
       <path d="M3.7,7.8l8.6-4.5l8,4.5l-8,4.3L3.7,7.8z" />
+      </svg>
   </button>
 
-  <button class="menu__item" style="--bgColorItem: #e0b115;">
+  <button class="menu__item" style="--bgColorItem: #f15a24;">
     <svg class="icon" viewBox="0 0 24 24">
       <path d="M5.1,3.9h13.9c0.6,0,1.2,0.5,1.2,1.2v13.9c0,0.6-0.5,1.2-1.2,1.2H5.1c-0.6,0-1.2-0.5-1.2-1.2V5.1
           C3.9,4.4,4.4,3.9,5.1,3.9z" />
       <path d="M4.2,9.3h15.6" />
       <path d="M9.1,9.5v10.3" />
+      </svg>
   </button>
 
-  <button class="menu__item" style="--bgColorItem:#65ddb7;">
-    <i class="ti ti-ruler-pencil"></i>
+  <button class="menu__item" style="--bgColorItem:#f15a24;">
+    <svg viewBox="0 0 24 24" class="icon">
+    <line x1="12" x2="12" y1="20" y2="10"/><line x1="18" x2="18" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="16"/>
+
+    </svg>
   </button>
 
   <div class="menu__border"></div>
@@ -166,7 +184,7 @@
 "use strict"; 
 
 const body = document.body;
-const bgColorsBody = ["#ffb457", "#ff96bd", "#9999fb", "#ffe797", "#cffff1"];
+const bgColorsBody = ["#f2f2f2f", "#f2f2f2", "#f2f2f2", "#f2f2f2", "#f2f2f2"];
 const menu = body.querySelector(".menu");
 const menuItems = menu.querySelectorAll(".menu__item");
 const menuBorder = menu.querySelector(".menu__border");
