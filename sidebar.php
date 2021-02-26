@@ -177,7 +177,7 @@ box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6);
           c9.2,3.6,17.6,4.2,23.3,4H6.7z" />
     </clipPath>
   </svg>
-</div>\
+</div>
 
 <script>
 
