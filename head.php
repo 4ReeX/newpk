@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html >
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +20,15 @@
     <script type="text/javascript" src="assets/js/jquery.touchSwipe.min.js"></script> 
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/css/bootstrap-select.min.css">
-
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
 </head>
+<script>
+    function changeTheme(){ 
+        $('body').toggleClass('theme-dark');
+    };
+</script>
+<body  onload="openTabs1();" class="bodyOffers">
+<?php  include 'sidebar.php';?>
+<div id="right-panel" class="right-panel">
+<?php include 'header.php';?>

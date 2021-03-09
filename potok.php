@@ -121,31 +121,31 @@ include 'header.php';  //любой файл который мы хотим по
                                                                 <td>0 | Поток по умолчанию</td>
                                                                 <td><span class="link"><input disabled="" type="text" placeholder="Используется ссылка 'Потока по умолчанию'" class="linkToCopy copyClick form-control form-control-sm" value="http://imt.affimob.com/click.php?c=1214&amp;key=4c5668f132r8012b7nq0qlo0&amp;offer_id=11279&amp;channel_id=124956&amp;clickid={clickid}&amp;user_id={user_id}&amp;campaign={campaign}" style="min-width: 150px;"></span></td>
                                                                 <td><span class="link"><input disabled="" type="text" placeholder="Используется ссылка 'Потока по умолчанию'" class="linkToCopy copyClick form-control form-control-sm" value="http://binom.affimob.pro/click.php?cnv_id={pt_id}&amp;payout={income}&amp;cnv_status={status}&amp;cnv_status2={pay_cnt}&amp;event5={pay_cnt}" style="min-width: 150px;"></span></td>
-                                                                <td><i class="ti ti-pencil" title="Редактировать" style="color: rgb(65, 68, 85);"></i></td>
+                                                                <td><i class="ti ti-pencil" title="Редактировать" style=""></i></td>
                                                             </tr>
                                                             <tr>
                                                                 <td>1 | Beeline propeller</td>
                                                                 <td><span class="link"><input disabled="" type="text" placeholder="Используется ссылка 'Потока по умолчанию'" class="linkToCopy copyClick form-control form-control-sm" value="" style="min-width: 150px;"></span></td>
                                                                 <td><span class="link"><input disabled="" type="text" placeholder="Используется ссылка 'Потока по умолчанию'" class="linkToCopy copyClick form-control form-control-sm" value="" style="min-width: 150px;"></span></td>
-                                                                <td><i class="ti ti-pencil" title="Редактировать" style="color: rgb(65, 68, 85);"></i><i class="ti ti-close" title="Удалить" style="color: rgb(65, 68, 85);"></i></td>
+                                                                <td><i class="ti ti-pencil" title="Редактировать" style=""></i><i class="ti ti-close" title="Удалить" style=""></i></td>
                                                             </tr>
                                                             <tr>
                                                                 <td>2 | MTS N-A 20rub </td>
                                                                 <td><span class="link"><input disabled="" type="text" placeholder="Используется ссылка 'Потока по умолчанию'" class="linkToCopy copyClick form-control form-control-sm" value="" style="min-width: 150px;"></span></td>
                                                                 <td><span class="link"><input disabled="" type="text" placeholder="Используется ссылка 'Потока по умолчанию'" class="linkToCopy copyClick form-control form-control-sm" value="" style="min-width: 150px;"></span></td>
-                                                                <td><i class="ti ti-pencil" title="Редактировать" style="color: rgb(65, 68, 85);"></i><i class="ti ti-close" title="Удалить" style="color: rgb(65, 68, 85);"></i></td>
+                                                                <td><i class="ti ti-pencil" title="Редактировать" style=""></i><i class="ti ti-close" title="Удалить" style=""></i></td>
                                                             </tr>
                                                             <tr>
                                                                 <td>3 | MP</td>
                                                                 <td><span class="link"><input disabled="" type="text" placeholder="Используется ссылка 'Потока по умолчанию'" class="linkToCopy copyClick form-control form-control-sm" value="" style="min-width: 150px;"></span></td>
                                                                 <td><span class="link"><input disabled="" type="text" placeholder="Используется ссылка 'Потока по умолчанию'" class="linkToCopy copyClick form-control form-control-sm" value="" style="min-width: 150px;"></span></td>
-                                                                <td><i class="ti ti-pencil" title="Редактировать" style="color: rgb(65, 68, 85);"></i><i class="ti ti-close" title="Удалить" style="color: rgb(65, 68, 85);"></i></td>
+                                                                <td><i class="ti ti-pencil" title="Редактировать" style=""></i><i class="ti ti-close" title="Удалить" style=""></i></td>
                                                             </tr>
                                                             <tr>
                                                                 <td>4 | T-stark-click</td>
                                                                 <td><span class="link"><input disabled="" type="text" placeholder="Используется ссылка 'Потока по умолчанию'" class="linkToCopy copyClick form-control form-control-sm" value="" style="min-width: 150px;"></span></td>
                                                                 <td><span class="link"><input disabled="" type="text" placeholder="Используется ссылка 'Потока по умолчанию'" class="linkToCopy copyClick form-control form-control-sm" value="http://binom.affimob.pro/click.php?cnv_id={pt_id}&amp;cnv_status={status}&amp;cnv_status2={pay_cnt}" style="min-width: 150px;"></span></td>
-                                                                <td><i class="ti ti-pencil" title="Редактировать" style="color: rgb(65, 68, 85);"></i><i class="ti ti-close" title="Удалить" style="color: rgb(65, 68, 85);"></i></td>
+                                                                <td><i class="ti ti-pencil" title="Редактировать" style=""></i><i class="ti ti-close" title="Удалить" style=""></i></td>
                                                             </tr>
                                                         </tbody>
                                                     </table>
