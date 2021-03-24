@@ -7599,3 +7599,8 @@ i.coins {
     cursor: pointer;
     line-height: 1;
 }
+.circle-xls {
+	width: 80%;
+	image-rendering: optimizeSpeed;
+	opacity: 0.8;
+}

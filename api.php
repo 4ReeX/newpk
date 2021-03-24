@@ -24,27 +24,21 @@ include 'header.php';  //любой файл который мы хотим по
    <div class="card-header">
      <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <a class="nav-item nav-link active show" id="home-tab" data-toggle="tab" href="#custom-nav-home" role="tab" aria-controls="custom-nav-home" aria-selected="true">Фильтры трафика</a>
+            <a class="nav-item nav-link active show"  id="home-tab" data-toggle="tab" href="#custom-nav-home" role="tab" aria-controls="custom-nav-home" aria-selected="true">Фильтры трафика</a>
             <a class="nav-item nav-link" id="start-tab" data-toggle="tab" href="#custom-nav-start" role="tab" aria-controls="custom-nav-start" aria-selected="false">Trafficback</a>
             <a class="nav-item nav-link" id="oss-tab" data-toggle="tab" href="#custom-nav-oss" role="tab" aria-controls="custom-nav-oss" aria-selected="false">Postback</a>
             <a class="nav-item nav-link" id="pay-tab" data-toggle="tab" href="#custom-nav-pay" role="tab" aria-controls="custom-nav-pay" aria-selected="false">S2S</a>
-            <a class="nav-item nav-link" id="contact-tab" data-toggle="tab" href="#custom-nav-contact" role="tab" aria-controls="custom-nav-pay" aria-selected="false">Диапазоны IP</a>
+            <a class="nav-item nav-link" id="ip-tab" data-toggle="tab" href="#custom-nav-ip" role="tab" aria-controls="custom-nav-ip" aria-selected="false">Диапазоны IP</a>
+            <a class="nav-item nav-link" id="blacklist-tab" data-toggle="tab" href="#custom-nav-blacklist" role="tab" aria-controls="custom-nav-blacklist" aria-selected="false">BlackList</a>
             <a class="nav-item nav-link" id="domains-tab" data-toggle="tab" href="#custom-nav-domains" role="tab" aria-controls="custom-nav-domains" aria-selected="false">Парковка доменов</a>
         </div>
     </nav>
    </div>
 <div class="card-body">
-   
-
-
-
-
 
 <div class="custom-tab">
 
-    
 
-        <div class="tab-content pt-2" id="nav-tabContent">
 <div class="tab-pane fade active show pl-3" id="custom-nav-home" role="tabpanel" aria-labelledby="custom-nav-home-tab">
 <p>По признаку <b>"вирус"</b> мы отсекаем по http-заголовку <b>x-requested-with</b> всё, что не подпадает под запись белого списка, и всё, что не браузер.</p>
 <p>Разрешающие (белые) записи:</p>
@@ -57,6 +51,8 @@ include 'header.php';  //любой файл который мы хотим по
 <p>По возможности установите фильтры на своей стороне, чтобы избежать потерь трафика.</p>
 <br><br>
 </div>
+
+
 <div class="tab-pane fade pl-3" id="custom-nav-start" role="tabpanel" aria-labelledby="custom-nav-start-tab">
 <p><b>Трафикбэк (англ. traffic back) - это трафик, который не принимается нашей партнёрской программой по тем или иным причинам, но вы можете перенаправить его на свой сайт или другую партнёрку.</b></p>
 <p>Если вы хотите перенаправить всех пользователей, которые не подходят под условия офферов вашей ссылки, по которой они перешли из  рекламной сети, на альтернативный URL, укажите в поле Trafficback URL, на который система перенаправит ваших пользователей.</p>
@@ -124,6 +120,7 @@ include 'header.php';  //любой файл который мы хотим по
 <p><b>{operator}</b> - Название оператора (tim_it, beeline_ru)</p>
 <br><br>
 </div>
+
 <div class="tab-pane fade pl-3" id="custom-nav-pay" role="tabpanel" aria-labelledby="custom-nav-pay-tab">
 <p>Взаимодействие через s2s позволяет сократить количество редиректов по «пути» следования абонента от партнёра к LP, а это, в свою очередь, в некоторых ситуациях приводит к увеличению показателя CR.</p>
 <p><br><b>Партнёрский сценарий для использования S2S:</b></p>
@@ -182,7 +179,9 @@ include 'header.php';  //любой файл который мы хотим по
 </div>
 <br><br>
 </div>
-<div class="tab-pane fade api" id="custom-nav-contact" role="tabpanel" aria-labelledby="custom-nav-contact-tab">
+
+
+<div class="tab-pane fade api" id="custom-nav-ip" role="tabpanel" aria-labelledby="custom-nav-ip-tab">
 <div class="col-lg-12 col-md-12 row">
 <div class="card-body fortabs">
   <section id="filters">
@@ -261,10 +260,103 @@ include 'header.php';  //любой файл который мы хотим по
 </div>
     </div>
 </div>
-  
+
+
+
+<div class="tab-pane fade" id="custom-nav-blacklist" role="tabpanel" aria-labelledby="custom-nav-blacklist-tab">
+  <div class="responsive-block statistic_table_wrapper" id="fullWidth">
+                                        <table id="stats1" class="table  table-bordered nowrap userselecttext" style="width:100%;">
+                                            <thead class="thead-light statistic_header">
+                                                <tr>
+                                                    <th class="sticky-header">Дата добавления</th>
+                                                    <th class="sticky-header">Домен</th>
+                                                    <th class="sticky-header">ИД</th>
+                                                    <th class="sticky-header">Нарушение</th>
+                                                    <th class="sticky-header">Можно преленд</th>
+                                                    <th class="sticky-header">Рекл.сетка</th>
+                                                </tr>
+                                                <tr>
+                                                    <th class="sticky-header"><input name="name" placeholder="введите дату" size="24" class="form-control" aria-disabled="false" value=""></th>
+                                                    <th class="sticky-header"><input name="name" placeholder="введите домен" size="24" class="form-control" aria-disabled="false" value=""></th>
+                                                    <th class="sticky-header"><input name="name" placeholder="введите идентификатор" size="24" class="form-control" aria-disabled="false" value=""></th>
+                                                    <th class="sticky-header"><input name="name" placeholder="введите нарушение" size="24" class="form-control" aria-disabled="false" value=""></th>
+                                                    <th class="sticky-header">
+                                                      <select class="form-control form-select" aria-label="select">
+                                                        <option selected>True</option>
+                                                        <option value="1">False</option>
+                                                      </select>
+                                                    </th>
+                                                    <th class="sticky-header"><input name="name" placeholder="введите рекл.сетку" size="24" class="form-control" aria-disabled="false" value=""></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="statistic_body">
+                                                <tr>
+                                                    <td class="tac">2019-07-02T22:01:01Z</td>
+                                                    <td class="tac">uiporn.com</td>
+                                                    <td class="tac">uiporn.com</td>
+                                                    <td class="tac">Хентай</td>
+                                                    <td class="tac">false</td>
+                                                    <td class="tac">trafficshop.com</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="tac">2019-07-02T22:01:01Z</td>
+                                                    <td class="tac">uiporn.com</td>
+                                                    <td class="tac">uiporn.com</td>
+                                                    <td class="tac">Хентай</td>
+                                                    <td class="tac">false</td>
+                                                    <td class="tac">trafficshop.com</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="tac">2019-07-02T22:01:01Z</td>
+                                                    <td class="tac">uiporn.com</td>
+                                                    <td class="tac">uiporn.com</td>
+                                                    <td class="tac">Хентай</td>
+                                                    <td class="tac">false</td>
+                                                    <td class="tac">trafficshop.com</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td class="tac">2019-07-02T22:01:01Z</td>
+                                                    <td class="tac">uiporn.com</td>
+                                                    <td class="tac">uiporn.com</td>
+                                                    <td class="tac">Хентай</td>
+                                                    <td class="tac">false</td>
+                                                    <td class="tac">trafficshop.com</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="tac">2019-07-02T22:01:01Z</td>
+                                                    <td class="tac">uiporn.com</td>
+                                                    <td class="tac">uiporn.com</td>
+                                                    <td class="tac">Хентай</td>
+                                                    <td class="tac">false</td>
+                                                    <td class="tac">trafficshop.com</td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                            <tfoot class="thead-light statistic_footer">
+                                                <tr>
+                                                    <th class="sticky-footer">Дата добавления</th>
+                                                    <th class="sticky-footer">Домен</th>
+                                                    <th class="sticky-footer">ИД</th>
+                                                    <th class="sticky-footer">Нарушение</th>
+                                                    <th class="sticky-footer">Можно преленд</th>
+                                                    <th class="sticky-footer">Рекл.сетка</th>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="circle-btn-group">
+                                          <button class="circle-btn" title="Скачать весь blacklist JSON"><i class="ti ti ti-cloud-down"></i></button>
+                                          <button class="circle-btn" title="Скачать весь blacklist XLSX"><img src="images/all-xls.png" class="circle-xls" alt=""></button>
+                                          <button class="circle-btn" title="Скачать XLSX выбранной рекл.сети"><img src="images/xls.png" class="circle-xls" alt=""></button>
+                                          
+
+                                        </div>
+                                    </div>
 </div>
-  <br>
-</div>
+
+
 <div class="tab-pane fade" id="custom-nav-domains" role="tabpanel" aria-labelledby="custom-nav-domains-tab">
  <p><b>Информация для парковки домена:</b></p>
  <ul class="ul-num">
