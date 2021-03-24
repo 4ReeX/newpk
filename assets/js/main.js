@@ -448,3 +448,18 @@ timeline.onmousedown = () => {
 
 
 
+
+/*Local save Dark_theme*/
+
+$(function(){
+    $('.button').change(function changeTheme(){
+        $('body').toggleClass('theme-dark');
+        localStorage.setItem("blockIsActive", "true");
+    });
+});
+
+
+
+    function changeTheme(){ 
+        $('body').toggleClass('theme-dark');
+    };
