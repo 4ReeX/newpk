@@ -442,6 +442,38 @@ appearance: none;
 
 
 @media screen and (max-width: 414px) {
+	a#home-tab:before {
+	content: "wapclick";
+	font-size: 8px;
+	position: absolute;
+	top: 7px;
+}
+a#contact-tab:before {
+	content: "wapclick";
+    font-size: 8px;
+    position: absolute;
+    top: 7px;
+}
+a#start-tab:before {
+	content: "wapclick";
+    font-size: 8px;
+    position: absolute;
+    top: 7px;
+}
+a#oss-tab:before {
+	content: "wapclick";
+    font-size: 8px;
+    position: absolute;
+    top: 7px;
+}
+a#pay-tab:before {
+	content: "wap";
+    font-size: 8px;
+    position: absolute;
+    top: 7px;
+}
+
+
 	.jss8 {width: 100%;}
 .zak {
 	position: fixed;

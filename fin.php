@@ -26,6 +26,20 @@ include 'header.php';  //любой файл который мы хотим по
                                                 <?php $labelName = "Дата"; ?>
                                                 <?php include 'el/date.php'; ?>
                                             </div>
+                                            <div class="col-lg-1 col-auto float-left">
+                                                <div class="popup">
+                                                <div class="label">Select option</div>
+                                                <div class="menu">
+                                                <div class="menu-item">Option 1</div>
+                                                <div class="menu-item">Option 2</div>
+                                                <div class="menu-separator"></div>
+                                                <div class="menu-item">Option 3</div>
+                                                <div class="menu-item">Option 4</div>
+                                                <div class="menu-separator"></div>
+                                                <div class="menu-item">Option 5</div>
+                                                </div>
+                                                </div>
+                                            </div>
 
                                             <div class="col-auto" id="blockInputPeriod">
                                                 <div class="jss8">
@@ -194,6 +208,54 @@ include 'header.php';  //любой файл который мы хотим по
 
                 <!-- Scripts -->
                 <?php include 'scripts.php'; ?>
+                <script type="text/javascript">
+                $(document).ready(function () {
+  $(".popup").addClass("animation-reveal");
+  $(".popup").css("opacity", "0");
+  setTimeout(() => {
+    $(".popup").removeClass("animation-reveal");
+    $(".popup").css("opacity", "1");
+  }, 1000);
+});
+
+$(function () {
+  $(".label").on("click", function () {
+    $(this).parent().removeClass("close");
+    $(this).parent().addClass("open");
+  });
+
+  $(".menu-item").on("click", function () {
+    $(this)
+      .parent()
+      .parent()
+      .addClass("close")
+      .children(".label")
+      .text($(this).text());
+    setTimeout(() => {
+      $(this).removeClass("open");
+    }, 400);
+  });
+
+  $(document).on("keyup", function (event) {
+    if ((event.keyCode || event.which) === 27) {
+      $(".popup").addClass("close");
+      setTimeout(() => {
+        $(".popup").removeClass("open");
+      }, 400);
+    }
+  });
+
+  $(document).on("click", function (event) {
+    if ($(event.target).closest(".label").length === 0) {
+      $(".popup").addClass("close");
+      setTimeout(() => {
+        $(".popup").removeClass("open");
+      }, 400);
+    }
+  });
+});
+
+            </script>
     </body>
 
 </html>
