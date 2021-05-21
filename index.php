@@ -63,8 +63,8 @@
 
                                                     </div>
 
-                                                    <div id="traffic-chart" class="traffic-chart" style="background: #000; display: flex; align-items: center; justify-content: center; color: #666; font-weight: 700; width: 100%; height: 400px;">
-                                                        <img src="images/chart.png" alt="" style="width: 100%; height: 100%;" >
+                                                    <div id="traffic-chart" class="traffic-chart" style="display: flex; align-items: center; justify-content: center; color: #666; font-weight: 700; width: 100%; height: 400px;">
+                                                        <img src="assets/img/grap.png" alt="" style="width: 100%; height: 100%;" >
 
                                                     </div>
                                                     <br>
