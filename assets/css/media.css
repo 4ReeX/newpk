@@ -235,6 +235,7 @@
 
 }
 @media screen and (max-width: 1024px) {
+
 	button.btn.btn-outline-secondary {
     font-size: 11px;
 }
@@ -399,6 +400,11 @@ appearance: none;
 
 
 @media screen and (max-width: 1024px) {
+	div#dark-swither {
+    right: 10px;
+    position: relative;
+    top: 4px;
+	}
 	.ModalMassEdit .form-group {width: 100%;}
 	.modal50 {
     width: 100%;
@@ -539,7 +545,7 @@ a#pay-tab:before {
 	.right-panel header.header .top-left {padding: 0;}
 	.right-panel .navbar-brand {justify-content: space-between;    width: 100%;}
 	.logo {position: relative; left: 10px;}
-	.avatar {position: relative; right: 10px;}
+	.avatar {position: relative; right: 0px;}
 	.mob-box {justify-content: space-between;}
 	.jss8 {    min-width: 205px;}
 }

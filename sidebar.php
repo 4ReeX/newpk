@@ -2,7 +2,6 @@
 <link rel="stylesheet" href="assets/css/sidebar.css?v1">
 <div class="sidebar">
 	<div class="search-activate" id="SearchToggle">
-		<img src="images/avatar/bottom.png" alt="" id="s1">
 		<i class="ti ti-search sButton"></i>
 	</div>
 	<div class="search-menu" id="SearchBlock">
