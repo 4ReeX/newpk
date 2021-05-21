@@ -7769,9 +7769,8 @@ i.coins {
 
 /*endCheckboxTheme*/
 
-.lightMode {
-	color: #f15a24;
-}
+.lightMode {	color: #f15a24;}
+
 
 /*DarkTheme*/
 body.theme-dark .lightMode {color: #3ac47d;}
@@ -7783,7 +7782,7 @@ body.theme-dark .content {background: #151617;color: #dcdcdc;}
 body.theme-dark p {color: #bdbdbd;}
 body.theme-dark h1,h2,h3 {color: #fff;}
 body.theme-dark span {color: #bdbdbd;}
-body.theme-dark .right-panel header.header {background: #000; border-bottom: 1px solid #1c1c1e;}
+body.theme-dark .right-panel header.header {background: #212121;border-bottom: 1px solid #1c1c1e;}
 body.theme-dark img.text-logo {filter: invert(1) brightness(5);}
 body.theme-dark .sidebar .main-menu {background-color: #1c1c1e;}
 body.theme-dark .sidebar .main-menu ul li i {color: #fff;}
@@ -7883,9 +7882,7 @@ body.theme-dark .icon-notification {background: transparent;}
 body.theme-dark  .icon-notification i, .icon-message i {color: #fff;}
 body.theme-dark .bg-grad {	background: #121212;	filter: invert(0);}
 body.theme-dark i.coins img {	filter: invert(1);}
-body.theme-dark .right-panel .top-left, .right-panel .top-right {
-	    background: #212121;
-}
+body.theme-dark .right-panel .top-left, body.theme-dark .right-panel .top-right {background: #212121;}
 body.theme-dark .avatar {
 	filter: invert(1);
 }
