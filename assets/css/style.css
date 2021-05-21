@@ -7656,7 +7656,7 @@ i.coins {
 /*DarkTheme*/
 body.theme-dark {background: #151617;color: #7b7b7b;}
 body.theme-dark .bg-white {background: #151617!important;}
-body.theme-dark .openparams {color: #fff; border-bottom: 1px dashed #7b7b7b;}
+body.theme-dark .openparams {color: #fff;}
 body.theme-dark .bg-grad {filter: invert(0.9);}
 body.theme-dark .content {background: #151617;color: #7b7b7b;}
 body.theme-dark p {color: #7b7b7b;}
