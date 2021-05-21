@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html class="no-js" lang="">
 <?php include 'head.php'; ?>
-<body>
-<!-- Left Panel -->
-<?php  //говорит нам что начинается php код
-include 'sidebar.php';  //любой файл который мы хотим подключить в этой части документа
-?>
-<!-- /#left-panel -->
-               <!-- Right Panel -->
-               <div id="right-panel" class="right-panel">
-                  <!-- Header-->
-<?php  //говорит нам что начинается php код
-include 'header.php';  //любой файл который мы хотим подключить в этой части документа
-?>
-
-        
-
 <div class="content">
 <div class="animated fadeIn">
 <div class="card">

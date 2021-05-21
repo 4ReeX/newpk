@@ -9,20 +9,7 @@
                                                 <?php $labelName = "Дата"; ?>
                                                 <?php include 'el/date.php'; ?>
                                             </div>
-                                            <div class="col-lg-1 col-auto float-left">
-                                                <div class="popup">
-                                                <div class="label">Select option</div>
-                                                <div class="menu">
-                                                <div class="menu-item">Option 1</div>
-                                                <div class="menu-item">Option 2</div>
-                                                <div class="menu-separator"></div>
-                                                <div class="menu-item">Option 3</div>
-                                                <div class="menu-item">Option 4</div>
-                                                <div class="menu-separator"></div>
-                                                <div class="menu-item">Option 5</div>
-                                                </div>
-                                                </div>
-                                            </div>
+                                            
 
                                             <div class="col-auto" id="blockInputPeriod">
                                                 <div class="jss8">
