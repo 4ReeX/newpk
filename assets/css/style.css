@@ -6894,9 +6894,9 @@ small{font-size:80%;font-weight:400;}
   }
   /*! CSS Used from: Embedded */
 md-icon{color:rgba(0,0,0,0.54);}
-/*! CSS Used from: Embedded */
+
 md-card{background-color:rgb(255,255,255);border-radius:2px;}
-/*! CSS Used from: http://adminio.themonkeythemes.com/dist/css/bootstrap.min.css */
+
 svg:not(:root){overflow:hidden;}
 @media print{
 *{color:#000!important;text-shadow:none!important;background:transparent!important;-webkit-box-shadow:none!important;box-shadow:none!important;}
@@ -6914,7 +6914,7 @@ p{margin:0 0 10px;}
 .col-sm-3{float:left;}
 .col-sm-3{width:25%;}
 }
-/*! CSS Used from: http://adminio.themonkeythemes.com/dist/css/angular-material.min.css */
+
 md-card{box-sizing:border-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:8px;box-shadow:0 1px 3px 0 rgba(0,0,0,.2),0 1px 1px 0 rgba(0,0,0,.14),0 2px 1px -1px rgba(0,0,0,.12);}
 md-card md-card-content{display:block;padding:16px;}
 md-card md-card-content>p:last-child{margin-bottom:0;}
@@ -6923,7 +6923,7 @@ md-card{border:1px solid #fff;}
 }
 md-icon{margin:auto;background-repeat:no-repeat no-repeat;display:inline-block;vertical-align:middle;fill:currentColor;height:24px;width:24px;}
 md-icon svg{pointer-events:none;display:block;}
-/*! CSS Used from: http://adminio.themonkeythemes.com/dist/css/main.css */
+
 ::-webkit-scrollbar-thumb{background:#009688;border-radius:0!important;width:4px!important;right:0!important;}
 svg{width:100%;}
 h3{font-weight:400;}
@@ -7855,36 +7855,28 @@ body.theme-dark textarea.iprange, body.theme-dark .code {    background: #1c1c1e
 body.theme-dark .pick-offers span {color: #fff;}
 /*FAQ*/
 
-body.theme-dark .tab-content i {
-    font-style: normal;
-    user-select: text;
-    color: #fff;
-}
-body.theme-dark button.circle-btn {
-    border: 3px solid #3ac47d;
-    color: #ffffff;
-    background: none;
-}
-body.theme-dark img.circle-xls {
-	filter: invert(1);
-}
+body.theme-dark .tab-content i {    font-style: normal;    user-select: text;    color: #fff;}
+body.theme-dark button.circle-btn {    border: 3px solid #3ac47d;    color: #ffffff;    background: none;}
+body.theme-dark img.circle-xls {	filter: invert(1);}
 body.theme-dark button.btn.btn-outline.create-links:hover {
     background: #3ac47d!important;
     color: #fff;
     -webkit-appearance: none;
 }
-body.theme-dark input#offer-search {
-	color: #fff;
-}
+body.theme-dark input#offer-search {	color: #fff;}
 body.theme-dark .zakaz {	border: 3px solid #3ac47d;    color: #ffffff;    background: #000;    border-radius: 100%;}
 body.theme-dark .zakaz img {	filter: invert(1);}
 body.theme-dark i.stat-icon {	color: #fff;}
 body.theme-dark .forma-zakaz {background: none;color: #bfbfbf;}
 body.theme-dark .icon-notification {background: transparent;}
-body.theme-dark  .icon-notification i, .icon-message i {
-	color: #fff;
-}
-body.theme-dark .bg-grad {
-	background: #121212;
-	filter: invert(0);
+body.theme-dark  .icon-notification i, .icon-message i {color: #fff;}
+body.theme-dark .bg-grad {	background: #121212;	filter: invert(0);}
+body.theme-dark i.coins img {	filter: invert(1);}
+
+
+/*dark-switch*/
+.btn-switch button {
+	border: none;
+	outline: none;
+	background: transparent;
 }
