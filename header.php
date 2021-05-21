@@ -1,3 +1,4 @@
+
 <header id="header" class="header">
    <div class="top-left">
       <div class="navbar-header">
@@ -15,6 +16,10 @@
          <a class="navbar-brand hidden" href="/"><img src="images/logo2.png" alt="Logo"></a>        
       </div>
    </div>
-   <div class="top-right">Статистика</div>
+   <div class="top-right">
+   <div class="btn-switch">
+      <div class="divider"></div> 
+      <input type="checkbox" id="switch" onchange="changeTheme();"> <label for="switch"></label> <span class="btn-switch-name">Ночной<br>режим</span></div>
+</div>
 </header>
  <?php include 'chat.php'; ?>

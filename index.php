@@ -1,24 +1,5 @@
-<!DOCTYPE html>
-<html class="no-js" lang="">
 <?php include 'head.php'; ?>
-<body>
-    <!-- Left Panel -->
-    <?php  //говорит нам что начинается php код
-include 'sidebar.php';  //любой файл который мы хотим подключить в этой части документа
-?>
-        <!-- /#left-panel -->
-        <!-- Right Panel -->
-        <div id="right-panel" class="right-panel">
-            <!-- Header-->
-            <?php  //говорит нам что начинается php код
-include 'header.php';  //любой файл который мы хотим подключить в этой части документа
-?>
-<style>
 
-</style>
-
-                <!-- /header -->
-                <!-- Content -->
                 <div class="content">
                     <!-- Animated -->
                     <div class="animated fadeIn">
@@ -82,7 +63,8 @@ include 'header.php';  //любой файл который мы хотим по
 
                                                     </div>
 
-                                                    <div id="traffic-chart" class="traffic-chart" style="background: #d3d3d3; display: flex; align-items: center; justify-content: center; color: #666; font-weight: 700; width: 100%; height: 400px;"><img src="images/gr.png" alt="" style="width: 100%; height: 100%;">
+                                                    <div id="traffic-chart" class="traffic-chart" style="background: #000; display: flex; align-items: center; justify-content: center; color: #666; font-weight: 700; width: 100%; height: 400px;">
+                                                        <img src="images/chart.png" alt="" style="width: 100%; height: 100%;" >
 
                                                     </div>
                                                     <br>

@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html class="no-js" lang="">
-<article lang="ru">
 <?php include 'head.php'; ?>
-<body>
-<!-- Left Panel -->
-<?php  //говорит нам что начинается php код
-include 'sidebar.php';  //любой файл который мы хотим подключить в этой части документа
-?>
-<!-- /#left-panel -->
-               <!-- Right Panel -->
-               <div id="right-panel" class="right-panel">
-                  <!-- Header-->
-<?php  //говорит нам что начинается php код
-include 'header.php';  //любой файл который мы хотим подключить в этой части документа
-?>
-
-        
-
 <div class="content">
 <div class="animated fadeIn">
 <div class="card">
@@ -179,8 +161,6 @@ include 'header.php';  //любой файл который мы хотим по
 </div>
 <br><br>
 </div>
-
-
 <div class="tab-pane fade api" id="custom-nav-ip" role="tabpanel" aria-labelledby="custom-nav-ip-tab">
 <div class="col-lg-12 col-md-12 row">
 <div class="card-body fortabs">
@@ -260,7 +240,6 @@ include 'header.php';  //любой файл который мы хотим по
 </div>
     </div>
 </div>
-
 
 
 <div class="tab-pane fade" id="custom-nav-blacklist" role="tabpanel" aria-labelledby="custom-nav-blacklist-tab">
@@ -355,8 +334,6 @@ include 'header.php';  //любой файл который мы хотим по
                                         </div>
                                     </div>
 </div>
-
-
 <div class="tab-pane fade" id="custom-nav-domains" role="tabpanel" aria-labelledby="custom-nav-domains-tab">
  <p><b>Информация для парковки домена:</b></p>
  <ul class="ul-num">

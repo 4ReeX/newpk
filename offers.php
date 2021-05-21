@@ -1,24 +1,6 @@
-<!DOCTYPE html>
-<html class="no-js" lang="">
 <?php include 'head.php'; ?>
-<body onload="openTabs1();" class="bodyOffers">
-    <!-- Left Panel -->
-    <?php  //говорит нам что начинается php код
-include 'sidebar.php';  //любой файл который мы хотим подключить в этой части документа
-?>
-        <!-- Left Panel -->
-        <div id="right-panel" class="right-panel">
-            <!-- Header-->
-            <?php  //говорит нам что начинается php код
-include 'header.php';  //любой файл который мы хотим подключить в этой части документа
-?>
-                <!-- Header-->
-
-
-
-
-
-                <div class="content" onload="openTabs1();">
+<body>
+ <div class="content" onload="openTabs1();">
                     <div class="card no-mb">
                         <div class="card-header">
                             <nav class="navitab">

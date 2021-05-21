@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html class="no-js" lang="">
 <?php include 'head.php'; ?>
-
-    <body>
-        <!-- Left Panel -->
-
-        <!-- /#left-panel -->
-<?php  //говорит нам что начинается php код
-include 'sidebar.php';  //любой файл который мы хотим подключить в этой части документа
-?>
-            <!-- Left Panel -->
-
-            <!-- Right Panel -->
-
-            <div id="right-panel" class="right-panel">
-
-                <!-- Header-->
-<?php  //говорит нам что начинается php код
-include 'header.php';  //любой файл который мы хотим подключить в этой части документа
-?>
-                    <!-- Header-->
                     <div class="content">
                         <div class="animated fadeIn">
                             <div class="card">
@@ -674,20 +653,8 @@ include 'header.php';  //любой файл который мы хотим по
             </div>
             </div>
             <!--end right-panel-->
-            <div id="footer-right-panel" class="right-panel">
-               
-                </div>
+            <div id="footer-right-panel" class="right-panel"></div>
 
-                <!-- Right Panel -->
-
-                <!-- Scripts -->
-                <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-                <script src="assets/js/bootstrap.min.js"></script>
-                <script src="assets/js/jquery.matchHeight.min.js"></script>
-                <script src="assets/js/main.js"></script>
-                <script src="assets/js/scroll/perfect-scrollbar.jquery.min.js"></script>
-                <script src="assets/js/jquery.touchSwipe.js"></script>
-                <script src="assets/js/swipe.js"></script>
 
 
 
@@ -695,63 +662,6 @@ include 'header.php';  //любой файл который мы хотим по
     jQuery(function ($){
          $(".ios").iosCheckbox();
     });
-</script>
-<script>
-var MyWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-var BrowsWidth = document.documentElement.clientWidth;
-if ($(window).width() < 1024) {
-//document.getElementById('fullWidth').style.width = MyWidth + "px";
-document.getElementById('fullWidth').style.width = BrowsWidth + "px";
-document.getElementById('fullWidth').style.maxWidth = "100%";
-document.getElementById('fullWidth').style.minWidth = "100%";
-
-};
-</script>
-<script>
-$(window).on("load resize", function(event) {
-var windowWidthS = $(window).width();
-if (windowWidthS < 1381) {
-$('#blockInputOperators').addClass('col-lg-4');
-$('#blockInputOffers').addClass('col-lg-4');
-$('#blockInputSpace').css("display", "none");
-$('#blockInputPresets').addClass('col-lg-4');
-$('body').addClass('open');
-$('#blockInputDatapicker').addClass('col-lg-3');
-$('#blockInputPeriod').removeClass('col-lg-4');
-$('#blockInputPeriod').addClass('col-lg-3');
-
-} else {
-$('#blockInputOperators').removeClass('col-lg-4');
-$('#blockInputOffers').removeClass('col-lg-4');
-$('#blockInputSpace').css("display", "block");
-$('#blockInputPresets').removeClass('col-lg-4');
-$('body').removeClass('open');
-
-}
-
-});
-</script>
-
-<script>
-jQuery(document).ready(function() {
-jQuery(".standardSelect").chosen({
-
-disable_search_threshold: 10,
-no_results_text: "Oops, nothing found!",
-width: "100%"
-});
-});
-</script>
-<script>
-$('.copyClick').focus(function() {
-$(this).select();
-$(this).siblings('input.linkToCopy').select();
-document.execCommand("copy");
-$('#alertCopy').show('fast');
-setTimeout(function() {
-$("#alertCopy").hide('slow');
-}, 4000);
-});
 </script>
 
 <div class="alert-copy" style="display: none;" id="alertCopy"><i class="fa fa-code"></i><span>Текст скопирован</span></div>
@@ -765,16 +675,12 @@ element.style.height = "5px";
 element.style.height = (element.scrollHeight) + "px";
 }
 </script>
-<script>
-function clickMe() {
-$(".linkToCopy").val("http://s2s.affimob.com/click?key=eromix&offer_id=11694&tmpl=eromix274&partner_id=125198&source_id=0&pt_id=%7BPK%7D");
 
-}
-</script>
-<script src="assets/js/lib/chosen/chosen.jquery.min.js"></script>
+
 <script>
     $('table').table_scroll();
 </script>
+<?php include 'scripts.php'; ?>
 
 
 
