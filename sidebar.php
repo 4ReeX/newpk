@@ -34,7 +34,7 @@
                     <li class="nav-item"><a data-flag="blankpage" href="api.php"><i class="ti ti-ruler-pencil"></i> <span>Инструменты</span></a></li>
                     <li class="nav-item"><a href="faq.php" rel="noopener noreferrer"><i class="ti ti-help-alt"></i> <span>FAQ</span></a></li>
                     <li class="nav-item nav-avatar"><a data-flag="pages" href="user.php"><i class="ti ti-user"></i> <span>Профиль</span></a></li>
-                    <li class="nav-item"><a href="index-admin.php" rel="noopener noreferrer" target="_blank"><i class="ti ti-power-off"></i> <span>Выход</span></a></li>
+                    <li class="nav-item"><a href="morda.php" rel="noopener noreferrer" target="_blank"><i class="ti ti-power-off"></i> <span>Выход</span></a></li>
                 </ul>
                 <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
                     <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
