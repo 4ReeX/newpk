@@ -7934,6 +7934,9 @@ img.shadow1 {
   height: inherit;
   background: transparent;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 
 }
 
@@ -8051,7 +8054,6 @@ h1.infotitle {
 }
 
 
-
 @media screen and (min-width: 576px) {
   .container {
     max-width: 576px;
@@ -8134,7 +8136,7 @@ path#fig1 {
     height: calc(100vh - 74px);
     overflow-y: auto;
 }
-.next, .back {width: 60px; height: 100%; position: relative;display: flex;flex-direction: row;justify-content: center;align-items: center;font-size: 30px;}
+.next, .backer {width: 60px; height: 100%; position: relative;display: flex;flex-direction: row;justify-content: center;align-items: center;font-size: 30px;}
 .period {color: #999; font-size: 18px;}
 .article {
 	position: relative;
@@ -8426,9 +8428,38 @@ input.checkLogin {
     min-height: 200px;
     margin-bottom: 10%;
 }
- 
 
 
+/*charts*/
+.charts {
+	width: 80%;
+    height: auto;
+    position: relative;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    min-height: 200px;
+    margin: 20px auto;
+}
+.charts img {
+	width: 100%;
+}
+.chartblock {
+	width: 12vw;
+    height: auto;
+    min-height: 1px;
+    background: rgb(156 154 249);
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    bottom: 0;
+    float: left;
+    top: auto;
+    bottom: 0;
+    margin: 0;
+}
 
 
 

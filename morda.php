@@ -58,7 +58,7 @@
 
          <div class="info">
             <h1 class="infotitle">Что вас ждёт</h1>
-            <div class="flip-container" touchmove="this.classList.toggle('hover');">
+            <div class="flip-container" ontouchend="this.classList.toggle('hover');">
             <div class="flipper">
             <div class="front">
             <div class="infoblock left">
@@ -83,7 +83,7 @@
             </div>
             </div>
 
-            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flip-container" ontouchend="this.classList.toggle('hover');">
             <div class="flipper">
             <div class="front">
             <div class="infoblock right">
@@ -108,7 +108,7 @@
             </div>
             </div>
 
-            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flip-container" ontouchend="this.classList.toggle('hover');">
             <div class="flipper">
             <div class="front">
             <div class="infoblock left">
@@ -137,11 +137,28 @@
 
          </div>
       </div>
+      <div class="graph" id="graph">
+        <div class="info">
+          <h1 class="infotitle">Affimob в цифрах</h1>
+          <div class="charts" id="chartgraph1">
+            <div class="chartblock" style="height: 20%;"></div>
+            <div class="chartblock" style="height: 40%;"></div>
+            <div class="chartblock" style="height: 70%;"></div>
+            <div class="chartblock" style="height: 50%;"></div>
+          </div>
+          <div class="charts" id="chartgraph2">
+            <div class="chartblock" style="height: 40%;"></div>
+            <div class="chartblock" style="height: 10%;"></div>
+            <div class="chartblock" style="height: 90%;"></div>
+            <div class="chartblock" style="height: 50%;"></div>
+          </div>
+        </div>        
+      </div>
       <div class="news hiddenScene" id="news">
          <div class="timeline-header">
            <div class="next"><span class="material-icons">arrow_back_ios</span></div>
            <div class="period">СЕГОДНЯ</div>
-           <div class="back"><span class="material-icons">arrow_forward_ios</span></div>
+           <div class="backer"><span class="material-icons">arrow_forward_ios</span></div>
          </div>
          <div class="timeline-body">
            <div class="article">
@@ -458,7 +475,7 @@
                   <div onclick="about();"> <span class="material-icons">grade</span><a class="fab floating"> <span class="material-icons">grade</span></a></div>
                </li>
                <li>
-                  <div><span class="material-icons">assessment</span><a class="fab floating"><span class="material-icons">assessment</span></a></div>
+                  <div onclick="graph();"><span class="material-icons">assessment</span><a class="fab floating"><span class="material-icons">assessment</span></a></div>
                </li>
                <li>
                   <div onclick="news();"> <span class="material-icons">article</span><a class="fab floating"><span class="material-icons">article</span></a></div>
@@ -536,6 +553,11 @@ $("#fPass").click(function(){
          $all.removeClass( "activeScene" );
          $all.addClass( "hiddenScene" );
          $about.addClass( "activeScene" );
+         }
+         function graph() {
+         $all.removeClass( "activeScene" );
+         $all.addClass( "hiddenScene" );
+         $graph.addClass( "activeScene" );
          }
          function news() {
          $all.removeClass( "activeScene" );
