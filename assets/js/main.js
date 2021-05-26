@@ -449,3 +449,9 @@ timeline.onmousedown = () => {
 
 
 
+
+
+function changeTheme(){ 
+        $('body').toggleClass('theme-dark');   
+        $( "span.lightMode" ).toggle();    
+    };
