@@ -23,7 +23,7 @@
       <meta name="apple-mobile-web-app-capable" content="yes">
       <link rel="apple-touch-icon-precomposed" href="/new-logo.png">
       <link rel="apple-touch-startup-image" href="/startup-logo.png">
-      <link rel="stylesheet" href="assets/css/style.css?version55">
+      <link rel="stylesheet" href="assets/css/style.css?111">
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    </head>
@@ -38,7 +38,7 @@
             <img src="assets/img/invert-affimob.svg" alt="" class="logoText" />
          </div>
          <div class="slogan">
-            Здесь ты можешь по настоящему заработать на <b>WapClick</b>. Скорее регистрируйся
+            Мы и есть <b>WapClick</b>
             <div class="reg" onclick="Registration();">Регистрация</div>
          </div>
          <div class="bg-home">
@@ -163,10 +163,10 @@
          <div class="timeline-body">
            <div class="article">
              <div class="circle-type"><div class="circle red"></div></div>
-             <div class="title">Работы на платформе Beeline RU</div>
+             <div class="title">Технические работы</div>
              <div class="date">24.05.2021</div>
              <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
+              <span class="material-icons read">visibility</span>
               <div class="full-article hidden">
                 В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
                 <br>Время начала работ: 05.08.2020 02:00. <br>
@@ -177,10 +177,10 @@
            </div>
            <div class="article">
              <div class="circle-type"><div class="circle green"></div></div>
-             <div class="title">Работы на платформе Beeline RU</div>
+             <div class="title">Планируется перезагрузка сервиса 26.05.21</div>
              <div class="date">24.05.2021</div>
              <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
+              <span class="material-icons read">visibility</span>
               <div class="full-article hidden">
                 В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
                 <br>Время начала работ: 05.08.2020 02:00. <br>
@@ -194,7 +194,91 @@
              <div class="title">Работы на платформе Beeline RU</div>
              <div class="date">24.05.2021</div>
              <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
+              <span class="material-icons read">visibility</span>
+              <div class="full-article hidden">
+                В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
+                <br>Время начала работ: 05.08.2020 02:00. <br>
+                Время окончания работ: 05.08.2020 05:00 местного времени <br>
+                Приносим извинения за причиненные неудобства.              
+             </div>
+             </div>
+           </div>
+           <div class="article">
+             <div class="circle-type"><div class="circle red"></div></div>
+             <div class="title">Обновление Блеклистов</div>
+             <div class="date">24.05.2021</div>
+             <div class="open-spoiler">
+              <span class="material-icons read">visibility</span>
+              <div class="full-article hidden">
+                В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
+                <br>Время начала работ: 05.08.2020 02:00. <br>
+                Время окончания работ: 05.08.2020 05:00 местного времени <br>
+                Приносим извинения за причиненные неудобства.              
+             </div>
+             </div>
+           </div>
+           <div class="article">
+             <div class="circle-type"><div class="circle green"></div></div>
+             <div class="title">Запрещено привлечение трафика в адалт сервисы из неадалт источников</div>
+             <div class="date">24.05.2021</div>
+             <div class="open-spoiler">
+              <span class="material-icons read">visibility</span>
+              <div class="full-article hidden">
+                В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
+                <br>Время начала работ: 05.08.2020 02:00. <br>
+                Время окончания работ: 05.08.2020 05:00 местного времени <br>
+                Приносим извинения за причиненные неудобства.              
+             </div>
+             </div>
+           </div>
+           <div class="article">
+             <div class="circle-type"><div class="circle blue"></div></div>
+             <div class="title">Технические работы</div>
+             <div class="date">24.05.2021</div>
+             <div class="open-spoiler">
+              <span class="material-icons read">visibility</span>
+              <div class="full-article hidden">
+                В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
+                <br>Время начала работ: 05.08.2020 02:00. <br>
+                Время окончания работ: 05.08.2020 05:00 местного времени <br>
+                Приносим извинения за причиненные неудобства.              
+             </div>
+             </div>
+           </div>
+           <div class="article">
+             <div class="circle-type"><div class="circle red"></div></div>
+             <div class="title">Обновление дизайнов лендингов оператора Beeline RU</div>
+             <div class="date">24.05.2021</div>
+             <div class="open-spoiler">
+              <span class="material-icons read">visibility</span>
+              <div class="full-article hidden">
+                В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
+                <br>Время начала работ: 05.08.2020 02:00. <br>
+                Время окончания работ: 05.08.2020 05:00 местного времени <br>
+                Приносим извинения за причиненные неудобства.              
+             </div>
+             </div>
+           </div>
+           <div class="article">
+             <div class="circle-type"><div class="circle green"></div></div>
+             <div class="title">Новые лендинги Beeline RU "Английский"</div>
+             <div class="date">24.05.2021</div>
+             <div class="open-spoiler">
+              <span class="material-icons read">visibility</span>
+              <div class="full-article hidden">
+                В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
+                <br>Время начала работ: 05.08.2020 02:00. <br>
+                Время окончания работ: 05.08.2020 05:00 местного времени <br>
+                Приносим извинения за причиненные неудобства.              
+             </div>
+             </div>
+           </div>
+           <div class="article">
+             <div class="circle-type"><div class="circle blue"></div></div>
+             <div class="title">Работы на платформе Beeline RU</div>
+             <div class="date">24.05.2021</div>
+             <div class="open-spoiler">
+              <span class="material-icons read">visibility</span>
               <div class="full-article hidden">
                 В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
                 <br>Время начала работ: 05.08.2020 02:00. <br>
@@ -208,7 +292,7 @@
              <div class="title">Работы на платформе Beeline RU</div>
              <div class="date">24.05.2021</div>
              <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
+              <span class="material-icons read">visibility</span>
               <div class="full-article hidden">
                 В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
                 <br>Время начала работ: 05.08.2020 02:00. <br>
@@ -222,7 +306,7 @@
              <div class="title">Работы на платформе Beeline RU</div>
              <div class="date">24.05.2021</div>
              <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
+              <span class="material-icons read">visibility</span>
               <div class="full-article hidden">
                 В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
                 <br>Время начала работ: 05.08.2020 02:00. <br>
@@ -236,7 +320,7 @@
              <div class="title">Работы на платформе Beeline RU</div>
              <div class="date">24.05.2021</div>
              <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
+              <span class="material-icons read">visibility</span>
               <div class="full-article hidden">
                 В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
                 <br>Время начала работ: 05.08.2020 02:00. <br>
@@ -250,7 +334,7 @@
              <div class="title">Работы на платформе Beeline RU</div>
              <div class="date">24.05.2021</div>
              <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
+              <span class="material-icons read">visibility</span>
               <div class="full-article hidden">
                 В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
                 <br>Время начала работ: 05.08.2020 02:00. <br>
@@ -264,7 +348,7 @@
              <div class="title">Работы на платформе Beeline RU</div>
              <div class="date">24.05.2021</div>
              <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
+              <span class="material-icons read">visibility</span>
               <div class="full-article hidden">
                 В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
                 <br>Время начала работ: 05.08.2020 02:00. <br>
@@ -278,7 +362,7 @@
              <div class="title">Работы на платформе Beeline RU</div>
              <div class="date">24.05.2021</div>
              <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
+              <span class="material-icons read">visibility</span>
               <div class="full-article hidden">
                 В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
                 <br>Время начала работ: 05.08.2020 02:00. <br>
@@ -292,7 +376,7 @@
              <div class="title">Работы на платформе Beeline RU</div>
              <div class="date">24.05.2021</div>
              <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
+              <span class="material-icons read">visibility</span>
               <div class="full-article hidden">
                 В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
                 <br>Время начала работ: 05.08.2020 02:00. <br>
@@ -306,7 +390,7 @@
              <div class="title">Работы на платформе Beeline RU</div>
              <div class="date">24.05.2021</div>
              <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
+              <span class="material-icons read">visibility</span>
               <div class="full-article hidden">
                 В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
                 <br>Время начала работ: 05.08.2020 02:00. <br>
@@ -320,91 +404,7 @@
              <div class="title">Работы на платформе Beeline RU</div>
              <div class="date">24.05.2021</div>
              <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
-              <div class="full-article hidden">
-                В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
-                <br>Время начала работ: 05.08.2020 02:00. <br>
-                Время окончания работ: 05.08.2020 05:00 местного времени <br>
-                Приносим извинения за причиненные неудобства.              
-             </div>
-             </div>
-           </div>
-           <div class="article">
-             <div class="circle-type"><div class="circle red"></div></div>
-             <div class="title">Работы на платформе Beeline RU</div>
-             <div class="date">24.05.2021</div>
-             <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
-              <div class="full-article hidden">
-                В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
-                <br>Время начала работ: 05.08.2020 02:00. <br>
-                Время окончания работ: 05.08.2020 05:00 местного времени <br>
-                Приносим извинения за причиненные неудобства.              
-             </div>
-             </div>
-           </div>
-           <div class="article">
-             <div class="circle-type"><div class="circle green"></div></div>
-             <div class="title">Работы на платформе Beeline RU</div>
-             <div class="date">24.05.2021</div>
-             <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
-              <div class="full-article hidden">
-                В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
-                <br>Время начала работ: 05.08.2020 02:00. <br>
-                Время окончания работ: 05.08.2020 05:00 местного времени <br>
-                Приносим извинения за причиненные неудобства.              
-             </div>
-             </div>
-           </div>
-           <div class="article">
-             <div class="circle-type"><div class="circle blue"></div></div>
-             <div class="title">Работы на платформе Beeline RU</div>
-             <div class="date">24.05.2021</div>
-             <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
-              <div class="full-article hidden">
-                В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
-                <br>Время начала работ: 05.08.2020 02:00. <br>
-                Время окончания работ: 05.08.2020 05:00 местного времени <br>
-                Приносим извинения за причиненные неудобства.              
-             </div>
-             </div>
-           </div>
-           <div class="article">
-             <div class="circle-type"><div class="circle red"></div></div>
-             <div class="title">Работы на платформе Beeline RU</div>
-             <div class="date">24.05.2021</div>
-             <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
-              <div class="full-article hidden">
-                В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
-                <br>Время начала работ: 05.08.2020 02:00. <br>
-                Время окончания работ: 05.08.2020 05:00 местного времени <br>
-                Приносим извинения за причиненные неудобства.              
-             </div>
-             </div>
-           </div>
-           <div class="article">
-             <div class="circle-type"><div class="circle green"></div></div>
-             <div class="title">Работы на платформе Beeline RU</div>
-             <div class="date">24.05.2021</div>
-             <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
-              <div class="full-article hidden">
-                В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
-                <br>Время начала работ: 05.08.2020 02:00. <br>
-                Время окончания работ: 05.08.2020 05:00 местного времени <br>
-                Приносим извинения за причиненные неудобства.              
-             </div>
-             </div>
-           </div>
-           <div class="article">
-             <div class="circle-type"><div class="circle blue"></div></div>
-             <div class="title">Работы на платформе Beeline RU</div>
-             <div class="date">24.05.2021</div>
-             <div class="open-spoiler">
-              <span class="material-icons read">preview</span>
+              <span class="material-icons read">visibility</span>
               <div class="full-article hidden">
                 В связи с проводимыми работами на платформе Beeline RU , ожидается прерывание сервиса - недоступность платных услуг CPA для абонентов Дальневосточного региона
                 <br>Время начала работ: 05.08.2020 02:00. <br>
@@ -581,6 +581,7 @@ $("#fPass").click(function(){
          }
         
         $('.read').click(function(){
+          $(this).html('visibility_off');
           $(this).next('.full-article').toggleClass("hidden");
         });
       </script> 

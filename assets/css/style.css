@@ -7898,8 +7898,8 @@ svg {shape-rendering: crispEdges;}
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
-  line-height: 1;
-  margin-top: 20%;
+  line-height: 1.2;
+  margin-top: 50%;
 }
 
 .logoMorda img {
@@ -7936,7 +7936,7 @@ img.shadow1 {
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 130vh;
 
 }
 
@@ -7974,15 +7974,15 @@ img.shadow1 {
 span.title {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     height: 100%;
+    text-align: center;
 }
 .infoblock {
-  width: 90%;
-  margin: 10px auto;
+  width: 100%;
+  margin: 60px auto;
   border-radius: 20px;
-  background-image: linear-gradient(to right bottom, #ffffff, #fafafa, #f5f5f5, #f0f0f0, #ebebeb);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -7990,12 +7990,27 @@ span.title {
   height: auto;
   padding: 0;
 }
+.infoblock:after {
+    content: "";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 65px;
+    background: url(../img/swipeR.png) no-repeat top center;
+    background-size: contain;
+    position: absolute;
+    right: 0%;
+    top: 48%;
+}
 .info-header {
   height: 60px;
   width: 100%;
   font-size: 2.7vh;
   font-weight: 700;
   padding: 10px 15px;
+  text-align: center;
 }
 .info-header .material-icons {
     width: 40px;
@@ -8005,42 +8020,35 @@ span.title {
     float: left;
     font-size: 41px;
 }
-
-.infoblock.left {
-    border-radius: 20px 20px 90% 40%;
-    text-align: left;
-}
-.infoblock.right {
-	text-align: right;
-    border-radius: 20px 20px 40% 90%;
-}
-.infoblock.right .info-header {
-	text-align: right;
-}
-.infoblock.left .info-header {
-	text-align: left;
+.info-body {
+    width: 100%;
+    position: relative;
+    font-size: 12px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.backside {background: #212121; color: #fff;}
+.backside {background: transparent;}
 img.pay {
-    position: absolute;
-    width: 120%;
-    left: 20px;
-    bottom: -15px;
+	margin: 0 auto;
+    position: relative;
+    width: 200px;
 }
 img.analiz {
-    position: absolute;
-    width: 83%;
-    bottom: -60%;
-    right: 10%;
-    transform: rotateX(36deg);
+	margin: 0 auto;
+    position: relative;
+    width: 200px;
+    margin-top: -25px;
 }
 img.blacklist {
-    position: absolute;
-    width: 76%;
-    bottom: -19%;
-    right: 18%;
-    transform: rotateX(0deg);
+	margin: 0 auto;
+    position: relative;
+    width: 200px;
+    margin-top: -47px;
 }
 
 
@@ -8051,6 +8059,7 @@ h1.infotitle {
 	color: #000;
 	font-weight: 700;
 	line-height: 1.2;
+	text-align: center;
 }
 
 
@@ -8226,13 +8235,6 @@ body.morda {
 	left: 0;
 	background: rgb(255,255,255);
 	background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 60%);
-}
-.info-body {
-    width: 100%;
-    position: relative;
-    min-height: 120px;
-    font-size: 12px;
-    padding: 10px 15px;
 }
 
 
@@ -8622,6 +8624,17 @@ body.theme-dark .article {background: #151617; border-left: 3px solid #484848;}
 body.theme-dark .article .title {color: #fff;}
 body.theme-dark span.read {color: #19b5fe;}
 body.theme-dark .bottom-grad {display: none;}
+body.theme-dark button.circle-btn.selected {background: #f15a24!important; color: #fff!important;}
+body.theme-dark .icon-btn {    background: transparent;}
+body.theme-dark .selected .date-icon {    color: #f15a24;}
+body.theme-dark .icon-btn.selected, body.theme-dark .icon-btn:hover {background: transparent;}
+body.theme-dark thead .sorting {
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAQAAADYWf5HAAAAkElEQVQoz7XQMQ5AQBCF4dWQSJxC5wwax1Cq1e7BAdxD5SL+Tq/QCM1oNiJidwox0355mXnG/DrEtIQ6azioNZQxI0ykPhTQIwhCR+BmBYtlK7kLJYwWCcJA9M4qdrZrd8pPjZWPtOqdRQy320YSV17OatFC4euts6z39GYMKRPCTKY9UnPQ6P+GtMRfGtPnBCiqhAeJPmkqAAAAAElFTkSuQmCC');
+	background-repeat: no-repeat!important;
+    background-position: 100%!important;
+}
+
+
 
 /*dark-switch*/
 div#dark-swither {
