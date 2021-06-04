@@ -8556,7 +8556,7 @@ body.theme-dark .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .tab
 
 body.theme-dark .exportXls img {filter: invert(0.6);}
 body.theme-dark .table .thead-light th {border-color: #1b1b1b;}
-body.theme-dark label {color: #ffffff; font-weight: 400!important;}
+body.theme-dark label {color: #ffffff!important; font-weight: 400!important;}
 body.theme-dark .modal-content {background-color: #0e0e0f; color: #bdbdbd;}
 
  /*offers*/
