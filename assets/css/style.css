@@ -7822,10 +7822,11 @@ svg.waves {
 	flex-wrap: nowrap;
 	 position: relative; 
 	 top: 0; margin: 0; 
-	 height: 48px;
+	height: 21px;
 	 background: #101115;
 	  padding: 0px; 
 	  margin: 0;
+	  color: #ff7b4f;
 	}
 .lenta .top-line {
 	width: 100%;
@@ -7835,7 +7836,7 @@ svg.waves {
 	margin: 0;padding: 0;
 }
 
-.marquee {display: inline-block; line-height: 1.2; padding-top: 15px;}
+.marquee {display: inline-block; line-height: 1.2; padding-top: 0px;}
 
 .date, .post .title, .prev {margin: 0 3px; color: #f0f0f0;}
 
