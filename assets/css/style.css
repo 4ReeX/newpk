@@ -8172,6 +8172,8 @@ animation: flipOutY 5s infinite;
     line-height: 1;
     text-align: center;
     border: 3px solid #DEDEDE;
+    background: rgb(36,39,47);
+background: linear-gradient(0deg, rgba(36,39,47,1) 0%, rgba(255,255,255,1) 100%);
 }
 .timelineImage {
     height: 130px;
