@@ -148,12 +148,26 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
          <div class="datetimeRow">
             <div class="datetime">
             2014
-            <div class="datetimeBlock hidden">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, porro. Quae delectus quasi architecto eius, qui, dolor earum in facere.
+            <div class="datetimeBlock hide">
+               <img src="images/morda/prikol/1.png" alt="" class="timelineImage">
+               Значимое событие на рынке WAPCLICK. И наши достижения. Например дата основания партнёрской программы
             <div class="arrow-down"></div>
             </div>
             </div>
-            <div class="datetime">2015</div>
-            <div class="datetime">2016</div>
+            <div class="datetime">2015
+            <div class="datetimeBlock hide">
+               <img src="images/morda/prikol/2.png" alt="" class="timelineImage">
+               Значимое событие на рынке WAPCLICK. И наши достижения. Например дата основания партнёрской программы
+            <div class="arrow-down"></div>
+            </div>
+            </div>
+            <div class="datetime">2016
+            <div class="datetimeBlock hide">
+               <img src="images/morda/prikol/3.png" alt="" class="timelineImage">
+               Значимое событие на рынке WAPCLICK. И наши достижения. Например дата основания партнёрской программы
+            <div class="arrow-down"></div>
+            </div>
+            </div>
             <div class="datetime">2017</div>
             <div class="datetime">2018</div>
             <div class="datetime">2018</div>
@@ -209,7 +223,7 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 
       $( document ).ready(function(){
          $(".datetime").hover(function(){
-            $(this).children("div:first").toggleClass("hidden");
+            $(this).children("div:first").toggleClass("hide");
          });
       });
 
