@@ -55,15 +55,18 @@ $("#fPass").click(function(){
          }
          function login() {
          $(".darkbg").removeClass("hide");
+         $(".other-options").fadeOut(100);
+         $("#registration-form").fadeOut(100);
+         $("#login-form").delay(100).fadeIn(200);
          $all.removeClass( "activeScene" );
          $all.addClass( "hiddenScene" );
          $login.addClass( "activeScene" );
          }
          function Registration() {
           $(".darkbg").removeClass("hide");        
-          $(".other-options").fadeOut(200);
-          $("#login-form").fadeOut(200);
-          $("#registration-form").delay(300).fadeIn(500);
+          $(".other-options").fadeOut(100);
+          $("#login-form").fadeOut(100);
+          $("#registration-form").delay(100).fadeIn(200);
          // $("h1").text("Регистрация");
           $all.removeClass( "activeScene" );
           $all.addClass( "hiddenScene" );
@@ -80,6 +83,8 @@ $("#fPass").click(function(){
 
 
 function closeRegPop() {
+         $all.removeClass( "activeScene" );
+         $all.addClass( "hiddenScene" );
          $(".darkbg").addClass("hide");
       }
 
