@@ -131,7 +131,7 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
                <div class="flip-card" onclick="linkPartnerkin();">
                <div class="flip-card-inner">
                <div class="flip-card-front">
-               <img src="images/morda/Partnerkin.png" alt="">
+               <img src="images/morda/partnerkin.png" alt="">
                </div>
                <div class="flip-card-back">
                <h5>Partnerkin.ru</h5>
