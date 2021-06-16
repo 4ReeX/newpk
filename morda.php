@@ -213,9 +213,6 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
          });
       });
 
-
-
-
    </script>
 </body>
 </html>

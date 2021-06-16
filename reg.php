@@ -1,4 +1,5 @@
-<div class="popup hidden" style="display: none;">
+<div class="darkbg hide">
+<div class="popupMorda">
 <form id="registration-form">
 <h1></h1>
 <input type="text" name="name" placeholder="Имя пользователя">
@@ -6,12 +7,11 @@
 <input type="email" name="email" placeholder="E-mail">
 <input type="password" name="pass" placeholder="Пароль">
 <span class="hide-password" style="cursor: pointer;">Показать</span>
-<input name="isTermsConfirmed" type="checkbox" class="checkLogin" checked="true"><label for="accept-terms" style="padding-left: 5px; min-width: 0px;">Я согласен с  <a href="/rules" target="_blank" rel="noopener noreferrer"> Условиями</a></label>
+<input name="isTermsConfirmed" type="checkbox" class="checkLogin" checked="true"><label for="accept-terms" style="padding-left: 25px; min-width: 0px;">Я согласен с  <a href="/rules" target="_blank" rel="noopener noreferrer"> Условиями</a></label>
 
 <a href="#" class="login-btn" id="signup-btn">Создать аккаунт</a>
 </form>
 <form id="login-form">
-<h1>Авторизация</h1>
 <input type="email" name="email" placeholder="E-mail">
 <input type="password" name="pass" placeholder="Пароль">
 <a href="#" class="login-btn">Войти</a>
@@ -24,4 +24,6 @@
 <div class="option" id="newUser"><p class="option-text">Новый пользователь</p></div>
 <div class="option" id="fPass"><p class="option-text"> Восстановить пароль</p></div>
 </div>   
+</div>
+<div class="close" onclick="closeRegPop();">×</div>
 </div>
