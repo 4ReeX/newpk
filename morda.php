@@ -179,7 +179,7 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
    </div>
    <div class="m-footer">
       <span class="icon-social"><img src="images/morda/telegram.svg" alt=""></span>
-      <span class="icon-social"><img src="images/morda/gmail.svg" alt=""></span>
+      <span class="icon-social"><img src="images/morda/gmail.png" alt=""></span>
       <span class="icon-social"><img src="images/morda/skype.svg" alt=""></span>
 
    </div>

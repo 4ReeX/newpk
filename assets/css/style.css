@@ -8263,6 +8263,7 @@ background: linear-gradient(0deg, rgba(36,39,47,1) 0%, rgba(255,255,255,1) 100%)
 }
 .icon-social img {
 	width: 100%;
+	opacity: .9;
 }
 
 
