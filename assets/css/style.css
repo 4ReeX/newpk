@@ -7722,6 +7722,7 @@ body.morda {
 	top: 0;
 	position: fixed;
 	background: url(../../images/morda/bg1.png) no-repeat center;
+	/*background: #333 url(../../images/morda/background.webp) no-repeat center;*/
 	background-size: 80% auto;
 }
 
@@ -7827,6 +7828,7 @@ svg.waves {
 	  padding: 0px; 
 	  margin: 0;
 	  color: #ff7b4f;
+	  font-size: 12px;
 	}
 .lenta .top-line {
 	width: 100%;
@@ -7836,7 +7838,11 @@ svg.waves {
 	margin: 0;padding: 0;
 }
 
-.marquee {display: inline-block; line-height: 1.2; padding-top: 0px;}
+.marquee {
+    display: inline-block;
+    line-height: 1.2;
+    padding-top: 3px;
+}
 
 .date, .post .title, .prev {margin: 0 3px; color: #f0f0f0;}
 
@@ -8092,6 +8098,8 @@ animation: flipOutY 5s infinite;
   width: 130px;
   height: 130px;
   perspective: 1000px;
+  margin: 10px;
+  
 
 }
 
@@ -8114,16 +8122,19 @@ animation: flipOutY 5s infinite;
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+  overflow: hidden;
 
 }
 
 .flip-card-front {
-  background-color: transparent;
+	box-sizing: border-box;
+  background-color: #24272f;
+  padding: 15px;
   color: black;
-  border-radius: 100%;
+  border-radius: 20px;
 }
 .flip-card-front img {
-	width: 120%!important;
+	width: 100%!important;
 	display: block;
 }
 
@@ -8132,12 +8143,37 @@ animation: flipOutY 5s infinite;
   background-color: #24272f;
   color: #fff;
   transform: rotateY(180deg);
-  border-radius: 100%;
+  border-radius: 20px;
   box-sizing: border-box;
   padding: 25px 0px;
   text-align: center;
   line-height: 1.2;
 }
+.bottomLink {
+	width: 100%;
+    height: 35px;
+    bottom: 0;
+    margin: 0;
+    background: #6190E8;
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);
+    background: linear-gradient(to right, #A7BFE8, #6190E8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+}
+.bottomLink a {
+	color: #fff;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+
 /*timeline*/
 .datetimeRow {
 	display: flex;
@@ -8153,42 +8189,65 @@ animation: flipOutY 5s infinite;
 .datetime {position: relative; cursor: pointer;}
 
 .datetimeBlock {
+	transition: opacity 1s ease;
     width: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
-    height: 180px;
-    border-radius: 20px;
+    border-radius: 0px;
     background: #191710;
-    color: #fff;
-    padding: 5px 10px;
+    color: #222;
+    padding: 15px 20px;
     margin: 0;
     position: absolute;
-    top: -177px;
+    top: -15px;
     left: 50%;
-    transform: translate(-50%, -10%);
-    font-size: 10px;
+    transform: translate(-50%, -100%) skew(-4deg);
+    font-size: 11px;
     z-index: 9999999;
-    line-height: 1;
-    text-align: center;
-    border: 3px solid #DEDEDE;
-    background: rgb(36,39,47);
-background: linear-gradient(0deg, rgba(36,39,47,1) 0%, rgba(255,255,255,1) 100%);
+    text-align: left;
+	line-height: 1.1;
+	background: #fff;
+	background-size: 100% 100%;
+	font-weight: 100;
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+-moz-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+
 }
 .timelineImage {
     height: 130px;
-    position: absolute;
-    top: -20px;
+    position: relative;
+    top: -32px;
 }
 .arrow-down {
     width: 0;
     height: 0;
     border-left: 13px solid transparent;
     border-right: 13px solid transparent;
-    border-top: 13px solid #dedede;
+    border-top: 13px solid #dadada;
     position: absolute;
     bottom: -13px;
+}
+.popIcon {
+	position: relative;
+	float: left;
+	height: 25px;
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 100%;
+	background: #fff;
+	text-align: center;
+	width: 100%;
+	margin: 4px auto;
+}
+.popIcon img {
+	display: block;
+	height: 100%;
 }
 
 .underline {
@@ -8436,7 +8495,8 @@ display: inline-block;
     color: #8e8e8e;
 }
 
-.hide {display: none;}
+.hide {display: none; opacity: 0;}
+.show {opacity: 1;}
 
 
 
