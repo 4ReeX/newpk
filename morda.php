@@ -34,28 +34,14 @@
 <body class="morda">
    <div class="background">
       <div class="background2"></div>
-<!--Waves Container-->
-<!--
-<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-<defs>
-<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-</defs>
-<g class="parallax">
-<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-<use xlink:href="#gentle-wave" x="48" y="12" fill="#fff" />
-</g>
-</svg>-->
-<div class="white-block"></div>
+
 
 </div>
    </div>
    <div class="m-header">
       <div class="top-line"></div>
-      <div class="lenta marquee" style='overflow:hidden'>Дата. Заголовок. Текст новости состоящий из необходимого для нас и нашего пользователя количества слов.
-      </div>
+      <!--<div class="lenta marquee" style='overflow:hidden'>Дата. Заголовок. Текст новости состоящий из необходимого для нас и нашего пользователя количества слов.
+      </div>-->
       <div class="header">
    
       <div class="logo">
@@ -73,79 +59,32 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
    </div>
    
    <div class="m-content">
-      <div class="container">
-         <div class="flex-row">
-            <div class="block-left">
-               <div class="block bg1">
-                  <div class="icon"><img src="images/morda/charts.png" alt=""></div>
-                  <div class="title">Высокий конверт</div>
-                  <div class="hidden-text">
-                  Наши LP самые конвертящие на рынке, потому, что мы воруем лучшие идеи у всех и совмещаем их для достижения лучшего результата.
-                  В идеале мы должны были написать тут больше разного текста, чтобы всё смотрелось хорошо, но нам лень.
-                  </div>
-               </div>
-            </div>
-            <div class="block-right">
-               <div class="blocks">
-               <div class="block bg2">
-                  <div class="icon"><img src="images/morda/pay.png" alt=""></div>
-                  <div class="title">Выплаты без задержек</div>
-                  <div class="hidden-text">
-                  У всех бывают разные обстоятельства, у девушек даже порой бывают задержки. Но наши выплаты лишены  такогонедостатка. Лей к нам и можешь забыть про задержки
-                  </div>
-               </div>
-               <div class="block bg3">
-                  <div class="icon"><img src="images/morda/docs.png" alt=""></div>
-                  <div class="title">Прямые подключения</div>
-                  <div class="hidden-text">
-                  Часто встречается ситуация что посредник на посреднике сидит и посредником погоняет. Но наши подключения самые прямые. Наши подключения не пересекаются, доказано Евклидом
-                  </div>
-               </div>
-               <div class="block bg4 blockMax">
-                  <div class="icon"><img src="images/morda/analiz.png" alt=""></div>
-                  <div class="title">Удобная аналитическая платформа</div>
-                  <div class="hidden-text">
-                  Наши поезда, самые поездатые поезда в мире, потому что поездатей поездов на всех просторах поездовых поездов не сыскать. Тууу-тууу!
-                  </div>
-               </div>
-            </div>
-
-            </div>
-            
+      
+         <div class="h100 h110 bb s1">
+         <div class="promoImg"><img src="assets/img/benefits.png" alt=""></div>
+         <h1>Высокий<br>конверт</h1>
+         <h3>Регулярно проводим A/А/B тестирование ЛП - как собственных, так и доступных на рынке в данный момент. На основе тестирования предлагаем своим партнерам самые конвертные решения!</h3></div>
+         <div class="h100 bw s2">
+         <div class="promoImg2"><img src="assets/img/run.png" alt=""></div>
+         <h1>Выплаты <br>без задержек</h1>
+         <h3>Для вашего удобства у нас несколько вариантов оплаты : по запросу, еженедельно, 2 раза в неделю. Необходимо пополнение напрямую  в рекламную сетку? Мы это умеем и ещё дадим бонус при пополнении!</h3>
+         </div>
+         <div class="h100 bb s3">
+         <div class="promoImg3"></div>
+         <h1>Вам больше не нужны трекеры!</h1>
+         <h3>В нашей платформе вы сможете с лёгкостью сделать детальный анализ своего трафика и оптимизировать свои кампании!</h3>
+         </div>
+         <div class="h100 bw s4">
+         <div class="promoImg4"><img src="assets/img/perekup.png" alt=""></div>
+         <h1>Никакого <br>ресейла!</h1>
+         <h3>У нас прямые договоры с операторами и агрегаторами. Меньше посредников, меньше удержек, больше конечная прибыль!</h3>
          </div>
          <div class="flex-row">
             <div class="social">
-               <div class="flip-card" onclick="linkMadcpa();">
-               <div class="flip-card-inner">
-               <div class="flip-card-front">
-               <img src="images/morda/madcpa.png" alt="">
-               </div>
-               <div class="flip-card-back">
-               <h5>MadCpa.ru</h5>
-               <p>CPA медиа портал</p>
-               <div class="bottomLink"><a href="https://madcpa.ru/obzor-partnerki-affimob/">Перейти</a></div>
-               </div>
-               </div>
-               </div>
-
-               <div class="flip-card" onclick="linkPartnerkin();">
-               <div class="flip-card-inner">
-               <div class="flip-card-front">
-               <img src="images/morda/partnerkin.png" alt="">
-               </div>
-               <div class="flip-card-back">
-               <h5>Partnerkin.ru</h5>
-               <p>CPA медиа портал</p>
-               <div class="bottomLink">
-                  <a href="https://partnerkin.com/c/16/affimob">Перейти</a>
-               </div>
-               </div>
-               </div>
-               </div>              
-               
+               social
             </div>
          </div>
-      </div>
+      
       <div class="timeline">
          <div class="datetimeRow">
             <div class="datetime">
@@ -246,9 +185,11 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
       </div>
    </div>
    <div class="m-footer">
+      <span class="icon-social"><img src="images/morda/public.png" alt=""></span>
       <span class="icon-social"><img src="images/morda/telegram.svg" alt=""></span>
       <span class="icon-social"><img src="images/morda/gmail.png" alt=""></span>
       <span class="icon-social"><img src="images/morda/skype.svg" alt=""></span>
+      
 
    </div>
    <?php include 'reg.php'; ?>
@@ -258,7 +199,7 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
       /*всплывашки при наведении на блоки*/
 
       $( document ).ready(function(){
-     $(".block , .icon, .title, .hidden-text").hover(function(){
+     $(".block , .icon, .title, .hidden-text").hover(function onee(){
       $(this).children("div:last").toggleClass("hiddenText");
       $(this).children("div:first").toggleClass("topSwipe");
       $(this).find(".icon ").toggleClass("iconHeight");
@@ -293,6 +234,10 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
          $(".datetime").hover(function(){
             $(this).children("div:first").toggleClass("hide show", 1000, 'easeInQuad');
          });
+      });
+
+      $(window).on("scroll", function() {
+         $(".m-header .header").toggleClass("active", $(this).scrollTop() > $(window).height());
       });
    </script>
 </body>

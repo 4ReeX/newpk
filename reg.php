@@ -13,6 +13,7 @@
 </form>
 <form id="login-form">
 <input type="email" name="email" placeholder="E-mail">
+<span class="login-error is-visible">Пользователь не найден</span>
 <input type="password" name="pass" placeholder="Пароль">
 <a href="#" class="login-btn">Войти</a>
 </form>
