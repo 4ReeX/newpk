@@ -7860,6 +7860,10 @@ svg.waves {
 	justify-content: space-between;
 	align-items: center;
 	z-index: 99999;
+	background: rgb(0,0,0);
+	background: url(../../assets/img/b.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100vh;
 	transition: all 0.1s ease-in-out;
 }
 .m-header .header.active {
@@ -8061,7 +8065,7 @@ background: rgb(36 39 47);
 
 .promoImg {
 	position: absolute;
-	right: 10%;
+	right: 6%;
 	z-index: 0;
 	top: 15%
 }
@@ -8106,7 +8110,6 @@ background: rgb(36 39 47);
     width: 700px;
     z-index: 1;
     margin-left: -47%;
-    margin-top: -2%;
     font-size: 3vh!important;
 }
 
@@ -8298,41 +8301,44 @@ animation: flipOutY 5s infinite;
 	align-items: flex-end;
 }
 .timeline {
+	z-index: 999;
 	position: fixed;
 	bottom: 41px;
 	width: 100%;
 	background: rgb(0,0,0);
 	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+	background-size: 100%;
 }
-.datetime {position: relative; cursor: pointer;    color: #FFF;text-shadow: 2px 0px 2px rgba(0, 0, 0, 1);}
+.datetime {position: relative; cursor: pointer;    color: #FFF;}
 
 .datetimeBlock {
-	transition: opacity 1s ease;
+    transition: opacity 1s ease;
     width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     border-radius: 0px;
-    background: #191710;
-    color: #222;
+    background: url(../../assets/img/bord.png) no-repeat top center;
+    background-size: 100%;
+    color: #fff;
     padding: 15px 20px;
     margin: 0;
     position: absolute;
     top: -15px;
     left: 50%;
-    transform: translate(-50%, -100%) skew(-1deg); /* skew(-4deg)*/
+    transform: translate(-50%, -100%) skew(
+-1deg
+);
     font-size: 11px;
     z-index: 9999999;
     text-align: left;
-	line-height: 1.1;
-	background: #fff;
-	background-size: 100% 100%;
-	font-weight: 100;
-	-webkit-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
--moz-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
-
+    line-height: 1.1;
+    background-size: 100% 100%;
+    font-weight: 100;
+    -webkit-box-shadow: 0px 5px 5px -5px rgb(34 60 80 / 60%);
+    -moz-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+    box-shadow: 0px 5px 5px -5px rgb(34 60 80 / 60%);
 }
 .timelineImage {
     height: 130px;
@@ -8358,7 +8364,6 @@ box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    background: #fff;
     text-align: center;
     width: 100%;
     margin: 4px auto;
@@ -8383,9 +8388,14 @@ box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
     justify-content: space-between;
     align-items: unset;
     padding-top: 0;
+    width: 100vw;
+    overflow-x: hidden;
 }
 .m-footer {
-	background: rgba(0, 0, 0, .9);
+	background: rgb(0,0,0);
+	background: url(../../assets/img/b.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100vh;
 	min-height: 5vh;
 	display: flex;
 	flex-direction: row;
@@ -8395,6 +8405,7 @@ box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+	z-index: 999;
 
 }
 .m-footer span {

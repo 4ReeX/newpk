@@ -237,7 +237,7 @@
       });
 
       $(window).on("scroll", function() {
-         $(".m-header .header").toggleClass("active", $(this).scrollTop() > $(window).height());
+         $(".header").toggleClass("active", $(this).scrollTop() > $(window).height());
       });
    </script>
 </body>
