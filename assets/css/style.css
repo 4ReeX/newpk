@@ -7705,6 +7705,8 @@ body.morda {
 	color: #fff;
 	font-family: font-family: 'Raleway', sans-serif;
 	font-weight: 200;
+	margin: 0;
+    width: 100vw;
 }
 .background {
 	width: 100%;
@@ -8024,21 +8026,26 @@ background: rgb(36 39 47);
 	height: 110vh;
 }
 .bb {background: url("../../assets/img/b.jpg") no-repeat; background-size: 100% 100%; background-attachment: fixed;}
-.bw {background: url("../../assets/img/w.jpg") no-repeat;}
+.bw {background: url("../../assets/img/w.jpg") no-repeat; background-attachment: fixed;}
 .bw h1, .bw h3 { color: #000!important;z-index: 2;}
 .bb h1 {
     font-size: 10vh;
     text-transform: uppercase;
     font-weight: 900;
     z-index: 1;
-    margin-left: 24%;
+    margin-left: 20%;
     margin-top: 0;
     line-height: 1;
-    text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+    text-shadow: 3px 3px 2px rgb(0 0 0);
     text-align: left;
 }
-.bb h3 {max-width: 100%; width: 700px; z-index: 1; margin-left: -15%;}
-
+.bb h3 {
+    max-width: 100%;
+    width: 700px;
+    z-index: 1;
+    margin-left: -23%;
+    font-size: 3vh!important;
+}
 .bw h1 {
     font-size: 10vh;
     text-transform: uppercase;
@@ -8049,7 +8056,7 @@ background: rgb(36 39 47);
     line-height: 1;
     text-align: left;
 }
-.bw h3 {max-width: 100%; width: 700px; z-index: 1; margin-left: 30%;}
+.bw h3 {max-width: 100%; width: 700px; z-index: 1; margin-left: 30%;font-size: 3vh!important;}
 
 
 .promoImg {
@@ -8066,7 +8073,7 @@ background: rgb(36 39 47);
 }
 .promoImg3 {
 	position: absolute;
-	left: 10%;
+	left: 5%;
 	z-index: 0;
 	top: 15%
 }
@@ -8076,12 +8083,20 @@ background: rgb(36 39 47);
     z-index: 0;
     bottom: 0;
 }
+
+.s3 h1 {
+    margin-left: 40%;
+    font-size: 9vh;
+}
+.s3 h3 {
+    margin-left: 18%;
+}
 .s4 h1 {
     font-size: 10vh;
     text-transform: uppercase;
     font-weight: 900;
     z-index: 1;
-    margin-left: 25%;
+    margin-left: 8%;
     margin-top: -4%;
     line-height: 1;
     text-align: left;
@@ -8090,8 +8105,9 @@ background: rgb(36 39 47);
     max-width: 100%;
     width: 700px;
     z-index: 1;
-    margin-left: -13%;
+    margin-left: -47%;
     margin-top: -2%;
+    font-size: 3vh!important;
 }
 
 
