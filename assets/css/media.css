@@ -448,6 +448,7 @@ appearance: none;
 
 
 @media screen and (max-width: 414px) {
+
 	a#home-tab:before {
 	content: "wapclick";
 	font-size: 8px;

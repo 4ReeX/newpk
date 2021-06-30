@@ -23,17 +23,19 @@
       <meta name="apple-mobile-web-app-capable" content="yes">
       <link rel="apple-touch-icon-precomposed" href="/new-logo.png">
       <link rel="apple-touch-startup-image" href="/startup-logo.png">
-      <link rel="stylesheet" href="assets/css/style.css?111">
+      <link rel="stylesheet" href="assets/css/style.css?1112">
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Flip/1.1.2/jquery.flip.min.js"></script>
       <script src="https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js"></script>
-     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
    </head>
 <body class="morda">
    <div class="background">
-      <div class="background2"></div>
+      <div class="background2"><div class="wapclick">WAPCLICK</div> </div>
+
 
 
 </div>
@@ -60,24 +62,46 @@
    
    <div class="m-content">
       
-         <div class="h100 h110 bb s1">
-         <div class="promoImg"><img src="assets/img/benefits2.png" alt=""></div>
-         <h1>Высокий<br>конверт</h1>
-         <h3>Регулярно проводим A/А/B тестирование ЛП - как собственных, так и доступных на рынке в данный момент. На основе тестирования предлагаем своим партнерам самые конвертные решения!</h3></div>
-         <div class="h100 bw s2">
-         <div class="promoImg2"><img src="assets/img/run.png" alt=""></div>
-         <h1>Выплаты <br>без задержек</h1>
-         <h3>Для вашего удобства у нас несколько вариантов оплаты : по запросу, еженедельно, 2 раза в неделю. Необходимо пополнение напрямую  в рекламную сетку? Мы это умеем и ещё дадим бонус при пополнении!</h3>
+         <div class="h100 bb h110">
+            <div class="b-left wimg">
+               <div class="promoImg"><img src="assets/img/benefits2.png" alt=""></div>
+            </div>
+            <div class="b-right">
+               <h1>Высокий<br>конверт</h1>
+               <h3>Регулярно проводим A/А/B тестирование ЛП - как собственных, так и доступных на рынке в данный момент. На основе тестирования предлагаем своим партнерам самые конвертные решения!</h3>
+            </div>
          </div>
-         <div class="h100 bb s3">
-         <div class="promoImg3"><img src="assets/img/track.png" alt=""></div>
-         <h1>Вам больше <br>не нужны трекеры!</h1>
-         <h3>В нашей платформе вы сможете с лёгкостью сделать детальный анализ своего трафика и оптимизировать свои кампании!</h3>
+         <div class="h100 bw">
+            <div class="b-left">
+               <h1>Выплаты <br>без задержек</h1>
+               <h3>Для вашего удобства у нас несколько вариантов оплаты : по запросу, еженедельно, 2 раза в неделю. Необходимо пополнение напрямую  в рекламную сетку? Мы это умеем и ещё дадим бонус при пополнении!</h3>
+            </div>
+            <div class="b-right wimg">
+               <div class="promoImg"><img src="assets/img/run.png" alt=""></div>
+            </div>
+            
          </div>
-         <div class="h100 bw s4">
-         <div class="promoImg4"><img src="assets/img/perekup.png" alt=""></div>
-         <h1>Никакого ресейла!</h1>
-         <h3>У нас прямые договоры с операторами и агрегаторами. Меньше посредников, меньше удержек, больше конечная прибыль!</h3>
+         <div class="h100 bb">
+            <div class="b-left">
+               <div class="promoImg"><img src="assets/img/track.png" alt=""></div>
+            </div>
+            <div class="b-right">
+               <h1>Вам больше <br>не нужны трекеры!</h1>
+               <h3>В нашей платформе вы сможете с лёгкостью сделать детальный анализ своего трафика и оптимизировать свои кампании!</h3>
+            </div>
+         
+         </div>
+         <div class="h100 bw">
+            <div class="b-left">
+               <h1>Никакого ресейла!</h1>
+               <h3>У нас прямые договоры с операторами и агрегаторами. Меньше посредников, меньше удержек, больше конечная прибыль!</h3>
+            </div>
+            <div class="b-right">
+               <div class="promoImg"><img src="assets/img/perekup.png" alt=""></div>
+               
+            </div>
+         
+         
          </div>
          <div class="flex-row">
             <div class="social">
