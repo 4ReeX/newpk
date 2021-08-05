@@ -8307,7 +8307,10 @@ span.material-icons.lightMode {
 @media (max-width:1199px){
 .navbar .menu-button{width:100px;}
 }
-@media (max-width:768px){
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
 .navbar .menu-button{width:60px;}
 .central-block {
 	position: relative;
@@ -8316,11 +8319,11 @@ span.material-icons.lightMode {
     height: auto;
     right: auto;
     left: auto;
-    padding-top: 57%;
+    padding-top: 52%;
     flex-wrap: wrap;
 }
 .o-nas {top: -130%;}
-.social {filter: invert(1);}
+.social {    filter: invert(1);    position: fixed;}
 .content-block {
     min-width: 50%;
     width: 50%;
@@ -8338,8 +8341,8 @@ span.material-icons.lightMode {
 .last .text-block {
 	color: #000;
 }
-.MordaMenu {	top: 6%;}
-.white-line {    top: -212%;}
+.MordaMenu {	top: 6%; position: fixed;}
+.white-line {    top: -172%;}
 .img-block {    height: 12vh;}
 
 
