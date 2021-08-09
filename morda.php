@@ -45,7 +45,8 @@
 
    </head>
 <body class="morda">
-<div class="horizontal-line"></div>
+<div class="mobile-scroll">
+   <div class="horizontal-line"></div>
 <div class="MordaMenu">
 <div class="user-block">
 <div class="reg" onclick="Registration();">
@@ -58,22 +59,24 @@
 </div>
 </div>
 </div> 
-<div class="central-block">
-   <div class="content-block">
-      <div class="img-block af"></div>
-      <div class="text-block">Регулярно проводим A/А/B тестирование ЛП - как собственных, так и доступных на рынке в данный момент. На основе тестирования предлагаем своим партнерам самые конвертные решения!</div>
-   </div>
-   <div class="content-block">
-      <div class="o-nas">
+<div class="o-nas">
          <a href="#"><img src="images/morda/partnerkin.png" alt=""></a>
          <a href="#"><img src="images/morda/cparip.png" alt=""></a>
          <a href="#"><img src="images/morda/madcpa.png" alt=""></a>
       </div>
+<div class="central-block">
+   <div class="with-labels">
+      <div class="content-block dark first">
+         <div class="img-block af"></div>
+         <div class="text-block">Регулярно проводим A/А/B тестирование ЛП - как собственных, так и доступных на рынке в данный момент. На основе тестирования предлагаем своим партнерам самые конвертные решения!</div>
+      </div>
+   <div class="content-block">
+      
       <div class="white-line"></div>
       <div class="img-block fi"></div>
       <div class="text-block black">У нас прямые договоры с операторами и агрегаторами. Меньше посредников, меньше удержек, больше конечная прибыль!</div>
    </div>
-   <div class="content-block">
+   <div class="content-block dark">
       <div class="img-block mm"></div>
       <div class="text-block">Вам больше не нужны трекеры. Сэкономьте тонну денег за TDS. В нашей платформе вы сможете с лёгкостью сделать детальный анализ своего трафика и оптимизировать свои кампании!</div>
       
@@ -81,9 +84,34 @@
    <div class="content-block last">
       <div class="img-block ob"></div>
       <div class="text-block">Для вашего удобства у нас несколько вариантов оплаты : по запросу, еженедельно, 2 раза в неделю. 
-               Необходимо пополнение напрямую  в рекламную сетку? Мы это умеем и ещё дадим бонус при пополнении!</div>
-      
+      Необходимо пополнение напрямую  в рекламную сетку? Мы это умеем и ещё дадим бонус при пополнении!</div>
    </div>
+   </div>
+   
+      
+      
+      
+
+</div>
+<div class="timeline">
+      
+      <ul class="timeline-ul">
+         <li class="year wi1">2014<div class="dataText hide"><div class="bYear">14</div>Основание Affimob</div></li>
+         <li class="year wi2">2015<div class="dataText hide"><div class="bYear">15</div>Подписание контракта, запуск собственных сервисов в категории Adult</div></li>
+         <li class="year wi3">2016<div class="dataText hide"><div class="bYear">16</div>Партнерство с AffiMob по продвижению сервиса МТС ТВ</div></li>
+         <li class="year wi4">2017<div class="dataText hide"><div class="bYear">17</div>Внедрение собственной anti-fraud системы. Тендер по выбору партнеров по продвижению сервисов оператора (РИМ)</div></li>
+         <li class="year wi5">2018<div class="dataText hide"><div class="bYear">18</div>Запуск собственного сервиса AffiMob online TV и VoD - tvmood для абонентов МТС. Запуск собственного сервиса - викторина Qiuzzee для абонентов Билайн и МТС</div></li>
+         <li class="year wi6">2019<div class="dataText hide"><div class="bYear">19</div>Введение учета показателя LT (срок жизни) подписок по сервисам</div></li>
+         <li class="year wi7">2020<div class="dataText hide"><div class="bYear">20</div>Релиз собственной системы оценки качества трафика и расчёта индивидуальных ставок выкупа. Эксклюзивное продвижение START и AMEDIATEKA</div></li>
+         <li class="year wi8">2021<div class="dataText hide"><div class="bYear">21</div>Закрытие всех 1Click сервисов для абонентов МТС...мы всё ещё на плаву</div></li>
+      </ul>
+      <div class="progress">
+         <div class="progress-line"></div>
+      </div>
+      </div>
+<div class="logo">
+   <img src="images/new-logo-w.png" alt="" class="logo-icon">
+   <img src="images/affimob.svg" alt="" class="logo-text">
 </div>
 
 
@@ -92,29 +120,66 @@
 <span class="icon-social"><img src="images/morda/gmail.png" alt=""></span>
 <span class="icon-social"><img src="images/morda/skype.svg" alt=""></span>
 </div>  
+
    
   
     
 
    <?php include 'reg.php'; ?>
+</div>
+
+
 
    <script src="assets/js/morda.js"></script>
    
    <script type="text/javascript">
       $(document).ready(function () {
-      $(".dot").hover(
+      $(".year").hover(
       function () {
-      $(this).children(".dataText").addClass("animate__animated fadeInRight animate__faster");
-      $(this).children(".dataText").show();
-      $(this).children(".dotinner").css({'backgroundColor' : 'rgb(57 155 232)'});
+         $(this).children(".dataText").show();
+         $(this).children(".dataText").removeClass("hide");
       },
       function () {
       $(this).children(".dataText").removeClass("animate__animated fadeInRight animate__faster");
       $(this).children(".dataText").hide();
-      $(this).children(".dotinner").css({'backgroundColor' : '#f15a24'});
-      }
-      );
       });
+
+      $(".wi1").hover(
+      function () {
+         $(".progress-line").width("8%");
+      });
+      $(".wi2").hover(
+      function () {
+         $(".progress-line").width("20%");
+      });
+      $(".wi3").hover(
+      function () {
+         $(".progress-line").width("32.5%");
+      });
+      $(".wi4").hover(
+      function () {
+         $(".progress-line").width("45%");
+      });
+      $(".wi5").hover(
+      function () {
+         $(".progress-line").width("57%");
+      });
+      $(".wi6").hover(
+      function () {
+         $(".progress-line").width("69%");
+      });
+      $(".wi7").hover(
+      function () {
+         $(".progress-line").width("81%");
+      });
+      $(".wi8").hover(
+      function () {
+         $(".progress-line").width("94%");
+      });
+
+
+      });
+
 
 
        $(".reg").hover(
