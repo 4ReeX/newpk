@@ -2,7 +2,7 @@
 <div class="popupMorda">
 <form id="registration-form">
 <h1></h1>
-<input type="text" name="name" placeholder="Имя пользователя">
+<input type="text" name="signup-username" placeholder="Имя пользователя">
 <input type="text" name="telegram" placeholder="Telegram">
 <input type="email" name="email" placeholder="E-mail">
 <input type="password" name="pass" placeholder="Пароль">

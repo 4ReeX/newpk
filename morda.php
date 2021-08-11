@@ -60,9 +60,9 @@
 </div>
 </div> 
 <div class="o-nas">
-         <a href="#"><img src="images/morda/partnerkin.png" alt=""></a>
-         <a href="#"><img src="images/morda/cparip.png" alt=""></a>
-         <a href="#"><img src="images/morda/madcpa.png" alt=""></a>
+         <a href="https://partnerkin.com/tribuna/blog_tantal73/kejs_pops_trafik__wap_click__1" target="_blank"><img src="images/morda/partnerkin.png"  alt=""></a>
+         <a href="https://cpa.rip/case/mainstream-wap-click-zeroclick/" target="_blank"><img src="images/morda/cparip.png" alt=""></a>
+         <a href="https://madcpa.ru/obzor-partnerki-affimob/" target="_blank"><img src="images/morda/madcpa.png" alt=""></a>
       </div>
 <div class="central-block">
    <div class="with-labels">
@@ -116,9 +116,9 @@
 
 
 <div class="social">
-<span class="icon-social"><img src="images/morda/telegram.svg" alt=""></span>
-<span class="icon-social"><img src="images/morda/gmail.png" alt=""></span>
-<span class="icon-social"><img src="images/morda/skype.svg" alt=""></span>
+<span class="icon-social"><a href="tg://resolve?domain=affimob_support"><img src="images/morda/telegram.svg" alt=""></a></span>
+<span class="icon-social"><a href="mailto:support@affimob.com?subject=Сообщение с сайта!&body=Здравствуйте,"><img src="images/morda/gmail.png" alt=""></a></span>
+<span class="icon-social"><a href="skype:live:info_520258?chat"><img src="images/morda/skype.svg" alt=""></a></span>
 </div>  
 
    

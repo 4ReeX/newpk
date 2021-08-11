@@ -11808,8 +11808,8 @@ a {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	background: rgba(0, 0, 0, .2);
-	border-bottom: 2px solid #f15a24;
 	cursor: pointer;
+	border-bottom: 2px solid #53b9e9;
 }
 
 .option:first-child {
