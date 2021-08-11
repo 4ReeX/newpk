@@ -185,12 +185,12 @@
        $(".reg").hover(
       function () {
       $(this).css({'color' : '#f15a24;'});
-      $(this).children(".menu-text").addClass("animate__animated fadeInLeft animate__faster");
+      $(this).children(".menu-text").addClass("animate__animated fadeInRight animate__faster");
       $(this).children(".menu-text").show();
       },
       function () {
       $(this).css({'color' : '#fff;'});
-      $(this).children(".menu-text").removeClass("animate__animated fadeInLeft animate__faster");
+      $(this).children(".menu-text").removeClass("animate__animated fadeInRight animate__faster");
       $(this).children(".menu-text").hide();
       }
       );
@@ -198,11 +198,11 @@
         $(document).ready(function () {
       $(".auth").hover(
       function () {
-      $(this).children(".menu-text").addClass("animate__animated fadeInLeft animate__faster");
+      $(this).children(".menu-text").addClass("animate__animated fadeInRight animate__faster");
       $(this).children(".menu-text").show();
       },
       function () {
-      $(this).children(".menu-text").removeClass("animate__animated fadeInLeft animate__faster");
+      $(this).children(".menu-text").removeClass("animate__animated fadeInRight animate__faster");
       $(this).children(".menu-text").hide();
       }
       );

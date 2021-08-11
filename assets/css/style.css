@@ -11353,14 +11353,15 @@ body.morda {
 }
 
 .social {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	width: 120px;
-	position: absolute;
-	right: 20px;
-	top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 69px;
+    position: absolute;
+    left: 0px;
+    top: 40%;
+    height: 126px;
 }
 
 .social a {
@@ -11380,7 +11381,7 @@ body.morda {
 
 .MordaMenu {
 	position: absolute;
-	left: 0;
+
 	height: 400px;
 	width: 0;
 	display: flex;
@@ -11390,6 +11391,20 @@ body.morda {
 	top: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 999;
+}
+/*menu*/
+.MordaMenu {
+    position: absolute;
+    height: 400px;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    top: 53px;
+    right: 87px;
+    transform: translate(-50%, -50%);
+    z-index: 999;
 }
 
 .bottomLink {
@@ -11667,6 +11682,7 @@ width: 100%;
 	justify-content: center;
 	align-items: center;
 	cursor: pointer;
+	margin: 0 2px;
 }
 
 .icon-social img {
@@ -11952,6 +11968,11 @@ span.material-icons.lightMode {
 	animation-duration: var(--animate-duration);
 	animation-fill-mode: both;
 }
+.menu-text {
+    position: absolute;
+    left: -74px;
+}
+
 
 @media print,
 (prefers-reduced-motion: reduce) {
@@ -12118,8 +12139,9 @@ span.material-icons.lightMode {
 		top: -130%;
 	}
 	.social {
-		filter: invert(1);
+		
 		position: fixed;
+		top: 13%;
 	}
 	.content-block {
 		min-width: 50%;
@@ -12128,7 +12150,8 @@ span.material-icons.lightMode {
 		position: relative;
 	}
 	.MordaMenu {
-		top: 13%;
+		top: 60px;
+		filter: invert(1);
 	}
 	.horizontal-line {
 		height: 50vh;
@@ -12160,9 +12183,18 @@ span.material-icons.lightMode {
 
 }
 
-@media screen and (max-width : 414px) {
+@media screen and (max-width : 425px) {
 	.central-block {height: 100%;min-height: 330px;}
-
+.user-block .reg, .user-block .auth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    height: 40px;
+    padding: 0;
+    cursor: pointer;
+}
 	.with-labels {
 	    width: 100%;
 	    position: relative;
@@ -12206,7 +12238,19 @@ span.material-icons.lightMode {
 		display: block;
 		padding: 5px 10px;
 	}
-	.social {position: fixed;}
+	.social {
+    position: fixed;
+    z-index: 999999;
+    top: 118px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 69px;
+    position: absolute;
+    left: 10px;
+    height: 36px;
+}
 	.dataText {
 		display: flex;
 		flex-direction: row;
@@ -12215,13 +12259,18 @@ span.material-icons.lightMode {
 	}
 	.timeline, .dataText, .horizontal-line  {display: none;}
 	.text-block {font-weight: 400;font-size: 2.5vh;}
-	.MordaMenu {position: fixed;top: 60px;}
+	.MordaMenu {position: fixed;top: 60px;right: 66px;}
 	.user-block {display: flex;flex-direction: column;}
 	.darkbg {
 		background: rgba(0, 0, 0, .6);
 		background: rgba(0, 0, 0, .8);
 		backdrop-filter: blur(8px);
 	}
+	.menu-text {
+    position: absolute;
+    left: -72px;
+    font-size: 14px;
+}
 	.morda .close {
 		color: #fff;
 		opacity: 1;
@@ -12232,12 +12281,12 @@ span.material-icons.lightMode {
 		z-index: 999999;
 	}
 	.user-block span.material-icons {
-		margin: 10px;
-		font-size: 45px;
-		min-width: 30px;
-		text-align: left;
-		transition: all 0.9s ease-in-out;
-	}
+    margin: 5px;
+    font-size: 35px;
+    min-width: 30px;
+    text-align: left;
+    transition: all 0.9s ease-in-out;
+}
 	.white-line {
 		height: 100%;
 		top: 0;
@@ -12265,17 +12314,17 @@ span.material-icons.lightMode {
 	}
 	.img-block {padding-top: 0; height: 150px;}
 	.morda .logo {
-		position: fixed;
-		right: 20px;
-		top: 120px;
-		width: 180px;
-		left: auto;
-		display: flex;
-		flex-direction: row;
-		justify-content: flex-end;
-		align-items: center;
-		height: 30px;
-	}
+    position: fixed;
+    left: 0;
+    top: 25px;
+    width: 166px;
+    left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30px;
+}
 	.af:before {
 		content: "Высокий конверт";
 		font-size: 16px;
