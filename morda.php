@@ -23,7 +23,7 @@
       <meta name="apple-mobile-web-app-capable" content="yes">
       <link rel="apple-touch-icon-precomposed" href="/new-logo.png">
       <link rel="apple-touch-startup-image" href="/startup-logo.png">
-      <link rel="stylesheet" href="assets/css/style.css?1112">
+      <link rel="stylesheet" href="assets/css/style.css?1">
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Flip/1.1.2/jquery.flip.min.js"></script>
