@@ -6648,6 +6648,7 @@ label+.MuiInput-formControl {
 }
 
 
+
 /*! CSS Used from: Embedded */
 
 .css-2b097c-container {
@@ -9883,12 +9884,6 @@ svg:not(:root) {
 	}
 }
 
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
 :before,
 :after {
 	-webkit-box-sizing: border-box;
@@ -9912,9 +9907,6 @@ h3 {
 	font-size: 24px;
 }
 
-p {
-	margin: 0 0 10px;
-}
 
 .col-sm-3 {
 	position: relative;
@@ -11759,7 +11751,6 @@ input.checkLogin {
 	cursor: pointer;
 }
 
-input,
 .login-btn {
 	font-family: 'Open Sans', sans-serif;
 	position: relative;
