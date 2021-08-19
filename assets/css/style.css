@@ -8467,10 +8467,10 @@ ul.list-unstyled.nav.flex-column {
 
 span.search-icon {
 	position: absolute;
-	left: 7px;
+	left: 0px;
 	z-index: 1;
 	padding: 11px 13px;
-	top: 20px;
+	top: 0px;
 }
 
 input#offer-search {
