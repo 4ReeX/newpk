@@ -55,7 +55,6 @@ $("#fPass").click(function(){
          }
          function login() {
          $(".darkbg").removeClass("hide");
-         $(".other-options").fadeOut(100);
          $("#registration-form").fadeOut(100);
          $("#login-form").delay(100).fadeIn(200);
          $all.removeClass( "activeScene" );
@@ -64,7 +63,6 @@ $("#fPass").click(function(){
          }
          function Registration() {
           $(".darkbg").removeClass("hide");        
-          $(".other-options").fadeOut(100);
           $("#login-form").fadeOut(100);
           $("#registration-form").delay(100).fadeIn(200);
          // $("h1").text("Регистрация");
