@@ -11762,6 +11762,19 @@ input.checkLogin {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
+.popupMorda input {
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	display: block;
+	margin: 20px auto;
+	padding: 10px;
+	width: 84%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+
 
 .popupMorda input {
 	border: none;
@@ -11776,6 +11789,15 @@ input.checkLogin {
 	transition: all .2s ease-in-out;
 	background: rgba(0, 0, 0, .6);
 	background: rgb(255 255 255 / 10%);
+}
+input.checkLogin {
+    width: 30px;
+    position: relative;
+    left: 6%;
+    float: left;
+    height: 18px;
+    line-height: 0;
+    top: -22px;
 }
 
 input:focus {
