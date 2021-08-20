@@ -62,9 +62,11 @@ $("#fPass").click(function(){
          $login.addClass( "activeScene" );
          }
          function Registration() {
+          $(".other-options").fadeOut(50);
           $(".darkbg").removeClass("hide");        
           $("#login-form").fadeOut(100);
           $("#registration-form").delay(100).fadeIn(200);
+
          // $("h1").text("Регистрация");
           $all.removeClass( "activeScene" );
           $all.addClass( "hiddenScene" );
