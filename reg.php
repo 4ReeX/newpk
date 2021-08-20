@@ -13,8 +13,10 @@
 </form>
 <form id="login-form">
 <input type="email" name="email" placeholder="E-mail">
-<span class="login-error is-visible">Пользователь не найден</span>
+<span class="login-error is-visible">Для авторизации вам необходимо подтвердить указанный при регистрации email. Для этого перейдите по ссылке, отпрвленной вам на почту. <br><a href="#">Отправить повторно?</a></span>
 <input type="password" name="pass" placeholder="Пароль">
+<span class="password-error is-visible">Для авторизации вам необходимо подтвердить указанный при регистрации email. Для этого перейдите по ссылке, отпрвленной вам на почту. <br><a href="#">Отправить повторно?</a></span>
+<input name="TokenIsGood" type="checkbox" class="checkToken" checked="true"><label for="accept-terms" style="padding-left: 25px; min-width: 0px;">Запомнить меня</label>
 <a href="#" class="login-btn">Войти</a>
 </form>
 <form id="fpass-form">
