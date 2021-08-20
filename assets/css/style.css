@@ -5780,10 +5780,11 @@ span.login-error.is-visible {
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: -13px;
+        width: 100%;
 }
 
 span.password-error.is-visible {
-	margin-left: 38px;
+    margin-left: 38px;
     font-size: 10px;
     line-height: 1;
     font-family: sans-serif;
@@ -5794,7 +5795,10 @@ span.password-error.is-visible {
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-top: -13px;
+    margin-top: 0;
+    top: -40px;
+    position: relative;
+    width: 100%;
 }
 .password-error a, .login-error a {
 	color: #53b9e9;
@@ -11911,19 +11915,18 @@ a {
 }
 
 .hide-password {
-	display: inline-block;
-	position: absolute;
-	right: 32px;
-	top: 0;
-	padding: 6px 15px;
-	border-left: 1px solid #d2d8d8;
-	bottom: auto;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
-	font-size: 14px;
-	font-size: .875rem;
-	color: #8e8e8e;
-	top: 223px;
+    display: block;
+    position: relative;
+    padding: 6px 15px;
+    border-left: 1px solid #d2d8d8;
+    font-size: 14px;
+    font-size: .875rem;
+    color: #8e8e8e;
+    right: 30px;
+    left: auto;
+    float: right;
+    top: -56px;
+    margin: 0;
 }
 .central-block::-webkit-scrollbar {
 		display: none;
@@ -12284,7 +12287,7 @@ span.material-icons.lightMode {
 	}
 	.social {
     position: fixed;
-    z-index: 999999;
+    z-index: 9;
     top: 118px;
     display: flex;
     flex-direction: row;
