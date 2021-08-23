@@ -13133,4 +13133,11 @@ div#dark-swither {
     height: 80vh;  //было 80vh 
     overflow-x: hidden; 
 }
+.content-block {
+	top: 80px;
+}
+.hideinviz {
+	opacity: 0;
+}
+
 }

@@ -86,6 +86,12 @@
       <div class="text-block">Для вашего удобства у нас несколько вариантов оплаты : по запросу, еженедельно, 2 раза в неделю. 
       Необходимо пополнение напрямую  в рекламную сетку? Мы это умеем и ещё дадим бонус при пополнении!</div>
    </div>
+   <div class="content-block hideinviz">
+      <div class="img-block ob"></div>
+      <div class="text-block">Для вашего удобства у нас несколько вариантов оплаты : по запросу, еженедельно, 2 раза в неделю. 
+      Необходимо пополнение напрямую  в рекламную сетку? Мы это умеем и ещё дадим бонус при пополнении!</div>
+   </div>
+
    </div>
    
       
@@ -216,9 +222,10 @@
       var withLabels = $(".with-labels").height();
       console.log("разница", raznica);
       console.log("высота with-labels", withLabels);
-      $(".last").css({
-      "padding-bottom": raznica - withLabels + "px"
+      $(".content-block").css({
+      "height": height - withLabels + raznica + "px"
       });
+
       }
       window.addEventListener('resize', changeHeight);
       changeHeight();
