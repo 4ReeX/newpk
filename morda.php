@@ -208,6 +208,21 @@
       );
       });
    </script>   
+   <script>
+      function changeHeight() {
+      var height = $(window).innerHeight();
+      var blockheight = $(".last").height();
+      var raznica = height - blockheight;
+      var withLabels = $(".with-labels").height();
+      console.log("разница", raznica);
+      console.log("высота with-labels", withLabels);
+      $(".last").css({
+      "padding-bottom": raznica - withLabels + "px"
+      });
+      }
+      window.addEventListener('resize', changeHeight);
+      changeHeight();
+   </script>
    
 </body>
 </html>

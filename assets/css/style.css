@@ -13127,3 +13127,10 @@ div#dark-swither {
 	cursor: pointer;
 	-webkit-tap-highlight-color: transparent;
 }
+@media screen and (max-width: 425px) {
+.with-labels { 
+    display: block; 
+    height: 80vh;  //было 80vh 
+    overflow-x: hidden; 
+}
+}
