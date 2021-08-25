@@ -148,35 +148,35 @@
 
       $(".wi1").hover(
       function () {
-         $(".progress-line").width("8%");
+         $(".progress-line").width("12.5%");
       });
       $(".wi2").hover(
       function () {
-         $(".progress-line").width("20%");
+         $(".progress-line").width("25%");
       });
       $(".wi3").hover(
       function () {
-         $(".progress-line").width("32.5%");
+         $(".progress-line").width("38%");
       });
       $(".wi4").hover(
       function () {
-         $(".progress-line").width("45%");
+         $(".progress-line").width("50%");
       });
       $(".wi5").hover(
       function () {
-         $(".progress-line").width("57%");
+         $(".progress-line").width("62.5%");
       });
       $(".wi6").hover(
       function () {
-         $(".progress-line").width("69%");
+         $(".progress-line").width("75%");
       });
       $(".wi7").hover(
       function () {
-         $(".progress-line").width("81%");
+         $(".progress-line").width("87.5%");
       });
       $(".wi8").hover(
       function () {
-         $(".progress-line").width("94%");
+         $(".progress-line").width("100%");
       });
 
 
