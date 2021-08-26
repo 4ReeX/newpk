@@ -12660,6 +12660,10 @@ span.material-icons.lightMode {
     top: -140px;
     background-position-y: 85px;
 }
+.popupMorda {
+	transform: translate(-50%, -33%);
+	padding-top: 130px;
+}
 .timeline-ul {
 	min-width: 100%;
 	width: 100%;
