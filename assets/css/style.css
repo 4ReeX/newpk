@@ -12241,6 +12241,7 @@ span.material-icons.lightMode {
 }
 
 @media screen and (max-width : 425px) {
+	.user-block {height: 40%;}
 	.darkbg {overflow-y: auto;}
 	form#registration-form {
     min-height: 430px;
