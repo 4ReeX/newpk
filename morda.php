@@ -60,9 +60,10 @@
 </div>
 </div> 
 <div class="o-nas">
-         <a href="https://partnerkin.com/tribuna/blog_tantal73/kejs_pops_trafik__wap_click__1" target="_blank"><img src="images/morda/partnerkin.png"  alt=""></a>
+         
          <a href="https://cpa.rip/case/mainstream-wap-click-zeroclick/" target="_blank"><img src="images/morda/cparip.png" alt=""></a>
          <a href="https://madcpa.ru/obzor-partnerki-affimob/" target="_blank"><img src="images/morda/madcpa.png" alt=""></a>
+         <a href="https://partnerkin.com/tribuna/blog_tantal73/kejs_pops_trafik__wap_click__1" target="_blank"><img src="images/morda/partnerkin.png"  alt=""></a>
       </div>
 <div class="central-block">
    <div class="with-labels">
