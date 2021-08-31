@@ -124,13 +124,26 @@
 <span class="icon-social"><a href="skype:live:info_520258?chat"><img src="images/morda/skype.svg" alt=""></a></span>
 </div>  
 
+
    
   
     
 
    <?php include 'reg.php'; ?>
+   <div class="scroll-icon"></div>
 </div>
 
+ <script>
+
+    $(document).scroll(function() {
+      var y = $('.morda').scrollTop();
+         if (y > 80) {
+         $('.scroll-icon').fadeIn();
+      } else {
+         $('.scroll-icon').fadeOut();
+      }
+});
+</script>
 
 
    <script src="assets/js/morda.js"></script>
@@ -185,6 +198,8 @@
 
 
 
+
+
        $(".reg").hover(
       function () {
       $(this).css({'color' : '#f15a24;'});
@@ -227,6 +242,7 @@
       window.addEventListener('resize', changeHeight);
       changeHeight();
    </script>
+  
    
 </body>
 </html>

@@ -4392,6 +4392,7 @@ img.icon-logo {
 }
 
 
+
 /*user-avatar-in menu*/
 
 .user-area .user-avatar {
@@ -11611,7 +11612,7 @@ width: 100%;
 
 .horizontal-line {
    width: 100%;
-    height: 300px;
+    height: 350px;
     position: absolute;
     top: 350px;
     background: rgb(21, 21, 21);
@@ -11905,6 +11906,29 @@ a {
 	display: none;
 }
 
+.scroll-icon {
+	/*добавить иконку и стили*/
+	background: url("../../images/morda/sorting-arrows.png") no-repeat top center;
+	background-size: 100%;
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	bottom: 10px;
+	left: 50%;
+	transform: translate(-50%);
+	z-index: 999;
+	transition: all 0.5s ease;
+}
+
+.scroll-icon .show {
+	display: block;
+}
+.scroll-icon .hide {
+	display: none;
+	transition: all 0.5s ease;
+}
+
+
 
 /* Change colors container */
 
@@ -12154,27 +12178,7 @@ span.material-icons.lightMode {
 	}
 }
 
-@media screen and (max-width: 1920px) {
-	.sidebar .main-menu ul li i {
-		font-size: 26px;
-		line-height: 32px;
-	}
-	.sidebar .main-menu ul li a {
-		height: 50px;
-	}
-}
 
-@media (max-width:1439px) {
-	.navbar .menu-button {
-		width: 110px;
-	}
-}
-
-@media (max-width:1199px) {
-	.navbar .menu-button {
-		width: 100px;
-	}
-}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 	.navbar .menu-button {
@@ -12241,6 +12245,7 @@ span.material-icons.lightMode {
 }
 
 @media screen and (max-width : 425px) {
+	.content {overflow-y: scroll;}
 	.user-block {height: 40%;}
 	.darkbg {overflow-y: auto;}
 	form#registration-form {
@@ -12317,7 +12322,7 @@ span.material-icons.lightMode {
 		padding-bottom: 44%;
 		min-width: auto!important;
 	}
-	html {overflow: hidden;}
+	/*html {overflow: hidden;}*/
 	body.morda {height: auto;overflow-y: auto;}
 	.af:before,
 	.fi:before,
@@ -12548,6 +12553,7 @@ span.material-icons.lightMode {
 
 
 
+
 @media screen and (min-width: 321px) and (max-width: 360px) {
 	.content-block {
 		
@@ -12712,6 +12718,26 @@ body.morda {
 
 }
 
+@media screen and (max-width: 1920px) {
+	.sidebar .main-menu ul li i {
+		line-height: 32px;
+	}
+	.sidebar .main-menu ul li a {
+		height: 50px;
+	}
+}
+
+@media (max-width:1439px) {
+	.navbar .menu-button {
+		width: 110px;
+	}
+}
+
+@media (max-width:1199px) {
+	.navbar .menu-button {
+		width: 100px;
+	}
+}
 /*DarkTheme*/
 
 body.theme-dark .lightMode {
