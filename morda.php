@@ -181,8 +181,8 @@
 
    <script src="assets/js/morda.js"></script>
    
-   <script type="text/javascript">
-      $(document).ready(function () {
+  <script type="text/javascript">
+      /*$(document).ready(function () {
       $(".year").hover(
       function () {
          $(this).children(".dataText").show();
@@ -193,41 +193,55 @@
       $(this).children(".dataText").hide();
       });
 
-      $(".wi1").hover(
+      wi1 = 8;
+      wi2 = 7;
+      wi3 = 6;
+      wi4 = 5;
+      wi5 = 4;
+      wi6 = 3;
+      wi7 = 2;
+      wi8 = 1;
+      maxWidth = 100;
+      progress = $(".progress-line");
+
+
+
+
+      $(".wi8").hover(
       function () {
-         $(".progress-line").width("12.5%");
-      });
-      $(".wi2").hover(
-      function () {
-         $(".progress-line").width("25%");
-      });
-      $(".wi3").hover(
-      function () {
-         $(".progress-line").width("38%");
-      });
-      $(".wi4").hover(
-      function () {
-         $(".progress-line").width("50%");
-      });
-      $(".wi5").hover(
-      function () {
-         $(".progress-line").width("62.5%");
-      });
-      $(".wi6").hover(
-      function () {
-         $(".progress-line").width("75%");
+         progress.width(maxWidth / 10 * wi1 + "%");
       });
       $(".wi7").hover(
       function () {
-         $(".progress-line").width("87.5%");
+         progress.width(maxWidth / 10 * wi2 + "%");
       });
-      $(".wi8").hover(
+      $(".wi6").hover(
       function () {
-         $(".progress-line").width("100%");
+         progress.width(maxWidth / 10 * wi3 + "%");
+      });
+      $(".wi5").hover(
+      function () {
+         progress.width(maxWidth / 10 * wi4 + "%");
+      });
+      $(".wi4").hover(
+      function () {
+         progress.width(maxWidth / 10 * wi5 + "%");
+      });
+      $(".wi3").hover(
+      function () {
+         progress.width(maxWidth / 10 * wi6 + "%");
+      });
+      $(".wi2").hover(
+      function () {
+         progress.width(maxWidth / 10 * wi7 + "%");
+      });
+      $(".wi1").hover(
+      function () {
+         progress.width(maxWidth / 10 * wi8 + "%");
       });
 
 
-      });
+      }); */
 
 
 
