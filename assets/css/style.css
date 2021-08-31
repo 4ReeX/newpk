@@ -11263,6 +11263,7 @@ body.morda {
 	display: none;
 }
 
+.scroll-icon {display: none;}
 .user-block {
 	display: flex;
 	flex-direction: column;
@@ -11528,6 +11529,7 @@ width: 100%;
 	margin-left: 0;
 	transform: translate(-110px, 45px);
 	background: #333;
+	
 	color: #fff;
 	width: 250px;
 	bottom: 90px;
@@ -11543,7 +11545,9 @@ width: 100%;
 	min-height: 300px;
 	padding-top: 100px;
 	z-index: 9999999999999999999999999;
-	font-size: 16px;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.2;
 }
 
 .progress {
@@ -12163,7 +12167,7 @@ span.material-icons.lightMode {
 
 @media screen and (min-width: 1600px) {
 	.white-line {
-		top: -200%;
+		top: -68%;
 		background-position-y: 68%;
 	}
 	.img-block {
@@ -12662,6 +12666,7 @@ span.material-icons.lightMode {
     z-index: 9999999999999999999999999;
     font-size: 0.7em;
     line-height: 1;
+    font-weight: 400;
 }
 .timeline {
 	height: 265px;

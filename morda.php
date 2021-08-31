@@ -23,7 +23,7 @@
       <meta name="apple-mobile-web-app-capable" content="yes">
       <link rel="apple-touch-icon-precomposed" href="/new-logo.png">
       <link rel="apple-touch-startup-image" href="/startup-logo.png">
-      <link rel="stylesheet" href="assets/css/style.css?1">
+      <link rel="stylesheet" href="assets/css/style.css?22">
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Flip/1.1.2/jquery.flip.min.js"></script>
@@ -100,13 +100,46 @@
       
       <ul class="timeline-ul">
          <li class="year wi1">2014<div class="dataText hide"><div class="bYear">14</div>Основание Affimob</div></li>
-         <li class="year wi2">2015<div class="dataText hide"><div class="bYear">15</div>Подписание контракта, запуск собственных сервисов в категории Adult</div></li>
-         <li class="year wi3">2016<div class="dataText hide"><div class="bYear">16</div>Партнерство с AffiMob по продвижению сервиса МТС ТВ</div></li>
-         <li class="year wi4">2017<div class="dataText hide"><div class="bYear">17</div>Внедрение собственной anti-fraud системы. Тендер по выбору партнеров по продвижению сервисов оператора (РИМ)</div></li>
-         <li class="year wi5">2018<div class="dataText hide"><div class="bYear">18</div>Запуск собственного сервиса AffiMob online TV и VoD - tvmood для абонентов МТС. Запуск собственного сервиса - викторина Qiuzzee для абонентов Билайн и МТС</div></li>
-         <li class="year wi6">2019<div class="dataText hide"><div class="bYear">19</div>Введение учета показателя LT (срок жизни) подписок по сервисам</div></li>
-         <li class="year wi7">2020<div class="dataText hide"><div class="bYear">20</div>Релиз собственной системы оценки качества трафика и расчёта индивидуальных ставок выкупа. Эксклюзивное продвижение START и AMEDIATEKA</div></li>
-         <li class="year wi8">2021<div class="dataText hide"><div class="bYear">21</div>Закрытие всех 1Click сервисов для абонентов МТС...мы всё ещё на плаву</div></li>
+         <li class="year wi2">2015<div class="dataText hide">
+            <div class="bYear">15</div>
+         <b>МТС:</b> подписание контракта, запуск собственных сервисов в категории Adult <br>
+         <b>МТС:</b>  введение KPI качества трафика на основании обращений абонентов в службу поддержки <br>
+         <b>Темафон:</b> подписание контракта, начало продвижения сервисов провайдера <br>
+         <b>МТС:</b>  участие AffiMob в пилотном проекте - несколько ЛП для одного сервиса
+         <b>Stream-МТС:</b> перевод сервисов МТС на платформу агрегатора
+</div></li>
+         <li class="year wi3">2016<div class="dataText hide"><div class="bYear">16</div>
+         <b>МТС:</b> партнерство с AffiMob по продвижению сервиса МТС ТВ
+         <b>Билайн:</b> подписание контракта и запуск собственных сервисов (CPA)
+         <b>Билайн:</b> введение KPI качества трафика, CPA Index
+         <b>Samsung Electronics:</b> контракт на обслуживание брендированного VAS портала
+         <b>МТС:</b> введение новых правил оформления ЛП (контрастная цена)
+         </div></li>
+         <li class="year wi4">2017<div class="dataText hide"><div class="bYear">17</div>
+         <b>Билайн:</b> Тендер по выбору партнеров по продвижению сервисов оператора (РИМ)
+         <b>AffiMob:</b> внедрение собственной anti-fraud системы
+         <b>МТС:</b> изменение KPI качества трафика (отписки за 30 дней)
+         </div></li>
+         <li class="year wi5">2018<div class="dataText hide"><div class="bYear">18</div>
+         <b>МТС:</b> закрытие сервисов 1click в категории Adult
+         <b>AffiMob:</b> запуск собственного сервиса AffiMob online TV и VoD - tvmood для абонентов МТС
+         <b>AffiMob:</b> запуск собственного сервиса - викторина Qiuzzee для абонентов Билайн и МТС
+         </div></li>
+         <li class="year wi6">2019<div class="dataText hide"><div class="bYear">19</div>
+         <b>Stream-МТС:</b> запуск anti-fraud системы для трафика МТС
+         <b>Темафон:</b> ограничение суточного количества подписок
+         <b>МТС:</b> введение учета показателя LT (срок жизни) подписок по сервисам
+         </div></li>
+         <li class="year wi7">2020<div class="dataText hide"><div class="bYear">20</div>
+         <b>МТС:</b> закрытие небрендированных сервисов 1Click
+         <b>МТС:</b> начало эксклюзивоного продвижения сервиса Amediateka
+         <b>МТС:</b> начало эксклюзивного продвижения сервиса START
+         <b>AffiMob:</b> Релиз собственной системы оценки качества трафика и расчёта индивидуальных ставок выкупа
+         <b>Темафон:</b> введение обязательной передачи источников трафика, blacklist источников
+         <b>Stream:</b> начало продвижения брендированных сервисов для абонентов МТС
+         </div></li>
+         <li class="year wi8">2021<div class="dataText hide"><div class="bYear">21</div>
+            <b>МТС:</b> Закрытие всех 1Click сервисов для абонентов ..."stay tuned...</div></li>
       </ul>
       <div class="progress">
          <div class="progress-line"></div>
