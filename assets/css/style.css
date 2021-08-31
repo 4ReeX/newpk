@@ -12249,6 +12249,7 @@ span.material-icons.lightMode {
 }
 
 @media screen and (max-width : 425px) {
+	.scroll-icon {display: block;}
 	.content {overflow-y: scroll;}
 	.user-block {height: 40%;}
 	.darkbg {overflow-y: auto;}
