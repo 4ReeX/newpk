@@ -12625,13 +12625,13 @@ span.material-icons.lightMode {
 	display: none;
 }
 
-[aria-hidden="true"] {
+/*[aria-hidden="true"] {
 	display: none;
 }
 
 [aria-hidden="false"] {
 	display: block;
-}
+}*/
 
 
 @media screen and (orientation:  landscape) and (max-height: 425px) {
