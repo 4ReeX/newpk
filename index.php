@@ -6,7 +6,8 @@
                         <!-- Widgets --------------------- -->
                         <!-- /Widgets --------------------- -->
                         <!--  Traffic  -->
-                        <div class="row">
+                        <?php include 'advertising.php'; ?>
+                        <div class="row slide">
                             <div class="col-md-12">
                                 <div>
                                     <!-- <?php include 'card-header.php'; ?>   -->
@@ -134,6 +135,31 @@
         <!-- /#right-panel -->
         <!-- Scripts -->
 <?php include 'scripts.php'; ?>
+<script>
+    $('.rollup').on("click", function () {
+        if ($('.rollup').hasClass('ti-arrow-circle-left')) {
+            $('.rollup').removeClass('ti-arrow-circle-left');
+            $('.rollup').addClass('ti-arrow-circle-right');
+            $('.advertising').addClass('mini');
+            $('.adv-title').html('<b>РC<b>');
+            $('.adv-title').height( 33 );
+            $('.slogan1').hide();
+            $('.adv-info').hide();
+
+        } else {
+            $('.advertising').removeClass('mini');
+            $('.rollup').addClass('ti-arrow-circle-left');
+            $('.rollup').removeClass('ti-arrow-circle-right');
+            $('.adv-title').text('Рекламные сети');
+            $('.slogan1').show();
+            $('.adv-info').show();
+            $('.adv-title').height( 'auto' );
+        }
+    });
+    $('.adv-item').on("click", function () {
+        window.location.href = "/fin.php";
+    });
+</script>
 
 </body>
 

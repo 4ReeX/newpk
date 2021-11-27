@@ -17,6 +17,7 @@
                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
                            <a class="nav-item nav-link active show" id="formiro-tab" data-toggle="tab" href="#custom-nav-formiro" role="tab" aria-controls="custom-nav-formiro" aria-selected="true">Формирование выплат</a>
                            <a class="nav-item nav-link" id="zapros-tab" data-toggle="tab" href="#custom-nav-zapros" role="tab" aria-controls="custom-nav-zapros" aria-selected="false">Запросы на выплату</a>
+                           <a class="nav-item nav-link" id="adv-tab" data-toggle="tab" href="#custom-nav-adv" role="tab" aria-controls="custom-nav-adv" aria-selected="false">Рекламные сети</a>
                         </div>
                      </nav>
                   </div>
@@ -66,6 +67,122 @@
                               <?php $labelName = "Партнёры";  ?>
                               <?php include 'el/mselect.php'; ?>
                            </div>
+                        </div>
+                     </div>
+                     <div class="tab-pane fade" id="custom-nav-adv" role="tabpanel" aria-labelledby="custom-nav-adv-tab">
+                        <div class="row">
+                           <div class="col">
+                              <div class="jss8">
+                              <div class=" css-2b097c-container">
+                              <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
+                              <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Название</label>
+                              <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
+                              <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
+                              <div class="jss10">
+                              <div class="css-1tna5xz">
+                              <div class="" style="display: inline-block;">
+                              <input autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
+                              <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
+                              </div>
+                              </div>
+                              </div>
+
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                           </div>
+                           <div class="col">
+                              <div class="jss8">
+                              <div class=" css-2b097c-container">
+                              <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
+                              <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Описание</label>
+                              <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
+                              <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
+                              <div class="jss10">
+                              <div class="css-1tna5xz">
+                              <div class="" style="display: inline-block;">
+                              <input autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
+                              <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
+                              </div>
+                              </div>
+                              </div>
+
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                           </div>
+                           <div class="col">
+                              <div class="jss8">
+                              <div class=" css-2b097c-container">
+                              <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
+                              <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Сумма к выводу</label>
+                              <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
+                              <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
+                              <div class="jss10">
+                              <div class="css-1tna5xz">
+                              <div class="" style="display: inline-block;">
+                              <input autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
+                              <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
+                              </div>
+                              </div>
+                              </div>
+
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                           </div>
+                           <div class="col">
+                              <div class="jss8">
+                              <div class=" css-2b097c-container">
+                              <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
+                              <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">чекбокс</label>
+                              <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
+                              <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
+                              <div class="jss10">
+                              <div class="css-1tna5xz">
+                              <div class="" style="display: inline-block;">
+                              <input autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
+                              <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
+                              </div>
+                              </div>
+                              </div>
+
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                           </div>
+                           <div class="col">
+                              <div class="jss8">
+                              <div class=" css-2b097c-container">
+                              <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
+                              <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Картинка</label>
+                              <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
+                              <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
+                              <div class="jss10">
+                              <div class="css-1tna5xz">
+                              <div class="" style="display: inline-block;">
+                              <input autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
+                              <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
+                              </div>
+                              </div>
+                              </div>
+
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                              </div>
+                           </div>
+
+
                         </div>
                      </div>
                      <div class="col-lg-12">
@@ -135,5 +252,8 @@
             $('#zapr').show();
         });
       </script>
+      <style>
+         .right-panel {margin-left: 60px;}
+      </style>
    </body>
 </html>

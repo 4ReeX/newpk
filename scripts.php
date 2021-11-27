@@ -1,5 +1,6 @@
 <script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery-3.4.1.js"></script>
+<!--<script src="assets/js/jquery-3.4.1.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="assets/js/iosCheckbox.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.matchHeight.min.js"></script>
