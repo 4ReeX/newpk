@@ -87,7 +87,7 @@ $('.hidenHover').hover(
 var MyWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
 var BrowsWidth = document.documentElement.clientWidth;
 var MobilePadding = 40;
-var FinalWidth = BrowsWidth - MobilePadding;
+
 
 
   // Load Resize 
@@ -95,11 +95,9 @@ var FinalWidth = BrowsWidth - MobilePadding;
     jQuery('.chtitle').text(document.title);
     var windowWidth = $(window).width();       
     if (windowWidth<768) {
+
       $('body').addClass('small-device'); 
       //document.getElementById('fullWidth').style.width = MyWidth + "px";
-          document.getElementById('fullWidth').style.width = FinalWidth + "px";
-          document.getElementById('fullWidth2').style.width = FinalWidth + "px";
-          document.getElementById('menuToggle').style.marginLeft = "-20px";
           
     } else {
       $('body').removeClass('small-device');  

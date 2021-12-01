@@ -448,6 +448,53 @@ appearance: none;
 
 
 @media screen and (max-width: 414px) {
+	.advertising {
+		border-radius: 5px;
+    float: left;
+    width: calc(100% - 10px);
+    position: relative;
+    height: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+	}
+	.adv-list.gray {
+    display: flex;
+    flex-direction: revert;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+	}
+	.adv-item {
+    margin: 5px;
+	}
+	.adv-item .row {
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+	}
+	.adv-logo {
+		height: 60px;
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+	}
+	.adv-info {
+    padding-top: 10px;
+	}
+	.row.slide {
+    float: left;
+    margin-top: 45px;
+	}
+	.card-header.chart {
+		height: auto;
+	}
+
+
+
 
 	a#home-tab:before {
 	content: "wapclick";

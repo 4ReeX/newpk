@@ -530,11 +530,13 @@ button {
 .help-icon {
 	position: absolute;
 	right: 20px;
-	top: 0;
+	top: 7px;
 	z-index: 3;
-	color: #000;
 	height: 100%;
 	padding: 20px 0px;
+	color: #b9b9b9;
+	font-size: 20px;
+	cursor: pointer;
 }
 
 .top-block {
@@ -2740,6 +2742,13 @@ header .form-inline .search-form.close {
 
 .traffic-chart {
 	height: 34vh;
+	background: url(../img/wchart.jpg) no-repeat center center;
+	background-size: calc(100% + 10px);
+}
+.theme-dark .traffic-chart {
+	height: 34vh;
+	background: url(../img/bchart.jpg) no-repeat center center;
+	background-size: calc(100% + 10px);
 }
 
 #flotBar2 {
@@ -9570,15 +9579,20 @@ p.h2 {
 /*! CSS Used from: Embedded */
 
 .scroll-area-md {
+	padding-top: 15px;
 	height: 567px;
-	overflow-x: auto;
-	overflow-y: scroll;
-	box-sizing: border-box;
-	position: relative;
-	border-bottom: 1px solid #f3f3f3;
-	margin-bottom: auto;
-	-webkit-overflow-scrolling: touch;
-	max-height: calc(53vh + 12px);
+    overflow-x: auto;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    position: relative;
+    border-bottom: 1px solid #f3f3f3;
+    margin-bottom: auto;
+    -webkit-overflow-scrolling: touch;
+    max-height: calc(53vh + 12px);
+    margin-top: -20px;
+    z-index: 0;
+    background: transparent;
+    box-shadow: none;
 }
 
 .border-light {
@@ -9774,6 +9788,7 @@ small {
 .row.cardPadding {
 	padding: 5px 10px 0px 10px;
 	justify-content: space-between;
+	width: 100%;
 }
 
 .fsize-2 {
@@ -9888,7 +9903,7 @@ md-icon {
 
 md-card {
 	background-color: rgb(255, 255, 255);
-	border-radius: 2px;
+	border-radius: 5px;
 }
 
 svg:not(:root) {
@@ -10371,7 +10386,19 @@ ol {
 	margin-bottom: -1px;
 	background-color: #fff;
 	border: 1px solid rgba(0, 0, 0, .125);
+	margin: 3px 0;
+	border-radius: 5px!important;
+
 }
+
+.list-group-item:hover, .list-group-item.active {
+    color: #000;
+	cursor: pointer;
+	transform: scale(1.02) translateZ(0) perspective(1px);
+	transition: all 0.2s ease-in-out;
+
+}
+
 
 .widget-content-left {
 	height: 30px;
@@ -11998,7 +12025,7 @@ span.material-icons.lightMode {
 
 .list-group-item:hover,
 .list-group-item.active {
-	background-color: #f0f0f0;
+	background-color: #ffffff;
 	color: #000;
 	border-color: #f0f0f0;
 }
@@ -13334,7 +13361,7 @@ div#dark-swither {
 	overflow-y: auto;
 	height: calc(100% - 42px);
 	box-sizing: border-box;
-	background: #f9f9f9;
+	background: #f3f3f3;
 }
 .adv-list::-webkit-scrollbar-thumb {
     background: #ddd;
@@ -13353,6 +13380,7 @@ div#dark-swither {
 	-webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.1);
 	-moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.1);
 	box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.1);
+
 }
 .adv-item .row {
 	padding: 5px 10px;
@@ -13361,6 +13389,9 @@ div#dark-swither {
 	justify-content: flex-start;
 	align-items: center;
 	flex-wrap: nowrap;
+}
+.card-body.gray {
+	background: #f3f3f3;
 }
 .adv-logo {
 	display: flex;
@@ -13397,12 +13428,19 @@ div#dark-swither {
 }
 
 .adv-item:hover {
-	background: #f7f7f7;
+	background: #fff;
 	cursor: pointer;
+	transform: scale(1.05) translateZ(0) perspective(1px);
+	transition: all 0.2s ease-in-out;
 }
 .adv-item:focus {
-    background: aliceblue;
+	background: #fff;
+	cursor: pointer;
+	transform: scale(1.05) translateZ(0) perspective(1px);
+	transition: all 0.2s ease-in-out;
 }
+
+
 h5.adv-title {
 	width: 100%;
 	text-align: left;
@@ -13411,6 +13449,33 @@ h5.adv-title {
 }
 .card-header p {
 	text-align: left;
+}
+.card-header.dynamica {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px 5px 0 0;
+	padding: 20px 25px 0px;
+	height: 70px;
+}
+.card-header.chart {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.list-group {
+	padding: 5px;
+}
+
+.card-body {
+    background: #fff;
+}
+.theme-dark .card-body {
+	background: transparent;
 }
 
 .disc {
