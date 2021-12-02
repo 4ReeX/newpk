@@ -148,7 +148,7 @@
             $('.rollup').removeClass(arrowLeft);
             $('.rollup').addClass(arrowRight);
             $('.advertising').addClass('mini');
-            $('.adv-title').html('<b>ADV<b>');
+            $('.adv-title').html('<b>РС<b>');
             $('.adv-title').height( 33 );
             $('.slogan1').hide();
             $('.adv-info').hide();

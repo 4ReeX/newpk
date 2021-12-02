@@ -70,120 +70,97 @@
                         </div>
                      </div>
                      <div class="tab-pane fade" id="custom-nav-adv" role="tabpanel" aria-labelledby="custom-nav-adv-tab">
-                        <div class="row">
-                           <div class="col">
-                              <div class="jss8">
-                              <div class=" css-2b097c-container">
-                              <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
-                              <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Название</label>
-                              <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
-                              <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
-                              <div class="jss10">
-                              <div class="css-1tna5xz">
-                              <div class="" style="display: inline-block;">
-                              <input autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
-                              <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
-                              </div>
-                              </div>
-                              </div>
-
-                              </div>
-                              </div>
-                              </div>
-                              </div>
-                              </div>
-                           </div>
-                           <div class="col">
-                              <div class="jss8">
-                              <div class=" css-2b097c-container">
-                              <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
-                              <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Описание</label>
-                              <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
-                              <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
-                              <div class="jss10">
-                              <div class="css-1tna5xz">
-                              <div class="" style="display: inline-block;">
-                              <input autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
-                              <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
-                              </div>
-                              </div>
-                              </div>
-
-                              </div>
-                              </div>
-                              </div>
-                              </div>
-                              </div>
-                           </div>
-                           <div class="col">
-                              <div class="jss8">
-                              <div class=" css-2b097c-container">
-                              <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
-                              <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Сумма к выводу</label>
-                              <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
-                              <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
-                              <div class="jss10">
-                              <div class="css-1tna5xz">
-                              <div class="" style="display: inline-block;">
-                              <input autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
-                              <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
-                              </div>
-                              </div>
-                              </div>
-
-                              </div>
-                              </div>
-                              </div>
-                              </div>
-                              </div>
-                           </div>
-                           <div class="col">
-                              <div class="jss8">
-                              <div class=" css-2b097c-container">
-                              <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
-                              <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">чекбокс</label>
-                              <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
-                              <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
-                              <div class="jss10">
-                              <div class="css-1tna5xz">
-                              <div class="" style="display: inline-block;">
-                              <input autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
-                              <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
-                              </div>
-                              </div>
-                              </div>
-
-                              </div>
-                              </div>
-                              </div>
-                              </div>
-                              </div>
-                           </div>
-                           <div class="col">
-                              <div class="jss8">
-                              <div class=" css-2b097c-container">
-                              <div class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth">
-                              <label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink" data-shrink="true" for="react-select-multiple">Картинка</label>
-                              <div class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl">
-                              <div aria-invalid="false" class="MuiInputBase-input MuiInput-input jss9" type="text">
-                              <div class="jss10">
-                              <div class="css-1tna5xz">
-                              <div class="" style="display: inline-block;">
-                              <input autocapitalize="none" autocomplete="off" autocorrect="off" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" value="" style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 1; outline: 0px; padding: 0px; color: inherit;">
-                              <div style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 14.4px; font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;"></div>
-                              </div>
-                              </div>
-                              </div>
-
-                              </div>
-                              </div>
-                              </div>
-                              </div>
-                              </div>
-                           </div>
-
-
-                        </div>
+                        <div class="responsive-block statistic_table_wrapper" id="fullWidth">
+                                        <table id="stats1" class="table  table-bordered nowrap userselecttext" style="width:100%;">
+                                            <thead class="thead-light statistic_header">
+                                                <tr>
+                                                    <th class="sticky-header">Название рекламной сети</th>
+                                                    <th class="sticky-header">Описание</th>
+                                                    <th class="sticky-header">Комиссия</th>
+                                                    <th class="sticky-header">Активно</th>
+                                                    <th class="sticky-header">Картинка</th>
+                                                    <th class="sticky-header">Добавить</th>
+                                                </tr>
+                                                <tr>
+                                                    <th class="sticky-header"><input name="name" placeholder="введите название сетки" size="24" class="form-control" aria-disabled="false" value=""></th>
+                                                    <th class="sticky-header"><input name="name" placeholder="Введите описание рекламной сети или условий (видно только администратору)" size="24" class="form-control" aria-disabled="false" value=""></th>
+                                                    <th class="sticky-header"><input name="name" placeholder="введите размер комиссии" size="24" class="form-control" aria-disabled="false" value=""></th>
+                                                    <th class="sticky-header">
+                                                      <select class="form-control form-select" aria-label="select">
+                                                        <option selected>Активно</option>
+                                                        <option value="1">Не активно</option>
+                                                      </select>
+                                                    </th>
+                                                    <th class="sticky-header"><input type="file" class="form-control " id="customFile" /></th>
+                                                    <th class="sticky-header"><button class="circle-btn" title="Сформировать отчет"><i class="ti ti-check"></i></button></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="statistic_body">
+                                                <tr>
+                                                    <td class="tac">Clickadilla</td>
+                                                    <td class="tal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio deleniti, molestias eligendi! Ea nobis molestias ex, suscipit ullam nulla?</td>
+                                                    <td class="tac">20%</td>
+                                                    <td class="tac">Активна</td>
+                                                    <td class="tac tacimg"><img src="https://clickadilla.com/img/svg/logo_desktop.svg" alt=""></td>
+                                                    <td class="tac taclast">1</td>                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td class="tac">PropellerAds</td>
+                                                    <td class="tal">Lorem ipsum dolor sit, amet, consectetur adipisicing.</td>
+                                                    <td class="tac">15%</td>
+                                                    <td class="tac">Не активна</td>
+                                                    <td class="tac tacimg"><img src="https://propellerads.com/wp-content/uploads/2019/08/logo.png" alt=""></td>
+                                                    <td class="tac taclast">2</td> 
+                                                </tr>
+                                                <tr>
+                                                    <td class="tac">Clickadilla</td>
+                                                    <td class="tal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio deleniti, molestias eligendi! Ea nobis molestias ex, suscipit ullam nulla?</td>
+                                                    <td class="tac">20%</td>
+                                                    <td class="tac">Активна</td>
+                                                    <td class="tac tacimg"><img src="https://clickadilla.com/img/svg/logo_desktop.svg" alt=""></td>
+                                                    <td class="tac taclast">3</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="tac">PropellerAds</td>
+                                                    <td class="tal">Lorem ipsum dolor sit, amet, consectetur adipisicing.</td>
+                                                    <td class="tac">15%</td>
+                                                    <td class="tac">Не активна</td>
+                                                    <td class="tac tacimg"><img src="https://propellerads.com/wp-content/uploads/2019/08/logo.png" alt=""></td>
+                                                    <td class="tac taclast">4</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="tac">Clickadilla</td>
+                                                    <td class="tal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio deleniti, molestias eligendi! Ea nobis molestias ex, suscipit ullam nulla?</td>
+                                                    <td class="tac">20%</td>
+                                                    <td class="tac">Активна</td>
+                                                    <td class="tac tacimg"><img src="https://clickadilla.com/img/svg/logo_desktop.svg" alt=""></td>
+                                                    <td class="tac taclast">5</td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td class="tac">PropellerAds</td>
+                                                    <td class="tal">Lorem ipsum dolor sit, amet, consectetur adipisicing.</td>
+                                                    <td class="tac">15%</td>
+                                                    <td class="tac">Не активна</td>
+                                                    <td class="tac tacimg"><img src="https://propellerads.com/wp-content/uploads/2019/08/logo.png" alt=""></td>
+                                                    <td class="tac taclast">6</td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                            <tfoot class="thead-light statistic_footer">
+                                                <tr>
+                                                    <th class="sticky-footer">Название рекламной сети</th>
+                                                    <th class="sticky-footer">Описание</th>
+                                                    <th class="sticky-footer">Комиссия</th>
+                                                    <th class="sticky-footer">Активно</th>
+                                                    <th class="sticky-footer">Картинка</th>
+                                                    <td class="tac taclast">№ п/п.</td>
+                                                    
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                     </div>
                      </div>
                      <div class="col-lg-12">
                         <div class="circle-btn-group">

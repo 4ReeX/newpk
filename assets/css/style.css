@@ -10656,7 +10656,7 @@ label.form-control-label {
 .form-control {
 	display: inline-block;
 	height: auto;
-	min-height: 30px;
+	min-height: 37px;
 	float: left;
 	min-width: auto;
 }
@@ -13584,4 +13584,7 @@ label.adv-label  {
 .col-lg-6, .col-md-12, .col-xl-5 {
 	padding-right: 0px;
     padding-left: 15px;
+}
+.tacimg, .taclast {
+	background: #e9ecef;
 }

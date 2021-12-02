@@ -1,7 +1,7 @@
 <div class="adv-item">
     <div class="row">
         <div class="adv-logo">
-            <img src="..\assets\img\adv-logos\AA1465.png" alt="">
+            <img src="assets\img\adv-logos\AA1465.png" alt="">
         </div>
         <div class="adv-info">
             <div class="adv-name">MyTarget</div>
@@ -13,7 +13,7 @@
     <div class="row">
         <div class="adv-logo">
             
-            <img src="..\assets\img\adv-logos\twitter_PNG3.png" alt="">
+            <img src="assets\img\adv-logos\twitter_PNG3.png" alt="">
         </div>
         <div class="adv-info">
             <div class="adv-name">Twitter</div>
@@ -26,7 +26,7 @@
     <div class="row">
         <div class="adv-logo">
             
-            <img src="..\assets\img\adv-logos\38EB60.png" alt="">
+            <img src="assets\img\adv-logos\38EB60.png" alt="">
         </div>
         <div class="adv-info">
             <div class="adv-name">AdFox</div>
