@@ -92,7 +92,7 @@
                                                       </select>
                                                     </th>
                                                     <th class="sticky-header"><input type="file" class="form-control " id="customFile" /></th>
-                                                    <th class="sticky-header"><button class="circle-btn" title="Сформировать отчет"><i class="ti ti-check"></i></button></th>
+                                                    <th class="sticky-header"><i class="ti ti-close td-save" title="Очистить"></i><i class="ti ti-save td-save" title="Сохранить выплату"></i></th>
                                                 </tr>
                                             </thead>
                                             <tbody class="statistic_body">
@@ -102,7 +102,7 @@
                                                     <td class="tac">20%</td>
                                                     <td class="tac">Активна</td>
                                                     <td class="tac tacimg"><img src="https://clickadilla.com/img/svg/logo_desktop.svg" alt=""></td>
-                                                    <td class="tac taclast">1</td>                                                    
+                                                    <td class="tac taclast"><i class="ti ti-pencil td-save" title="Редактировать"></i></td>                                                    
                                                 </tr>
                                                 <tr>
                                                     <td class="tac">PropellerAds</td>
@@ -110,7 +110,7 @@
                                                     <td class="tac">15%</td>
                                                     <td class="tac">Не активна</td>
                                                     <td class="tac tacimg"><img src="https://propellerads.com/wp-content/uploads/2019/08/logo.png" alt=""></td>
-                                                    <td class="tac taclast">2</td> 
+                                                    <td class="tac taclast"><i class="ti ti-pencil td-save" title="Редактировать"></i></td>     
                                                 </tr>
                                                 <tr>
                                                     <td class="tac">Clickadilla</td>
@@ -118,7 +118,7 @@
                                                     <td class="tac">20%</td>
                                                     <td class="tac">Активна</td>
                                                     <td class="tac tacimg"><img src="https://clickadilla.com/img/svg/logo_desktop.svg" alt=""></td>
-                                                    <td class="tac taclast">3</td>
+                                                    <td class="tac taclast"><i class="ti ti-pencil td-save" title="Редактировать"></i></td>     
                                                 </tr>
                                                 <tr>
                                                     <td class="tac">PropellerAds</td>
@@ -126,7 +126,7 @@
                                                     <td class="tac">15%</td>
                                                     <td class="tac">Не активна</td>
                                                     <td class="tac tacimg"><img src="https://propellerads.com/wp-content/uploads/2019/08/logo.png" alt=""></td>
-                                                    <td class="tac taclast">4</td>
+                                                    <td class="tac taclast"><i class="ti ti-pencil td-save" title="Редактировать"></i></td>     
                                                 </tr>
                                                 <tr>
                                                     <td class="tac">Clickadilla</td>
@@ -134,7 +134,7 @@
                                                     <td class="tac">20%</td>
                                                     <td class="tac">Активна</td>
                                                     <td class="tac tacimg"><img src="https://clickadilla.com/img/svg/logo_desktop.svg" alt=""></td>
-                                                    <td class="tac taclast">5</td>
+                                                    <td class="tac taclast"><i class="ti ti-pencil td-save" title="Редактировать"></i></td>     
                                                     
                                                 </tr>
                                                 <tr>
@@ -143,7 +143,7 @@
                                                     <td class="tac">15%</td>
                                                     <td class="tac">Не активна</td>
                                                     <td class="tac tacimg"><img src="https://propellerads.com/wp-content/uploads/2019/08/logo.png" alt=""></td>
-                                                    <td class="tac taclast">6</td>
+                                                    <td class="tac taclast"><i class="ti ti-pencil td-save" title="Редактировать"></i></td>     
                                                 </tr>
                                                 
                                             </tbody>
@@ -154,7 +154,7 @@
                                                     <th class="sticky-footer">Комиссия</th>
                                                     <th class="sticky-footer">Активно</th>
                                                     <th class="sticky-footer">Картинка</th>
-                                                    <td class="tac taclast">№ п/п.</td>
+                                                    <th class="tac taclast">save/edit</th>
                                                     
                                                 </tr>
                                             </tfoot>

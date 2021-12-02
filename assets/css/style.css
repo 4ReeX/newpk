@@ -13585,6 +13585,11 @@ label.adv-label  {
 	padding-right: 0px;
     padding-left: 15px;
 }
-.tacimg, .taclast {
-	background: #e9ecef;
+.tacimg {
+	background: #3f4a57;
+}
+
+table i {
+	margin: 0 5px;
+	display: inline-block;
 }
