@@ -188,7 +188,7 @@ include 'header.php';  //любой файл который мы хотим по
                                         
                                         <div class="card-body">
                                             <section id="offers-list">
-                                                <?php include 'offer-block.php'; ?>
+                                                <?php include 'offer-a.php'; ?>
                                             </section>
                                         </div>
                                     </div>

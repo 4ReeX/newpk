@@ -61,7 +61,12 @@
 	.create-links {	margin: 3px 0px 3px auto!important;}
 		
 }
- @media screen and (max-width: 768px) {                .content {                padding-left: 0!important;                padding-right: 0!important;  padding-top: 1.875em;              }                }
+ @media screen and (max-width: 768px) {
+	 .content {
+		 padding-left: 0 !important;
+		 padding-right: 0 !important;
+		 padding-top: 1.875em;
+	 }                }
 @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
 	.footer {  padding-bottom: 40px;}
 }
@@ -181,7 +186,7 @@
 	#blockInputDatapicker {width: 100%;}
 	.padding15 {padding: 0 15px;}
 	.jss8 {min-width: 200px;}
-	.input-group {width: 100%; max-width: 100%;}
+	.input-group {width: 100%; max-width: 100%;margin: 0 10px;}
 	label {    min-width: 100%;}
 	.right-panel {margin-left: 0px;}
 	.top-right .avatar {width: 40px; height: 40px;}

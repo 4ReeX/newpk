@@ -1,10 +1,52 @@
+<div class="offer-block">
+    <div class="offer-wrapper">
+        <div class="offer-image-block">
+            <img src="images/offers-img/new-offer-32.jpg" alt="">
+        </div>
+        <div class="offer-info-block">
+            <div class="offer-title">
+                11985|Eromix 403 20/1
+            </div>
+            <div class="offer-category">
+                Adult
+            </div>
+            <div class="offer-region">
+                <div class="region-title">Страна | Оператор</div>
+                <div class="region-icons">
+                    <img src="images/apk.png" alt="">
+                </div>
+            </div>
+            <div class="description">
+                <div class="restriction-text">
+                    <h5 style="color: red; width: 100%; font-size: 12px;">Ограничения по операторам!</h5>
+                    <p><b>МТС </b>- принимаются все мобильные устройства. Не принимается трафик с планшетов IPAD, с десктопов через USB-модемы. Запрещено использование на креативах слов "Бесплатно" и им подобных, а также введение пользователя в заблуждение. За нарушение требования - бан без сохранения выплат.</p>
+                    <p><b>Билайн</b> - принимаются все мобильные устройства. Не принимается трафик с десктопов через USB-модемы. </p>
+                    <p><b>Мегафон</b> - принимаются все мобильные устройства. Запрещено привлечение трафика из Goofle Adwords в выходные и праздничные дни. Запрещено использовать баннеры без указания конкретики по предоставляемой услуге.</p>
+                    <p><b>Теле2</b> - принимаются все мобильные устройства. Регионы Москва и Татарстан - вместо лендинга страница с вводом номера и подтверждение подписки через SMS.</p>
+                    <h5 style="color: red; width: 100%; font-size: 12px;">Запрет на трафик:</h5>
+                    <p>- полученный с помощью вредоносных и троянских программ, с взломанных сайтов и шеллов, а так же с помощью подмены выдачи</p>
+                    <p>- спам в любой форме, включая sms и email рассылку, спам в мессенджерах</p>
+                    <p>- с социальных сетей и мессенджеров (Вконтакте, Facebook,WhatsUp,Viber и т.д.)</p>
+                    <p>- с ресурсов запрещенных категорий, содержание которых противоречит законодательству РФ: порно с участием несовершеннолетних, насилие, зоофилия, информация о любых наркотиках, экстремистские либо другие запрещенные к публикации материалы (рекомендуется использовать список стоп-слов и список запрещенных сайтов).</p>
+                    <h5 style="color: red; width: 100%; font-size: 12px;">Строго запрещено!</h5>
+                    <b>Любыми способами вводить в заблуждение Абонентов, в частности:</b>
+                    <p>- употреблять слово «Бесплатно» на рекламных материалах,</p>
+                    <p>- направлять трафик с пересечением тематик (особенно тематик Адалт/неАдалт)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
 <div class="offer-block">
     <label for="checkbox1" class="label-checkbox">
         <div class="offer-container hvr-reveal">
             <input type="checkbox" id="checkbox1" name="checkoffer" value="1" class="ios">
             <div class="newoffer">NEW</div>
-            <div class="oss-icon ofcard"><img src="images/beeline.png" alt=""></div>
+            <div class="oss-icon ofcard"><img src="images/apk.png" alt=""></div>
             <div class="adult">Аdult</div>
             <div class="sound"></div>
             <div class="offer-title">
@@ -32,7 +74,7 @@
                 </div>
             </div>
             <div class="offer-info">
-                <span>4,10 руб.</span><span>за ребилл</span>
+                <span>4,10 руб.</span><span><img src="images/zip2.png" alt=""></span><span>net60</span>
             </div>
         </div>
     </label>
