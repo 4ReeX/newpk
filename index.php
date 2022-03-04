@@ -6,7 +6,8 @@
                         <!-- Widgets --------------------- -->
                         <!-- /Widgets --------------------- -->
                         <!--  Traffic  -->
-                        <div class="row">
+                        <?php include 'advertising.php'; ?>
+                        <div class="row slide">
                             <div class="col-md-12">
                                 <div>
                                     <!-- <?php include 'card-header.php'; ?>   -->
@@ -14,7 +15,8 @@
                                             <div class="col-md-12 col-lg-6 col-xl-7 no_left_right_padding">
 
                                                 <div class="mb-3 card">
-                                                    <div class="row cardPadding">
+                                                    <div class="card-header chart">
+                                                        <div class="row cardPadding">
                                                         <div class="col-auto small-col no_left_right_padding" id="blockInputOffers">
                                                             <div class="jss8">
                                                                 <div class=" css-2b097c-container">
@@ -62,9 +64,10 @@
                                                         </div>
 
                                                     </div>
+                                                    </div>
+                                                    
 
                                                     <div id="traffic-chart" class="traffic-chart" style="display: flex; align-items: center; justify-content: center; color: #666; font-weight: 700; width: 100%; height: 400px;">
-                                                        <img src="assets/img/grap.png" alt="" style="width: 100%; height: 100%;" >
 
                                                     </div>
                                                     <br>
@@ -134,6 +137,47 @@
         <!-- /#right-panel -->
         <!-- Scripts -->
 <?php include 'scripts.php'; ?>
+<script>
+    var arrowLeft = 'ti-arrow-circle-left';
+    var arrowRight = 'ti-arrow-circle-right';
+    var arrowDown = 'ti-arrow-circle-down';
+    var arrowUp = 'ti-arrow-circle-up';
+
+    $('.rollup').on("click", function () {
+        if (MyWidth>425 && $('.rollup').hasClass(arrowLeft)) {
+            $('.rollup').removeClass(arrowLeft);
+            $('.rollup').addClass(arrowRight);
+            $('.advertising').addClass('mini');
+            $('.adv-title').html('<b>РС<b>');
+            $('.adv-title').height( 33 );
+            $('.slogan1').hide();
+            $('.adv-info').hide();
+        }else {
+            $('.advertising').removeClass('mini');
+            $('.rollup').addClass('ti-arrow-circle-left');
+            $('.rollup').removeClass(arrowRight);
+            $('.adv-title').text('Рекламные сети');
+            $('.slogan1').show();
+            $('.adv-info').show();
+            $('.adv-title').height( 'auto' );
+        }
+        if (MyWidth<425 && $('.rollup').hasClass(arrowLeft)) {
+            $('.rollup').removeClass(arrowLeft);
+            $('.adv-list').toggle();
+        }else {
+            $('.rollup').addClass(arrowUp);
+            $('.rollup').removeClass(arrowDown);
+        }
+
+    });
+    $('.adv-item').on("click", function () {
+        window.location.href = "/fin.php";
+    });
+        
+
+
+
+</script>
 
 </body>
 

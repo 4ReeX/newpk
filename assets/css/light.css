@@ -87,3 +87,6 @@ td .ti-close {  color: #dc3545!important;}
     font-weight: 700;
     color: #fff;
 }
+.dark .adv-item {
+    background-color: #1c1c1e;
+}

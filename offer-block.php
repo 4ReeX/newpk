@@ -77,10 +77,12 @@
 </div>
 <div class="offer-block">
     <label for="checkbox3" class="label-checkbox">
-        <div class="offer-container hvr-reveal oldGray">
+        <div class="offer-container hvr-reveal">
             <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios">
             <div class="oss-icon ofcard"><img src="images/beeline.png" alt=""></div>
-            <div class="adult">Аdult</div>
+            <div class="non-adult">
+                <span class="material-icons">cast_for_education</span>
+            </div>
             <div class="sound"></div>
             <div class="offer-title">
                 11985|Eromix 403 20/1
@@ -118,7 +120,11 @@
         <div class="offer-container hvr-reveal">
             <input type="checkbox" id="checkbox3" name="checkoffer" value="1" class="ios">
             <div class="oss-icon ofcard"><img src="images/beeline.png" alt=""></div>
-            <div class="adult">Аdult</div>
+            <div class="adult">
+                <span class="material-icons">
+sports_kabaddi
+</span>
+            </div>
             <div class="sound"></div>
             <div class="offer-title">
                 11985|Eromix 403 20/1

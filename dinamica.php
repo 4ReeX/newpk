@@ -1,8 +1,11 @@
 <div class="col-md-12 col-lg-6 col-xl-5" id="dynamic">
     <div class="main-card mb-3 card">
-        <div class="card-body">
+        <div class="card-header dynamica">
             <h6 class="text-muted text-uppercase font-size-md opacity-7 mb-3 font-weight-normal">Динамика офферов</h6>
             <i id="PopoverHelpIcon" class="ti ti-help-alt help-icon" style="display: inline-block;"></i>
+        </div>
+        <div class="card-body gray">
+            
             <div class="border-light card-border scroll-area-md card">
                 <div class="ps-content">
                     <ul class="list-group list-group-flush">

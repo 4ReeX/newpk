@@ -17,6 +17,7 @@
                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
                            <a class="nav-item nav-link active show" id="formiro-tab" data-toggle="tab" href="#custom-nav-formiro" role="tab" aria-controls="custom-nav-formiro" aria-selected="true">Формирование выплат</a>
                            <a class="nav-item nav-link" id="zapros-tab" data-toggle="tab" href="#custom-nav-zapros" role="tab" aria-controls="custom-nav-zapros" aria-selected="false">Запросы на выплату</a>
+                           <a class="nav-item nav-link" id="adv-tab" data-toggle="tab" href="#custom-nav-adv" role="tab" aria-controls="custom-nav-adv" aria-selected="false">Рекламные сети</a>
                         </div>
                      </nav>
                   </div>
@@ -67,6 +68,99 @@
                               <?php include 'el/mselect.php'; ?>
                            </div>
                         </div>
+                     </div>
+                     <div class="tab-pane fade" id="custom-nav-adv" role="tabpanel" aria-labelledby="custom-nav-adv-tab">
+                        <div class="responsive-block statistic_table_wrapper" id="fullWidth">
+                                        <table id="stats1" class="table  table-bordered nowrap userselecttext" style="width:100%;">
+                                            <thead class="thead-light statistic_header">
+                                                <tr>
+                                                    <th class="sticky-header">Название рекламной сети</th>
+                                                    <th class="sticky-header">Описание</th>
+                                                    <th class="sticky-header">Комиссия</th>
+                                                    <th class="sticky-header">Активно</th>
+                                                    <th class="sticky-header">Картинка</th>
+                                                    <th class="sticky-header">Добавить</th>
+                                                </tr>
+                                                <tr>
+                                                    <th class="sticky-header"><input name="name" placeholder="введите название сетки" size="24" class="form-control" aria-disabled="false" value=""></th>
+                                                    <th class="sticky-header"><input name="name" placeholder="Введите описание рекламной сети или условий (видно только администратору)" size="24" class="form-control" aria-disabled="false" value=""></th>
+                                                    <th class="sticky-header"><input name="name" placeholder="введите размер комиссии" size="24" class="form-control" aria-disabled="false" value=""></th>
+                                                    <th class="sticky-header">
+                                                      <select class="form-control form-select" aria-label="select">
+                                                        <option selected>Активно</option>
+                                                        <option value="1">Не активно</option>
+                                                      </select>
+                                                    </th>
+                                                    <th class="sticky-header"><input type="file" class="form-control " id="customFile" /></th>
+                                                    <th class="sticky-header"><i class="ti ti-close td-save" title="Очистить"></i><i class="ti ti-save td-save" title="Сохранить выплату"></i></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="statistic_body">
+                                                <tr>
+                                                    <td class="tac">Clickadilla</td>
+                                                    <td class="tal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio deleniti, molestias eligendi! Ea nobis molestias ex, suscipit ullam nulla?</td>
+                                                    <td class="tac">20%</td>
+                                                    <td class="tac">Активна</td>
+                                                    <td class="tac tacimg"><img src="https://clickadilla.com/img/svg/logo_desktop.svg" alt=""></td>
+                                                    <td class="tac taclast"><i class="ti ti-pencil td-save" title="Редактировать"></i></td>                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td class="tac">PropellerAds</td>
+                                                    <td class="tal">Lorem ipsum dolor sit, amet, consectetur adipisicing.</td>
+                                                    <td class="tac">15%</td>
+                                                    <td class="tac">Не активна</td>
+                                                    <td class="tac tacimg"><img src="https://propellerads.com/wp-content/uploads/2019/08/logo.png" alt=""></td>
+                                                    <td class="tac taclast"><i class="ti ti-pencil td-save" title="Редактировать"></i></td>     
+                                                </tr>
+                                                <tr>
+                                                    <td class="tac">Clickadilla</td>
+                                                    <td class="tal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio deleniti, molestias eligendi! Ea nobis molestias ex, suscipit ullam nulla?</td>
+                                                    <td class="tac">20%</td>
+                                                    <td class="tac">Активна</td>
+                                                    <td class="tac tacimg"><img src="https://clickadilla.com/img/svg/logo_desktop.svg" alt=""></td>
+                                                    <td class="tac taclast"><i class="ti ti-pencil td-save" title="Редактировать"></i></td>     
+                                                </tr>
+                                                <tr>
+                                                    <td class="tac">PropellerAds</td>
+                                                    <td class="tal">Lorem ipsum dolor sit, amet, consectetur adipisicing.</td>
+                                                    <td class="tac">15%</td>
+                                                    <td class="tac">Не активна</td>
+                                                    <td class="tac tacimg"><img src="https://propellerads.com/wp-content/uploads/2019/08/logo.png" alt=""></td>
+                                                    <td class="tac taclast"><i class="ti ti-pencil td-save" title="Редактировать"></i></td>     
+                                                </tr>
+                                                <tr>
+                                                    <td class="tac">Clickadilla</td>
+                                                    <td class="tal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque optio deleniti, molestias eligendi! Ea nobis molestias ex, suscipit ullam nulla?</td>
+                                                    <td class="tac">20%</td>
+                                                    <td class="tac">Активна</td>
+                                                    <td class="tac tacimg"><img src="https://clickadilla.com/img/svg/logo_desktop.svg" alt=""></td>
+                                                    <td class="tac taclast"><i class="ti ti-pencil td-save" title="Редактировать"></i></td>     
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td class="tac">PropellerAds</td>
+                                                    <td class="tal">Lorem ipsum dolor sit, amet, consectetur adipisicing.</td>
+                                                    <td class="tac">15%</td>
+                                                    <td class="tac">Не активна</td>
+                                                    <td class="tac tacimg"><img src="https://propellerads.com/wp-content/uploads/2019/08/logo.png" alt=""></td>
+                                                    <td class="tac taclast"><i class="ti ti-pencil td-save" title="Редактировать"></i></td>     
+                                                </tr>
+                                                
+                                            </tbody>
+                                            <tfoot class="thead-light statistic_footer">
+                                                <tr>
+                                                    <th class="sticky-footer">Название рекламной сети</th>
+                                                    <th class="sticky-footer">Описание</th>
+                                                    <th class="sticky-footer">Комиссия</th>
+                                                    <th class="sticky-footer">Активно</th>
+                                                    <th class="sticky-footer">Картинка</th>
+                                                    <th class="tac taclast">save/edit</th>
+                                                    
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                     </div>
                      </div>
                      <div class="col-lg-12">
                         <div class="circle-btn-group">
@@ -135,5 +229,8 @@
             $('#zapr').show();
         });
       </script>
+      <style>
+         .right-panel {margin-left: 60px;}
+      </style>
    </body>
 </html>

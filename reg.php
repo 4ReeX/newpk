@@ -2,18 +2,24 @@
 <div class="popupMorda">
 <form id="registration-form">
 <h1></h1>
-<input type="text" name="name" placeholder="Имя пользователя">
+<input type="text" name="signup-username" placeholder="Имя пользователя">
 <input type="text" name="telegram" placeholder="Telegram">
 <input type="email" name="email" placeholder="E-mail">
 <input type="password" name="pass" placeholder="Пароль">
 <span class="hide-password" style="cursor: pointer;">Показать</span>
+<span class="password-error is-visible">Для авторизации вам необходимо подтвердить указанный при регистрации email. Для этого перейдите по ссылке, отпрвленной вам на почту. <br><a href="#">Отправить повторно?</a></span>
 <input name="isTermsConfirmed" type="checkbox" class="checkLogin" checked="true"><label for="accept-terms" style="padding-left: 25px; min-width: 0px;">Я согласен с  <a href="/rules" target="_blank" rel="noopener noreferrer"> Условиями</a></label>
 
 <a href="#" class="login-btn" id="signup-btn">Создать аккаунт</a>
 </form>
 <form id="login-form">
 <input type="email" name="email" placeholder="E-mail">
+<span class="login-error is-visible">Для авторизации вам необходимо подтвердить указанный при регистрации email. Для этого перейдите по ссылке, отпрвленной вам на почту. <br><a href="#">Отправить повторно?</a></span>
 <input type="password" name="pass" placeholder="Пароль">
+<span class="hide-password" style="cursor: pointer;">Показать</span>
+<span class="password-error is-visible">Для авторизации вам необходимо подтвердить указанный при регистрации email. Для этого перейдите по ссылке, отпрвленной вам на почту. <br><a href="#">Отправить повторно?</a></span>
+
+<input name="TokenIsGood" type="checkbox" class="checkToken" checked="true"><label for="accept-terms" style="padding-left: 25px; min-width: 0px;">Запомнить меня</label>
 <a href="#" class="login-btn">Войти</a>
 </form>
 <form id="fpass-form">

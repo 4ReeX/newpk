@@ -2,7 +2,7 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
-      <meta content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no,user-scalable=yes" name="viewport"/>
+      <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes" name="viewport"/>
       <meta name="apple-mobile-web-app-capable" content="yes"/>
       <meta name="format-detection" content="telephone=no">
       <meta name="yandex-verification" content="b90704654f541cce"/>
@@ -23,277 +23,273 @@
       <meta name="apple-mobile-web-app-capable" content="yes">
       <link rel="apple-touch-icon-precomposed" href="/new-logo.png">
       <link rel="apple-touch-startup-image" href="/startup-logo.png">
-      <link rel="stylesheet" href="assets/css/style.css?111">
+      <link rel="stylesheet" href="assets/css/style.css?22">
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Flip/1.1.2/jquery.flip.min.js"></script>
       <script src="https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js"></script>
-     
+      <link href= "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+      <script src="assets/js/slider.js"></script>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+      // инициализация слайдера
+      var slider = new SimpleAdaptiveSlider('.slider', {
+        loop: true,
+        autoplay: false,
+        interval: 5000,
+        swipe: true,
+
+      });
+    });
+  </script>
 
    </head>
 <body class="morda">
-   <div class="background">
-      <div class="background2"></div>
-<!--Waves Container-->
-<!--
-<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-<defs>
-<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-</defs>
-<g class="parallax">
-<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-<use xlink:href="#gentle-wave" x="48" y="12" fill="#fff" />
-</g>
-</svg>-->
-<div class="white-block"></div>
+<div class="mobile-scroll">
+   <div class="horizontal-line"></div>
+<div class="MordaMenu">
+<div class="user-block">
+<div class="reg" onclick="Registration();">
+<span class="material-icons">how_to_reg</span>
+<span class="menu-text hide">Регистрация</span>
+</div>
+<div class="auth" onclick="login();">
+<span class="material-icons">fingerprint</span>
+<span class="menu-text hide">Авторизация</span>
+</div>
+</div>
+</div> 
+<div class="o-nas">
+         
+         <a href="https://cpa.rip/case/mainstream-wap-click-zeroclick/" target="_blank"><img src="images/morda/cparip.png" alt=""></a>
+         <a href="https://madcpa.ru/obzor-partnerki-affimob/" target="_blank"><img src="images/morda/madcpa.png" alt=""></a>
+         <a href="https://partnerkin.com/tribuna/blog_tantal73/kejs_pops_trafik__wap_click__1" target="_blank"><img src="images/morda/partnerkin.png"  alt=""></a>
+      </div>
+<div class="central-block">
+   <div class="with-labels">
+      <div class="content-block dark first">
+         <div class="img-block af"></div>
+         <div class="text-block">Регулярно проводим A/А/B тестирование ЛП - как собственных, так и доступных на рынке в данный момент. На основе тестирования предлагаем своим партнерам самые конвертные решения!</div>
+      </div>
+   <div class="content-block">
+      
+      <div class="white-line"></div>
+      <div class="img-block fi"></div>
+      <div class="text-block black">У нас прямые договоры с операторами и агрегаторами. Меньше посредников, меньше удержек, больше конечная прибыль!</div>
+   </div>
+   <div class="content-block dark">
+      <div class="img-block mm"></div>
+      <div class="text-block">Вам больше не нужны трекеры. Сэкономьте тонну денег за TDS. В нашей платформе вы сможете с лёгкостью сделать детальный анализ своего трафика и оптимизировать свои кампании!</div>
+      
+   </div>
+   <div class="content-block last">
+      <div class="img-block ob"></div>
+      <div class="text-block">Для вашего удобства у нас несколько вариантов оплаты : по запросу, еженедельно, 2 раза в неделю. 
+      Необходимо пополнение напрямую  в рекламную сетку? Мы это умеем и ещё дадим бонус при пополнении!</div>
+   </div>
+
+
+   </div>
+   
+      
+      
+      
 
 </div>
-   </div>
-   <div class="m-header">
-      <div class="top-line"></div>
-      <div class="lenta marquee" style='overflow:hidden'>Дата. Заголовок. Текст новости состоящий из необходимого для нас и нашего пользователя количества слов.
-      </div>
-      <div class="header">
-   
-      <div class="logo">
-         <a href="#"><img src="images/new-logo.svg" alt="" class="icon-logo start"></a>
-         <a href=""><img src="images/affimob.svg" alt="" class="text-logo"></a>
-      </div>
-      <div class="user-block">
-         <div class="reg" onclick="Registration();"><span class="material-icons">how_to_reg</span>Регистрация</div>
-         <div class="auth" onclick="login();"><span class="material-icons">login</span>Авторизация</div>
-      </div>
+<div class="timeline">
       
-      
+      <ul class="timeline-ul">
+         <li class="year wi1">2014<div class="dataText hide"><div class="bYear">14</div>Основание Affimob</div></li>
+         <li class="year wi2">2015<div class="dataText hide">
+            <div class="bYear">15</div>
+         <b>МТС:</b> подписание контракта, запуск собственных сервисов в категории Adult <br>
+         <b>МТС:</b>  введение KPI качества трафика на основании обращений абонентов в службу поддержки <br>
+         <b>Темафон:</b> подписание контракта, начало продвижения сервисов провайдера <br>
+         <b>МТС:</b>  участие AffiMob в пилотном проекте - несколько ЛП для одного сервиса
+         <b>Stream-МТС:</b> перевод сервисов МТС на платформу агрегатора
+</div></li>
+         <li class="year wi3">2016<div class="dataText hide"><div class="bYear">16</div>
+         <b>МТС:</b> партнерство с AffiMob по продвижению сервиса МТС ТВ<br>
+         <b>Билайн:</b> подписание контракта и запуск собственных сервисов (CPA)<br>
+         <b>Билайн:</b> введение KPI качества трафика, CPA Index<br>
+         <b>Samsung Electronics:</b> контракт на обслуживание брендированного VAS портала<br>
+         <b>МТС:</b> введение новых правил оформления ЛП (контрастная цена)
+         </div></li>
+         <li class="year wi4">2017<div class="dataText hide"><div class="bYear">17</div>
+         <b>Билайн:</b> Тендер по выбору партнеров по продвижению сервисов оператора (РИМ)<br>
+         <b>AffiMob:</b> внедрение собственной anti-fraud системы<br>
+         <b>МТС:</b> изменение KPI качества трафика (отписки за 30 дней)
+         </div></li>
+         <li class="year wi5">2018<div class="dataText hide"><div class="bYear">18</div>
+         <b>МТС:</b> закрытие сервисов 1click в категории Adult<br>
+         <b>AffiMob:</b> запуск собственного сервиса AffiMob online TV и VoD - tvmood для абонентов МТС<br>
+         <b>AffiMob:</b> запуск собственного сервиса - викторина Qiuzzee для абонентов Билайн и МТС<br>
+         </div></li>
+         <li class="year wi6">2019<div class="dataText hide"><div class="bYear">19</div>
+         <b>Stream-МТС:</b> запуск anti-fraud системы для трафика МТС<br>
+         <b>Темафон:</b> ограничение суточного количества подписок<br>
+         <b>МТС:</b> введение учета показателя LT (срок жизни) подписок по сервисам
+         </div></li>
+         <li class="year wi7">2020<div class="dataText hide"><div class="bYear">20</div>
+         <b>МТС:</b> закрытие небрендированных сервисов 1Click<br>
+         <b>МТС:</b> начало эксклюзивоного продвижения сервиса Amediateka<br>
+         <b>МТС:</b> начало эксклюзивного продвижения сервиса START<br>
+         <b>AffiMob:</b> Релиз собственной системы оценки качества трафика и расчёта индивидуальных ставок выкупа<br>
+         <b>Темафон:</b> введение обязательной передачи источников трафика, blacklist источников<br>
+         <b>Stream:</b> начало продвижения брендированных сервисов для абонентов МТС
+         </div></li>
+         <li class="year wi8">2021<div class="dataText hide"><div class="bYear">21</div>
+            <b>МТС:</b> Закрытие всех 1Click сервисов для абонентов ..."stay tuned...</div></li>
+      </ul>
+      <div class="progress">
+         <div class="progress-line"></div>
+      </div>
+      </div>
+<div class="logo">
+   <img src="images/new-logo-w.png" alt="" class="logo-icon">
+   <img src="images/affimob.svg" alt="" class="logo-text">
+</div>
 
-   </div>
-   </div>
+
+<div class="social">
+<span class="icon-social"><a href="tg://resolve?domain=affimob_support"><img src="images/morda/telegram.svg" alt=""></a></span>
+<span class="icon-social"><a href="mailto:support@affimob.com?subject=Сообщение с сайта!&body=Здравствуйте,"><img src="images/morda/gmail.png" alt=""></a></span>
+<span class="icon-social"><a href="skype:live:info_520258?chat"><img src="images/morda/skype.svg" alt=""></a></span>
+</div>  
+
+
    
-   <div class="m-content">
-      <div class="container">
-         <div class="flex-row">
-            <div class="block-left">
-               <div class="block bg1">
-                  <div class="icon"><img src="images/morda/charts.png" alt=""></div>
-                  <div class="title">Высокий конверт</div>
-                  <div class="hidden-text">
-                  Наши LP самые конвертящие на рынке, потому, что мы воруем лучшие идеи у всех и совмещаем их для достижения лучшего результата.
-                  В идеале мы должны были написать тут больше разного текста, чтобы всё смотрелось хорошо, но нам лень.
-                  </div>
-               </div>
-            </div>
-            <div class="block-right">
-               <div class="blocks">
-               <div class="block bg2">
-                  <div class="icon"><img src="images/morda/pay.png" alt=""></div>
-                  <div class="title">Выплаты без задержек</div>
-                  <div class="hidden-text">
-                  У всех бывают разные обстоятельства, у девушек даже порой бывают задержки. Но наши выплаты лишены  такогонедостатка. Лей к нам и можешь забыть про задержки
-                  </div>
-               </div>
-               <div class="block bg3">
-                  <div class="icon"><img src="images/morda/docs.png" alt=""></div>
-                  <div class="title">Прямые подключения</div>
-                  <div class="hidden-text">
-                  Часто встречается ситуация что посредник на посреднике сидит и посредником погоняет. Но наши подключения самые прямые. Наши подключения не пересекаются, доказано Евклидом
-                  </div>
-               </div>
-               <div class="block bg4 blockMax">
-                  <div class="icon"><img src="images/morda/analiz.png" alt=""></div>
-                  <div class="title">Удобная аналитическая платформа</div>
-                  <div class="hidden-text">
-                  Наши поезда, самые поездатые поезда в мире, потому что поездатей поездов на всех просторах поездовых поездов не сыскать. Тууу-тууу!
-                  </div>
-               </div>
-            </div>
+  
+    
 
-            </div>
-            
-         </div>
-         <div class="flex-row">
-            <div class="social">
-               <div class="flip-card" onclick="linkMadcpa();">
-               <div class="flip-card-inner">
-               <div class="flip-card-front">
-               <img src="images/morda/madcpa.png" alt="">
-               </div>
-               <div class="flip-card-back">
-               <h5>MadCpa.ru</h5>
-               <p>CPA медиа портал</p>
-               <div class="bottomLink"><a href="https://madcpa.ru/obzor-partnerki-affimob/">Перейти</a></div>
-               </div>
-               </div>
-               </div>
-
-               <div class="flip-card" onclick="linkPartnerkin();">
-               <div class="flip-card-inner">
-               <div class="flip-card-front">
-               <img src="images/morda/partnerkin.png" alt="">
-               </div>
-               <div class="flip-card-back">
-               <h5>Partnerkin.ru</h5>
-               <p>CPA медиа портал</p>
-               <div class="bottomLink">
-                  <a href="https://partnerkin.com/c/16/affimob">Перейти</a>
-               </div>
-               </div>
-               </div>
-               </div>              
-               
-            </div>
-         </div>
-      </div>
-      <div class="timeline">
-         <div class="datetimeRow">
-            <div class="datetime">
-            2014
-            <div class="datetimeBlock hide">
-               <img src="images/morda/t1.png" alt="" class="timelineImage">
-               <span class="popIcon"><img src="images/morda/affimob.png" alt=""></span>
-               Основание Affimob
-            <div class="arrow-down"></div>
-            </div>
-            </div>
-
-            <div class="datetime">2015
-            <div class="datetimeBlock hide">
-               <span class="popIcon"><img src="images/morda/mts.png" alt=""></span>
-               <span>Подписание контракта, запуск собственных сервисов в категории Adult</span>
-               <span>введение KPI качества трафика на основании обращений абонентов в службу поддержки </span>
-               <span>Участие AffiMob в пилотном проекте - несколько ЛП для одного сервиса</span>
-               <span>Stream-МТС: перевод сервисов МТС на платформу агрегатора</span>
-               <span class="popIcon"><img src="images/morda/bee.png" alt=""></span>
-               <span>Темафон: подписание контракта, начало продвижения сервисов провайдера</span>
-            <div class="arrow-down"></div>
-            </div>
-            </div>
-            <div class="datetime">2016
-            <div class="datetimeBlock hide">
-               <span class="popIcon"><img src="images/morda/mts.png" alt=""></span>
-               <span>Партнерство с AffiMob по продвижению сервиса МТС ТВ</span>
-               <span>Введение новых правил оформления ЛП (контрастная цена)</span> 
-                <span class="popIcon"><img src="images/morda/bee.png" alt=""></span><span>Подписание контракта и запуск собственных сервисов (CPA)</span>
-               <span>Введение KPI качества трафика, CPA Index</span>
-               <span class="popIcon"><img src="images/morda/sam.png" alt=""></span><span>Контракт на обслуживание брендированного VAS портала</span> 
-
-
-
-            <div class="arrow-down"></div>
-            </div>
-            </div>
-            <div class="datetime">2017
-               <div class="datetimeBlock hide">
-               <span class="popIcon"><img src="images/morda/affimob.png" alt=""></span>
-               <span>Внедрение собственной anti-fraud системы</span>
-                <span class="popIcon"><img src="images/morda/bee.png" alt=""></span><span>Тендер по выбору партнеров по продвижению сервисов оператора (РИМ)</span>
-               <span>Введение KPI качества трафика, CPA Index</span>
-               <span class="popIcon"><img src="images/morda/mts.png" alt=""></span><span>Изменение KPI качества трафика (отписки за 30 дней)</span> 
-            <div class="arrow-down"></div>
-            </div>
-            </div>
-            <div class="datetime">2018
-               <div class="datetimeBlock hide">
-               <span class="popIcon"><img src="images/morda/affimob.png" alt=""></span>
-               <span>Запуск собственного сервиса AffiMob online TV и VoD - tvmood для абонентов МТС</span>
-               <span>Запуск собственного сервиса - викторина Qiuzzee для абонентов Билайн и МТС</span>
-               <span class="popIcon"><img src="images/morda/mts.png" alt=""></span><span>Закрытие сервисов 1click в категории Adult</span> 
-            <div class="arrow-down"></div>
-            </div>
-            </div>
-            <div class="datetime">2019
-               <div class="datetimeBlock hide">               
-               <span class="popIcon"><img src="images/morda/bee.png" alt=""></span>
-               <span>Ограничение суточного количества подписок</span> 
-               <span class="popIcon"><img src="images/morda/mts.png" alt=""></span>
-               <span>Введение учета показателя LT (срок жизни) подписок по сервисам</span> 
-               <span>Запуск anti-fraud системы для трафика МТС</span>
-               
-            <div class="arrow-down"></div>
-            </div>
-            </div>
-            <div class="datetime">2020
-               <div class="datetimeBlock hide">               
-               <span class="popIcon"><img src="images/morda/mts.png" alt=""></span>
-               <span>Закрытие небрендированных сервисов 1Click</span>
-               <span>Начало эксклюзивоного продвижения сервиса Amediateka</span>
-               <span>Начало эксклюзивного продвижения сервиса START</span>
-               <span>Начало продвижения брендированных сервисов для абонентов МТС</span>
-               <span class="popIcon"><img src="images/morda/bee.png" alt=""></span>
-               <span>Введение обязательной передачи источников трафика, blacklist источников</span>
-               <span class="popIcon"><img src="images/morda/affimob.png" alt=""></span>
-                <span> Релиз собственной системы оценки качества трафика и расчёта индивидуальных ставок выкупа</span>
-               <div class="arrow-down"></div>
-               </div>
-            
-            
-           
-         </div>
-            <div class="datetime">
-            2021
-            <div class="datetimeBlock hide">
-               <img src="images/morda/coming_soon.png" alt="" class="timelineImage">
-               <span class="popIcon"><img src="images/morda/mts.png" alt=""></span>
-               <span>Закрытие всех 1Click сервисов для абонентов МТС</span>
-               
-            <div class="arrow-down"></div>
-            </div>
-            </div>
-         </div>
-         <div class="underline"></div>
-      </div>
-   </div>
-   <div class="m-footer">
-      <span class="icon-social"><img src="images/morda/telegram.svg" alt=""></span>
-      <span class="icon-social"><img src="images/morda/gmail.png" alt=""></span>
-      <span class="icon-social"><img src="images/morda/skype.svg" alt=""></span>
-
-   </div>
    <?php include 'reg.php'; ?>
+   <div class="scroll-icon"></div>
+</div>
+
+ <script>
+
+    $(document).scroll(function() {
+      var y = $('.morda').scrollTop();
+         if (y > 80) {
+         $('.scroll-icon').fadeIn();
+      } else {
+         $('.scroll-icon').fadeOut();
+      }
+});
+</script>
+
+
    <script src="assets/js/morda.js"></script>
+   
+  <script type="text/javascript">
+      /*$(document).ready(function () {
+      $(".year").hover(
+      function () {
+         $(this).children(".dataText").show();
+         $(this).children(".dataText").removeClass("hide");
+      },
+      function () {
+      $(this).children(".dataText").removeClass("animate__animated fadeInRight animate__faster");
+      $(this).children(".dataText").hide();
+      });
+
+      wi1 = 8;
+      wi2 = 7;
+      wi3 = 6;
+      wi4 = 5;
+      wi5 = 4;
+      wi6 = 3;
+      wi7 = 2;
+      wi8 = 1;
+      maxWidth = 100;
+      progress = $(".progress-line");
+
+
+
+
+      $(".wi8").hover(
+      function () {
+         progress.width(maxWidth / 10 * wi1 + "%");
+      });
+      $(".wi7").hover(
+      function () {
+         progress.width(maxWidth / 10 * wi2 + "%");
+      });
+      $(".wi6").hover(
+      function () {
+         progress.width(maxWidth / 10 * wi3 + "%");
+      });
+      $(".wi5").hover(
+      function () {
+         progress.width(maxWidth / 10 * wi4 + "%");
+      });
+      $(".wi4").hover(
+      function () {
+         progress.width(maxWidth / 10 * wi5 + "%");
+      });
+      $(".wi3").hover(
+      function () {
+         progress.width(maxWidth / 10 * wi6 + "%");
+      });
+      $(".wi2").hover(
+      function () {
+         progress.width(maxWidth / 10 * wi7 + "%");
+      });
+      $(".wi1").hover(
+      function () {
+         progress.width(maxWidth / 10 * wi8 + "%");
+      });
+
+
+      }); */
+
+
+
+
+
+       $(".reg").hover(
+      function () {
+      $(this).css({'color' : '#f15a24;'});
+      $(this).children(".menu-text").addClass("animate__animated fadeInRight animate__faster");
+      $(this).children(".menu-text").show();
+      },
+      function () {
+      $(this).css({'color' : '#fff;'});
+      $(this).children(".menu-text").removeClass("animate__animated fadeInRight animate__faster");
+      $(this).children(".menu-text").hide();
+      }
+      );
+
+        $(document).ready(function () {
+      $(".auth").hover(
+      function () {
+      $(this).children(".menu-text").addClass("animate__animated fadeInRight animate__faster");
+      $(this).children(".menu-text").show();
+      },
+      function () {
+      $(this).children(".menu-text").removeClass("animate__animated fadeInRight animate__faster");
+      $(this).children(".menu-text").hide();
+      }
+      );
+      });
+   </script>   
    <script>
-
-      /*всплывашки при наведении на блоки*/
-
-      $( document ).ready(function(){
-     $(".block , .icon, .title, .hidden-text").hover(function(){
-      $(this).children("div:last").toggleClass("hiddenText");
-      $(this).children("div:first").toggleClass("topSwipe");
-      $(this).find(".icon ").toggleClass("iconHeight");
-      $(this).find(".title").toggleClass("margin");
-      
-     });
-  });
-
-
-      /*ссылки на посты про партнёрку*/
-      function linkMadcpa() {
-         window.location.href = "https://madcpa.ru/obzor-partnerki-affimob/";
+      function changeHeight() {
+      var height = $(window).innerHeight();
+      var blockheight = $(".last").height();
+      var raznica = height - blockheight;
+      var withLabels = $(".with-labels").height();
+      console.log("разница", raznica);
+      console.log("высота with-labels", withLabels);
+      $(".content-block").css({
+      "height": height - withLabels + raznica + "px"
+      });
 
       }
-       function linkPartnerkin() {
-         window.location.href = "https://partnerkin.com/c/16/affimob";
-      }
-
-      /*бегущая строка*/
-      $( document ).ready(function(){
-      $(function() {
-      $('.marquee').marquee({
-      duration: 18000,
-      startVisible: false,
-      duplicated: false
-      });
-
-      });
-      });
-
-      $( document ).ready(function(){
-         $(".datetime").hover(function(){
-            $(this).children("div:first").toggleClass("hide show", 1000, 'easeInQuad');
-         });
-      });
+      window.addEventListener('resize', changeHeight);
+      changeHeight();
    </script>
+  
+   
 </body>
 </html>
